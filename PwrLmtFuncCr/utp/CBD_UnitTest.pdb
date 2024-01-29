@@ -1,0 +1,245 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\PwrLmtFuncCr\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\PwrLmtFuncCr\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "Sheetal"
+Created          : 13.09.2013 12:25
+Last Changed     : 15.11.2013 17:10
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "PwrLmtFuncCr"
+      Comment     : "*************************************************************************************************************\r\n\r\nName of Tester:Priti Mangalekar\r\nCode File(s) Under Test:Ap_PwrLmtFuncCr.c\r\nCode File(s) Version:11\r\nModule Design Document:Power_Limit_Function_CM_MDD.docx\r\nModule Design Document Version:12\r\nData Dictionary Version:8\r\nUnit Test Plan Version:5\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7c/EPS Library 1.29\r\nSpecial Test Requirements:\r\nTest Date:11/15/2013\r\nComments:\r\nNote1: In ""PwrLmtFuncCr_Per1"" function, out of range value is given to variables ""k_KeStdTemp_VpRadpS_f32"", ""t_MtrEnvTblY_MtrNm_u5p11[14]"" and ""EstKe_VpRadpS_f32"" \nto cover the paths ""(k_KeStdTemp_VpRadpS_f32 > 0)=FALSE"" in Test case 2.3(P)  , ""(MRFMtrTrq_MtrNm_T_f32 > (float(8.8)))=TRUE"" in Test case 2.6(P)  and \n""(TrqEnvLmt4_MtrNm_T_f32< TLimitMaxCurr_MtrNm_T_f32)=FALSE"" in Test case 2.5(P) respectively and due to this """"PwrLmtFuncCr_TrqEnvLmt1_MtrNm_M_f32"" variable value is going out of range. \r\n\n\r\nNote2: In ""PwrLmtFuncCr_Per1"" function, out of range value is given to variable ""t_MtrEnvTblY_MtrNm_u5p11[14]"" in TS2.11\n to cover ""(MRFMtrTrq_MtrNm_T_f32 < (float(-8.8)))=TRUE"" path and due to this ""PwrLmtFuncCr_TrqEnvLmt1_MtrNm_M_f32"" variable value is going out of range.\r\n\r\nNote3: Range of ""PwrLmtFuncCr_MinStdOpLmt_MtrNm_M_f32"" and ""MRFMtrTrqCmd_MtrNm_f32"" variable is ""-8.8 to 8.8"".\nBut in ""PwrLmtFuncCr_Per1""function, for few testcases output value of ""PwrLmtFuncCr_MinStdOpLmt_MtrNm_M_f32"" is +/-8.800048828125 and of variable ""MRFMtrTrqCmd_MtrNm_f32"" is ""+/-8.80000019073486"" which is exceptable as it is within the listed tolerance(i.e 0.00048828125).\r\n\r\n\r\n*************************************************************************************************************\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\PwrLmtFuncCr\utp\contract, $(PROJECTROOT)\PwrLmtFuncCr\utp\contract\Ap_PwrLmtFuncCr, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_PwrLmtFuncCr.c"
+         Path : "$(PROJECTROOT)\PwrLmtFuncCr\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "PwrLmtFuncCr_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "PwrLmtFuncCr_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "PwrLmtFuncCr_Per2"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+End

@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CANbeddedVersionInfo Version="2.6">
+    <Properties>
+        <DeliveryDate>2013-04-30</DeliveryDate>
+        <MaintenanceExpiryDate>2014-06-17</MaintenanceExpiryDate>
+        <Expired>FALSE</Expired>
+        <CreatedDate>2013-04-30</CreatedDate>
+        <CBD>CBD1300124</CBD>
+        <SalesSite>VA</SalesSite>
+        <SIP>11.08.02</SIP>
+        <Release>00</Release>
+        <ProjectNumber>5013592</ProjectNumber>
+        <Eval>false</Eval>
+        <ErrataContacts>
+            <ErrataContact>
+                <Firstname>Scott</Firstname>
+                <Surname>Wendling</Surname>
+                <Email>scott.wendling@nexteer.com</Email>
+            </ErrataContact>
+        </ErrataContacts>
+        <CustomerContact>
+            <Firstname>SP</Firstname>
+            <Surname>Support</Surname>
+            <Email>SP.Support@vector.com</Email>
+        </CustomerContact>
+        <Customer>Nexteer Automotive Corporation
+Package: MSR_Vector_SLP3
+Micro: TMS570LS30376USC
+Compiler: TexasInstruments ccs 4.9.2</Customer>
+        <DeliveryType>Initial delivery (based on explicit purchase order)</DeliveryType>
+        <ReleaseType>Serial production release (complete functionality, fully tested , full process, incl. serial production release)</ReleaseType>
+        <OEM>Vector</OEM>
+        <SLP>MSR_Vector_SLP3</SLP>
+        <UseCases/>
+        <Controller>Tmsx70</Controller>
+        <CanCell>Dcan</CanCell>
+        <Compiler>TexasInstruments</Compiler>
+        <TestedDerivative>TMS570LS30336AUPGEQQ1</TestedDerivative>
+        <OrderedDerivative>TMS570LS30376USC</OrderedDerivative>
+        <NDA>true</NDA>
+    </Properties>
+    <ComponentCheck>
+        <Component Version="2.13.05" ScanPattern="Ccl_AsrComM" Project="Ccl_AsrComM" Delivered="true" Component="Description"/>
+        <Component Version="3.18.04" ScanPattern="Ccl_AsrComM" Project="Ccl_AsrComM" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Ccl_AsrComM.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="4.17.05" ScanPattern="Ccl_AsrComM" Project="Ccl_AsrComM" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>ComM_Nm.h;ComM_Dcm.h;ComM_Types.h;ComM_BusSM.h;ComM.h;ComM_EcuM.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.13.02" ScanPattern="Ccl_AsrSmCan" Project="Ccl_AsrSmCan" Delivered="true" Component="Description"/>
+        <Component Version="1.17.04" ScanPattern="Ccl_AsrSmCan" Project="Ccl_AsrSmCan" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Ccl_AsrSmCan.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.16.03" ScanPattern="Ccl_AsrSmCan" Project="Ccl_AsrSmCan" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>CanSM_Cbk.h;CanSM_BswM.h;CanSM_EcuM.h;CanSM_ComM.h;CanSM.h;CanSM_SchM.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.01.02" ScanPattern="CommonAsr_Tms470_Impl_CompAbstract" Project="CommonAsr_Tms470" Delivered="true" Component="Impl_CompAbstract_TexasInstruments"/>
+        <Component Version="1.01.00" ScanPattern="CommonAsr_Tms470_Impl_PlatformTypes" Project="CommonAsr_Tms470" Delivered="true" Component="Impl_PlatformTypes">
+            <RelativeFileSpec>Platform_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Version="3.03.02" ScanPattern="CommonAsr__Common_Impl_ComStackTypes" Project="CommonAsr__Common" Delivered="true" Component="Impl_ComStackTypes">
+            <RelativeFileSpec>ComStack_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Version="3.03.01" ScanPattern="CommonAsr__Common_Impl_StdTypes" Project="CommonAsr__Common" Delivered="true" Component="Impl_StdTypes">
+            <RelativeFileSpec>Std_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.05.09" ScanPattern="CommonAsr__Common" Project="CommonAsr__Common" Delivered="true" Component="Impl__Compiler_Cfg"/>
+        <Component Version="1.05.09" ScanPattern="CommonAsr__Common" Project="CommonAsr__Common" Delivered="true" Component="Impl__MemMap"/>
+        <Component Version="3.37.00" ScanPattern="Common_Vdef" Project="Common_Vdef" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>v_def.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.03.01" ScanPattern="Cp_AsrXcp" Project="Cp_AsrXcp" Delivered="true" Component="Description"/>
+        <Component Version="1.30.05" ScanPattern="CP_XCP" Project="Cp_AsrXcp" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>XcpProf.h;XcpProf_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Version="2.19.01" ScanPattern="Cp_Xcp" Project="Cp_Xcp" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Cp_Xcp.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.04.01" ScanPattern="Cp_XcpOnCanAsr" Project="Cp_XcpOnCanAsr" Delivered="true" Component="Description"/>
+        <Component Version="1.11.02" ScanPattern="Cp_XcpOnCanAsr" Project="Cp_XcpOnCanAsr" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Cp_XcpOnCanAsr.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.06.02" ScanPattern="Cp_XcpOnCanAsr" Project="Cp_XcpOnCanAsr" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>CanXcp_Types.h;CanXcp_Hooks.h;CanXcp.h;CanXcp.h</RelativeFileSpec>
+        </Component>
+        <Component Version="4.07.03" ScanPattern="Diag_AsrDcm" Project="Diag_AsrDcm" Delivered="true" Component="Description"/>
+        <Component Version="4.10.04" ScanPattern="Diag_AsrDcm" Project="Diag_AsrDcm" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Diag_AsrDcm.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="4.07.03" ScanPattern="Diag_AsrDcm" Project="Diag_AsrDcm" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>Dcm_Cbk.h;Dcm.h;Dcm_Types.h;Dcm_Cbk.h;Dcm.h;Dcm_Types.h;Dcm.h;Dcm_Cbk.h;Dcm_Types.h;Dcm.h;Dcm_Cbk.h;Dcm_Types.h;Dcm_Types.h;Dcm_Cbk.h;Dcm.h;Dcm.h;Dcm_Types.h;Dcm_Cbk.h;AsrDcmGen.dll;AsrDcmGenChecker.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.14.00" ScanPattern="Diag_AsrDem_Vector" Project="Diag_AsrDem_Vector" Delivered="true" Component="Description"/>
+        <Component Version="2.14.00" ScanPattern="Diag_AsrDem_Vector" Project="Diag_AsrDem_Vector" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>Dem.h;Dem_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Version="3.03.00" ScanPattern="Diag_AsrDem__core" Project="Diag_AsrDem__core" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Diag_AsrDem.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.05.00" ScanPattern="Diag_CddPersistors" Project="Diag_CddPersistors" Delivered="true" Component="Implementation"/>
+        <Component Version="1.12.01" ScanPattern="Diag_DataCddt_Vector" Project="Diag_DataCddt_Vector" Delivered="true" Component="DiagDescription"/>
+        <Component Version="1.16.03" ScanPattern="Diag_DescDataModel" Project="Diag_DescDataModel" Delivered="true" Component="Implementation"/>
+        <Component Version="6.11.02" ScanPattern="Diag_Geny_coreBase" Project="Diag_Geny_coreBase" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Diag_CanDesc__coreBase.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.11.00" ScanPattern="DrvCan_Tms470DcanAsr" Project="DrvCan_Tms470DcanAsr" Delivered="true" Component="Description"/>
+        <Component Version="2.06.00" ScanPattern="DrvCan_Tms470DcanAsr" Project="DrvCan_Tms470DcanAsr" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>DrvCan_Tms470DcanAsr.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.19.00" ScanPattern="DrvCan_Tms470DcanAsr" Project="DrvCan_Tms470DcanAsr" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>canproto.h;Can_Hooks.h;Can.h</RelativeFileSpec>
+        </Component>
+        <Component Version="3.21.03" ScanPattern="DrvCan__base" Project="DrvCan__base" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>DrvCan__base.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="4.03.03" ScanPattern="DrvCan__baseAsr" Project="DrvCan__baseAsr" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>DrvCan__baseAsr.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.04.02" ScanPattern="DrvTrans_GenericCandioAsr" Project="DrvTrans_GenericCandioAsr" Delivered="true" Component="Description"/>
+        <Component Version="1.07.00" ScanPattern="DrvTrans_GenericCandioAsr" Project="DrvTrans_GenericCandioAsr" Delivered="true" Component="GenTool_Geny"/>
+        <Component Version="1.14.01" ScanPattern="DrvTrans_GenericCandioAsr" Project="DrvTrans_GenericCandioAsr" Delivered="true" Component="Implementation"/>
+        <Component Version="1.06.00" ScanPattern="DrvTrans__baseCanxAsr" Project="DrvTrans__baseCanxAsr" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>DrvTrans__baseCanxAsr.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="4.01.16" ScanPattern="GenTool_Configurator" Project="GenTool_Configurator" Delivered="true" Component="Implementation"/>
+        <Component Version="1.02.05" ScanPattern="GenTool_ConfiguratorBoards" Project="GenTool_ConfiguratorBoards" Delivered="true" Component="Implementation"/>
+        <Component Version="1.01.00" ScanPattern="GenTool_CsAsrA2LGenerator" Project="GenTool_CsAsrA2LGenerator" Delivered="true" Component="Application"/>
+        <Component Version="1.05.06" ScanPattern="GenTool_CsAsrDbUpdate" Project="GenTool_CsAsrDbUpdate" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>GenTool_CsAsrDbUpdate.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.05.06" ScanPattern="GenTool_CsAsrDbUpdateConsole" Project="GenTool_CsAsrDbUpdateConsole" Delivered="true" Component="Implementation"/>
+        <Component Version="1.20.26" ScanPattern="GenTool_CsAsrInitialEcuC" Project="GenTool_CsAsrInitialEcuC" Delivered="true" Component="Application"/>
+        <Component Version="1.05.04" ScanPattern="GenTool_CsAsrInitialEcuCBase" Project="GenTool_CsAsrInitialEcuCBase" Delivered="true" Component="Application"/>
+        <Component Version="1.20.26" ScanPattern="GenTool_CsAsrInitialEcuCDsIf" Project="GenTool_CsAsrInitialEcuCDsIf" Delivered="true" Component="Application"/>
+        <Component Version="1.01.14" ScanPattern="GenTool_CsAsrLegacyDb2SystemDescr" Project="GenTool_CsAsrLegacyDb2SystemDescr" Delivered="true" Component="Application"/>
+        <Component Version="1.00.00" ScanPattern="GenTool_GenyAsrBase" Project="GenTool_GenyAsrBase" Delivered="true" Component="Description"/>
+        <Component Version="1.00.00" ScanPattern="GenTool_GenyAsrBase" Project="GenTool_GenyAsrBase" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>GenTool_GenyAsrBase.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.08.02" ScanPattern="GenTool_GenyDriverBase" Project="GenTool_GenyDriverBase" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>GenTool_GenyDriverBase.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.03.00" ScanPattern="GenTool_GenyEcucLocking" Project="GenTool_GenyEcucLocking" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>EcucLocking.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.09.01" ScanPattern="GenTool_GenyFrameworkCsyntax" Project="GenTool_GenyFrameworkCsyntax" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>CSyntax.dll;Cynthia.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.13.00" ScanPattern="GenTool_GenyFrameworkGenXml" Project="GenTool_GenyFrameworkGenXml" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>GenXML.dll;GenXMLCANdb.dll;GenXMLEcu.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.03.00" ScanPattern="GenTool_GenyGraphicsLibCan" Project="GenTool_GenyGraphicsLibCan" Delivered="true" Component="GenTool_Geny"/>
+        <Component Version="1.05.01" ScanPattern="GenTool_GenyGuiChannelCfg" Project="GenTool_GenyGuiChannelCfg" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>CanLinCfgar.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.21.01" ScanPattern="GenTool_GenyObjectHierarchyCan" Project="GenTool_GenyObjectHierarchyCan" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>ohcanar.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.11.00" ScanPattern="GenTool_GenyObjectHierarchyPdu" Project="GenTool_GenyObjectHierarchyPdu" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>GenTool_GenyObjectHierarchyPdu.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.12.01" ScanPattern="GenTool_GenyObjectModel" Project="GenTool_GenyObjectModel" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>GenTool_GenyObjectModel.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.14.03" ScanPattern="GenTool_GenyPluginAsrIfEcuConfigFile" Project="GenTool_GenyPluginAsrIfEcuConfigFile" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>GenTool_GenyPluginAsrIfEcuConfigFile.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.02.02" ScanPattern="GenTool_GenyPluginConfigDocumentor" Project="GenTool_GenyPluginConfigDocumentor" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>GenTool_GenyPluginConfigDocumentor.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.01.01" ScanPattern="GenTool_GenyVcfgNameDecorator" Project="GenTool_GenyVcfgNameDecorator" Delivered="true" Component="Description"/>
+        <Component Version="2.22.00" ScanPattern="GenTool_GenyVcfgNameDecorator" Project="GenTool_GenyVcfgNameDecorator" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>GenTool_GenyVcfgNameDecorator.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.03.00" ScanPattern="GenTool_SwcTemplateExport" Project="GenTool_SwcTemplateExport" Delivered="true" Component="Application">
+            <RelativeFileSpec>PortInterfaceExport.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.00.00" ScanPattern="GenTool_TemplateUpdate" Project="GenTool_TemplateUpdate" Delivered="true" Component="Implementation"/>
+        <Component Version="1.60.04" ScanPattern="GenTool_XA2lParser" Project="GenTool_XA2lParser" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>asap2prs.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.00.00" ScanPattern="GenTool_XChecksumcrc" Project="GenTool_XChecksumcrc" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>GenTool_XChecksumcrc.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="3.16.10" ScanPattern="Gw_AsrPduR" Project="Gw_AsrPduR" Delivered="true" Component="Description"/>
+        <Component Version="3.18.10" ScanPattern="Gw_AsrPduR" Project="Gw_AsrPduR" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Gw_AsrPduR.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="3.15.10" ScanPattern="Gw_AsrPduR" Project="Gw_AsrPduR" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>PduR_MostTp.h;PduR_LinIf.h;PduR_CanIf.h;PduR_Dcm.h;PduR_FrNm.h;PduR_ApplTp.h;PduR_FrTp.h;PduR_CanNm.h;PduR_J1939Tp.h;PduR.h;PduR_ApplIf.h;PduR_MostIf.h;PduR_LinTp.h;PduR_SoAd.h;PduR_IpduM.h;PduR_FrIf.h;PduR_CanTp.h;PduR_CddDobt.h;PduR_NmOsek.h</RelativeFileSpec>
+        </Component>
+        <Component Version="2.13.00" ScanPattern="Hw_Tms470Cpu" Project="Hw_Tms470Cpu" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Hw_Tms470Cpu.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.14.00" ScanPattern="Hw_Tms470DcanCpuCan" Project="Hw_Tms470DcanCpuCan" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Hw_Tms470DcanCpuCan.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.26.01" ScanPattern="Hw__baseCpuCan" Project="Hw__baseCpuCan" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Hw__baseCpuCan.dll;AFRSettings.dll;MaskPSW.dll;chpcfg01.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.17.04" ScanPattern="If_AsrIfCan" Project="If_AsrIfCan" Delivered="true" Component="Description"/>
+        <Component Version="3.14.05" ScanPattern="If_AsrIfCan" Project="If_AsrIfCan" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>If_AsrIfCan.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="4.16.03" ScanPattern="If_AsrIfCan" Project="If_AsrIfCan" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>CanIf_Cbk.h;CanIf.h;CanIf_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Version="3.15.01" ScanPattern="Il_AsrCom" Project="Il_AsrCom" Delivered="true" Component="Description"/>
+        <Component Version="5.15.04" ScanPattern="Il_AsrCom" Project="Il_AsrCom" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Il_AsrCom.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="3.17.01" ScanPattern="Il_AsrCom" Project="Il_AsrCom" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>Com.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.04.02" ScanPattern="Il_AsrIpduM" Project="Il_AsrIpduM" Delivered="true" Component="Description"/>
+        <Component Version="1.05.01" ScanPattern="Il_AsrIpduM" Project="Il_AsrIpduM" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Il_AsrIpduM.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.03.02" ScanPattern="Il_AsrIpduM" Project="Il_AsrIpduM" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>IpduM.h</RelativeFileSpec>
+        </Component>
+        <Component Version="11.08.11" ScanPattern="MSR3_Product" Project="MSR3_Product" Delivered="true" Component="GenTool"/>
+        <Component Version="11.04.04" ScanPattern="MSR_Vector_SLP3" Project="MSR_Vector_SLP3" Delivered="true" Component="Preconfig"/>
+        <Component Version="1.00.00" ScanPattern="Monitoring_BswVersions" Project="Monitoring_BswVersions" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>MonBswVersions.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.11.05" ScanPattern="Nm_AsrNmCan" Project="Nm_AsrNmCan" Delivered="true" Component="Description"/>
+        <Component Version="3.19.05" ScanPattern="Nm_AsrNmCan" Project="Nm_AsrNmCan" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Nm_AsrNmCan.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="4.17.05" ScanPattern="Nm_AsrNmCan" Project="Nm_AsrNmCan" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>CanNm.h;CanNm_Cbk.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.13.04" ScanPattern="Nm_AsrNmIf" Project="Nm_AsrNmIf" Delivered="true" Component="Description"/>
+        <Component Version="2.16.00" ScanPattern="Nm_AsrNmIf" Project="Nm_AsrNmIf" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Nm_AsrNmIf.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="2.17.04" ScanPattern="Nm_AsrNmIf" Project="Nm_AsrNmIf" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>Nm_Cbk.h;Nm.h;NmStack_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.06.01" ScanPattern="SysService_AsrVmm" Project="SysService_AsrVmm" Delivered="true" Component="Description"/>
+        <Component Version="1.07.01" ScanPattern="SysService_AsrVmm" Project="SysService_AsrVmm" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>SysService_AsrVmm.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.05.01" ScanPattern="SysService_AsrVmm" Project="SysService_AsrVmm" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>Vmm.h;Vmm_Types.h;Vmm_Dcm.h;Vmm_BusSM.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.18.11" ScanPattern="Tp_AsrTpCan" Project="Tp_AsrTpCan" Delivered="true" Component="Description"/>
+        <Component Version="1.22.05" ScanPattern="Tp_AsrTpCan" Project="Tp_AsrTpCan" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>Tp_AsrTpCan.dll</RelativeFileSpec>
+        </Component>
+        <Component Version="1.18.12" ScanPattern="Tp_AsrTpCan" Project="Tp_AsrTpCan" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>CanTp_Hooks.h;CanTp.h;CanTp_Priv.h;CanTp_Cbk.h;CanTp_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.32.01" ScanPattern="VStdLib_Arm7" Project="VStdLib_Arm7" Delivered="true" Component="Implementation">
+            <RelativeFileSpec>vstdlib.h</RelativeFileSpec>
+        </Component>
+        <Component Version="1.01.02" ScanPattern="VStdLib__base" Project="VStdLib__base" Delivered="true" Component="GenTool_Geny">
+            <RelativeFileSpec>VStdLib__base.dll</RelativeFileSpec>
+        </Component>
+    </ComponentCheck>
+    <DeliveryVersionNumber>
+        <Byte>11</Byte>
+        <Byte>08</Byte>
+        <Byte>02</Byte>
+        <Byte>01</Byte>
+        <Byte>30</Byte>
+        <Byte>01</Byte>
+        <Byte>24</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+    </DeliveryVersionNumber>
+    <Transformators>
+	
+	
+	
+	<Version Fix="2" Major="1" Minor="2"/>
+	<DataMaxVersion Major="1" Minor="1"/>
+	<SourceHeader>
+		<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" version="1.0">
+			<xsl:output method="text"/>
+		</xsl:stylesheet>
+	</SourceHeader>
+	<HtmlOutput>
+		<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
+			<xsl:output method="html"/>
+			
+			
+			<xsl:template match="/">
+				<html>
+					<head>
+						<title>
+							<xsl:text>Delivery description </xsl:text>
+							<xsl:value-of select="/CANbeddedVersionInfo/Properties/CBD"/>
+						</title>
+						<style>
+			     * {
+					  font-family: Verdana, Helvetica, sans-serif;
+					  color:black;
+				 }
+
+				  body {
+					  background: #F7F7F7;
+					  margin: 0;
+					  padding: 0;
+					  link=#234691; 
+					  vlink=#234691;
+				 }
+				 h1 {
+					  font-size: 16pt;
+					  color: white;
+					  text-align: center;
+					  background: #AD0829;
+					  padding:	20px 10px 20px 10px;
+				  }
+				  h3 {
+					  font-size: 12pt;
+					  color: black;
+					  padding: 4px 10px 4px 10px;
+					  border-bottom: medium solid;
+					  border-bottom-color: #AD0829;				  }
+                  h4 {
+					  font-size: 10pt;
+					  font-weight:  bold;
+					  padding: 4px 10px 4px 10px;
+				  }
+				  table {
+					  width: 90%;
+					  border-collapse: collapse;  /* separate*/
+					  margin-left: auto;    /* center table horizontally */
+					  margin-right: auto;
+				  }
+				  th {
+					  text-align:   left;
+					  font-weight:  bold;
+					  background: #DEDEDE;
+				  }
+				  tr.even {
+					  background: #EEEEEE;
+				  }
+				 p, td, th, li {
+					  font-size: 10pt;
+					  vertical-align: top;
+					  padding-right: 1em;
+				  }
+				 td.highlight {
+					  width: 20%;
+					  text-align: right;
+					  color: #AD0829;
+				  }
+				 td.bold {
+					  font-weight:  bold;
+				  }
+				 .small-text {
+					  font-size: 8pt;
+				  }
+			 </style>
+					</head>
+					
+					<body>
+						
+						<xsl:variable name="vIsMerged">
+							<xsl:choose>
+								<xsl:when test="count(/CANbeddedVersionInfo/MergedPackage)&gt;0">
+									<xsl:text>True</xsl:text>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:text>False</xsl:text>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:variable>
+						
+						<xsl:variable name="vBaseAddress" select="/CANbeddedVersionInfo/MergedPackage[$vIsMerged='True']|/CANbeddedVersionInfo[$vIsMerged='False']"/>
+						
+						<xsl:variable name="vIsSap">
+							<xsl:choose>
+								<xsl:when test="count($vBaseAddress//PES_SAP_LicenseInfo)&gt;0">
+									<xsl:text>True</xsl:text>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:text>False</xsl:text>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:variable>
+						
+						<xsl:variable name="vIsBuild">
+							<xsl:choose>
+								<xsl:when test="count($vBaseAddress//makesupport)&gt;0">
+									<xsl:text>True</xsl:text>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:text>False</xsl:text>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:variable>
+						
+						<h1>
+							<xsl:text>Delivery Description </xsl:text>
+							<xsl:value-of select="/CANbeddedVersionInfo/Properties/CBD"/>
+							<xsl:if test="$vIsMerged='True'">
+								<xsl:text> with </xsl:text>
+								<xsl:for-each select="$vBaseAddress//SubPackage">
+									<xsl:value-of select=".//CBD"/>
+									<xsl:text> </xsl:text>
+								</xsl:for-each>
+							</xsl:if>
+						</h1>
+						
+						<h4>Delivery Information</h4>
+						<ul type="disc">
+							<xsl:for-each select="$vBaseAddress//Properties">
+								<xsl:sort select=".//CBD"/>
+								<xsl:variable name="vDeliverLink">
+									<xsl:text>#_Delivery_Information_</xsl:text>
+									<xsl:value-of select="position()"/>
+								</xsl:variable>
+								<xsl:variable name="vDeliverName">
+									<xsl:choose>
+										<xsl:when test="$vIsMerged='True'">
+											<xsl:text>Delivery Information - </xsl:text>
+											<xsl:value-of select=".//CBD"/>
+										</xsl:when>
+										<xsl:otherwise>
+											<xsl:text>Delivery Information</xsl:text>
+										</xsl:otherwise>
+									</xsl:choose>
+								</xsl:variable>
+								<li>
+									<a href="{$vDeliverLink}">
+										<xsl:value-of select="$vDeliverName"/>
+									</a>
+								</li>
+							</xsl:for-each>
+							
+							<xsl:if test="$vIsSap='True'">
+								<li>
+									<a href="#_Usage_Restriction">Usage Restriction</a>
+								</li>
+								<li>
+									<a href="#_Cluster_License_Information">License Information</a>
+								</li>
+							</xsl:if>
+							
+							<li>
+								<a href="#_Detailed_Version_Information">Detailed Version Information</a>
+							</li>
+						</ul>
+						
+						<xsl:if test="$vIsBuild='True'">
+							<h4>Build Environment</h4>
+							<ul type="disc">
+								<xsl:for-each select="$vBaseAddress//makesupport">
+									<xsl:sort select="..//CBD"/>
+									<li>
+										<xsl:variable name="vDeliverLink">
+											<xsl:text>#_BuildEnvironment_</xsl:text>
+											<xsl:value-of select="position()"/>
+										</xsl:variable>
+										<xsl:variable name="vDeliverName">
+											<xsl:choose>
+												<xsl:when test="$vIsMerged='True'">
+													<xsl:text>Versions and Options - </xsl:text>
+													<xsl:value-of select="../Properties/CBD"/>
+												</xsl:when>
+												<xsl:otherwise>
+													<xsl:text>Versions and Options</xsl:text>
+												</xsl:otherwise>
+											</xsl:choose>
+										</xsl:variable>
+										<a href="{$vDeliverLink}">
+											<xsl:value-of select="$vDeliverName"/>
+										</a>
+									</li>
+								</xsl:for-each>
+							</ul>
+						</xsl:if>
+						<br/>
+						
+						
+						<xsl:for-each select="$vBaseAddress[$vIsMerged!='True']|$vBaseAddress/*[$vIsMerged='True']">
+							<xsl:sort select=".//CBD"/>
+							<xsl:choose>
+								
+								<xsl:when test="count(.//PES_SAP_LicenseInfo)&gt;0">
+									<xsl:call-template name="SAP_DeliveryInfo"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:call-template name="CBD_DeliveryInfo"/>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:for-each>
+						
+						<xsl:if test="$vIsSap='True'">
+							<xsl:for-each select="$vBaseAddress">
+								
+								<xsl:call-template name="SAP_UsageRestriction"/>
+								
+								<xsl:call-template name="SAP_ClusterLicense">
+									<xsl:with-param name="pIsMerged" select="$vIsMerged"/>
+								</xsl:call-template>
+							</xsl:for-each>
+						</xsl:if>
+						
+						<xsl:call-template name="DetailedVersionInfo"/>
+						
+						<xsl:if test="$vIsBuild='True'">
+							<h2>Build Environment</h2>
+							<xsl:for-each select="$vBaseAddress//makesupport[$vIsMerged!='True']|$vBaseAddress/*//makesupport[$vIsMerged='True']">
+								<xsl:sort select="..//CBD"/>
+								<xsl:call-template name="BuildEnvironment"/>
+							</xsl:for-each>
+						</xsl:if>
+					</body>
+				</html>
+			</xsl:template>
+			
+			
+			<xsl:template name="CBD_DeliveryInfo">
+				<xsl:variable name="varID">
+					<xsl:text>_Delivery_Information_</xsl:text>
+					<xsl:value-of select="position()"/>
+				</xsl:variable>
+				<h3>
+					<a id="{$varID}">Delivery Information <xsl:value-of select=".//Properties/CBD "/>
+					</a>
+				</h3>
+				<table>
+					
+					<xsl:call-template name="DeliveryId"/>
+					
+					<tr>
+						<td class="highlight">License Information</td>
+						<td>
+							<xsl:value-of select=".//Properties/Customer"/>
+						</td>
+					</tr>
+					
+					<xsl:if test=".//Properties/Eval='true'">
+						<tr>
+							<td class="highlight">Evaluation License</td>
+							<td class="bold">
+								<xsl:text>This license is for evaluation and prototyping purposes only.</xsl:text>
+							</td>
+						</tr>
+					</xsl:if>
+					
+					<xsl:call-template name="CustomerContacts"/>
+					
+					<xsl:call-template name="VectorContact"/>
+					
+					<xsl:call-template name="DeliveryInfoGeneral"/>
+				</table>
+			</xsl:template>
+			
+			
+			<xsl:template name="SAP_DeliveryInfo">
+				<xsl:variable name="varID">
+					<xsl:text>_Delivery_Information_</xsl:text>
+					<xsl:value-of select="position()"/>
+				</xsl:variable>
+				<h3>
+					<a id="{$varID}">Delivery Information <xsl:value-of select=".//Properties/CBD "/>
+					</a>
+				</h3>
+				<table>
+					
+					<xsl:call-template name="DeliveryId"/>
+					
+					<tr>
+						<td class="highlight">Licensee</td>
+						<td>
+							<xsl:value-of select=".//PES_SAP_LicenseInfo/LicenseOverview/Customer"/>
+						</td>
+					</tr>
+					
+					<xsl:call-template name="CustomerContacts"/>
+					
+					<xsl:call-template name="VectorContact"/>
+					
+					<tr>
+						<td class="highlight">Serial Number</td>
+						<td>
+							<xsl:value-of select=".//PES_SAP_LicenseInfo/LicenseOverview/SAP_SerialNo"/>
+						</td>
+					</tr>
+					
+					<xsl:call-template name="DeliveryInfoGeneral"/>
+				</table>
+			</xsl:template>
+			
+			
+			<xsl:template name="SAP_UsageRestriction">
+				<h3>
+					<a id="UsageRestriction" name="_Usage_Restriction"/> Usage restriction 
+		</h3>
+				<table>
+					
+					<tr>
+						<td class="bold"/>
+						<td>
+							<xsl:text>This delivery contains software modules that might have different license restrictions. Details are shown in section 'License Information'. Please note that the usage of this delivery is restricted to the most constraining license included.						
+							</xsl:text>
+							<br/>
+							<br/>
+							<xsl:text>The usage of this delivery is restricted to:
+							</xsl:text>
+						</td>
+					</tr>
+					<xsl:for-each select="./*[count(.//LicenseOverview/LicenseRestriction/RestrictionText)&gt;0]">
+						<tr>
+							<td class="highlight">
+								<xsl:value-of select=".//CBD"/>
+							</td>
+							<td class="bold">
+								<xsl:for-each select=".//LicenseOverview/LicenseRestriction/RestrictionText">
+									<xsl:text> - </xsl:text>
+									<xsl:value-of select="."/>
+									<br/>
+								</xsl:for-each>
+								
+								<xsl:if test="not(*[.//LicenseOverview/Controller=''])">
+									<xsl:text> - Controller </xsl:text>
+									<xsl:value-of select=".//LicenseOverview/Controller"/>
+									<br/>
+								</xsl:if>
+								<xsl:if test="not(*[.//LicenseOverview/CompilerVendor=''])">
+									<xsl:text> - Compiler </xsl:text>
+									<xsl:value-of select=".//LicenseOverview/CompilerVendor"/>
+									<br/>
+								</xsl:if>
+								<br/>
+							</td>
+						</tr>
+					</xsl:for-each>
+					<tr>
+						<td class="highlight"/>
+						<td>
+							<xsl:text>Please contact Vector Informatik whenever you need further information concerning the license conditions.
+					</xsl:text>
+						</td>
+					</tr>
+				</table>
+			</xsl:template>
+			
+			
+			<xsl:template name="SAP_ClusterLicense">
+				<xsl:param name="pIsMerged"/>
+				<h3>
+					<a id="_Cluster_License_Information">License Information</a>
+				</h3>
+				<table>
+					<colgroup>
+						<col width="15%"/>
+						<col width="10%"/>
+						<col width="5%"/>
+						<col width="10%"/>
+						<col width="60%"/>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>Cluster</th>
+							<th>SNR</th>
+							<th>Modules</th>
+							<th>License Type</th>
+							<th>License Restrictions</th>
+						</tr>
+						<xsl:for-each select=".//PES_SAP_LicenseInfo/LicensedClusters/LicensedClusterDetail">
+							<xsl:sort select="SAP_ClusterName"/>
+							<xsl:sort select="SAP_Module_SerNo"/>
+							<xsl:variable name="vCBD">
+								<xsl:if test="$pIsMerged='True'">
+									<xsl:text>
+							</xsl:text>
+									<xsl:value-of select="../../..//CBD"/>
+								</xsl:if>
+							</xsl:variable>
+							<xsl:variable name="class">
+								<xsl:choose>
+									<xsl:when test="position() mod 2 = 1">odd</xsl:when>
+									<xsl:otherwise>even</xsl:otherwise>
+								</xsl:choose>
+							</xsl:variable>
+							<tr class="{$class}">
+								<td>
+									<xsl:value-of select="SAP_ClusterName"/>
+									<br/>
+									<xsl:value-of select="$vCBD"/>
+								</td>
+								<td>
+									<xsl:value-of select="SAP_Module_SerNo"/>
+								</td>
+								<td>
+									<xsl:for-each select="LicensedModules/ModuleName">
+										<xsl:sort select="."/>
+										<xsl:value-of select="."/>
+										<br/>
+									</xsl:for-each>
+								</td>
+								<td>
+									<xsl:value-of select="LicenseType"/>
+								</td>
+								<td>
+									
+									<xsl:if test="count(LicenseRestriction/RestrictionText) &gt; 0">
+										<xsl:text>The license is restricted to</xsl:text>
+										<br/>
+										<xsl:for-each select="LicenseRestriction/RestrictionText">
+											<xsl:text> - </xsl:text>
+											<xsl:value-of select="."/>
+											<br/>
+										</xsl:for-each>
+										
+										<xsl:if test="count(Controller) &gt; 0">
+											<span style="text-ident=1cm">
+												<xsl:text> - Controller </xsl:text>
+												<xsl:value-of select="Controller"/>
+												<br/>
+												<xsl:text> - Compiler </xsl:text>
+												<xsl:value-of select="Compiler"/>
+											</span>
+											<br/>
+										</xsl:if>
+									</xsl:if>
+								</td>
+							</tr>
+						</xsl:for-each>
+					</tbody>
+				</table>
+			</xsl:template>
+			
+			
+			<xsl:template name="DetailedVersionInfo">
+				<h3>
+					<a id="_Detailed_Version_Information">Detailed Version Information</a>
+				</h3>
+				<table>
+					<tbody>
+						<tr>
+							<th>Project</th>
+							<th>Component</th>
+							<th>Version</th>
+						</tr>
+						<xsl:for-each select="/CANbeddedVersionInfo/ComponentCheck/Component">
+							<xsl:variable name="class">
+								<xsl:choose>
+									<xsl:when test="position() mod 2 = 1">odd</xsl:when>
+									<xsl:otherwise>even</xsl:otherwise>
+								</xsl:choose>
+							</xsl:variable>
+							<tr class="{$class}">
+								<td>
+									<xsl:value-of select="@Project"/>
+								</td>
+								<td>
+									<xsl:value-of select="@Component"/>
+								</td>
+								<td>
+									<xsl:value-of select="@Version"/>
+								</td>
+							</tr>
+						</xsl:for-each>
+					</tbody>
+				</table>
+			</xsl:template>
+			
+			
+			<xsl:template name="BuildEnvironment">
+				<xsl:variable name="vDeliverLink">
+					<xsl:text>_BuildEnvironment_</xsl:text>
+					<xsl:value-of select="position()"/>
+				</xsl:variable>
+				<h3>
+					<a id="{$vDeliverLink}">Versions and Options - <xsl:value-of select="..//CBD"/>
+					</a>
+				</h3>
+				<table>
+					<xsl:for-each select="./devtoolinfo/tool">
+						<tr class="even">
+							
+							<td colspan="2">
+								<xsl:value-of select="@type"/>
+							</td>
+						</tr>
+						<xsl:for-each select="./entry">
+							<tr>
+								<td class="highlight">
+									<xsl:value-of select="@type"/>
+								</td>
+								<td>
+									<xsl:value-of select="."/>
+								</td>
+							</tr>
+						</xsl:for-each>
+					</xsl:for-each>
+				</table>
+			</xsl:template>
+			
+			
+			<xsl:template name="DeliveryInfoGeneral">
+				
+				<tr>
+					<td class="highlight">Order Confirmation Number</td>
+					<td>
+						<xsl:value-of select=".//Properties/ProjectNumber"/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="highlight">Delivery Number</td>
+					<td>
+						<xsl:value-of select=".//Properties/Release"/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="highlight">Delivery Type</td>
+					<td>
+						<xsl:value-of select=".//Properties/DeliveryType"/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="highlight">Release Type</td>
+					<td>
+						<xsl:value-of select=".//Properties/ReleaseType"/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="highlight">Ordered Derivative</td>
+					<td>
+						<xsl:value-of select=".//Properties/OrderedDerivative"/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="highlight">SIP Version</td>
+					<td>
+						<xsl:value-of select=".//Properties/SIP"/>
+					</td>
+				</tr>
+			</xsl:template>
+			
+			
+			<xsl:template name="CustomerContacts">
+				<xsl:if test="count(.//Properties/ErrataContacts) &gt; 0">
+					<tr>
+						<td class="highlight">Customer Contacts</td>
+						<td>
+							<xsl:for-each select=".//Properties/ErrataContacts/ErrataContact">
+								<xsl:value-of select="Firstname"/>
+								<xsl:text> </xsl:text>
+								<xsl:value-of select="Surname"/>
+								<xsl:text>   </xsl:text>
+								<span color="blue">
+									<a>
+										<xsl:attribute name="href">
+                <xsl:text>Mailto:</xsl:text>
+                <xsl:value-of select="Email"/>
+            </xsl:attribute>
+										<xsl:value-of select="Email"/>
+									</a>
+								</span>
+								<br/>
+							</xsl:for-each>
+							<span class="small-text">Contact address for Vector for all topics concerning this license. This includes questions and issue reports. Please inform Vector if this contact changes.</span>
+						</td>
+					</tr>
+				</xsl:if>
+				
+				<xsl:if test="count(.//Properties/ErrataContacts)&lt;= 0">
+					<tr>
+						<td class="highlight">Customer Contacts</td>
+						<td>
+							<xsl:text>You have not defined any contact. Therefore Vector will not be able to inform you about potential issues</xsl:text>
+						</td>
+					</tr>
+				</xsl:if>
+			</xsl:template>
+			
+			
+			<xsl:template name="VectorContact">
+				<tr>
+					<td class="highlight">Vector Contact</td>
+					<td>
+						<a>
+							<xsl:attribute name="href">
+    <xsl:text>Mailto:</xsl:text>
+    <xsl:value-of select=".//Properties/CustomerContact/Email"/>
+</xsl:attribute>
+							<xsl:value-of select=".//Properties/CustomerContact/Email"/>
+						</a>
+						<br/>
+						<span class="small-text">Contact address at Vector for all questions concerning this delivery.</span>
+					</td>
+				</tr>
+			</xsl:template>
+			
+			
+			<xsl:template name="DeliveryId">
+				<tr>
+					<td class="highlight">Delivery ID</td>
+					<td>
+						<xsl:for-each select=".//DeliveryVersionNumber/Byte">
+							<xsl:value-of select="."/>
+							<xsl:text>.</xsl:text>
+						</xsl:for-each>
+						<br/>
+						<span class="small-text">This is the unique identification number of this delivery. Please have this number ready at hand when contacting Vector customer support.</span>
+					</td>
+				</tr>
+			</xsl:template>
+		</xsl:stylesheet>
+	</HtmlOutput>
+</Transformators>
+</CANbeddedVersionInfo>

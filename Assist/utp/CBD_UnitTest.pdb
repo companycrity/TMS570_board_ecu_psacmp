@@ -1,0 +1,501 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\Assist\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\Assist\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 21.11.2011 13:57
+Last Changed     : 03.01.2014 19:33
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "Assist"
+      Comment     : "*************************************************************************************************************\r\nName of Tester:Mazeed Abdul\r\nCode File(s) Under Test:Ap_Assist.c\r\nCode File(s) Version:26\r\nModule Design Document:Assist_MDD.doc\r\nModule Design Document Version:17\r\nData Dictionary Version:17\r\nUnit Test Plan Version:12\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer Unit Test Tool : 2.7d/ EPS library 1.30\r\nTotal FLASH Used (Bytes):602\r\nTotal RAM Used (Bytes):4\r\nTotal CALS Used (Bytes):2192\r\nSpecial Test Requirements:01/03/2014\r\nTest Date:\r\n""Note1: Inline functions defined in GlobalMacro.h are not Unit Tested.\n\r\nNote2: 100% coverage cannot be achieved in """"Assist_Per1"""" function due to comparision of constant with macro """"D_WIRBLENDFRAC_ULS_U2P14"""".\n\r\nNote3:""""CBD_Sandbox_dbg.map"""" is embedded in UTP for reference.""\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,_DATA_ACCESS=,BC_ASSIST_FAULTINJECTIONPOINT=STD_OFF"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\Assist\utp\contract\Ap_Assist, $(PROJECTROOT)\Assist\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_Assist.c"
+         Path : "$(PROJECTROOT)\Assist\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Assist_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_s16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_s16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_s16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+   Module
+      Name        : "Assist_FLTINJ"
+      Comment     : "*************************************************************************************************************\r\nName of Tester:Mazeed Abdul\r\nCode File(s) Under Test:Ap_Assist.c\r\nCode File(s) Version:26\r\nModule Design Document:Assist_MDD.doc\r\nModule Design Document Version:17\r\nData Dictionary Version:17\r\nUnit Test Plan Version:12\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer Unit Test Tool : 2.7d/ EPS library 1.30\r\nTotal FLASH Used (Bytes):602\r\nTotal RAM Used (Bytes):4\r\nTotal CALS Used (Bytes):2192\r\nSpecial Test Requirements:01/03/2014\r\nTest Date:\r\n""Note1: Inline functions defined in GlobalMacro.h are not Unit Tested.\n\r\nNote2: 100% coverage cannot be achieved in """"Assist_Per1"""" function due to comparision of constant with macro """"D_WIRBLENDFRAC_ULS_U2P14"""".\n\r\nNote3:""""CBD_Sandbox_dbg.map"""" is embedded in UTP for reference.""\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,_DATA_ACCESS=,BC_ASSIST_FAULTINJECTIONPOINT=STD_ON"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\Assist\utp\contract\Ap_Assist, $(PROJECTROOT)\Assist\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_Assist.c"
+         Path : "$(PROJECTROOT)\Assist\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Assist_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_s16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_s16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_s16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+End

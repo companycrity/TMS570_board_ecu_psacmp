@@ -1,0 +1,1 @@
+extern void ApXcpWriteCommon(void);

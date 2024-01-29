@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="d4074333-ac63-4c4d-83b0-12348ab709c7"
+    location="$(PROJECTROOT)\tessy"
+    name="CustBattDiag"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

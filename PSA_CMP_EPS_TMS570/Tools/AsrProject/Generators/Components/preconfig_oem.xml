@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by visbus (Vector Informatik GmbH) -->
+<config name="AUTOSAR" default="true" guid="123456FF-789a-bcde-f012-3456789abcde" xmlns="http://www.vector-informatik.de/CANGen/ModulePreconfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vector-informatik.de/CANGen/ModulePreconfig
+R:\GENTOOL\NextCANGen\VersionCurrent_Develop\PreconfigFiles\preconfig.xsd">
+	<module name="CpuCANNECaFCAN" version="1.0.0">
+		
+	</module>
+</config>

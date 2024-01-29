@@ -1,0 +1,10 @@
+#ifndef AP_PWRLMTFUNCCR_CFG_H
+#define AP_PWRLMTFUNCCR_CFG_H
+
+ 	extern void Rte_Call_PwrLmtFuncCr_Per1_CP0_CheckpointReached(void);
+	extern void Rte_Call_PwrLmtFuncCr_Per1_CP1_CheckpointReached(void);
+	extern void Rte_Call_PwrLmtFuncCr_Per2_CP0_CheckpointReached(void);
+	extern void Rte_Call_PwrLmtFuncCr_Per2_CP1_CheckpointReached(void);
+
+
+#endif 

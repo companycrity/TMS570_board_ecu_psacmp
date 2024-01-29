@@ -1,0 +1,217 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\BATTER~1\UTP\Tessy\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\BatteryVoltage\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "tzj9qy"
+Created          : 02.03.2011 10:33
+Last Changed     : 24.01.2014 12:09
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "BatteryVolt"
+      Comment     : "                                                       UNITTEST INFORMATION\r\n************************************************************************************************************* \r\n\r\nName of Tester:Madhuparna Duarah\r\nCode File(s) Under Test:Ap_BatteryVoltage.c\r\nCode File(s) Version:10\r\nModule Design Document:Battery_Voltage_MDD.doc\r\nModule Design Document Version:14\r\nData Dictionary Version:5\r\nUnit Test Plan Version:6\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes):866\r\nTotal RAM Used (Bytes):22\r\nTotal CALS Used (Bytes):28\r\nSpecial Test Requirements:None\r\nTest Date:01-24-2014\r\nComments:""NOTE1: Inline functions are not unit tested.\nNOTE2: In """"BatteryVoltage_Per2"""" function,out of range value is given to variable""""Vbatt_Volts_M_f32"""" to cover 100% path coverage.\nNOTE3:""""CBD_Sandbox_dbg.map"""" is embedded in UTP for reference.""\r\n\r\n\r\n\r\n\r\n\r\n*************************************************************************************************************\r\n\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,_DATA_ACCESS=,BC_BATTERYVOLTAGE_FAULTINJECTIONPOINT=STD_OFF"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\StdDef\include\TMS570_HerculesRegs, $(PROJECTROOT)\BatteryVoltage\utp\contract\Ap_BatteryVoltage, $(PROJECTROOT)\BatteryVoltage\utp\contract, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\NxtrLib\include, $(Compiler Install Path)\include"
+         End
+         Property
+            Name  : "Float Precision"
+            Type  : "Number"
+            Flags : 0x8000016D
+            Value : "9"
+         End
+      End
+      Source File
+         Name : "Ap_BatteryVoltage.c"
+         Path : "$(PROJECTROOT)\BatteryVoltage\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_Per2"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_SCom_ClearTransOvData"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_SCom_ReadTransOvData"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Isr_OvervoltThreshfunc"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+   Module
+      Name        : "BatteryVolt_FLTINJ"
+      Comment     : "                                                       UNITTEST INFORMATION\r\n************************************************************************************************************* \r\n\r\n\r\nName of Tester:Madhuparna Duarah\r\nCode File(s) Under Test:Ap_BatteryVoltage.c\r\nCode File(s) Version:10\r\nModule Design Document:Battery_Voltage_MDD.doc\r\nModule Design Document Version:14\r\nData Dictionary Version:5\r\nUnit Test Plan Version:6\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes):866\r\nTotal RAM Used (Bytes):22\r\nTotal CALS Used (Bytes):28\r\nSpecial Test Requirements:None\r\nTest Date:01-24-2014\r\nComments:""NOTE1: Inline functions are not unit tested.\nNOTE2: In """"BatteryVoltage_Per2"""" function,out of range value is given to variable""""Vbatt_Volts_M_f32"""" to cover 100% path coverage.\nNOTE3:""""CBD_Sandbox_dbg.map"""" is embedded in UTP for reference.""\r\n\r\n\r\n\r\n\r\n*************************************************************************************************************\r\n\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,_DATA_ACCESS=,BC_BATTERYVOLTAGE_FAULTINJECTIONPOINT=STD_ON"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\BatteryVoltage\utp\contract, $(PROJECTROOT)\BatteryVoltage\utp\contract\Ap_BatteryVoltage, $(Compiler Install Path)\include, $(PROJECTROOT)\StdDef\include\TMS570_HerculesRegs"
+         End
+         Property
+            Name  : "Float Precision"
+            Type  : "Number"
+            Flags : 0x8000016D
+            Value : "9"
+         End
+      End
+      Source File
+         Name : "Ap_BatteryVoltage.c"
+         Path : "$(PROJECTROOT)\BatteryVoltage\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_Per2"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_SCom_ClearTransOvData"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BatteryVoltage_SCom_ReadTransOvData"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Isr_OvervoltThreshfunc"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

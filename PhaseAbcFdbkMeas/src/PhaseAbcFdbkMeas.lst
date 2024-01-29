@@ -1,0 +1,49 @@
+NHET Assembler    Release 1.7     Tue May 10 10:09:52 2016
+Texas Instruments Incorporated. 
+
+PhaseAbcFdbkMeas.het                                                 PAGE    1
+
+           0000 0000 0000 001A   SACRIFICIAL_PIN         .equ    26 ; pin we use for 'no pin' ECMP instructions, block other HR uses 
+           0000 0000 0000 0000   DUMMY                   .equ    0               ; DUMMY Use in Instruction only.
+           0000 0000 01FF FFFF   MAX_LR                  .equ    0x1FFFFFF       ; max value     
+           0000 0000 0000 000A   PhaAFb                  .equ    10  ; Phase A Feedback Input Signal
+           0000 0000 0000 0012   PhaBFb                  .equ    18  ; Phase B Feedback Input Signal
+           0000 0000 0000 0008   PhaCFb                  .equ    8   ; Phase C Feedback Input Signal
+         68                    START:  
+         HA 2000 
+         69 0020 01FF FFFF 0000 0000   FRCTR:          CNT     { data=0, reg=T, max= 0x1FFFFFF }
+            0020 0000 0000 0000 2CA0  
+         70                ; ----------------------------------------------------------------------------
+         71                
+         72                ;-----------------------  ABC_Phase_Meas - Starts ----------------------------
+         73                
+         74                ;----------Phase A, B, C Low Res Input Capture Measurements ------------------
+         HA 2010 
+         75 0020 0000 4A56 0000 0000   P1ACC:  ECNT    { pin=PhaAFb, event=ACCUHIGH, reg=NONE, data=0 }
+            0020 0000 0000 0000 5440  
+         HA 2020 
+         76 0020 0000 7256 0000 0000   P2ACC:  ECNT    { pin=PhaBFb, event=ACCUHIGH, reg=NONE, data=0 }
+            0020 0000 0000 0000 7440  
+         HA 2030 
+         77 0020 0000 8856 0000 0000   P3ACC:  ECNT    { pin=PhaCFb, event=ACCUHIGH, reg=NONE, data=0 }
+            0020 0000 0000 0000 9440  
+         78                
+         79                ;-----------------------  ABC_Phase_Meas - END -------------------------------
+         80                
+         81                
+         82                ;----------  Basic Infrastructure- END  -----------------------------------
+         HA 2040 
+         83 0020 0000 0000 0000 0000   END:            BR      { next=START, cond_addr=START, event= NOCOND}  ; could be removed when program i
+            0020 0000 0000 0000 1A00  
+         84                ; -------------------------------------------------------------------------
+         85                
+
+ No Errors, No Warnings
+NHET Assembler    Release 1.7     Tue May 10 10:09:52 2016
+Texas Instruments Incorporated. 
+
+PhaseAbcFdbkMeas.het                                                 PAGE    2
+
+LABEL                                VALUE       DEFN    REF
+
+.TMS_HET                          00000001 

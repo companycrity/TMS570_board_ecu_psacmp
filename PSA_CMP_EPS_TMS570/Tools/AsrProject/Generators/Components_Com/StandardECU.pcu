@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="Lowspeed" default="false" guid="123456FF-789a-bcde-f012-3456789abcde" xmlns="http://www.vector-informatik.de/CANGen/ModulePreconfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vector-informatik.de/CANGen/ModulePreconfig
+.\preconfig.xsd">
+	<description>Lowspeed use case pre-configuration file for OEM PSA. Version 0.02.00</description>
+	<module name="BaseEnv" version="1.0">
+		<description>Configuration of BaseEnv module</description>
+	</module>
+</config>
+

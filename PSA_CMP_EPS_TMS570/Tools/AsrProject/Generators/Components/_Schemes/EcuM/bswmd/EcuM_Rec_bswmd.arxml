@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+============================================================================
+This file is generated with Eparm 2.0.3.5
+Date: Tue, 23 Mar 2010 10:05:11 GMT
+============================================================================
+-->
+<!--
+============================================================================
+To use the feature of automatic creation of containers the following GENy Attribute has to be included into
+
+<module name="GenTool_GenyPluginAsrIfEcuConfigFile">
+
+  <attribute name="BswImplsOfGenericSpecializations" class="OTModuleFactory">
+    <default value="/MICROSAR/EcuM_Impl"/>
+  </attribute>
+
+</module>
+============================================================================
+-->
+<AUTOSAR xmlns="http://autosar.org/3.0.1">
+	<TOP-LEVEL-PACKAGES>
+		<AR-PACKAGE UUID="">
+			<SHORT-NAME>MICROSAR</SHORT-NAME>
+			<ELEMENTS>
+				<MODULE-CONFIGURATION UUID="DCE:cdfa27cb-2b2b-4939-ac77-7b0df15c6c31">
+					<SHORT-NAME>EcuM_Rec</SHORT-NAME>
+					<ADMIN-DATA>
+						<SDGS>
+							<SDG GID="DV:ClassConfiguration">
+								<SD>/MICROSAR/EcuM_Rec_Class1/EcuMConfiguration</SD>
+							</SDG>
+						</SDGS>
+					</ADMIN-DATA>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/EcuM</DEFINITION-REF>
+					<CONTAINERS />
+				</MODULE-CONFIGURATION>
+				<MODULE-CONFIGURATION UUID="9d661103-6c7e-4f0c-b457-95795aaf0928">
+					<SHORT-NAME>EcuM_Rec_Class1</SHORT-NAME>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/EcuM</DEFINITION-REF>
+					<CONTAINERS>
+						<CONTAINER UUID="bed93f18-152f-45de-aa77-ec3bf7738e19">
+							<SHORT-NAME>EcuMConfiguration</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration</DEFINITION-REF>
+							<SUB-CONTAINERS>
+								<CONTAINER UUID="661cbfef-548c-4662-b96e-48e9250a2e62">
+									<SHORT-NAME>EcuMWdgM</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWdgM</DEFINITION-REF>
+								</CONTAINER>
+								<CONTAINER UUID="cb358d92-b37a-40db-bba2-38c087f6bd45">
+									<SHORT-NAME>EcuMDriverRestartList</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMDriverRestartList</DEFINITION-REF>
+								</CONTAINER>
+								<CONTAINER UUID="d88c919f-4282-4a78-86f8-94f5f18d6739">
+									<SHORT-NAME>EcuMDriverInitListTwo</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMDriverInitListTwo</DEFINITION-REF>
+								</CONTAINER>
+								<CONTAINER UUID="fcf898fd-185a-404b-bc4b-1a783f30ff28">
+									<SHORT-NAME>EcuMDriverInitListOne</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMDriverInitListOne</DEFINITION-REF>
+								</CONTAINER>
+								<CONTAINER UUID="ac8661d1-05c2-42f8-8c7a-851475c1dbba">
+									<SHORT-NAME>EcuMDriverInitListThree</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMDriverInitListThree</DEFINITION-REF>
+								</CONTAINER>
+							</SUB-CONTAINERS>
+						</CONTAINER>
+					</CONTAINERS>
+				</MODULE-CONFIGURATION>
+			</ELEMENTS>
+		</AR-PACKAGE>
+	</TOP-LEVEL-PACKAGES>
+</AUTOSAR>

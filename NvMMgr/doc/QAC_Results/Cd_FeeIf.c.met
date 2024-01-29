@@ -1,0 +1,1497 @@
+<RDEF> I Includes
+<R>I C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 18
+<DEFINE> CD_FEEIF_H C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 23 I DF OM - - - O
+<R>I C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 28
+<DEFINE> STD_TYPES_H C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/Synergy/NvMMgr-nzdx8v/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<R>I C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 29
+<DEFINE> MEMIF_TYPES_H C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 2 I DF OM - - - O
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 6 20 I ON ni F E
+<DEFINE> MEMIF_UNINIT C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 6 I DC OE F N ne -
+<DEFINE> MEMIF_UNINIT C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 6 I DF OE F N ne -
+<DEFINE> MEMIF_IDLE C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 7 I DC OE F N ne -
+<DEFINE> MEMIF_IDLE C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 7 I DF OE F N ne -
+<DEFINE> MEMIF_BUSY C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 8 I DC OE F N ne -
+<DEFINE> MEMIF_BUSY C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 8 I DF OE F N ne -
+<DEFINE> MEMIF_BUSY_INTERNAL C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 9 I DC OE F N ne -
+<DEFINE> MEMIF_BUSY_INTERNAL C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 9 I DF OE F N ne -
+<DEFINE> MemIf_StatusType C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 10 I DC OT F N {e} -
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 14 20 I ON ni F E
+<DEFINE> MEMIF_JOB_OK C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 14 I DC OE F N ne -
+<DEFINE> MEMIF_JOB_OK C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 14 I DF OE F N ne -
+<DEFINE> MEMIF_JOB_FAILED C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 15 I DC OE F N ne -
+<DEFINE> MEMIF_JOB_FAILED C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 15 I DF OE F N ne -
+<DEFINE> MEMIF_JOB_PENDING C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 16 I DC OE F N ne -
+<DEFINE> MEMIF_JOB_PENDING C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 16 I DF OE F N ne -
+<DEFINE> MEMIF_JOB_CANCELLED C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 17 I DC OE F N ne -
+<DEFINE> MEMIF_JOB_CANCELLED C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 17 I DF OE F N ne -
+<DEFINE> MEMIF_BLOCK_INCONSISTENT C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 18 I DC OE F N ne -
+<DEFINE> MEMIF_BLOCK_INCONSISTENT C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 18 I DF OE F N ne -
+<DEFINE> MEMIF_BLOCK_INVALID C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 19 I DC OE F N ne -
+<DEFINE> MEMIF_BLOCK_INVALID C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 19 I DF OE F N ne -
+<DEFINE> MemIf_JobResultType C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/MemIf_Types.h 20 I DC OT F N {e} -
+<R>I C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 30
+<DEFINE> FEE_H C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 2 I DF OM - - - O
+<EXTN> Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 4
+<DEFINE> Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 4 I DC OF F X (.,.) -
+<EXTN> Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 5
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 5 I DC OV P N us R
+<DEFINE> Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 5 I DC OF F X (uc,us) -
+<EXTN> Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 6
+<DEFINE> Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 6 I DC OF F X ({eMemIf_JobResultType},.) -
+<EXTN> Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 7
+<DEFINE> Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 7 I DC OF F X ({eMemIf_StatusType},.) -
+<EXTN> Fee_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 8
+<DEFINE> Fee_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 8 I DC OF F X (.,.) -
+<EXTN> Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 9
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 9 I DC OV P N us R
+<DEFINE> Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 9 I DC OF F X (uc,us) -
+<EXTN> Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 10
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 10 I DC OV P N us R
+<DEFINE> BlockOffset C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 11 I DC OV P N us R
+<DEFINE> DataBufferPtr C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 12 I DC OV P N puc R
+<DEFINE> Length C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 13 I DC OV P N us R
+<DEFINE> Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 10 I DC OF F X (uc,us,us,puc,us) -
+<EXTN> Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 14
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 14 I DC OV P N us R
+<DEFINE> DataBufferPtr C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 15 I DC OV P N puc R
+<DEFINE> Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 14 I DC OF F X (uc,us,puc) -
+<EXTN> Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 18
+<DEFINE> Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/fee.h 18 I DC OF F X (.,.) -
+<R>I C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Cd_NvMMgr_Cfg.h 31
+<DEFINE> CD_NVMMGR_CFG_H C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Cd_NvMMgr_Cfg.h 23 I DF OM - - - O
+<DEFINE> BC_FEEIF_ECUSTARTUPTRUSTED C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Cd_NvMMgr_Cfg.h 26 I DF OM - - - O
+<DEFINE> BC_FEEIF_NVMTRUSTED C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Cd_NvMMgr_Cfg.h 27 I DF OM - - - O
+<R>I C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 33
+<DEFINE> _OS_H C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 2 I DF OM - - - O
+<DEFINE> osuint16 C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 4 I DC OT F N us -
+<DEFINE> TrustedFunctionIndexType C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 6 I DC OT F N us -
+<DEFINE> TrustedFunctionParameterRefType C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 7 I DC OT F N p. -
+<EXTN> CallTrustedFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 9
+<DEFINE> Param1FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 9 I DC OV P N us R
+<DEFINE> Param2FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 9 I DC OV P N p. R
+<DEFINE> CallTrustedFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/Os.h 9 I DC OF F X (uc,us,p.) -
+<R>I C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 34
+<DEFINE> _TRUSTCFT_H C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 3 I DF OM - - - O
+<DEFINE> TWrapS_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 8 I DF OM - - - O
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 8 27 I ON - F M
+<EXTN> TRUSTED_TWrapS_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 9
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 9 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 9 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 9 I DC OF F X (.,us,p.) -
+<DEFINE> TWrapS_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 10 I DF OM - - - O
+<LIT> 1 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 10 33 I DN - F M
+<EXTN> TRUSTED_TWrapS_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 11
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 11 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 11 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 11 I DC OF F X (.,us,p.) -
+<DEFINE> TWrapS_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 12 I DF OM - - - O
+<LIT> 2 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 12 25 I DN - F M
+<EXTN> TRUSTED_TWrapS_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 13
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 13 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 13 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 13 I DC OF F X (.,us,p.) -
+<DEFINE> os_arg_BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 17 I DC MB F N us -
+<DEFINE> os_arg_BlockOffset C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 18 I DC MB F N us -
+<DEFINE> os_arg_DataBufferPtr C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 19 I DC MB F N puc -
+<DEFINE> os_arg_Length C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 20 I DC MB F N us -
+<DEFINE> os_result C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 21 I DC MB F N uc -
+<DEFINE> osTFArgType_TWrapS_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 22 I DC OT F N {s} -
+<DEFINE> TWrapS_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 24 I DF OM - - - O
+<LIT> 3 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 24 26 I DN - F M
+<EXTN> TRUSTED_TWrapS_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 25
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 25 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 25 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 25 I DC OF F X (.,us,p.) -
+<DEFINE> os_arg_BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 29 I DC MB F N us -
+<DEFINE> os_arg_DataBufferPtr C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 30 I DC MB F N puc -
+<DEFINE> os_result C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 31 I DC MB F N uc -
+<DEFINE> osTFArgType_TWrapS_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 32 I DC OT F N {s} -
+<DEFINE> TWrapS_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 34 I DF OM - - - O
+<LIT> 4 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 34 40 I DN - F M
+<EXTN> TRUSTED_TWrapS_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 35
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 35 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 35 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 35 I DC OF F X (.,us,p.) -
+<DEFINE> os_arg_BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 39 I DC MB F N us -
+<DEFINE> os_result C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 40 I DC MB F N uc -
+<DEFINE> osTFArgType_TWrapS_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 41 I DC OT F N {s} -
+<DEFINE> TWrapS_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 43 I DF OM - - - O
+<LIT> 5 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 43 36 I DN - F M
+<EXTN> TRUSTED_TWrapS_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 44
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 44 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 44 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 44 I DC OF F X (.,us,p.) -
+<DEFINE> os_arg_BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 48 I DC MB F N us -
+<DEFINE> os_result C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 49 I DC MB F N uc -
+<DEFINE> osTFArgType_TWrapS_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 50 I DC OT F N {s} -
+<DEFINE> TWrapS_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 52 I DF OM - - - O
+<LIT> 6 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 52 27 I DN - F M
+<EXTN> TRUSTED_TWrapS_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 53
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 53 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 53 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 53 I DC OF F X (.,us,p.) -
+<DEFINE> TWrapS_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 54 I DF OM - - - O
+<LIT> 7 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 54 30 I DN - F M
+<EXTN> TRUSTED_TWrapS_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 55
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 55 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 55 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 55 I DC OF F X (.,us,p.) -
+<DEFINE> os_result C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 59 I DC MB F N uc -
+<DEFINE> osTFArgType_TWrapS_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 60 I DC OT F N {s} -
+<DEFINE> TWrapS_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 62 I DF OM - - - O
+<LIT> 8 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 62 33 I DN - F M
+<EXTN> TRUSTED_TWrapS_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 63
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 63 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 63 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 63 I DC OF F X (.,us,p.) -
+<DEFINE> os_result C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 67 I DC MB F N uc -
+<DEFINE> osTFArgType_TWrapS_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 68 I DC OT F N {s} -
+<DEFINE> os_arg_Command C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 72 I DC MB F N uc -
+<DEFINE> osTFArgType_TWrapS_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 73 I DC OT F N {s} -
+<DEFINE> TWrapS_Fee_Read_args C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 77 I DC MB F N {sosTFArgType_TWrapS_Fee_Read} -
+<DEFINE> TWrapS_Fee_Write_args C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 78 I DC MB F N {sosTFArgType_TWrapS_Fee_Write} -
+<DEFINE> TWrapS_Fee_EraseImmediateBlock_args C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 79 I DC MB F N {sosTFArgType_TWrapS_Fee_EraseImmediateBlock} -
+<DEFINE> TWrapS_Fee_InvalidateBlock_args C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 80 I DC MB F N {sosTFArgType_TWrapS_Fee_InvalidateBlock} -
+<DEFINE> TWrapS_Fee_GetStatus_args C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 81 I DC MB F N {sosTFArgType_TWrapS_Fee_GetStatus} -
+<DEFINE> TWrapS_Fee_GetJobResult_args C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 82 I DC MB F N {sosTFArgType_TWrapS_Fee_GetJobResult} -
+<DEFINE> TWrapS_TI_Fee_SuspendResumeErase_args C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 83 I DC MB F N {sosTFArgType_TWrapS_TI_Fee_SuspendResumeErase} -
+<DEFINE> TrustedFunctionParameterType C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 84 I DC OT F N {u} -
+<DEFINE> TWrapS_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 86 I DF OM - - - O
+<LIT> 9 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 86 42 I DN - F M
+<EXTN> TRUSTED_TWrapS_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 87
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 87 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 87 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 87 I DC OF F X (.,us,p.) -
+<LIT> 0 U P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 91 23 I ON ui F E
+<DEFINE> Suspend_Erase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 91 I DC OE F N ne -
+<DEFINE> Suspend_Erase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 91 I DF OE F N ne -
+<DEFINE> Resume_Erase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 92 I DC OE F N ne -
+<DEFINE> Resume_Erase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 92 I DF OE F N ne -
+<DEFINE> TI_Fee_EraseCommandType C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 93 I DC OT F N {e} -
+<EXTN> TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 94
+<DEFINE> Command C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 94 I DC OV P N {eTI_Fee_EraseCommandType} R
+<DEFINE> TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/trustfct.h 94 I DC OF F X (.,{eTI_Fee_EraseCommandType}) -
+<EXTN> FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 42
+<DEFINE> FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 42 I DC OF F X (.,.) -
+<EXTN> TWrapC_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 45
+<DEFINE> TWrapC_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 45 I DC OF F X (.,.) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 46 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 46 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 46 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 47
+<DEFINE> TWrapC_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 47 I DC OF F X (.,.) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 48 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 48 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 48 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 52
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 52 I DC OV P N us R
+<DEFINE> BlockOffset C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 52 I DC OV P N us R
+<DEFINE> DataBufferPtr C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 52 I DC OV P N puc R
+<DEFINE> Length C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 52 I DC OV P N us R
+<DEFINE> TWrapC_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 52 I DC OF F X (uc,us,us,puc,us) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 53 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 53 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 53 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 54
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 54 I DC OV P N us R
+<DEFINE> DataBufferPtr C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 54 I DC OV P N puc R
+<DEFINE> TWrapC_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 54 I DC OF F X (uc,us,puc) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 55 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 55 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 55 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 56
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 56 I DC OV P N us R
+<DEFINE> TWrapC_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 56 I DC OF F X (uc,us) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 57 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 57 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 57 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 58
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 58 I DC OV P N us R
+<DEFINE> TWrapC_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 58 I DC OF F X (uc,us) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 59 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 59 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 59 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 60
+<DEFINE> TWrapC_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 60 I DC OF F X (.,.) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 61 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 61 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 61 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 62
+<DEFINE> TWrapC_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 62 I DC OF F X (uc,.) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 63 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 63 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 63 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 64
+<DEFINE> TWrapC_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 64 I DC OF F X (uc,.) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 65 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 65 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 65 I DR OF F X (.,us,p.) -
+<EXTN> TWrapC_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 66
+<DEFINE> Command C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 66 I DC OV P N uc R
+<DEFINE> TWrapC_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 66 I DC OF F X (.,uc) -
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 67 I DC OV P N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 67 I DC OV P N p. R
+<DEFINE> TRUSTED_TWrapS_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/include/Cd_FeeIf.h 67 I DR OF F X (.,us,p.) -
+<EXTD> FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 26
+<DEFINE> FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 26 N DR OF F X (.,.) -
+<DEFINE> FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 26 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C FeeIf_Init Fee_Init 28
+<RDEF> X Refers-to
+<R>X FeeIf_Init Fee_Init 28 R
+<R>C FeeIf_Init Fee_GetStatus 31
+<R>X FeeIf_Init Fee_GetStatus 31 R
+<R>C FeeIf_Init Fee_MainFunction 33
+<R>X FeeIf_Init Fee_MainFunction 33 R
+<CTLG> FeeIf_Init 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 2
+<CTLG> 4 6
+<CTLGN> 27 31 31 31 35 35 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  FeeIf_Init
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  3
+<S>STAKI  5
+<S>STLIN  7
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.67   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  5
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  4
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  16
+<S>STFN2  4
+
+<EXTD> TWrapC_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 40
+<DEFINE> TWrapC_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 40 N DR OF F X (.,.) -
+<DEFINE> TWrapC_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 40 N DF OF F X (.,.) -
+<R>C TWrapC_FeeIf_Init CallTrustedFunction 42
+<R>X TWrapC_FeeIf_Init CallTrustedFunction 42 R
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 42 121 N ON ni B X
+<CTLG> TWrapC_FeeIf_Init 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 41 43 43 43 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_FeeIf_Init
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  18
+<S>STAV2  18
+<S>STAV3  18
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  13
+<S>STFN2  5
+
+<EXTD> TRUSTED_TWrapS_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 44
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 44 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 44 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 44 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_FeeIf_Init C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 44 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_FeeIf_Init FeeIf_Init 47
+<R>X TRUSTED_TWrapS_FeeIf_Init FeeIf_Init 47 R
+<CTLG> TRUSTED_TWrapS_FeeIf_Init 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 45 48 48 48 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_FeeIf_Init
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  2
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  5
+<S>STFN2  1
+
+<EXTD> TWrapC_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 51
+<DEFINE> TWrapC_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 51 N DR OF F X (.,.) -
+<DEFINE> TWrapC_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 51 N DF OF F X (.,.) -
+<R>C TWrapC_Fee_MainFunction CallTrustedFunction 53
+<R>X TWrapC_Fee_MainFunction CallTrustedFunction 53 R
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 53 127 N ON ni B X
+<CTLG> TWrapC_Fee_MainFunction 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 52 54 54 54 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_MainFunction
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  18
+<S>STAV2  18
+<S>STAV3  18
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  13
+<S>STFN2  5
+
+<EXTD> TRUSTED_TWrapS_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 55
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 55 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 55 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 55 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_Fee_MainFunction C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 55 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_Fee_MainFunction Fee_MainFunction 58
+<R>X TRUSTED_TWrapS_Fee_MainFunction Fee_MainFunction 58 R
+<CTLG> TRUSTED_TWrapS_Fee_MainFunction 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 56 59 59 59 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_MainFunction
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  2
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  5
+<S>STFN2  1
+
+<EXTD> TWrapC_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 68
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 68 N DC OV B N us R
+<DEFINE> BlockOffset C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 68 N DC OV B N us R
+<DEFINE> DataBufferPtr C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 68 N DC OV B N puc R
+<DEFINE> Length C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 68 N DC OV B N us R
+<DEFINE> TWrapC_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 68 N DR OF F X (uc,us,us,puc,us) -
+<DEFINE> TWrapC_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 68 N DF OF F X (uc,us,us,puc,us) -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 70 N DC OV B N {uTrustedFunctionParameterType} -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 70 N DF OV B N {uTrustedFunctionParameterType} -
+<R>C TWrapC_Fee_Read CallTrustedFunction 77
+<R>X TWrapC_Fee_Read CallTrustedFunction 77 R
+<CTLG> TWrapC_Fee_Read 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 69 78 78 78 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_Read
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  9
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  10
+<S>STST1  7
+<S>STST2  7
+<S>STST3  6
+<S>STPAR  4
+<S>STCAL  1
+<S>STFN1  35
+<S>STFN2  25
+
+<EXTD> TRUSTED_TWrapS_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 80
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 80 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 80 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 80 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_Fee_Read C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 80 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_Fee_Read Fee_Read 87
+<R>X TRUSTED_TWrapS_Fee_Read Fee_Read 87 R
+<CTLG> TRUSTED_TWrapS_Fee_Read 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 81 88 88 88 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_Read
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  6
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  65
+<S>STAV2  65
+<S>STAV3  65
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  44
+<S>STFN2  21
+
+<EXTD> TWrapC_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 91
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 91 N DC OV B N us R
+<DEFINE> DataBufferPtr C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 91 N DC OV B N puc R
+<DEFINE> TWrapC_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 91 N DR OF F X (uc,us,puc) -
+<DEFINE> TWrapC_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 91 N DF OF F X (uc,us,puc) -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 93 N DC OV B N {uTrustedFunctionParameterType} -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 93 N DF OV B N {uTrustedFunctionParameterType} -
+<R>C TWrapC_Fee_Write CallTrustedFunction 98
+<R>X TWrapC_Fee_Write CallTrustedFunction 98 R
+<CTLG> TWrapC_Fee_Write 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 92 99 99 99 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_Write
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  7
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  11
+<S>STST1  5
+<S>STST2  5
+<S>STST3  4
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  27
+<S>STFN2  17
+
+<EXTD> TRUSTED_TWrapS_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 101
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 101 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 101 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 101 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_Fee_Write C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 101 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_Fee_Write Fee_Write 106
+<R>X TRUSTED_TWrapS_Fee_Write Fee_Write 106 R
+<CTLG> TRUSTED_TWrapS_Fee_Write 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 102 107 107 107 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_Write
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  4
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  41
+<S>STAV2  41
+<S>STAV3  41
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  28
+<S>STFN2  13
+
+<EXTD> TWrapC_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 110
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 110 N DC OV B N us R
+<DEFINE> TWrapC_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 110 N DR OF F X (uc,us) -
+<DEFINE> TWrapC_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 110 N DF OF F X (uc,us) -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 112 N DC OV B N {uTrustedFunctionParameterType} -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 112 N DF OV B N {uTrustedFunctionParameterType} -
+<R>C TWrapC_Fee_EraseImmediateBlock CallTrustedFunction 116
+<R>X TWrapC_Fee_EraseImmediateBlock CallTrustedFunction 116 R
+<CTLG> TWrapC_Fee_EraseImmediateBlock 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 111 117 117 117 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_EraseImmediateBlock
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  6
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  12
+<S>STST1  4
+<S>STST2  4
+<S>STST3  3
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  23
+<S>STFN2  13
+
+<EXTD> TRUSTED_TWrapS_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 119
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 119 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 119 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 119 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_Fee_EraseImmediateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 119 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_Fee_EraseImmediateBlock Fee_EraseImmediateBlock 123
+<R>X TRUSTED_TWrapS_Fee_EraseImmediateBlock Fee_EraseImmediateBlock 123 R
+<CTLG> TRUSTED_TWrapS_Fee_EraseImmediateBlock 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 120 124 124 124 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_EraseImmediateBlock
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  3
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  29
+<S>STAV2  29
+<S>STAV3  29
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  20
+<S>STFN2  9
+
+<EXTD> TWrapC_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 127
+<DEFINE> BlockNumber C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 127 N DC OV B N us R
+<DEFINE> TWrapC_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 127 N DR OF F X (uc,us) -
+<DEFINE> TWrapC_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 127 N DF OF F X (uc,us) -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 129 N DC OV B N {uTrustedFunctionParameterType} -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 129 N DF OV B N {uTrustedFunctionParameterType} -
+<R>C TWrapC_Fee_InvalidateBlock CallTrustedFunction 133
+<R>X TWrapC_Fee_InvalidateBlock CallTrustedFunction 133 R
+<CTLG> TWrapC_Fee_InvalidateBlock 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 128 134 134 134 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_InvalidateBlock
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  6
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  12
+<S>STST1  4
+<S>STST2  4
+<S>STST3  3
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  23
+<S>STFN2  13
+
+<EXTD> TRUSTED_TWrapS_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 136
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 136 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 136 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 136 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_Fee_InvalidateBlock C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 136 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_Fee_InvalidateBlock Fee_InvalidateBlock 140
+<R>X TRUSTED_TWrapS_Fee_InvalidateBlock Fee_InvalidateBlock 140 R
+<CTLG> TRUSTED_TWrapS_Fee_InvalidateBlock 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 137 141 141 141 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_InvalidateBlock
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  3
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  29
+<S>STAV2  29
+<S>STAV3  29
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  20
+<S>STFN2  9
+
+<EXTD> TWrapC_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 144
+<DEFINE> TWrapC_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 144 N DR OF F X (.,.) -
+<DEFINE> TWrapC_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 144 N DF OF F X (.,.) -
+<R>C TWrapC_Fee_Cancel CallTrustedFunction 146
+<R>X TWrapC_Fee_Cancel CallTrustedFunction 146 R
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 146 121 N ON ni B X
+<CTLG> TWrapC_Fee_Cancel 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 145 147 147 147 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_Cancel
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  18
+<S>STAV2  18
+<S>STAV3  18
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  13
+<S>STFN2  5
+
+<EXTD> TRUSTED_TWrapS_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 148
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 148 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 148 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 148 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_Fee_Cancel C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 148 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_Fee_Cancel Fee_Cancel 151
+<R>X TRUSTED_TWrapS_Fee_Cancel Fee_Cancel 151 R
+<CTLG> TRUSTED_TWrapS_Fee_Cancel 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 149 152 152 152 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_Cancel
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  2
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  5
+<S>STFN2  1
+
+<EXTD> TWrapC_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 155
+<DEFINE> TWrapC_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 155 N DR OF F X (uc,.) -
+<DEFINE> TWrapC_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 155 N DF OF F X (uc,.) -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 157 N DC OV B N {uTrustedFunctionParameterType} -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 157 N DF OV B N {uTrustedFunctionParameterType} -
+<R>C TWrapC_Fee_GetStatus CallTrustedFunction 159
+<R>X TWrapC_Fee_GetStatus CallTrustedFunction 159 R
+<CTLG> TWrapC_Fee_GetStatus 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 156 160 160 160 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_GetStatus
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  4
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  14
+<S>STST1  3
+<S>STST2  3
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  9
+
+<EXTD> TRUSTED_TWrapS_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 162
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 162 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 162 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 162 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_Fee_GetStatus C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 162 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_Fee_GetStatus Fee_GetStatus 166
+<R>X TRUSTED_TWrapS_Fee_GetStatus Fee_GetStatus 166 R
+<CTLG> TRUSTED_TWrapS_Fee_GetStatus 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 163 167 167 167 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_GetStatus
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  3
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  21
+<S>STAV2  21
+<S>STAV3  21
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  15
+<S>STFN2  6
+
+<EXTD> TWrapC_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 170
+<DEFINE> TWrapC_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 170 N DR OF F X (uc,.) -
+<DEFINE> TWrapC_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 170 N DF OF F X (uc,.) -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 172 N DC OV B N {uTrustedFunctionParameterType} -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 172 N DF OV B N {uTrustedFunctionParameterType} -
+<R>C TWrapC_Fee_GetJobResult CallTrustedFunction 174
+<R>X TWrapC_Fee_GetJobResult CallTrustedFunction 174 R
+<CTLG> TWrapC_Fee_GetJobResult 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 171 175 175 175 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_GetJobResult
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  4
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  14
+<S>STST1  3
+<S>STST2  3
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  9
+
+<EXTD> TRUSTED_TWrapS_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 177
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 177 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 177 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 177 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_Fee_GetJobResult C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 177 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_Fee_GetJobResult Fee_GetJobResult 181
+<R>X TRUSTED_TWrapS_Fee_GetJobResult Fee_GetJobResult 181 R
+<CTLG> TRUSTED_TWrapS_Fee_GetJobResult 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 178 182 182 182 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_GetJobResult
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  3
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  21
+<S>STAV2  21
+<S>STAV3  21
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  15
+<S>STFN2  6
+
+<EXTD> TWrapC_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 188
+<DEFINE> Command C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 188 N DC OV B N uc R
+<DEFINE> TWrapC_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 188 N DR OF F X (.,uc) -
+<DEFINE> TWrapC_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 188 N DF OF F X (.,uc) -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 190 N DC OV B N {uTrustedFunctionParameterType} -
+<DEFINE> myargs C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 190 N DF OV B N {uTrustedFunctionParameterType} -
+<R>C TWrapC_TI_Fee_SuspendResumeErase CallTrustedFunction 194
+<R>X TWrapC_TI_Fee_SuspendResumeErase CallTrustedFunction 194 R
+<CTLG> TWrapC_TI_Fee_SuspendResumeErase 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 189 195 195 195 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_TI_Fee_SuspendResumeErase
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  6
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  9
+<S>STST1  4
+<S>STST2  4
+<S>STST3  3
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  10
+
+<EXTD> TRUSTED_TWrapS_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 197
+<DEFINE> FunctionIndex C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 197 N DC OV B N us R
+<DEFINE> FunctionParams C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 197 N DC OV B N p. R
+<DEFINE> TRUSTED_TWrapS_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 197 N DR OF F X (.,us,p.) -
+<DEFINE> TRUSTED_TWrapS_TI_Fee_SuspendResumeErase C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c 197 N DF OF F X (.,us,p.) -
+<R>C TRUSTED_TWrapS_TI_Fee_SuspendResumeErase TI_Fee_SuspendResumeErase 199
+<R>X TRUSTED_TWrapS_TI_Fee_SuspendResumeErase TI_Fee_SuspendResumeErase 199 R
+<CTLG> TRUSTED_TWrapS_TI_Fee_SuspendResumeErase 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 198 200 200 200 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_TI_Fee_SuspendResumeErase
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  20
+<S>STAV2  20
+<S>STAV3  20
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  14
+<S>STFN2  6
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  FeeIf_Init
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_FeeIf_Init
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_Cancel
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_EraseImmediateBlock
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_GetJobResult
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_GetStatus
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_InvalidateBlock
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_MainFunction
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_Read
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_Fee_Write
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TRUSTED_TWrapS_TI_Fee_SuspendResumeErase
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_FeeIf_Init
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_Cancel
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_EraseImmediateBlock
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_GetJobResult
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_GetStatus
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_InvalidateBlock
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_MainFunction
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_Read
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_Fee_Write
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  TWrapC_TI_Fee_SuspendResumeErase
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNAM  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Cd_FeeIf.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  0
+<S>STFNC  21
+<S>STFCO  3
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  76
+<S>STOPT  19
+<S>STOPN  79
+<S>STTOT  772
+<S>STZIP  506
+<S>STHAL  579
+<S>STSHN  1951
+<S>STDIF  10.42  
+<S>STEFF  53190
+<S>STVOL  5107
+<S>STDEV  8.86   
+<S>STBUG  1
+<S>STTPP  218
+<S>STTLN  115
+<S>STM20  279
+<S>STM21  492
+<S>STM22  45
+<S>STM28  24
+<S>STM33  10
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.485  
+<S>STBMS  0.545  
+<S>STBME  0.579  
+<S>STTDO  1.899  
+<S>STTDS  2.021  
+<S>STTDE  2.099  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.434  
+

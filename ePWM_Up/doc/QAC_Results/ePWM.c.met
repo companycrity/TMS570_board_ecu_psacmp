@@ -1,0 +1,741 @@
+<RDEF> I Includes
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 23
+<DEFINE> EPWM_H C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 23 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 25
+<DEFINE> EPWM_REGS_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 32 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 37
+<DEFINE> STD_TYPES_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<DEFINE> etpwmBASE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 39 I DC TG F N {setpwmBASE} -
+<DEFINE> etpwmBASE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 39 I DF TG F N {setpwmBASE} -
+<DEFINE> TBSTS C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 41 I DC MB F N us -
+<DEFINE> TBCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 42 I DC MB F N us -
+<DEFINE> TBPHS C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 43 I DC MB F N us -
+<DEFINE> rsvd1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 44 I DC MB F N us -
+<DEFINE> TBPRD C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 45 I DC MB F N us -
+<DEFINE> TBCTR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 46 I DC MB F N us -
+<DEFINE> CMPCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 47 I DC MB F N us -
+<DEFINE> rsvd2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 48 I DC MB F N us -
+<DEFINE> CMPA C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 49 I DC MB F N us -
+<DEFINE> rsvd3 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 50 I DC MB F N us -
+<DEFINE> AQCTLA C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 51 I DC MB F N us -
+<DEFINE> CMPB C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 52 I DC MB F N us -
+<DEFINE> AQSFRC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 53 I DC MB F N us -
+<DEFINE> AQCTLB C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 54 I DC MB F N us -
+<DEFINE> DBCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 55 I DC MB F N us -
+<DEFINE> AQCSFRC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 56 I DC MB F N us -
+<DEFINE> DBFED C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 57 I DC MB F N us -
+<DEFINE> DBRED C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 58 I DC MB F N us -
+<DEFINE> TZDCSEL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 59 I DC MB F N us -
+<DEFINE> TZSEL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 60 I DC MB F N us -
+<DEFINE> TZEINT C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 61 I DC MB F N us -
+<DEFINE> TZCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 62 I DC MB F N us -
+<DEFINE> TZCLR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 63 I DC MB F N us -
+<DEFINE> TZFLG C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 64 I DC MB F N us -
+<DEFINE> ETSEL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 65 I DC MB F N us -
+<DEFINE> TZFRC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 66 I DC MB F N us -
+<DEFINE> ETFLG C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 67 I DC MB F N us -
+<DEFINE> ETPS C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 68 I DC MB F N us -
+<DEFINE> ETFRC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 69 I DC MB F N us -
+<DEFINE> ETCLR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 70 I DC MB F N us -
+<DEFINE> rsvd4 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 71 I DC MB F N us -
+<DEFINE> PCCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 72 I DC MB F N us -
+<LIT> 16 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 73 24 I DN ui F D
+<DEFINE> rsvd5 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 73 I DC MB F N [16,us] -
+<DEFINE> DCACTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 74 I DC MB F N us -
+<DEFINE> DCTRIPSEL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 75 I DC MB F N us -
+<DEFINE> DCFCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 76 I DC MB F N us -
+<DEFINE> DCBCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 77 I DC MB F N us -
+<DEFINE> DCFOFFSET C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 78 I DC MB F N us -
+<DEFINE> DCCAPCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 79 I DC MB F N us -
+<DEFINE> DCFWINDOW C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 80 I DC MB F N us -
+<DEFINE> DCFOFFSETCNT C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 81 I DC MB F N us -
+<DEFINE> DCCAP C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 82 I DC MB F N us -
+<DEFINE> DCFWINDOWCNT C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 83 I DC MB F N us -
+<DEFINE> etpwmBASE_t C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 84 I DC OT F N ^{setpwmBASE} -
+<DEFINE> ePWM1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 88 I DF OM - - - O
+<LIT> 0xFCF78C00 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 88 31 I HN - F M
+<DEFINE> ePWM2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 89 I DF OM - - - O
+<LIT> 0xFCF78D00 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 89 31 I HN - F M
+<DEFINE> ePWM3 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 90 I DF OM - - - O
+<LIT> 0xFCF78E00 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 90 31 I HN - F M
+<DEFINE> ePWM4 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 91 I DF OM - - - O
+<LIT> 0xFCF78F00 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 91 31 I HN - F M
+<DEFINE> ePWM5 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 92 I DF OM - - - O
+<LIT> 0xFCF79000 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 92 31 I HN - F M
+<DEFINE> ePWM6 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 93 I DF OM - - - O
+<LIT> 0xFCF79100 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 93 31 I HN - F M
+<DEFINE> ePWM7 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 94 I DF OM - - - O
+<LIT> 0xFCF79200 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 94 31 I HN - F M
+<EXTN> ePWM_Init1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 27
+<DEFINE> ePWM_Init1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 27 I DC OF F X (.,.) -
+<EXTN> ePWM_Per1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 28
+<DEFINE> ePWM_Per1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 28 I DC OF F X (.,.) -
+<DEFINE> ePWM_DisableOutputs C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 40 I DF OM - - - F
+<LIT> 5 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 34 26 I DN - F M
+<LIT> 0xFFFC U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 35 25 I HN - F M
+<LIT> 5 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 36 26 I DN - F M
+<LIT> 0xFFFC U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 37 25 I HN - F M
+<LIT> 5 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 38 26 I DN - F M
+<LIT> 0xFFFC U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 39 25 I HN - F M
+<DEFINE> ePWM_EnableOutputs C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 52 I DF OM - - - F
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 46 26 I ON - F M
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 47 25 I DN - F M
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 48 26 I ON - F M
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 49 25 I DN - F M
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 50 26 I ON - F M
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/include/ePwm.h 51 25 I DN - F M
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 24
+<DEFINE> EPWM_CFG_H C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 21 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 23
+<EXTN> DummyVarPeriodIn C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 29
+<DEFINE> DummyVarPeriodIn C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 29 I DC OV F X us S
+<EXTN> DummyVarDCA C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 30
+<DEFINE> DummyVarDCA C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 30 I DC OV F X us S
+<EXTN> DummyVarDCB C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 31
+<DEFINE> DummyVarDCB C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 31 I DC OV F X us S
+<EXTN> DummyVarDCC C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 32
+<DEFINE> DummyVarDCC C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 32 I DC OV F X us S
+<EXTN> DummyVar1A C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 33
+<DEFINE> DummyVar1A C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 33 I DC OV F X us S
+<EXTN> DummyVar1B C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 34
+<DEFINE> DummyVar1B C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 34 I DC OV F X us S
+<EXTN> DummyVar2A C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 35
+<DEFINE> DummyVar2A C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 35 I DC OV F X us S
+<EXTN> DummyVar2B C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 36
+<DEFINE> DummyVar2B C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 36 I DC OV F X us S
+<EXTN> DummyVar3A C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 37
+<DEFINE> DummyVar3A C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 37 I DC OV F X us S
+<EXTN> DummyVar3B C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 38
+<DEFINE> DummyVar3B C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 38 I DC OV F X us S
+<EXTN> DummyVar4A C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 39
+<DEFINE> DummyVar4A C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 39 I DC OV F X us S
+<EXTN> DummyVar4B C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 40
+<DEFINE> DummyVar4B C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 40 I DC OV F X us S
+<EXTN> DummyVar4BIn C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 41
+<DEFINE> DummyVar4BIn C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 41 I DC OV F X us S
+<DEFINE> ePWM_Read_PWMPeriod_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 45 I DF OM - - - F
+<DEFINE> ePWM_Read_DCPhsAComp_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 47 I DF OM - - - F
+<DEFINE> ePWM_Read_DCPhsBComp_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 48 I DF OM - - - F
+<DEFINE> ePWM_Read_DCPhsCComp_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 49 I DF OM - - - F
+<DEFINE> ePWM_Read_ePWM4CMPB_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 50 I DF OM - - - F
+<DEFINE> ePWM_Write_ePWM1CMPA_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 52 I DF OM - - - F
+<DEFINE> ePWM_Write_ePWM1CMPB_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 53 I DF OM - - - F
+<DEFINE> ePWM_Write_ePWM2CMPA_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 54 I DF OM - - - F
+<DEFINE> ePWM_Write_ePWM2CMPB_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 55 I DF OM - - - F
+<DEFINE> ePWM_Write_ePWM3CMPA_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 56 I DF OM - - - F
+<DEFINE> ePWM_Write_ePWM3CMPB_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 57 I DF OM - - - F
+<DEFINE> ePWM_Write_ePWM4CMPA_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 58 I DF OM - - - F
+<DEFINE> ePWM_Write_ePWM4CMPB_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/ePWM_Cfg.h 59 I DF OM - - - F
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h 25
+<DEFINE> CALCONSTANTS_H C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h 19 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 21
+<EXTN> k_ADCTrig1Offset_Cnt_s16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h 31
+<DEFINE> k_ADCTrig1Offset_Cnt_s16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h 31 I DC OV F X =ns S
+<EXTN> k_PwmDeadBand_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h 32
+<DEFINE> k_PwmDeadBand_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h 32 I DC OV F X =us S
+<EXTN> k_PwmRelay_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h 33
+<DEFINE> k_PwmRelay_Cnt_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/CalConstants.h 33 I DC OV F X =us S
+<DEFINE> D_PHSAIDX_CNT_U16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 36 N DF OM - - - O
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 36 28 N ON - F M
+<DEFINE> D_PHSBIDX_CNT_U16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 37 N DF OM - - - O
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 37 28 N DN - F M
+<DEFINE> D_PHSCIDX_CNT_U16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 38 N DF OM - - - O
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 38 28 N DN - F M
+<DEFINE> EPWM_START_SEC_CODE C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 43 N DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/MemMap.h 44
+<DEFINE> MEMMAP_H C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/MemMap.h 19 I DF OM - - - O
+<EXTD> ePWM_Init1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 53
+<DEFINE> ePWM_Init1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 53 N DR OF F X (.,.) -
+<DEFINE> ePWM_Init1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 53 N DF OF F X (.,.) -
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 58 25 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 59 46 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 59 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 60 45 N ON ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 60 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 61 45 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 61 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 62 45 N ON ui B X
+<LIT> 7 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 62 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 63 45 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 63 51 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 64 45 N DN ui B X
+<LIT> 13 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 64 51 N DN ui B X
+<LIT> 0xFFFF U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 66 24 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 68 24 N ON ui B X
+<LIT> 2499 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 70 23 N DN ui B X
+<LIT> 2499 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 71 23 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 73 26 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 74 46 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 74 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 75 46 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 75 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 76 46 N ON ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 76 52 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 78 26 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 79 46 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 79 52 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 80 46 N DN ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 80 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 81 46 N ON ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 81 52 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 82 46 N DN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 82 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 83 46 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 83 52 N DN ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 85 25 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 86 45 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 86 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 87 45 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 87 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 88 45 N ON ui B X
+<LIT> 15 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 88 51 N DN ui B X
+<RDEF> X Refers-to
+<R>X ePWM_Init1 k_PwmDeadBand_Cnt_u16 90 R
+<R>X ePWM_Init1 k_PwmDeadBand_Cnt_u16 92 R
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 94 24 N ON ui B X
+<LIT> 0x0FFF U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 96 24 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 98 23 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 103 25 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 104 45 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 104 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 105 45 N ON ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 105 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 106 45 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 106 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 107 45 N ON ui B X
+<LIT> 7 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 107 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 108 45 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 108 51 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 109 45 N DN ui B X
+<LIT> 13 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 109 51 N DN ui B X
+<LIT> 0xFFFF U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 111 24 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 113 24 N ON ui B X
+<LIT> 2499 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 115 23 N DN ui B X
+<LIT> 2499 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 116 23 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 118 26 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 119 46 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 119 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 120 46 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 120 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 121 46 N ON ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 121 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 123 26 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 124 46 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 124 52 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 125 46 N DN ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 125 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 126 46 N ON ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 126 52 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 127 46 N DN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 127 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 128 46 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 128 52 N DN ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 130 25 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 131 45 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 131 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 132 45 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 132 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 133 45 N ON ui B X
+<LIT> 15 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 133 51 N DN ui B X
+<R>X ePWM_Init1 k_PwmDeadBand_Cnt_u16 135 R
+<R>X ePWM_Init1 k_PwmDeadBand_Cnt_u16 137 R
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 139 24 N ON ui B X
+<LIT> 0x0FFF U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 141 24 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 143 23 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 148 25 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 149 45 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 149 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 150 45 N ON ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 150 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 151 45 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 151 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 152 45 N ON ui B X
+<LIT> 7 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 152 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 153 45 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 153 51 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 154 45 N DN ui B X
+<LIT> 13 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 154 51 N DN ui B X
+<LIT> 0xFFFF U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 156 24 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 158 24 N ON ui B X
+<LIT> 2499 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 160 23 N DN ui B X
+<LIT> 2499 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 161 23 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 163 26 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 164 46 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 164 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 165 46 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 165 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 166 46 N ON ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 166 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 168 26 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 169 46 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 169 52 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 170 46 N DN ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 170 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 171 46 N ON ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 171 52 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 172 46 N DN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 172 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 173 46 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 173 52 N DN ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 175 25 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 176 45 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 176 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 177 45 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 177 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 178 45 N ON ui B X
+<LIT> 15 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 178 51 N DN ui B X
+<R>X ePWM_Init1 k_PwmDeadBand_Cnt_u16 180 R
+<R>X ePWM_Init1 k_PwmDeadBand_Cnt_u16 182 R
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 184 24 N ON ui B X
+<LIT> 0x0FFF U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 186 24 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 188 24 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 193 25 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 194 45 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 194 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 195 45 N ON ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 195 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 196 45 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 196 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 197 45 N ON ui B X
+<LIT> 7 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 197 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 198 45 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 198 51 N DN ui B X
+<LIT> 65535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 200 24 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 202 24 N ON ui B X
+<LIT> 2499 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 204 23 N DN ui B X
+<LIT> 65535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 205 23 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 207 26 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 208 46 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 208 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 210 26 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 211 46 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 211 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 212 46 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 212 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 213 46 N ON ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 213 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 214 46 N ON ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 214 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 215 46 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 215 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 217 24 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 219 24 N ON ui B X
+<LIT> 0x0FFF U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 221 24 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 223 33 N ON ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 223 39 N DN ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 224 45 N DN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 224 51 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 225 45 N DN ui B X
+<LIT> 11 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 225 51 N DN ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 226 45 N DN ui B X
+<LIT> 12 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 226 51 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 227 45 N DN ui B X
+<LIT> 15 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 227 51 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 229 32 N DN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 229 38 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 230 44 N DN ui B X
+<LIT> 12 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 230 50 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 235 25 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 236 45 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 236 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 237 45 N ON ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 237 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 238 45 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 238 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 239 45 N ON ui B X
+<LIT> 7 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 239 51 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 240 45 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 240 51 N DN ui B X
+<LIT> 65535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 242 24 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 244 24 N ON ui B X
+<R>X ePWM_Init1 k_PwmRelay_Cnt_u16 246 R
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 248 26 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 249 46 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 249 52 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 251 26 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 252 46 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 252 52 N DN ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 253 46 N DN ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 253 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 254 46 N ON ui B X
+<LIT> 6 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 254 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 255 46 N ON ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 255 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 256 46 N ON ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 256 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 258 24 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 260 24 N ON ui B X
+<LIT> 0x0FFF U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 262 24 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 264 24 N ON ui B X
+<CTLG> ePWM_Init1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 54 270 270 270 
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c
+<S>STNAM  ePWM_Init1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  215
+<S>STXLN  140
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.01   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  16
+<S>STAV2  16
+<S>STAV3  16
+<S>STST1  68
+<S>STST2  67
+<S>STST3  67
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  701
+<S>STFN2  422
+
+<EXTD> ePWM_Per1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 284
+<DEFINE> ePWM_Per1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 284 N DR OF F X (.,.) -
+<DEFINE> ePWM_Per1 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 284 N DF OF F X (.,.) -
+<DEFINE> halfPWMPeriod_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 287 N DC OV B N us -
+<DEFINE> halfPWMPeriod_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 287 N DF OV B N us -
+<DEFINE> PWMPeriod_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 288 N DC OV B N us -
+<DEFINE> PWMPeriod_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 288 N DF OV B N us -
+<DEFINE> DCPhsAComp_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 289 N DC OV B N us -
+<DEFINE> DCPhsAComp_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 289 N DF OV B N us -
+<DEFINE> DCPhsBComp_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 290 N DC OV B N us -
+<DEFINE> DCPhsBComp_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 290 N DF OV B N us -
+<DEFINE> DCPhsCComp_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 291 N DC OV B N us -
+<DEFINE> DCPhsCComp_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 291 N DF OV B N us -
+<DEFINE> ePWM4CMPB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 292 N DC OV B N us -
+<DEFINE> ePWM4CMPB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 292 N DF OV B N us -
+<DEFINE> ePWM1CMPA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 293 N DC OV B N us -
+<DEFINE> ePWM1CMPA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 293 N DF OV B N us -
+<DEFINE> ePWM1CMPB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 294 N DC OV B N us -
+<DEFINE> ePWM1CMPB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 294 N DF OV B N us -
+<DEFINE> ePWM2CMPA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 295 N DC OV B N us -
+<DEFINE> ePWM2CMPA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 295 N DF OV B N us -
+<DEFINE> ePWM2CMPB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 296 N DC OV B N us -
+<DEFINE> ePWM2CMPB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 296 N DF OV B N us -
+<DEFINE> ePWM3CMPA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 297 N DC OV B N us -
+<DEFINE> ePWM3CMPA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 297 N DF OV B N us -
+<DEFINE> ePWM3CMPB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 298 N DC OV B N us -
+<DEFINE> ePWM3CMPB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 298 N DF OV B N us -
+<DEFINE> CmpAPhaseA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 299 N DC OV B N us -
+<DEFINE> CmpAPhaseA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 299 N DF OV B N us -
+<DEFINE> CmpAPhaseB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 300 N DC OV B N us -
+<DEFINE> CmpAPhaseB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 300 N DF OV B N us -
+<DEFINE> CmpAPhaseC_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 301 N DC OV B N us -
+<DEFINE> CmpAPhaseC_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 301 N DF OV B N us -
+<DEFINE> CmpBPhaseA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 302 N DC OV B N us -
+<DEFINE> CmpBPhaseA_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 302 N DF OV B N us -
+<DEFINE> CmpBPhaseB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 303 N DC OV B N us -
+<DEFINE> CmpBPhaseB_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 303 N DF OV B N us -
+<DEFINE> CmpBPhaseC_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 304 N DC OV B N us -
+<DEFINE> CmpBPhaseC_Cnt_T_u16 C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 304 N DF OV B N us -
+<R>X ePWM_Per1 DummyVarPeriodIn 307 R
+<R>X ePWM_Per1 DummyVarDCA 308 R
+<R>X ePWM_Per1 DummyVarDCB 309 R
+<R>X ePWM_Per1 DummyVarDCC 310 R
+<R>X ePWM_Per1 DummyVar4BIn 311 R
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 313 67 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 317 79 N DN ui B X
+<LIT> 535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 319 36 N DN ui B X
+<LIT> 535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 320 59 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 322 35 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 325 60 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 326 58 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 333 78 N DN ui B X
+<LIT> 535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 335 36 N DN ui B X
+<LIT> 535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 336 59 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 338 36 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 341 60 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 342 58 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 349 78 N DN ui B X
+<LIT> 535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 351 36 N DN ui B X
+<LIT> 535 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 352 59 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 354 36 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 357 60 N DN ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 358 58 N DN ui B X
+<R>X ePWM_Per1 DummyVar1A 362 W
+<R>X ePWM_Per1 DummyVar1B 363 W
+<R>X ePWM_Per1 DummyVar2A 364 W
+<R>X ePWM_Per1 DummyVar2B 365 W
+<R>X ePWM_Per1 DummyVar3A 366 W
+<R>X ePWM_Per1 DummyVar3B 367 W
+<R>X ePWM_Per1 k_ADCTrig1Offset_Cnt_s16 369 R
+<R>X ePWM_Per1 DummyVar4A 369 W
+<LIT> 535 - P C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 369 9 N DN ni B X
+<R>X ePWM_Per1 DummyVar4B 370 W
+<CTLG> ePWM_Per1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 13
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 17
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 18 19
+<CTLG> 18 20
+<CTLG> 19 21
+<CTLG> 20 21
+<CTLG> 21 22
+<CTLG> 22 23
+<CTLG> 22 24
+<CTLG> 23 25
+<CTLG> 24 25
+<CTLG> 25 26
+<CTLG> 26 28
+<CTLGN> 285 319 319 319 321 325 325 325 327 335 335 335 337 341 341 341 343 351 351 351 353 357 357 357 359 373 373 373 
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c
+<S>STNAM  ePWM_Per1
+<S>STCYC  7
+<S>STMCC  0 (7:7)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  7
+<S>STLIN  87
+<S>STXLN  44
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  18
+<S>STPTH  64
+<S>STPDN  1.45   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  7
+<S>STAV3  11
+<S>STST1  68
+<S>STST2  56
+<S>STST3  38
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  257
+<S>STFN2  172
+
+<DEFINE> EPWM_STOP_SEC_CODE C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c 375 N DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/tools/contract/MemMap.h 376
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c
+<S>STNAM  ePWM_Init1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c
+<S>STNAM  ePWM_Per1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c
+<S>STNAM  C:/Users/rzk04c/Documents/Synergy/EA3/ePWM_Up/src/ePWM.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  16
+<S>STFNC  2
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  68
+<S>STOPT  21
+<S>STOPN  303
+<S>STTOT  1605
+<S>STZIP  2060
+<S>STHAL  2590
+<S>STSHN  9418
+<S>STDIF  31.20  
+<S>STEFF  417598
+<S>STVOL  13385
+<S>STDEV  69.60  
+<S>STBUG  6
+<S>STTPP  377
+<S>STTLN  208
+<S>STM20  608
+<S>STM21  992
+<S>STM22  111
+<S>STM28  155
+<S>STM33  150
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.862  
+<S>STBMS  1.006  
+<S>STBME  1.117  
+<S>STTDO  2.363  
+<S>STTDS  2.505  
+<S>STTDE  2.590  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.992  
+

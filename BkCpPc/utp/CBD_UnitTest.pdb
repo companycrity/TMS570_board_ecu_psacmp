@@ -1,0 +1,86 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\BkCpPc\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\BkCpPc\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 01.12.2011 17:45
+Last Changed     : 16.01.2014 11:28
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "BkCpPc"
+      Comment     : "                                                      UNIT TEST DESCRIPTION\r\n*************************************************************************************************************\r\n\r\nName of Tester:Mazeed Abdul\r\nCode File(s) Under Test:Sa_BkCpPc.c\r\nCode File(s) Version:10\r\nModule Design Document:Bulk_Cap_Precharge_MDD.docx\r\nModule Design Document Version:13.0\r\nData Dictionary Version:5\r\nUnit Test Plan Version:4\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/ EPS Library 1.30\r\nTotal FLASH Used (Bytes):1994\r\nTotal RAM Used (Bytes):56\r\nTotal CALS Used (Bytes):76\r\nSpecial Test Requirements:\r\nTest Date:1/16/2014\r\nComments:\r\n""NOTE1:Inline function defined in """"GlobalMacro.h"""" are not unit tested.\r\n\nNOTE2: """"CBD_Sandbox_dbg.map"""" map file is embedded for reference.\n\r\nNOTE3: Global Constant """"D_PWRDISCCONFIGURATION_CNT_U08"""" is defined as Static Variable in header file """"Sa_BkCpPc_Cfg.h"""" for path coverage """"(D_PWRDISCCONFIGURATION_CNT_U08 == D_PWRDISCCONFIGB_CNT_U08)"""" in """"BkCpPc_Per1"""" , """"BkCpPc_Trns1"""" and """"BkCpPc_Trns2"""" functions.\r\n\nNOTE 4: In Per1 function, variable """"Batt_Volt_f32"""" is given out of range value to cover \n""""(OVERRIDESIGDIAGADC_Volt_T_f32 - Vbatt_Volts_T_f32) <= ChargeMinDelta_Volts_T_f32 ) ==> FALSE"""" path.\n\r\nNOTE5: The stubs """"Rte_Call_Vbatt_Batt_V_f32"""" and """"Rte_Call_Vswitch_BattSwitched_V_f32"""" are mentioned in MDD but not used in the source code. Hence MDD needs to be updated in next version.""\r\n\r\n\r\n*******************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\BkCpPc\utp\contract, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\BkCpPc\utp\contract\Sa_BkCpPc, $(ProgramFiles)\Texas Instruments\ccsv4\tools\compiler\tms470_4.9.5\include"
+         End
+      End
+      Source File
+         Name : "Sa_BkCpPc.c"
+         Path : "$(PROJECTROOT)\BkCpPc\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "BkCpPc_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BkCpPc_Trns1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BkCpPc_Trns2"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CapPcDcStub_OP_SET"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

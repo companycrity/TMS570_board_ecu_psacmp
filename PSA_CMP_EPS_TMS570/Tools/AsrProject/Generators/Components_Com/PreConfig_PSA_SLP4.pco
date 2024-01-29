@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 sp1 (http://www.altova.com) by Dieter Schaufelberger (Vector Informatik GmbH) -->
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Michael Bissinger (Vector Informatik GmbH) -->
+<config name="PSA_SLP4_OEM" guid="11223799-3996-43d1-aa55-0f8393c77889" version="1.0" default="yes" xmlns="http://www.vector-informatik.de/CANGen/ModulePreconfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vector-informatik.de/CANGen/ModulePreconfig
+R:\GENTOOL\NextCANGen\VersionCurrent_Develop\PreconfigFiles\preconfig.xsd">
+	<description>This is the preconfiguration file for the component test for Nm_IndOsek: GenTool_GENy. All attributes are configured as available/visible. </description>
+	<!-- OSEK INM -->
+	<module name="Nm_IndOsek" version="0.1">
+		<description>Configuration of Nm_IndOsek</description>
+		<attribute name="UserConfigFile" class="OTModuleInstance">
+			<default value=""/>
+			<access value="rdwr"/>
+			<configurable value="yes"/>
+		</attribute>
+		<attribute name="NmIndOsek_ConfPresentCallback" class="OTModuleInstance">
+			<default value="true"/>
+			<access value="rdwr"/>
+			<configurable value="yes"/>
+		</attribute>
+		<attribute name="NmIndOsek_InitOnDiagOn" class="OTModuleInstance">
+			<default value="false"/>
+			<access value="none"/>
+		</attribute>
+		<attribute name="NmIndOsek_InitOnDiagOff" class="OTModuleInstance">
+			<default value="true"/>
+			<access value="none"/>
+		</attribute>
+		<attribute name="NmIndOsek_ClearCounter" class="OTModuleInstance">
+			<access value="none"/>
+		</attribute>
+		<attribute name="NmIndOsek_UserInit" class="OTModuleInstance">
+			<default value="true"/> 
+			<access value="rdwr"/>
+		</attribute>
+		<attribute name="NmIndOsek_GenericSupervision" class="OTModuleInstance">
+			<default value="true"/>
+			<access value="rdwr"/>
+			<configurable value="yes"/>
+		</attribute>
+		<attribute name="NmIndOsek_BusOffSupervision" class="OTModuleInstance">
+			<default value="false"/>
+			<access value="none"/>
+		</attribute>
+		<attribute name="NmIndOsek_Increment" class="OTChannel">
+			<default value="13"/>
+		</attribute>
+		<attribute name="NmIndOsek_Decrement" class="OTChannel">
+			<default value="13"/>
+		</attribute>
+	</module>
+	<!-- Stationmanager Low Speed -->
+	<module name="Nm_StMgrIndOsek_Ls" version="0.1">
+		<description>Configuration of Nm_StMgrIndOsek_Ls</description>
+		<attribute name="UserConfigFile" class="OTModuleInstance">
+			<default value=""/>
+			<access value="rdwr"/>
+			<configurable value="yes"/>
+		</attribute>
+		<attribute name="Nm_StMgrIndOsek_LsEcuStateChangeCallback" class="OTModuleInstance">
+			<default value="true"/>
+			<access value="rdwr"/>
+			<configurable value="yes"/>
+		</attribute>
+		<attribute name="Nm_StMgrIndOsek_LsFaultStateSupport" class="OTModuleInstance">
+			<default value="false"/>
+			<access value="rdwr"/>
+			<configurable value="yes"/>
+		</attribute>
+		<attribute name="Nm_StMgrIndOsek_LsSleepManagement" class="OTModuleInstance">
+			<limit>
+				<min value="1"/>
+				<max value="4"/>
+				<range include="true" from="1" to="4"/>
+			</limit>
+		</attribute>
+	</module>
+    <!-- CanDesc -->
+	<module name="CANdescBase" version="0.1">
+		<description>Configuration of CANdescBase</description>
+		<attribute name="RepeatedServiceCall" class="OTModuleInstance">
+			<default value="1"/>
+			<access value="rdwr"/>
+			<configurable value="yes"/>
+		</attribute>
+	</module>
+    <module name="Diag_CanDesc_ConnectorCAN" version="0.1">
+    	<attribute name="RequiresFunctionalConnection" class="OTModuleInstance">
+			<default value="false"/>
+	</attribute>
+    </module>
+	<!-- TPMC -->
+	<module name="TpMC" version="1.0">
+		<attribute name="TxTimeoutFC" class="OTModuleInstance">
+			<default value="250"/>			
+		</attribute>
+		<attribute name="TxTransmitCF" class="OTModuleInstance">
+			<default value="10"/>			
+		</attribute>
+		<attribute name="RxTimeoutCF" class="OTModuleInstance">
+			<default value="250"/>			
+		</attribute>
+		<attribute name="STMin" class="OTModuleInstance">
+			<default value="10"/>			
+		</attribute>
+		<attribute name="Blocksize" class="OTModuleInstance">
+			<default value="0"/>			
+		</attribute>
+		<attribute name="TpUnexpectedFcCancelation" class="OTModuleInstance">
+			<default value="true"/>   
+		</attribute>
+	</module>
+	<!-- VECTOR IL -->
+	<module name="VectorIL" version="1.0">
+		<attribute name="VIlUseAutosarSignalAPI" class="OTModuleInstance">
+			<default value="false"/>
+			<access value="none"/>
+		</attribute>
+		<attribute name="VIlAutosarSpecificationVersion" class="OTModuleInstance">
+			<access value="none"/>
+		</attribute>
+		<attribute name="VIlExtendedIdTimeout" class="OTModuleInstance">
+			<default value="false"/>
+			<access value="none"/>
+		</attribute>
+		<attribute name="VIlEnableDlcDependentIndication" class="OTModuleInstance">
+			<default value="true"/>
+			<access value="none"/>
+		</attribute>
+		<attribute name="VIlReloadCycleTimerOnTransmissionRequest" class="OTModuleInstance">
+			<default value="true"/>
+			<access value="none"/>
+		</attribute>
+	</module>
+	<!-- DRV CAN Offline -->
+	<module name="DriverCANPartOfflineMgr13" version="0.1">
+	<!--  no default order for OfflineModes (normally needed to support NormalCommHalted diagnostic service)
+	  - service not supported for PSA
+	  - changing the order would corrupt the default mapping for old configurations
+        -->
+		<attribute name="OfflineMode0Name" class="OTModuleInstance">
+			<default value="WAKEUP"/>
+			<access value="read"/>
+			<configurable value="no"/>
+		</attribute>
+		<attribute name="OfflineMode1Name" class="OTModuleInstance">
+			<default value="FUNCTIONAL"/>
+			<access value="read"/>
+			<configurable value="no"/>
+		</attribute>
+		<attribute name="OfflineMode2Name" class="OTModuleInstance">
+			<default value="DIAG"/>
+			<access value="read"/>
+			<configurable value="no"/>
+		</attribute>
+		<attribute name="OfflineMode3Name" class="OTModuleInstance">
+			<default value="JDD"/>
+			<access value="read"/>
+			<configurable value="no"/>
+		</attribute>
+		<attribute name="MsgClass1" class="OTModuleInstance">
+			<!-- Appl -->
+			<attribute name="OfflineMode1" class="OTModuleInstance">
+				<default value="true"/>
+				<access value="rdwr"/>
+				<configurable value="yes"/>
+			</attribute>
+		</attribute>  
+    <attribute name="MsgClass3" class="OTModuleInstance">
+			<!-- Tp -->
+			<attribute name="OfflineMode1" class="OTModuleInstance">
+				<default value="true"/>
+				<access value="rdwr"/>
+				<configurable value="yes"/>
+			</attribute>
+		</attribute>    
+		<attribute name="MsgClass4" class="OTModuleInstance">
+			<!-- Diag -->
+			<attribute name="OfflineMode2" class="OTModuleInstance">
+				<default value="true"/>
+				<access value="rdwr"/>
+				<configurable value="yes"/>
+			</attribute>
+		</attribute>
+		<attribute name="MsgClass5" class="OTModuleInstance">
+			<!-- Il -->
+			<attribute name="OfflineMode1" class="OTModuleInstance">
+				<default value="true"/>
+				<access value="rdwr"/>
+				<configurable value="yes"/>
+			</attribute>
+		</attribute>
+	</module>
+	<module name="DriverCAN13" version="0.1">
+		<attribute name="SupportsVariableRxDataLength" class="OTModuleInstance">
+			<default value="true"/>
+		</attribute>
+		<attribute name="DLCCheck" class="OTModuleInstance">
+			<default value="false"/>
+		</attribute>
+	</module>
+        <module name="CCL" version="1.0">
+                <description>Configuration of CCL</description>
+                <attribute name="AttrCclIsrPrefix" class="OTModuleInstance">
+                        <!--The attribute defines the prefix of generated CCL interrupt routines. The atribute is not visible because the prefix is not more necessary.-->
+                        <default value="Ccl"/>
+                        <access value="none"/>
+                        <configurable value="yes"/>
+                </attribute>
+                <attribute name="AttrST10IsrNumber" class="OTChannel">
+                        <default value=""/>
+                        <access value="none"/>
+                        <settingkind value="system"/>
+                        <configurable value="yes"/>
+                </attribute>
+                <attribute name="AttrST10IsrRegBank" class="OTChannel">
+                        <default value=""/>
+                        <access value="none"/>
+                        <settingkind value="system"/>
+                        <configurable value="yes"/>
+                </attribute>
+                <attribute name="AttrWakeUpIntOsekCat2" class="OTModuleInstance">
+                        <!---->
+                        <default value="0"/>
+                        <access value="none"/>
+                        </attribute>
+                <attribute name="AttrTrcvWakeUpConcept" class="OTModuleInstance">
+                        <!--2006-02-02, mas, pet: Currenty only one concept is supported, therefore no need to use this attribute.-->
+                        <access value="rdonly"/>
+                </attribute>
+                <attribute name="AttrWakeConcept" class="OTModuleInstance">
+                        <!--2006-02-02, mas, pet: Currenty only one concept is supported, therefore no need to use this attribute.-->
+                        <default value="2"/>
+                        <access value="rdonly"/>
+                        </attribute>
+        </module>
+</config>

@@ -1,0 +1,28 @@
+-it "ptrdiff_t=int"
+-it "wchar_t=unsigned short"
+-i "..\..\StdDef\include\TMS570_4_9_5\include"
+-q "..\..\StdDef\include\TMS570_4_9_5\include"
+-d "__16bis__=1"
+-d "__inline ="
+-d "__SIZE_T_TYPE__=unsigned int"
+-d "__WCHAR_T_TYPE__=unsigned short"
+-d "_CODE_ACCESS ="
+-d "_DATA_ACCESS ="
+-d "_DATA_ACCESS_NEAR ="
+-d "crc_tbl.h="
+-d "inline ="
+-d "interrupt ="
+-ar+
+-bits+
+-u-
+-a int=2
+-a ldouble=16
+-sl-
+-s int=16
+-s ldouble=128
+-na 63
+-xn 63
+-xc+
+-ex asm
+-ex longlong
+-fpc-

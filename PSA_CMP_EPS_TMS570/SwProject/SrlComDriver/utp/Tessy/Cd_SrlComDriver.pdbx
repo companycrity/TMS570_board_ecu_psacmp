@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    defaultEnvironment="GNU GCC Eclipse CDT (Default)"
+    description=""
+    enableSourceRoot="false"
+    identifier="dc661058-142e-4ac2-ba56-c60cccda17d6"
+    location="$(PROJECTROOT)\tessy"
+    name="SrlComDriver_1"
+    projectVersion="4"
+    tessyVersion="3.2.15"
+    isTemplate="false"/>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+============================================================================
+This file is generated with MICROSAR Toolsuite 1.4.2.85
+Date: Tue, 21 Oct 2008 06:56:50 GMT
+============================================================================
+-->
+
+<AUTOSAR xmlns="http://autosar.org/3.0.1">
+	<TOP-LEVEL-PACKAGES>
+		<AR-PACKAGE UUID="bede7b90-7c38-4533-b9f4-63182c9f9571">
+			<SHORT-NAME>MICROSAR</SHORT-NAME>
+
+			<ELEMENTS>
+				<MODULE-CONFIGURATION UUID="c133f548-38a0-43d1-afc6-f78a1fbe43e1">
+					<SHORT-NAME>EcuM_Pre</SHORT-NAME>
+					<ADMIN-DATA>
+						<SDGS>
+							<SDG GID="DV:ClassConfiguration">
+								<SD>/MICROSAR/EcuM_Pre_Class1/EcuMConfiguration</SD>
+							</SDG>
+						</SDGS>
+					</ADMIN-DATA>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/EcuM</DEFINITION-REF>
+					<CONTAINERS />
+				</MODULE-CONFIGURATION>
+				<MODULE-CONFIGURATION UUID="c3160891-4f0e-484f-aef8-5de006bad432">
+					<SHORT-NAME>EcuM_Pre_Class1</SHORT-NAME>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/EcuM</DEFINITION-REF>
+					<CONTAINERS>
+						<CONTAINER UUID="a18b59a2-a76c-4c6c-98b8-b9a0009d3a58">
+							<SHORT-NAME>EcuMConfiguration</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration</DEFINITION-REF>
+							<SUB-CONTAINERS>
+								<CONTAINER UUID="3217eddd-1434-484d-8424-f185246486ea">
+									<SHORT-NAME>ECUM_WKSOURCE_POWER</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<INTEGER-VALUE>
+											<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+											<VALUE>1</VALUE>
+										</INTEGER-VALUE>
+										<FLOAT-VALUE>
+											<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+											<VALUE>0.000</VALUE>
+										</FLOAT-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="459cf6dd-bd48-4582-9dab-b51fc37945ab">
+									<SHORT-NAME>ECUM_WKSOURCE_RESET</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<INTEGER-VALUE>
+											<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+											<VALUE>2</VALUE>
+										</INTEGER-VALUE>
+										<FLOAT-VALUE>
+											<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+											<VALUE>0.000</VALUE>
+										</FLOAT-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="acd695c7-6bdd-4b06-a1f9-3b3317346599">
+									<SHORT-NAME>ECUM_WKSOURCE_INTERNAL_RESET</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<INTEGER-VALUE>
+											<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+											<VALUE>4</VALUE>
+										</INTEGER-VALUE>
+										<FLOAT-VALUE>
+											<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+											<VALUE>0.000</VALUE>
+										</FLOAT-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="03f5f05f-263f-4817-a0d9-a87561fd33d1">
+									<SHORT-NAME>ECUM_WKSOURCE_INTERNAL_WDG</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<INTEGER-VALUE>
+											<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+											<VALUE>8</VALUE>
+										</INTEGER-VALUE>
+										<FLOAT-VALUE>
+											<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+											<VALUE>0.000</VALUE>
+										</FLOAT-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="ff7c3015-5867-4eea-bc17-1275a97120d6">
+									<SHORT-NAME>ECUM_WKSOURCE_EXTERNAL_WDG</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<INTEGER-VALUE>
+											<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+											<VALUE>16</VALUE>
+										</INTEGER-VALUE>
+										<FLOAT-VALUE>
+											<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/EcuM/EcuMConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+											<VALUE>0.000</VALUE>
+										</FLOAT-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+							</SUB-CONTAINERS>
+						</CONTAINER>
+					</CONTAINERS>
+				</MODULE-CONFIGURATION>
+			</ELEMENTS>
+		</AR-PACKAGE>
+	</TOP-LEVEL-PACKAGES>
+</AUTOSAR>

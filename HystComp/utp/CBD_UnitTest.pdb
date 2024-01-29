@@ -1,0 +1,523 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\HystComp\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\HystComp\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 06.12.2011 11:36
+Last Changed     : 28.01.2014 11:19
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "HystComp"
+      Comment     : "*************************************************************************************************************\r\n\r\nName of Tester:Sunita Kore\r\nCode File(s) Under Test:Ap_HystComp.c\r\nCode File(s) Version:26\r\nModule Design Document:Hysteresis_Compensation_MDD.doc\r\nModule Design Document Version:18\r\nData Dictionary Version:24\r\nUnit Test Plan Version:12\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes):2200\r\nTotal RAM Used (Bytes):68\r\nTotal CALS Used (Bytes):690\r\nSpecial Test Requirements:\r\nTest Date:01-28-2014\r\nComments:""Note 1: Inline functions defined in """"GlobalMacro.h"""" are not unit tested.\nNote 2: """"CBD_Sandbox_dbg.map"""" map file is embedded for reference.""\r\n\r\n\r\n\r\n\r\n\r\n*************************************************************************************************************\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,__inline=,const=,BC_HYSTCOMP_FAULTINJECTIONPOINT=STD_OFF"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\HystComp\utp\contract, $(PROJECTROOT)\HystComp\utp\contract\Ap_HystComp, $(ProgramFiles)\Texas Instruments\ccsv4\tools\compiler\tms470_4.9.5\include"
+         End
+      End
+      Source File
+         Name : "Ap_HystComp.c"
+         Path : "$(PROJECTROOT)\HystComp\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "HystComp_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "HystComp_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MoreCompensation"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "LessCompensation"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CalcAvailComp"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+   Module
+      Name        : "HystComp_FLTINJ"
+      Comment     : "*************************************************************************************************************\r\n\r\nName of Tester:Sunita Kore\r\nCode File(s) Under Test:Ap_HystComp.c\r\nCode File(s) Version:26\r\nModule Design Document:Hysteresis_Compensation_MDD.doc\r\nModule Design Document Version:18\r\nData Dictionary Version:24\r\nUnit Test Plan Version:12\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes):2200\r\nTotal RAM Used (Bytes):68\r\nTotal CALS Used (Bytes):690\r\nSpecial Test Requirements:\r\nTest Date:01-28-2014\r\nComments:""Note 1: Inline functions defined in """"GlobalMacro.h"""" are not unit tested.\nNote 2: """"CBD_Sandbox_dbg.map"""" map file is embedded for reference.""\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,__inline=,const=,BC_HYSTCOMP_FAULTINJECTIONPOINT=STD_ON"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\HystComp\utp\contract, $(PROJECTROOT)\HystComp\utp\contract\Ap_HystComp, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_HystComp.c"
+         Path : "$(PROJECTROOT)\HystComp\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "HystComp_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "HystComp_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MoreCompensation"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "LessCompensation"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CalcAvailComp"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+End

@@ -1,0 +1,112 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\MtrTempEst\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\MtrTempEst\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 23.12.2011 13:48
+Last Changed     : 21.12.2013 10:41
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "MtrTempEst"
+      Comment     : "*************************************************************************************************************\r\nName of Tester:Sunita Kore\r\nCode File(s) Under Test:Ap_MtrTempEst.c\r\nCode File(s) Version:22\r\nModule Design Document:Motor_Temperature_Estimation_MDD\r\nModule Design Document Version:17\r\nData Dictionary Version:19\r\nUnit Test Plan Version:8\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:""\nNexteer EPS Unit Test Tool 2.7d/EPS Library 1.30""\r\nTotal FLASH Used (Bytes):2558\r\nTotal RAM Used (Bytes):96\r\nTotal CALS Used (Bytes):137\r\nSpecial Test Requirements:\r\nTest Date:12/21/2013\r\nComments:""NOTE 1: Inline functions defined in GlobalMacro.h are not Unit Tested. \nNOTE 2: """"CBD_Sandbox_dbg.map"""" file is embedded for reference.\nNOTE 3: In """"MtrTempEst_Init1"""" function ,to  cover path """"(CtrlTempFinal_DegC_T_f32>=D_SITEMPESTHILMT_DEGC_F32)=>True"""" and  (CtrlTempFinal_DegC_T_f32>=D_CUTEMPESTHILMT_DEGC_F32)=>True"""" out of range values are given to variable""""CtrlTempFinal_DegC_f32"""" in the Path sheet for vector number 2 and 3.\n""\r\n\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\MtrTempEst\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\MtrTempEst\utp\contract\Ap_MtrTempEst, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_MtrTempEst.c"
+         Path : "$(PROJECTROOT)\MtrTempEst\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "MtrTempEst_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "LeadLagFiltInit"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MtrTempEst_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "LeadLagFilt"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "AssMechFiltInit"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

@@ -1,0 +1,1239 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\StaMd\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\StaMd\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 11.01.2012 08:34
+Last Changed     : 01.04.2013 18:23
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "StaMd_SYSCHKINCOREAPP_ON"
+      Comment     : "Unit Test Description: \r\n*************************************************************************************************************\r\nName of Tester:Rajsi Tyagi\r\nCode File(s) Under Test:Ap_StaMd.c\r\nCode File(s) Version:16\r\nModule Design Document:States_And_Modes_MDD\r\nModule Design Document Version:12\r\nUnit Test Plan Version:8\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:6\r\nSpecial Test Requirements:None\r\nTest Date:4/01/2013\r\nComments:""NOTE 1: For memcpy function, as its a built in lib function when ever we stub it, it shows declaration not compatible. So we need to create a dummy function representing the same functionality.\nSo created a test.c file in src folder and just copy below code in it \nvoid memcpy_dup((void *) &Lnk_TypeH_Start, (void *) &(*Rte_Pim_TypeHRamBuffer()), (uint16)&Lnk_TypeH_Size)\n{\n}\n\nAnd in Tessy window, Go to """"defines"""" section of  module and define memcpy=memcpy_dup.\n\nNOTE 2: memcpy() function is Stubbed and Parameters of this function are kept in Input but input values are ignored in Test Cases of              ReadTypeH(), WriteTypeH(), StaMd_Init1() and StaMd_Trns1() functions.\n\nNOTE 3: Inline function defined in Globalmacro.h is not unit tested.\n\nNOTE 4: In BldTranVctr function, in case RTE_MODE_StaMd_Mode_OFF,  within ELSE path, if (NVM_REQ_PENDING != NVMErrorStatus_Cnt_T_u8) = FALSE condition is uncoveerd.""\r\n\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,memcpy=memcpy_dup,__inline=,BC_STAMD_SYSCHKINCOREAPP=STD_ON,BC_STAMD_TODSTEADYSTATE=STD_OFF,BC_STAMD_TOD2MSTOGGLE=STD_OFF"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\StaMd\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_StaMd.c"
+         Path : "$(PROJECTROOT)\StaMd\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "StaMd_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "ReadTypeH"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BldTranVctr"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "SystemStateCheck"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_Trns1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "WriteTypeH"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MilestoneRqst_WarmInitMilestoneComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MilestoneRqst_WarmInitMilestoneNotComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_SCom_EcuReset"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CheckWarmInitComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+   Module
+      Name        : "StaMd_SYSCHKINCOREAPP_OFF"
+      Comment     : "Unit Test Description: \r\n*************************************************************************************************************\r\nName of Tester:Rajsi Tyagi\r\nCode File(s) Under Test:Ap_StaMd.c\r\nCode File(s) Version:16\r\nModule Design Document:States_And_Modes_MDD\r\nModule Design Document Version:12\r\nUnit Test Plan Version:8\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:6\r\nSpecial Test Requirements:None\r\nTest Date:4/01/2013\r\nComments:""NOTE 1: For memcpy function, as its a built in lib function when ever we stub it, it shows declaration not compatible. So we need to create a dummy function representing the same functionality.\nSo created a test.c file in src folder and just copy below code in it \nvoid memcpy_dup((void *) &Lnk_TypeH_Start, (void *) &(*Rte_Pim_TypeHRamBuffer()), (uint16)&Lnk_TypeH_Size)\n{\n}\n\nAnd in Tessy window, Go to """"defines"""" section of  module and define memcpy=memcpy_dup.\n\nNOTE 2: memcpy() function is Stubbed and Parameters of this function are kept in Input but input values are ignored in Test Cases of              ReadTypeH(), WriteTypeH(), StaMd_Init1() and StaMd_Trns1() functions.\n\nNOTE 3: Inline function defined in Globalmacro.h is not unit tested.\n\nNOTE 4: In BldTranVctr function, in case RTE_MODE_StaMd_Mode_OFF,  within ELSE path, if (NVM_REQ_PENDING != NVMErrorStatus_Cnt_T_u8) = FALSE condition is uncoveerd.""\r\n\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,memcpy=memcpy_dup,__inline=,BC_STAMD_SYSCHKINCOREAPP=STD_OFF,BC_STAMD_TODSTEADYSTATE=STD_OFF,BC_STAMD_TOD2MSTOGGLE=STD_OFF"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\StaMd\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_StaMd.c"
+         Path : "$(PROJECTROOT)\StaMd\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "StaMd_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "ReadTypeH"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BldTranVctr"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_Trns1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "WriteTypeH"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MilestoneRqst_WarmInitMilestoneComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MilestoneRqst_WarmInitMilestoneNotComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_SCom_EcuReset"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "SystemStateCheck"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CheckWarmInitComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+   Module
+      Name        : "StaMd_TODSTEADYSTATE_ON"
+      Comment     : "Unit Test Description: \r\n*************************************************************************************************************\r\nName of Tester:Rajsi Tyagi\r\nCode File(s) Under Test:Ap_StaMd.c\r\nCode File(s) Version:16\r\nModule Design Document:States_And_Modes_MDD\r\nModule Design Document Version:12\r\nUnit Test Plan Version:8\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:6\r\nSpecial Test Requirements:None\r\nTest Date:4/01/2013\r\nComments:""NOTE 1: For memcpy function, as its a built in lib function when ever we stub it, it shows declaration not compatible. So we need to create a dummy function representing the same functionality.\nSo created a test.c file in src folder and just copy below code in it \nvoid memcpy_dup((void *) &Lnk_TypeH_Start, (void *) &(*Rte_Pim_TypeHRamBuffer()), (uint16)&Lnk_TypeH_Size)\n{\n}\n\nAnd in Tessy window, Go to """"defines"""" section of  module and define memcpy=memcpy_dup.\n\nNOTE 2: memcpy() function is Stubbed and Parameters of this function are kept in Input but input values are ignored in Test Cases of              ReadTypeH(), WriteTypeH(), StaMd_Init1() and StaMd_Trns1() functions.\n\nNOTE 3: Inline function defined in Globalmacro.h is not unit tested.\n\nNOTE 4: In BldTranVctr function, in case RTE_MODE_StaMd_Mode_OFF,  within ELSE path, if (NVM_REQ_PENDING != NVMErrorStatus_Cnt_T_u8) = FALSE condition is uncoveerd.""\r\n\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,memcpy=memcpy_dup,__inline=,BC_STAMD_SYSCHKINCOREAPP=STD_OFF,BC_STAMD_TODSTEADYSTATE=STD_ON,BC_STAMD_TOD2MSTOGGLE=STD_OFF"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\StaMd\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_StaMd.c"
+         Path : "$(PROJECTROOT)\StaMd\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "StaMd_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "ReadTypeH"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BldTranVctr"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_Trns1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "WriteTypeH"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MilestoneRqst_WarmInitMilestoneComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MilestoneRqst_WarmInitMilestoneNotComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_SCom_EcuReset"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "SystemStateCheck"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CheckWarmInitComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+   Module
+      Name        : "StaMd_TOD2MSTOGGLE_ON"
+      Comment     : "Unit Test Description: \r\n*************************************************************************************************************\r\nName of Tester:Rajsi Tyagi\r\nCode File(s) Under Test:Ap_StaMd.c\r\nCode File(s) Version:16\r\nModule Design Document:States_And_Modes_MDD\r\nModule Design Document Version:12\r\nUnit Test Plan Version:8\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:6\r\nSpecial Test Requirements:None\r\nTest Date:4/01/2013\r\nComments:""NOTE 1: For memcpy function, as its a built in lib function when ever we stub it, it shows declaration not compatible. So we need to create a dummy function representing the same functionality.\nSo created a test.c file in src folder and just copy below code in it \nvoid memcpy_dup((void *) &Lnk_TypeH_Start, (void *) &(*Rte_Pim_TypeHRamBuffer()), (uint16)&Lnk_TypeH_Size)\n{\n}\n\nAnd in Tessy window, Go to """"defines"""" section of  module and define memcpy=memcpy_dup.\n\nNOTE 2: memcpy() function is Stubbed and Parameters of this function are kept in Input but input values are ignored in Test Cases of              ReadTypeH(), WriteTypeH(), StaMd_Init1() and StaMd_Trns1() functions.\n\nNOTE 3: Inline function defined in Globalmacro.h is not unit tested.\n\nNOTE 4: In BldTranVctr function, in case RTE_MODE_StaMd_Mode_OFF,  within ELSE path, if (NVM_REQ_PENDING != NVMErrorStatus_Cnt_T_u8) = FALSE condition is uncoveerd.""\r\n\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,memcpy=memcpy_dup,__inline=,BC_STAMD_SYSCHKINCOREAPP=STD_OFF,BC_STAMD_TODSTEADYSTATE=STD_OFF,BC_STAMD_TOD2MSTOGGLE=STD_ON"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\StaMd\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_StaMd.c"
+         Path : "$(PROJECTROOT)\StaMd\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "StaMd_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "ReadTypeH"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BldTranVctr"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_Trns1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "WriteTypeH"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MilestoneRqst_WarmInitMilestoneComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MilestoneRqst_WarmInitMilestoneNotComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "StaMd_SCom_EcuReset"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "SystemStateCheck"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CheckWarmInitComplete"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+End

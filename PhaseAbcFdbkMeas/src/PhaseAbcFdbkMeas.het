@@ -1,0 +1,85 @@
+;************************************************************************
+;                      NEXTEER AUTOMOTIVE
+;************************************************************************
+
+
+; ***********************************************************************
+;*  Target:		Hercules Champion				*
+;*  References:		36B-Phase ABC Feedback Measuremetn FDD 		*
+;*  Scope :		N2HET2 					        *
+;*  N2HET2 read Phase A, B,C Feedback measurement, R4 read data stored  *
+;************************************************************************
+
+;************************************************************************
+;* Revision History							*
+;* 1.0.0  10MAY2016, Keyur Patel 					*
+;* 	code base from FDD34A-NHET2 Source Code v4.2 last Updated 	*
+;************************************************************************
+
+;**********************  NHET SETUP *************************************
+;* VCLK2 = 80MHz							*
+;* HR = 80MHz (VCLK2/X) [hr=1]						*
+;* LR = 16 => 5 MHz (HR_clk/YY) = 0.2uS 				*
+;* Number of time slots = 16						*
+;************************************************************************
+
+; ********************* Working Register Useage Chart *******************
+; Reg A - None								*
+; Reg B - None								*
+; Reg R - None								*
+; Reg S - None			 					*	
+; Reg T - Globle Register						*
+;************************************************************************
+
+;***********
+;* EQUATES *
+;***********
+
+; **********************  Globle Equates - START ****************
+
+;* N2HET1 Channels / Pins *
+SACRIFICIAL_PIN		.equ	26 ; pin we use for 'no pin' ECMP instructions, block other HR uses 
+
+;* Constants *
+DUMMY			.equ 	0  		; DUMMY Use in Instruction only.
+MAX_LR			.equ 	0x1FFFFFF 	; max value 	
+
+;* DMA/HTU *
+
+; **********************  Globle Equates - END ******************
+
+
+; **********************  ABC_Phase_Meas Equates - START ******************
+
+;* N2HET1 Channels / Pins *
+PhaAFb   	     	.equ    10  ; Phase A Feedback Input Signal
+PhaBFb   	     	.equ    18  ; Phase B Feedback Input Signal
+PhaCFb   	     	.equ    8   ; Phase C Feedback Input Signal
+
+; **********************  ABC_Phase_Meas Equates - END ********************
+
+
+;*****************************************************************************
+;* * * * * * * * * * * * * * * H E T   L O O P * * * * * * * * * * * * * * * *
+;-----------------------------------------------------------------------------
+
+;----------  Basic Infrastructure- START -------------------------------------
+; Set up Low Resolution Timer Base - Use Register T 
+START: 	
+FRCTR:		CNT 	{ data=0, reg=T, max= 0x1FFFFFF }
+; ----------------------------------------------------------------------------
+
+;-----------------------  ABC_Phase_Meas - Starts ----------------------------
+
+;----------Phase A, B, C Low Res Input Capture Measurements ------------------
+P1ACC:	ECNT	{ pin=PhaAFb, event=ACCUHIGH, reg=NONE, data=0 }
+P2ACC:	ECNT	{ pin=PhaBFb, event=ACCUHIGH, reg=NONE, data=0 }
+P3ACC:	ECNT	{ pin=PhaCFb, event=ACCUHIGH, reg=NONE, data=0 }
+
+;-----------------------  ABC_Phase_Meas - END -------------------------------
+
+
+;----------  Basic Infrastructure- END  -----------------------------------
+END:		BR	{ next=START, cond_addr=START, event= NOCOND}  ; could be removed when program is frozen
+; -------------------------------------------------------------------------
+

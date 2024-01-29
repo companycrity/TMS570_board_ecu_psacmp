@@ -1,0 +1,1086 @@
+<RDEF> I Includes
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/StdDef/include/Std_Types.h 38
+<DEFINE> STD_TYPES_H C:/_swb/CBD/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/_swb/CBD/StdDef/include/Std_Types.h C:/_swb/CBD/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/_swb/CBD/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/_swb/CBD/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/_swb/CBD/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/_swb/CBD/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/_swb/CBD/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/_swb/CBD/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/_swb/CBD/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/_swb/CBD/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/_swb/CBD/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/_swb/CBD/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/_swb/CBD/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/_swb/CBD/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/_swb/CBD/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/_swb/CBD/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/_swb/CBD/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/_swb/CBD/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/_swb/CBD/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/_swb/CBD/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/_swb/CBD/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/_swb/CBD/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/_swb/CBD/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/_swb/CBD/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/_swb/CBD/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/_swb/CBD/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/_swb/CBD/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/_swb/CBD/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/_swb/CBD/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/_swb/CBD/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/_swb/CBD/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/_swb/CBD/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/_swb/CBD/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/_swb/CBD/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/_swb/CBD/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/_swb/CBD/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/_swb/CBD/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/_swb/CBD/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/_swb/CBD/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/_swb/CBD/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/_swb/CBD/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/_swb/CBD/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/_swb/CBD/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/_swb/CBD/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/_swb/CBD/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/_swb/CBD/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/_swb/CBD/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/_swb/CBD/StdDef/include/Std_Types.h C:/_swb/CBD/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/_swb/CBD/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/_swb/CBD/StdDef/include/Compiler.h C:/_swb/CBD/NvMProxy/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/_swb/CBD/NvMProxy/utp/contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/_swb/CBD/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/_swb/CBD/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/_swb/CBD/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/_swb/CBD/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/_swb/CBD/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/_swb/CBD/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/_swb/CBD/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/_swb/CBD/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/_swb/CBD/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/_swb/CBD/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/_swb/CBD/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/_swb/CBD/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/_swb/CBD/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/_swb/CBD/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/_swb/CBD/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/_swb/CBD/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/_swb/CBD/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/_swb/CBD/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/_swb/CBD/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/_swb/CBD/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/_swb/CBD/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/_swb/CBD/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/_swb/CBD/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/_swb/CBD/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/_swb/CBD/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/_swb/CBD/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/_swb/CBD/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/_swb/CBD/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/_swb/CBD/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/_swb/CBD/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/_swb/CBD/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/_swb/CBD/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/_swb/CBD/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/_swb/CBD/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/_swb/CBD/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/_swb/CBD/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/_swb/CBD/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/_swb/CBD/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/_swb/CBD/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/_swb/CBD/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/_swb/CBD/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/_swb/CBD/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/_swb/CBD/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/_swb/CBD/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/_swb/CBD/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/_swb/CBD/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/_swb/CBD/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/_swb/CBD/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/_swb/CBD/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/_swb/CBD/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/_swb/CBD/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/_swb/CBD/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/_swb/CBD/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/_swb/CBD/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/_swb/CBD/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/_swb/CBD/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/_swb/CBD/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/_swb/CBD/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/_swb/CBD/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/_swb/CBD/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/_swb/CBD/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 39
+<DEFINE> NVMPROXY_H C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 25 I DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 27
+<DEFINE> NVMPROXY_CFG_H C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 23 I DF OM - - - O
+<DEFINE> RTE_MICROSAR_PIM_EXPORT C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 26 I DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 27
+<DEFINE> RTE_TYPE_H C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 5 I DF OM - - - O
+<DEFINE> NTCNumber C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 7 I DC OT F N us -
+<DEFINE> NxtrDiagMgrStatus C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 8 I DC OT F N uc -
+<DEFINE> NTC_STATUS_PASSED C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 10 I DF OM - - - O
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 10 28 I ON - F M
+<DEFINE> NTC_STATUS_FAILED C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 11 I DF OM - - - O
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 11 28 I DN - F M
+<DEFINE> NTC_Num_EEPROMDiag C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 12 I DF OM - - - O
+<LIT> 10 U P C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 12 29 I DN - F M
+<DEFINE> NTC_Num_NvMBlkDftActA C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 13 I DF OM - - - O
+<LIT> 6 U P C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 13 32 I DN - F M
+<DEFINE> NTC_Num_NvMBlkDftActB C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 14 I DF OM - - - O
+<LIT> 7 U P C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 14 32 I DN - F M
+<DEFINE> NTC_Num_NvMBlkDftActC C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 15 I DF OM - - - O
+<LIT> 8 U P C:/_swb/CBD/NvMProxy/utp/contract/Rte_Type.h 15 32 I DN - F M
+<R>I C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 28
+<DEFINE> NVM_H_ C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 6 I DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/utp/contract/NvM.h C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 11
+<DEFINE> NVM_TYPES_H_ C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 5 I DF OM - - - O
+<DEFINE> NvM_RequestResultType C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 22 I DC OT F N uc -
+<DEFINE> NvM_BlockIdType C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 24 I DC OT F N us -
+<DEFINE> NVM_REQ_OK C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 29 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 29 35 I ON - F M
+<DEFINE> NVM_REQ_NOT_OK C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 30 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 30 35 I DN - F M
+<DEFINE> NVM_REQ_PENDING C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 31 I DF OM - - - O
+<LIT> 2 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 31 35 I DN - F M
+<DEFINE> NVM_REQ_INTEGRITY_FAILED C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 32 I DF OM - - - O
+<LIT> 3 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 32 35 I DN - F M
+<DEFINE> NVM_REQ_BLOCK_SKIPPED C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 33 I DF OM - - - O
+<LIT> 4 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 33 35 I DN - F M
+<DEFINE> NVM_REQ_NV_INVALIDATED C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 34 I DF OM - - - O
+<LIT> 5 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 34 35 I DN - F M
+<DEFINE> NvM_ServiceIdType C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 37 I DC OT F N uc -
+<DEFINE> NVM_READ_BLOCK C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 42 I DF OM - - - O
+<LIT> 6 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 42 37 I DN - F M
+<DEFINE> NVM_WRITE_BLOCK C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 43 I DF OM - - - O
+<LIT> 7 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 43 37 I DN - F M
+<DEFINE> NVM_RESTORE_BLOCK_DEFAULTS C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 44 I DF OM - - - O
+<LIT> 8 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 44 37 I DN - F M
+<DEFINE> NVM_ERASE_BLOCK C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 45 I DF OM - - - O
+<LIT> 9 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 45 37 I DN - F M
+<DEFINE> NVM_INVALIDATE_NV_BLOCK C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 46 I DF OM - - - O
+<LIT> 11 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 46 36 I DN - F M
+<DEFINE> NVM_READ_ALL C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 47 I DF OM - - - O
+<LIT> 12 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 47 36 I DN - F M
+<DEFINE> NVM_REQ_CANCELLED C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 51 I DF OM - - - O
+<LIT> 6 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 51 35 I DN - F M
+<DEFINE> NVM_INIT C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 56 I DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 56 37 I ON - F M
+<DEFINE> NVM_SET_DATA_INDEX C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 57 I DF OM - - - O
+<LIT> 1 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 57 37 I DN - F M
+<DEFINE> NVM_GET_DATA_INDEX C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 58 I DF OM - - - O
+<LIT> 2 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 58 37 I DN - F M
+<DEFINE> NVM_SET_BLOCK_PROTECTION C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 59 I DF OM - - - O
+<LIT> 3 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 59 37 I DN - F M
+<DEFINE> NVM_GET_ERROR_STATUS C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 60 I DF OM - - - O
+<LIT> 4 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 60 37 I DN - F M
+<DEFINE> NVM_SET_RAM_BLOCK_STATUS C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 61 I DF OM - - - O
+<LIT> 5 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 61 37 I DN - F M
+<DEFINE> NVM_CANCEL_WRITE_ALL C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 63 I DF OM - - - O
+<LIT> 10 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 63 36 I DN - F M
+<DEFINE> NVM_WRITE_ALL C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 65 I DF OM - - - O
+<LIT> 13 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 65 36 I DN - F M
+<DEFINE> NVM_MAINFUNCTION C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 66 I DF OM - - - O
+<LIT> 14 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 66 36 I DN - F M
+<DEFINE> NVM_GET_VERSION_INFO C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 67 I DF OM - - - O
+<LIT> 15 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 67 36 I DN - F M
+<DEFINE> NVM_SET_BLOCK_LOCK_STATUS C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 69 I DF OM - - - O
+<LIT> 16 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 69 36 I DN - F M
+<DEFINE> NVM_KILL_WRITE_ALL C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 70 I DF OM - - - O
+<LIT> 17 u P C:/_swb/CBD/NvMProxy/utp/contract/NvM_Types.h 70 36 I DN - F M
+<DEFINE> NVM_START_SEC_CODE C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 17 I DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/utp/contract/NvM.h C:/_swb/CBD/NvMProxy/utp/contract/MemMap.h 18
+<DEFINE> MEMMAP_H C:/_swb/CBD/NvMProxy/utp/contract/MemMap.h 19 I DF OM - - - O
+<EXTN> NvM_Init C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 33
+<DEFINE> NvM_Init C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 33 I DC OF F X (.,.) -
+<EXTN> NvM_SetDataIndex C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 48
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 50 I DC OV P N us R
+<DEFINE> DataIndex C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 51 I DC OV P N uc R
+<DEFINE> NvM_SetDataIndex C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 48 I DC OF F X (.,us,uc) -
+<EXTN> NvM_GetDataIndex C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 67
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 69 I DC OV P N us R
+<DEFINE> DataIndexPtr C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 70 I DC OV P N puc R
+<DEFINE> NvM_GetDataIndex C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 67 I DC OF F X (.,us,puc) -
+<EXTN> NvM_SetBlockProtection C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 89
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 91 I DC OV P N us R
+<DEFINE> ProtectionEnabled C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 92 I DC OV P N uc R
+<DEFINE> NvM_SetBlockProtection C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 89 I DC OF F X (.,us,uc) -
+<EXTN> NvM_GetErrorStatus C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 110
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 112 I DC OV P N us R
+<DEFINE> RequestResultPtr C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 113 I DC OV P N puc R
+<DEFINE> NvM_GetErrorStatus C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 110 I DC OF F X (.,us,puc) -
+<EXTN> NvM_GetVersionInfo C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 128
+<DEFINE> versioninfo C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 130 I DC OV P N p{sStd_VersionInfoType} R
+<DEFINE> NvM_GetVersionInfo C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 128 I DC OF F X (.,p{sStd_VersionInfoType}) -
+<EXTN> NvM_SetRamBlockStatus C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 146
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 148 I DC OV P N us R
+<DEFINE> BlockChanged C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 149 I DC OV P N uc R
+<DEFINE> NvM_SetRamBlockStatus C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 146 I DC OF F X (.,us,uc) -
+<EXTN> NvM_ReadBlock C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 167
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 169 I DC OV P N us R
+<DEFINE> NvM_DstPtr C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 170 I DC OV P N puc R
+<DEFINE> NvM_ReadBlock C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 167 I DC OF F X (uc,us,puc) -
+<EXTN> NvM_WriteBlock C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 188
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 190 I DC OV P N us R
+<DEFINE> NvM_SrcPtr C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 191 I DC OV P N p=uc R
+<DEFINE> NvM_WriteBlock C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 188 I DC OF F X (uc,us,p=uc) -
+<EXTN> NvM_RestoreBlockDefaults C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 208
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 210 I DC OV P N us R
+<DEFINE> NvM_DstPtr C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 211 I DC OV P N puc R
+<DEFINE> NvM_RestoreBlockDefaults C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 208 I DC OF F X (uc,us,puc) -
+<EXTN> NvM_EraseNvBlock C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 227
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 229 I DC OV P N us R
+<DEFINE> NvM_EraseNvBlock C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 227 I DC OF F X (uc,us) -
+<EXTN> NvM_InvalidateNvBlock C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 245
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 247 I DC OV P N us R
+<DEFINE> NvM_InvalidateNvBlock C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 245 I DC OF F X (uc,us) -
+<EXTN> NvM_ReadAll C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 263
+<DEFINE> NvM_ReadAll C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 263 I DC OF F X (.,.) -
+<EXTN> NvM_WriteAll C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 278
+<DEFINE> NvM_WriteAll C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 278 I DC OF F X (.,.) -
+<EXTN> NvM_CancelWriteAll C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 291
+<DEFINE> NvM_CancelWriteAll C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 291 I DC OF F X (.,.) -
+<EXTN> NvM_KillWriteAll C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 306
+<DEFINE> NvM_KillWriteAll C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 306 I DC OF F X (.,.) -
+<EXTN> NvM_MainFunction C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 319
+<DEFINE> NvM_MainFunction C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 319 I DC OF F X (.,.) -
+<EXTN> NvM_SetBlockLockStatus C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 338
+<DEFINE> BlockId C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 340 I DC OV P N us R
+<DEFINE> Locked C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 341 I DC OV P N uc R
+<DEFINE> NvM_SetBlockLockStatus C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 338 I DC OF F X (uc,us,uc) -
+<DEFINE> NVM_STOP_SEC_CODE C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 344 I DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/utp/contract/NvM.h C:/_swb/CBD/NvMProxy/utp/contract/MemMap.h 345
+<R>I C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h C:/_swb/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 29
+<DEFINE> AP_DIAGMGR_H_ C:/_swb/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 6 I DF OM - - - O
+<EXTN> NxtrDiagMgr10_ReportNTCStatus C:/_swb/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8
+<DEFINE> NTC_Cnt_T_enum C:/_swb/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8 I DC OV P N us R
+<DEFINE> Param_Cnt_T_u08 C:/_swb/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8 I DC OV P N uc R
+<DEFINE> Status_Cnt_T_enum C:/_swb/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8 I DC OV P N uc R
+<DEFINE> NxtrDiagMgr10_ReportNTCStatus C:/_swb/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8 I DC OF F X (uc,us,uc,uc) -
+<DEFINE> NvMP_FailActionDataType C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 31 I DC OT F N p=uc -
+<DEFINE> NvMP_FailActFuncType C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 32 I DC OT F N p(.,.) -
+<LIT> 0x00 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 35 25 I HN ni F E
+<DEFINE> NVMPROXY_NONE C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 35 I DC OE F N ne -
+<DEFINE> NVMPROXY_NONE C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 35 I DF OE F N ne -
+<LIT> 0x01 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 36 26 I HN ni F E
+<DEFINE> NVMPROXY_CRC16 C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 36 I DC OE F N ne -
+<DEFINE> NVMPROXY_CRC16 C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 36 I DF OE F N ne -
+<LIT> 0x02 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 37 30 I HN ni F E
+<DEFINE> NVMPROXY_REDUNDANT C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 37 I DC OE F N ne -
+<DEFINE> NVMPROXY_REDUNDANT C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 37 I DF OE F N ne -
+<LIT> 0x03 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 38 29 I HN ni F E
+<DEFINE> NVMPROXY_ZERODATA C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 38 I DC OE F N ne -
+<DEFINE> NVMPROXY_ZERODATA C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 38 I DF OE F N ne -
+<DEFINE> NvMProxy_InitHandling C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 39 I DC OT F N {e} -
+<LIT> 0x00 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 42 34 I HN ni F E
+<DEFINE> NVMPROXY_NOTAPPLICABLE C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 42 I DC OE F N ne -
+<DEFINE> NVMPROXY_NOTAPPLICABLE C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 42 I DF OE F N ne -
+<LIT> 0x01 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 43 27 I HN ni F E
+<DEFINE> NVMPROXY_NTC_0A C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 43 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_0A C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 43 I DF OE F N ne -
+<LIT> 0x02 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 44 34 I HN ni F E
+<DEFINE> NVMPROXY_NTC_08_ROMDEF C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 44 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_08_ROMDEF C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 44 I DF OE F N ne -
+<LIT> 0x03 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 45 37 I HN ni F E
+<DEFINE> NVMPROXY_NTC_08_NOTIFFUNC C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 45 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_08_NOTIFFUNC C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 45 I DF OE F N ne -
+<LIT> 0x04 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 46 34 I HN ni F E
+<DEFINE> NVMPROXY_NTC_07_ROMDEF C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 46 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_07_ROMDEF C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 46 I DF OE F N ne -
+<LIT> 0x05 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 47 37 I HN ni F E
+<DEFINE> NVMPROXY_NTC_07_NOTIFFUNC C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 47 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_07_NOTIFFUNC C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 47 I DF OE F N ne -
+<LIT> 0x06 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 48 34 I HN ni F E
+<DEFINE> NVMPROXY_NTC_06_ROMDEF C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 48 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_06_ROMDEF C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 48 I DF OE F N ne -
+<LIT> 0x07 - P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 49 37 I HN ni F E
+<DEFINE> NVMPROXY_NTC_06_NOTIFFUNC C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 49 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_06_NOTIFFUNC C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 49 I DF OE F N ne -
+<DEFINE> NvMProxy_FailResponse C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 50 I DC OT F N {e} -
+<DEFINE> NvMBlock C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 53 I DC MB F N =us -
+<DEFINE> unsecurePtr C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 54 I DC MB F N =puc -
+<DEFINE> securePtr C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 55 I DC MB F N =puc -
+<DEFINE> secureSize C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 56 I DC MB F N =us -
+<DEFINE> initHandling C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 57 I DC MB F N ={eNvMProxy_InitHandling} -
+<DEFINE> failResponse C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 58 I DC MB F N ={eNvMProxy_FailResponse} -
+<DEFINE> failActData C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 59 I DC MB F N =p=uc -
+<DEFINE> failActFunc C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 60 I DC MB F N =p(.,.) -
+<DEFINE> NvMProxyCfg_Type C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 61 I DC OT F N {s} -
+<DEFINE> D_NUMPRXYBLOCKS_CNT_U16 C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 63 I DF OM - - - O
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 63 36 I DN - F M
+<DEFINE> NVMPROXY_REPORTERRORSTATUS C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 64 I DF OM - - - O
+<EXTN> NvMProxyCfg C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 66
+<DEFINE> NvMProxyCfg C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 66 I DC OV F X [1,={sNvMProxyCfg_Type}] S
+<EXTN> NvMProxy_MtrPosSnsr_EOLData C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 67
+<DEFINE> NvMProxy_MtrPosSnsr_EOLData C:/_swb/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 67 I DC OV F X [0,uc] S
+<EXTN> NvMProxy_BlkStatus C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 30
+<DEFINE> NvMProxy_BlkStatus C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 30 I DC OV F X [1,uc] S
+<EXTN> NvMProxy_Init C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 33
+<DEFINE> NvMProxy_Init C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 33 I DC OF F X (.,.) -
+<EXTN> NvMProxy_MainFunction C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 34
+<DEFINE> NvMProxy_MainFunction C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 34 I DC OF F X (.,.) -
+<EXTN> NvMProxy_WriteAll C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 35
+<DEFINE> NvMProxy_WriteAll C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 35 I DC OF F X (.,.) -
+<EXTN> NvMProxy_WriteBlock C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 36
+<DEFINE> Block C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 36 I DC OV P N us R
+<DEFINE> SrcPtr C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 36 I DC OV P N p=uc R
+<DEFINE> NvMProxy_WriteBlock C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 36 I DC OF F X (uc,us,p=uc) -
+<EXTN> NvMProxy_GetErrorStatus C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 37
+<DEFINE> Block C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 37 I DC OV P N us R
+<DEFINE> RequestResultPtr C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 37 I DC OV P N puc R
+<DEFINE> NvMProxy_GetErrorStatus C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 37 I DC OF F X (.,us,puc) -
+<EXTN> NvMProxy_SetRamBlockStatus C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 38
+<DEFINE> Block C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 38 I DC OV P N us R
+<DEFINE> BlockChanged C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 38 I DC OV P N uc R
+<DEFINE> NvMProxy_SetRamBlockStatus C:/_swb/CBD/NvMProxy/include/Cd_NvMProxy.h 38 I DC OF F X (.,us,uc) -
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/NvMProxy/utp/contract/NvM.h 40
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 41
+<DEFINE> SCHM_NVMPROXY_H C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 2 I DF OM - - - O
+<DEFINE> NVMPROXY_EXCLUSIVE_AREA_0 C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 4 I DF OM - - - O
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 4 35 I ON - F M
+<EXTN> SchM_Enter_NvMProxy C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 7
+<DEFINE> area C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 7 I DC OV P N us R
+<DEFINE> SchM_Enter_NvMProxy C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 7 I DC OF F X (.,us) -
+<EXTN> SchM_Exit_NvMProxy C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 8
+<DEFINE> area C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 8 I DC OV P N us R
+<DEFINE> SchM_Exit_NvMProxy C:/_swb/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 8 I DC OF F X (.,us) -
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/StdDef/include/TMS570_4_9_5/include/string.h 42
+<R>I C:/_swb/CBD/StdDef/include/TMS570_4_9_5/include/string.h C:/_swb/CBD/StdDef/include/TMS570_4_9_5/include/linkage.h 59
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/NvMProxy/utp/contract/Crc.h 43
+<DEFINE> CRC_H_ C:/_swb/CBD/NvMProxy/utp/contract/Crc.h 6 I DF OM - - - O
+<DEFINE> Crc_DataRefType C:/_swb/CBD/NvMProxy/utp/contract/Crc.h 8 I DC OT F N p=uc -
+<EXTN> Crc_CalculateCRC16 C:/_swb/CBD/NvMProxy/utp/contract/Crc.h 10
+<DEFINE> Crc_DataPtr C:/_swb/CBD/NvMProxy/utp/contract/Crc.h 10 I DC OV P N p=uc R
+<DEFINE> Crc_Length C:/_swb/CBD/NvMProxy/utp/contract/Crc.h 10 I DC OV P N ul R
+<DEFINE> Crc_StartValue16 C:/_swb/CBD/NvMProxy/utp/contract/Crc.h 10 I DC OV P N us R
+<DEFINE> Crc_CalculateCRC16 C:/_swb/CBD/NvMProxy/utp/contract/Crc.h 10 I DC OF F X (us,p=uc,ul,us) -
+<DEFINE> D_MULTIBLOCKID_CNT_U08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 49 N DF OM - - - O
+<LIT> 0 u P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 49 35 N ON - F M
+<DEFINE> Pend C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 52 N DC MB F N uc -
+<DEFINE> BlkStatus C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 53 N DC MB F N uc -
+<DEFINE> SrcPtr C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 54 N DC MB F N p=uc -
+<DEFINE> NvMPWriteBuff_Type C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 55 N DC OT F N {s} -
+<DEFINE> Pend C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 58 N DC MB F N uc -
+<DEFINE> BlockChanged C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 59 N DC MB F N uc -
+<DEFINE> NvMPSetRBSBuff_Type C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 60 N DC OT F N {s} -
+<DEFINE> NVMPROXY_START_SEC_VAR_CLEARED_UNSPECIFIED C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 70 N DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/NvMProxy/utp/contract/MemMap.h 71
+<EXTT> NvMPWriteRqst_Cnt_M_Str C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 73
+<DEFINE> NvMPWriteRqst_Cnt_M_Str C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 73 N DC OV F I [1,{sNvMPWriteBuff_Type}] S
+<EXTT> NvMPSetRBSRqst_Cnt_M_Str C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 74
+<DEFINE> NvMPSetRBSRqst_Cnt_M_Str C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 74 N DC OV F I [1,{sNvMPSetRBSBuff_Type}] S
+<EXTT> NvMPBlkShtdwnSts_Cnt_M_lgc C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 75
+<DEFINE> NvMPBlkShtdwnSts_Cnt_M_lgc C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 75 N DC OV F I [1,uc] S
+<DEFINE> NVMPROXY_STOP_SEC_VAR_CLEARED_UNSPECIFIED C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 77 N DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/NvMProxy/utp/contract/MemMap.h 78
+<DEFINE> NVMPROXY_START_SEC_CODE C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 86 N DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/NvMProxy/utp/contract/MemMap.h 87
+<EXTD> NvMProxy_Init C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 95
+<DEFINE> NvMProxy_Init C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 95 N DR OF F X (.,.) -
+<DEFINE> NvMProxy_Init C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 95 N DF OF F X (.,.) -
+<DEFINE> i C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 97 N DC OV B N us -
+<DEFINE> i C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 97 N DF OV B N us -
+<DEFINE> j C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 98 N DC OV B N us -
+<DEFINE> j C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 98 N DF OV B N us -
+<DEFINE> CalcCRC_Cnt_T_u16 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 99 N DC OV B N us -
+<DEFINE> CalcCRC_Cnt_T_u16 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 99 N DF OV B N us -
+<DEFINE> StrdCRC_Cnt_T_u16 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 100 N DC OV B N us -
+<DEFINE> StrdCRC_Cnt_T_u16 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 100 N DF OV B N us -
+<DEFINE> EEDiagFailed_Cnt_T_lgc C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 101 N DC OV B N uc -
+<DEFINE> EEDiagFailed_Cnt_T_lgc C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 101 N DF OV B N uc -
+<DEFINE> NTC6FltParam_Cnt_T_u08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 102 N DC OV B N uc -
+<DEFINE> NTC6FltParam_Cnt_T_u08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 102 N DF OV B N uc -
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 102 52 N ON ui B O
+<DEFINE> NTC6FltSts_Cnt_T_enum C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 103 N DC OV B N uc -
+<DEFINE> NTC6FltSts_Cnt_T_enum C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 103 N DF OV B N uc -
+<DEFINE> NTC7FltParam_Cnt_T_u08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 104 N DC OV B N uc -
+<DEFINE> NTC7FltParam_Cnt_T_u08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 104 N DF OV B N uc -
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 104 52 N ON ui B O
+<DEFINE> NTC7FltSts_Cnt_T_enum C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 105 N DC OV B N uc -
+<DEFINE> NTC7FltSts_Cnt_T_enum C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 105 N DF OV B N uc -
+<DEFINE> NTC8FltParam_Cnt_T_u08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 106 N DC OV B N uc -
+<DEFINE> NTC8FltParam_Cnt_T_u08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 106 N DF OV B N uc -
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 106 52 N ON ui B O
+<DEFINE> NTC8FltSts_Cnt_T_enum C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 107 N DC OV B N uc -
+<DEFINE> NTC8FltSts_Cnt_T_enum C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 107 N DF OV B N uc -
+<DEFINE> NTCAFltParam_Cnt_T_u08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 108 N DC OV B N uc -
+<DEFINE> NTCAFltParam_Cnt_T_u08 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 108 N DF OV B N uc -
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 108 52 N ON ui B O
+<DEFINE> NTCAFltSts_Cnt_T_enum C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 109 N DC OV B N uc -
+<DEFINE> NTCAFltSts_Cnt_T_enum C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 109 N DF OV B N uc -
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 114 40 N DN ui B X
+<RDEF> X Refers-to
+<R>X NvMProxy_Init NvMProxyCfg 118 R
+<RDEF> C Calls
+<R>C NvMProxy_Init memcpy 122
+<R>X NvMProxy_Init memcpy 122 R
+<R>X NvMProxy_Init NvMProxyCfg 122 R
+<R>X NvMProxy_Init NvMProxyCfg 122 W
+<R>X NvMProxy_Init NvMProxyCfg 122 R
+<R>X NvMProxy_Init NvMProxyCfg 122 R
+<R>C NvMProxy_Init NvM_GetErrorStatus 124
+<R>X NvMProxy_Init NvM_GetErrorStatus 124 R
+<R>X NvMProxy_Init NvMProxyCfg 124 R
+<R>C NvMProxy_Init Crc_CalculateCRC16 127
+<R>X NvMProxy_Init Crc_CalculateCRC16 127 R
+<R>X NvMProxy_Init NvMProxyCfg 127 R
+<R>X NvMProxy_Init NvMProxyCfg 127 R
+<R>X NvMProxy_Init NvMProxyCfg 127 R
+<R>X NvMProxy_Init NvMProxyCfg 128 R
+<R>X NvMProxy_Init NvMProxyCfg 128 R
+<R>X NvMProxy_Init NvMProxyCfg 128 R
+<R>X NvMProxy_Init NvMProxyCfg 128 R
+<LIT> 8 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 128 106 N DN ui B X
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 128 176 N DN ui B X
+<R>C NvMProxy_Init memcpy 137
+<R>X NvMProxy_Init memcpy 137 R
+<R>X NvMProxy_Init NvMProxyCfg 137 R
+<R>X NvMProxy_Init NvMProxyCfg 137 W
+<R>X NvMProxy_Init NvMProxyCfg 137 R
+<R>X NvMProxy_Init NvMProxyCfg 137 R
+<R>C NvMProxy_Init NvM_GetErrorStatus 139
+<R>X NvMProxy_Init NvM_GetErrorStatus 139 R
+<R>X NvMProxy_Init NvMProxyCfg 139 R
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 142 26 N ON ui B X
+<R>X NvMProxy_Init NvMProxyCfg 142 R
+<R>X NvMProxy_Init NvMProxyCfg 144 R
+<R>X NvMProxy_Init NvMProxyCfg 144 R
+<R>X NvMProxy_Init NvMProxyCfg 144 R
+<R>C NvMProxy_Init memset 151
+<R>X NvMProxy_Init memset 151 R
+<R>X NvMProxy_Init NvMProxyCfg 151 R
+<R>X NvMProxy_Init NvMProxyCfg 151 W
+<R>X NvMProxy_Init NvMProxyCfg 151 R
+<LIT> 0 - P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 151 63 N ON ni B X
+<R>C NvMProxy_Init NvM_GetErrorStatus 153
+<R>X NvMProxy_Init NvM_GetErrorStatus 153 R
+<R>X NvMProxy_Init NvMProxyCfg 153 R
+<R>C NvMProxy_Init memcpy 157
+<R>X NvMProxy_Init memcpy 157 R
+<R>X NvMProxy_Init NvMProxyCfg 157 R
+<R>X NvMProxy_Init NvMProxyCfg 157 W
+<R>X NvMProxy_Init NvMProxyCfg 157 R
+<R>X NvMProxy_Init NvMProxyCfg 157 R
+<R>C NvMProxy_Init NvM_GetErrorStatus 159
+<R>X NvMProxy_Init NvM_GetErrorStatus 159 R
+<R>X NvMProxy_Init NvMProxyCfg 159 R
+<R>X NvMProxy_Init NvMProxyCfg 165 R
+<R>X NvMProxy_Init NvMProxyCfg 169 R
+<R>X NvMProxy_Init NvMProxyCfg 173 R
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 176 30 N ON ui B X
+<R>X NvMProxy_Init NvMProxyCfg 176 R
+<R>X NvMProxy_Init NvMProxyCfg 178 R
+<R>X NvMProxy_Init NvMProxyCfg 178 W
+<R>X NvMProxy_Init NvMProxyCfg 183 R
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 186 30 N ON ui B X
+<R>X NvMProxy_Init NvMProxyCfg 186 R
+<R>X NvMProxy_Init NvMProxyCfg 188 R
+<R>X NvMProxy_Init NvMProxyCfg 188 W
+<R>X NvMProxy_Init NvMProxyCfg 193 R
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 196 30 N ON ui B X
+<R>X NvMProxy_Init NvMProxyCfg 196 R
+<R>X NvMProxy_Init NvMProxyCfg 198 R
+<R>X NvMProxy_Init NvMProxyCfg 198 W
+<R>X NvMProxy_Init NvMProxyCfg 203 R
+<R>X NvMProxy_Init NvMProxyCfg 206 R
+<R>X NvMProxy_Init NvMProxyCfg 210 R
+<R>X NvMProxy_Init NvMProxyCfg 213 R
+<R>X NvMProxy_Init NvMProxyCfg 217 R
+<R>X NvMProxy_Init NvMProxyCfg 220 R
+<R>C NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 229
+<R>X NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 229 R
+<R>C NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 230
+<R>X NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 230 R
+<R>C NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 231
+<R>X NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 231 R
+<R>C NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 232
+<R>X NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 232 R
+<R>C NvMProxy_Init NvM_GetErrorStatus 235
+<R>X NvMProxy_Init NvM_GetErrorStatus 235 R
+<CTLG> NvMProxy_Init 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 55
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 9
+<CTLG> 4 17
+<CTLG> 4 19
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 22
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 16
+<CTLG> 12 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 11
+<CTLG> 16 22
+<CTLG> 17 18
+<CTLG> 18 22
+<CTLG> 19 20
+<CTLG> 20 22
+<CTLG> 22 23
+<CTLG> 22 53
+<CTLG> 23 24
+<CTLG> 23 26
+<CTLG> 23 32
+<CTLG> 23 38
+<CTLG> 23 44
+<CTLG> 23 46
+<CTLG> 23 48
+<CTLG> 23 50
+<CTLG> 24 25
+<CTLG> 25 52
+<CTLG> 26 27
+<CTLG> 27 28
+<CTLG> 28 29
+<CTLG> 28 31
+<CTLG> 29 30
+<CTLG> 30 28
+<CTLG> 31 52
+<CTLG> 32 33
+<CTLG> 33 34
+<CTLG> 34 35
+<CTLG> 34 37
+<CTLG> 35 36
+<CTLG> 36 34
+<CTLG> 37 52
+<CTLG> 38 39
+<CTLG> 39 40
+<CTLG> 40 41
+<CTLG> 40 43
+<CTLG> 41 42
+<CTLG> 42 40
+<CTLG> 43 52
+<CTLG> 44 45
+<CTLG> 45 52
+<CTLG> 46 47
+<CTLG> 47 52
+<CTLG> 48 49
+<CTLG> 49 52
+<CTLG> 50 52
+<CTLG> 52 53
+<CTLG> 53 54
+<CTLG> 54 2
+<CTLG> 55 56
+<CTLG> 56 58
+<CTLGN> 96 114 114 118 118 130 130 130 134 142 142 142 144 144 142 142 149 154 154 160 160 118 163 165 170 170 176 176 176 176 176 180 186 186 186 186 186 190 196 196 196 196 196 200 207 207 214 214 221 221 223 165 163 114 114 236 236 236 
+<S>
+<S>STFIL  C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_Init
+<S>STCYC  19
+<S>STMCC  0 (19:19)
+<S>STMIF  4
+<S>STSUB  17
+<S>STAKI  36
+<S>STLIN  139
+<S>STXLN  80
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  13
+<S>STPTH  85
+<S>STPDN  1.06   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  12
+<S>STAV3  15
+<S>STST1  95
+<S>STST2  73
+<S>STST3  60
+<S>STPAR  0
+<S>STCAL  5
+<S>STFN1  603
+<S>STFN2  330
+
+<EXTD> NvMProxy_MainFunction C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 245
+<DEFINE> NvMProxy_MainFunction C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 245 N DR OF F X (.,.) -
+<DEFINE> NvMProxy_MainFunction C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 245 N DF OF F X (.,.) -
+<DEFINE> i C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 247 N DC OV B N uc -
+<DEFINE> i C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 247 N DF OV B N uc -
+<DEFINE> CalcCRC_Cnt_T_u16 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 248 N DC OV B N us -
+<DEFINE> CalcCRC_Cnt_T_u16 C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 248 N DF OV B N us -
+<DEFINE> j C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 249 N DC OV B N us -
+<DEFINE> j C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 249 N DF OV B N us -
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 256 40 N DN ui B X
+<R>C NvMProxy_MainFunction memcpy 266
+<R>X NvMProxy_MainFunction memcpy 266 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 266 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 266 W
+<R>X NvMProxy_MainFunction NvMProxyCfg 266 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 266 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 268 R
+<R>C NvMProxy_MainFunction Crc_CalculateCRC16 270
+<R>X NvMProxy_MainFunction Crc_CalculateCRC16 270 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 270 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 270 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 270 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 272 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 272 W
+<LIT> 8 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 272 102 N DN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 273 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 273 W
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 273 72 N DN ui B X
+<LIT> 0x00FF U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 273 106 N HN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 275 R
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 277 26 N ON ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 277 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 279 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 279 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 279 W
+<R>C NvMProxy_MainFunction NvM_WriteBlock 288
+<R>X NvMProxy_MainFunction NvM_WriteBlock 288 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 288 R
+<R>C NvMProxy_MainFunction memcpy 301
+<R>X NvMProxy_MainFunction memcpy 301 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 301 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 301 W
+<R>X NvMProxy_MainFunction NvMProxyCfg 301 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 301 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 303 R
+<R>C NvMProxy_MainFunction Crc_CalculateCRC16 305
+<R>X NvMProxy_MainFunction Crc_CalculateCRC16 305 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 305 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 305 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 305 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 307 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 307 W
+<LIT> 8 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 307 102 N DN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 308 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 308 W
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 308 72 N DN ui B X
+<LIT> 0x00FF U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 308 106 N HN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 310 R
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 312 26 N ON ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 312 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 314 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 314 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 314 W
+<R>C NvMProxy_MainFunction NvM_SetRamBlockStatus 323
+<R>X NvMProxy_MainFunction NvM_SetRamBlockStatus 323 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 323 R
+<R>C NvMProxy_MainFunction NvM_GetErrorStatus 329
+<R>X NvMProxy_MainFunction NvM_GetErrorStatus 329 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 329 R
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 338 44 N DN ui B X
+<R>C NvMProxy_MainFunction memcpy 343
+<R>X NvMProxy_MainFunction memcpy 343 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 343 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 343 W
+<R>X NvMProxy_MainFunction NvMProxyCfg 343 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 343 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 345 R
+<R>C NvMProxy_MainFunction Crc_CalculateCRC16 347
+<R>X NvMProxy_MainFunction Crc_CalculateCRC16 347 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 347 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 347 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 347 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 349 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 349 W
+<LIT> 8 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 349 106 N DN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 350 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 350 W
+<LIT> 1 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 350 76 N DN ui B X
+<LIT> 0x00FF U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 350 110 N HN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 352 R
+<LIT> 0 U P C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 354 30 N ON ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 354 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 356 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 356 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 356 W
+<R>C NvMProxy_MainFunction NvM_SetRamBlockStatus 365
+<R>X NvMProxy_MainFunction NvM_SetRamBlockStatus 365 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 365 R
+<R>C NvMProxy_MainFunction NvM_WriteAll 368
+<R>X NvMProxy_MainFunction NvM_WriteAll 368 R
+<R>C NvMProxy_MainFunction NvM_GetErrorStatus 373
+<R>X NvMProxy_MainFunction NvM_GetErrorStatus 373 R
+<CTLG> NvMProxy_MainFunction 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 35
+<CTLG> 3 4
+<CTLG> 3 18
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 15
+<CTLG> 7 8
+<CTLG> 7 13
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 12
+<CTLG> 10 11
+<CTLG> 11 9
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 15 17
+<CTLG> 16 17
+<CTLG> 17 33
+<CTLG> 18 19
+<CTLG> 18 31
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 20 22
+<CTLG> 21 30
+<CTLG> 22 23
+<CTLG> 22 28
+<CTLG> 23 24
+<CTLG> 24 25
+<CTLG> 24 27
+<CTLG> 25 26
+<CTLG> 26 24
+<CTLG> 27 29
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 30 32
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 33 34
+<CTLG> 34 2
+<CTLG> 35 36
+<CTLG> 35 54
+<CTLG> 36 37
+<CTLG> 37 38
+<CTLG> 37 53
+<CTLG> 38 39
+<CTLG> 38 51
+<CTLG> 39 40
+<CTLG> 40 41
+<CTLG> 40 42
+<CTLG> 41 50
+<CTLG> 42 43
+<CTLG> 42 48
+<CTLG> 43 44
+<CTLG> 44 45
+<CTLG> 44 47
+<CTLG> 45 46
+<CTLG> 46 44
+<CTLG> 47 49
+<CTLG> 48 49
+<CTLG> 49 50
+<CTLG> 50 51
+<CTLG> 51 52
+<CTLG> 52 37
+<CTLG> 53 55
+<CTLG> 54 55
+<CTLG> 55 57
+<CTLGN> 246 256 256 259 268 268 268 275 277 277 277 277 275 282 275 288 288 259 294 303 303 303 310 312 312 312 312 310 317 310 294 327 294 256 256 336 338 338 340 345 345 345 352 354 354 354 354 352 359 352 340 338 338 336 371 375 375 
+<S>
+<S>STFIL  C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_MainFunction
+<S>STCYC  17
+<S>STMCC  0 (17:17)
+<S>STMIF  6
+<S>STSUB  12
+<S>STAKI  29
+<S>STLIN  128
+<S>STXLN  44
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  98
+<S>STPDN  2.23   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  13
+<S>STAV2  20
+<S>STAV3  21
+<S>STST1  63
+<S>STST2  42
+<S>STST3  39
+<S>STPAR  0
+<S>STCAL  6
+<S>STFN1  556
+<S>STFN2  284
+
+<EXTD> NvMProxy_WriteBlock C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 385
+<DEFINE> Block C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 385 N DC OV B N us R
+<DEFINE> SrcPtr C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 385 N DC OV B N p=uc R
+<DEFINE> NvMProxy_WriteBlock C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 385 N DR OF F X (uc,us,p=uc) -
+<DEFINE> NvMProxy_WriteBlock C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 385 N DF OF F X (uc,us,p=uc) -
+<DEFINE> RetVal C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 387 N DC OV B N uc -
+<DEFINE> RetVal C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 387 N DF OV B N uc -
+<R>C NvMProxy_WriteBlock SchM_Enter_NvMProxy 392
+<R>X NvMProxy_WriteBlock SchM_Enter_NvMProxy 392 R
+<R>C NvMProxy_WriteBlock SchM_Exit_NvMProxy 402
+<R>X NvMProxy_WriteBlock SchM_Exit_NvMProxy 402 R
+<CTLG> NvMProxy_WriteBlock 1
+<CTLG> 1 2
+<CTLG> 1 6
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 8
+<CTLGN> 386 390 394 394 394 390 405 405 
+<S>
+<S>STFIL  C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_WriteBlock
+<S>STCYC  3
+<S>STMCC  1 (3:4)
+<S>STMIF  2
+<S>STSUB  2
+<S>STAKI  5
+<S>STLIN  19
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  3
+<S>STPDN  0.30   
+<S>STPBG  0
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  12
+<S>STST2  10
+<S>STST3  9
+<S>STPAR  2
+<S>STCAL  2
+<S>STFN1  55
+<S>STFN2  32
+
+<EXTD> NvMProxy_WriteAll C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 415
+<DEFINE> NvMProxy_WriteAll C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 415 N DR OF F X (.,.) -
+<DEFINE> NvMProxy_WriteAll C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 415 N DF OF F X (.,.) -
+<R>C NvMProxy_WriteAll SchM_Enter_NvMProxy 417
+<R>X NvMProxy_WriteAll SchM_Enter_NvMProxy 417 R
+<R>C NvMProxy_WriteAll SchM_Exit_NvMProxy 423
+<R>X NvMProxy_WriteAll SchM_Exit_NvMProxy 423 R
+<CTLG> NvMProxy_WriteAll 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 416 425 425 425 
+<S>
+<S>STFIL  C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_WriteAll
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  8
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  4
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  18
+<S>STFN2  12
+
+<EXTD> NvMProxy_GetErrorStatus C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 434
+<DEFINE> Block C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 434 N DC OV B N us R
+<DEFINE> RequestResultPtr C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 434 N DC OV B N puc R
+<DEFINE> NvMProxy_GetErrorStatus C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 434 N DR OF F X (.,us,puc) -
+<DEFINE> NvMProxy_GetErrorStatus C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 434 N DF OF F X (.,us,puc) -
+<CTLG> NvMProxy_GetErrorStatus 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 435 437 437 441 445 445 
+<S>
+<S>STFIL  C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_GetErrorStatus
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  9
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  5
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  5
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  20
+<S>STFN2  8
+
+<EXTD> NvMProxy_SetRamBlockStatus C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 454
+<DEFINE> Block C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 454 N DC OV B N us R
+<DEFINE> BlockChanged C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 454 N DC OV B N uc R
+<DEFINE> NvMProxy_SetRamBlockStatus C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 454 N DR OF F X (.,us,uc) -
+<DEFINE> NvMProxy_SetRamBlockStatus C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 454 N DF OF F X (.,us,uc) -
+<R>C NvMProxy_SetRamBlockStatus SchM_Enter_NvMProxy 459
+<R>X NvMProxy_SetRamBlockStatus SchM_Enter_NvMProxy 459 R
+<R>C NvMProxy_SetRamBlockStatus SchM_Exit_NvMProxy 465
+<R>X NvMProxy_SetRamBlockStatus SchM_Exit_NvMProxy 465 R
+<CTLG> NvMProxy_SetRamBlockStatus 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 5
+<CTLGN> 455 457 457 467 467 
+<S>
+<S>STFIL  C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_SetRamBlockStatus
+<S>STCYC  2
+<S>STMCC  1 (2:3)
+<S>STMIF  1
+<S>STSUB  2
+<S>STAKI  4
+<S>STLIN  11
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  7
+<S>STST2  6
+<S>STST3  6
+<S>STPAR  2
+<S>STCAL  2
+<S>STFN1  34
+<S>STFN2  19
+
+<DEFINE> NVMPROXY_STOP_SEC_CODE C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 475 N DF OM - - - O
+<R>I C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c C:/_swb/CBD/NvMProxy/utp/contract/MemMap.h 476
+<DEFINE> NvMPSetRBSRqst_Cnt_M_Str C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 74 N DI OV F I [1,{sNvMPSetRBSBuff_Type}] S
+<DEFINE> NvMPWriteRqst_Cnt_M_Str C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 73 N DI OV F I [1,{sNvMPWriteBuff_Type}] S
+<DEFINE> NvMPBlkShtdwnSts_Cnt_M_lgc C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c 75 N DI OV F I [1,uc] S
+<S>
+<S>STFIL  C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  C:/_swb/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  3
+<S>STECT  1
+<S>STFNC  6
+<S>STFCO  30
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  93
+<S>STOPT  40
+<S>STOPN  120
+<S>STTOT  2174
+<S>STZIP  904
+<S>STHAL  1042
+<S>STSHN  3749
+<S>STDIF  25.50  
+<S>STEFF  405967
+<S>STVOL  15918
+<S>STDEV  67.66  
+<S>STBUG  5
+<S>STTPP  477
+<S>STTLN  258
+<S>STM20  763
+<S>STM21  1404
+<S>STM22  113
+<S>STM28  76
+<S>STM33  65
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.103  
+<S>STBMS  1.309  
+<S>STBME  1.481  
+<S>STTDO  2.595  
+<S>STTDS  2.747  
+<S>STTDE  2.835  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.801  
+

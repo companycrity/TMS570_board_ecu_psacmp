@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\Tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\Tessy"
+    description=""
+    enableSourceRoot="true"
+    sourceRoot="$(PROJECTROOT)\MtrCtrl_CM\src"
+    identifier="cfb0beb5-0cf4-45c8-90dc-4fd2f0249288"
+    location="$(PROJECTROOT)\Tessy"
+    name="MtrCtrl_CurrCmd"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

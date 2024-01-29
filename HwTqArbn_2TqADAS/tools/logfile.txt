@@ -1,0 +1,102 @@
+
+MICROSAR RTE Generator Version 2.17.2
+Copyright c 2001-2010 Vector Informatik GmbH
+License CBD1010122 valid for CBD1010122 Nexteer  GM MSR_SLP3_BSW_RTE_wGMLAN TexasInstruments TMS570 Texas Instruments
+Loading profile settings from file 'C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\ProfileSettings.xml'.
+Failed to load profile settings from file 'C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\ProfileSettings.xml'. Applying default settings.
+
+Importing AUTOSAR XML-exchange file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\ComponentTypes\Sa_HwTqArbn.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\Constants.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\DataTypes.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\PortInterfaces.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\ComponentTypes\Sa_HwTqArbn_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\Constants_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\DataTypes_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\PortInterfaces_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\Sa_HwTqArbn_attr_def.xml>...
+file is valid
+Import finished
+
+Generation started at 15:47:19 2016-08-16
+
+
+Generating initial C code implementation for Component Type <Sa_HwTqArbn> ...
+Output file: <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\src\Sa_HwTqArbn.c>
+
+Generation finished at 15:47:22 2016-08-16
+
+
+0 Errors
+0 Warnings
+
+
+MICROSAR RTE Generator Version 2.17.2
+Copyright c 2001-2010 Vector Informatik GmbH
+License CBD1010122 valid for CBD1010122 Nexteer  GM MSR_SLP3_BSW_RTE_wGMLAN TexasInstruments TMS570 Texas Instruments
+Loading profile settings from file 'C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\ProfileSettings.xml'.
+Failed to load profile settings from file 'C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\ProfileSettings.xml'. Applying default settings.
+
+Importing AUTOSAR XML-exchange file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\ComponentTypes\Sa_HwTqArbn.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\Constants.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\DataTypes.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\PortInterfaces.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\ComponentTypes\Sa_HwTqArbn_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\Constants_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\DataTypes_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\PortInterfaces_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\autosar\Sa_HwTqArbn_attr_def.xml>...
+file is valid
+Import finished
+
+Generation started at 15:47:24 2016-08-16
+
+
+Generating AUTOSAR RTE contract phase header files for Component Type <Sa_HwTqArbn> ...
+Output path: <C:\Users\nz2378\Documents\work\CR_EA3_9800\Task_EA3_7839\SWC\HwTqArbn_2TqADAS\tools\contract\Sa_HwTqArbn\>
+
+Generation finished at 15:47:26 2016-08-16
+
+
+0 Errors
+0 Warnings
+

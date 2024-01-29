@@ -1,0 +1,16 @@
+VersionTag45
+StartProjectMarker
+FolderName=FrqDepDmpnInrtCmp
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=Ap_FrqDepDmpnInrtCmp
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_FrqDepDmpnInrtCmp.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Ap_FrqDepDmpnInrtCmp.c
+EndContainedFilesMarker
+EndSubProjectMarker
+

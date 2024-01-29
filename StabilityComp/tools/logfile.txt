@@ -1,0 +1,232 @@
+
+MICROSAR RTE Generator Version 2.17.2
+Copyright c 2001-2010 Vector Informatik GmbH
+License CBD1010122 valid for CBD1010122 Nexteer  GM MSR_SLP3_BSW_RTE_wGMLAN TexasInstruments TMS570 Texas Instruments
+Loading profile settings from file 'C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ProfileSettings.xml'.
+Failed to load profile settings from file 'C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ProfileSettings.xml'. Applying default settings.
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp2.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Constants.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\DataTypes.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\PortInterfaces.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp2_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Constants_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\DataTypes_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\PortInterfaces_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Ap_StabilityComp_attr_def.xml>...
+file is valid
+Import finished
+
+Generation started at 15:48:35 2013-03-07
+
+
+Generating initial C code implementation for Component Type <Ap_StabilityComp> ...
+Output file: <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\src\Ap_StabilityComp.c>
+
+Generation finished at 15:48:38 2013-03-07
+
+
+0 Errors
+0 Warnings
+
+
+MICROSAR RTE Generator Version 2.17.2
+Copyright c 2001-2010 Vector Informatik GmbH
+License CBD1010122 valid for CBD1010122 Nexteer  GM MSR_SLP3_BSW_RTE_wGMLAN TexasInstruments TMS570 Texas Instruments
+Loading profile settings from file 'C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ProfileSettings.xml'.
+Failed to load profile settings from file 'C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ProfileSettings.xml'. Applying default settings.
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp2.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Constants.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\DataTypes.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\PortInterfaces.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp2_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Constants_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\DataTypes_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\PortInterfaces_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Ap_StabilityComp_attr_def.xml>...
+file is valid
+Import finished
+
+Generation started at 15:48:40 2013-03-07
+
+
+Generating AUTOSAR RTE contract phase header files for Component Type <Ap_StabilityComp> ...
+Output path: <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\utp\contract\Ap_StabilityComp\>
+
+Generation finished at 15:48:43 2013-03-07
+
+
+0 Errors
+0 Warnings
+
+
+MICROSAR RTE Generator Version 2.17.2
+Copyright c 2001-2010 Vector Informatik GmbH
+License CBD1010122 valid for CBD1010122 Nexteer  GM MSR_SLP3_BSW_RTE_wGMLAN TexasInstruments TMS570 Texas Instruments
+Loading profile settings from file 'C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ProfileSettings.xml'.
+Failed to load profile settings from file 'C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ProfileSettings.xml'. Applying default settings.
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp2.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Constants.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\DataTypes.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\PortInterfaces.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp2_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Constants_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\DataTypes_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\PortInterfaces_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Ap_StabilityComp_attr_def.xml>...
+file is valid
+Import finished
+
+Generation started at 15:48:45 2013-03-07
+
+
+Generating initial C code implementation for Component Type <Ap_StabilityComp2> ...
+Output file: <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\src\Ap_StabilityComp2.c>
+
+Generation finished at 15:48:47 2013-03-07
+
+
+0 Errors
+0 Warnings
+
+
+MICROSAR RTE Generator Version 2.17.2
+Copyright c 2001-2010 Vector Informatik GmbH
+License CBD1010122 valid for CBD1010122 Nexteer  GM MSR_SLP3_BSW_RTE_wGMLAN TexasInstruments TMS570 Texas Instruments
+Loading profile settings from file 'C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ProfileSettings.xml'.
+Failed to load profile settings from file 'C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ProfileSettings.xml'. Applying default settings.
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp2.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Constants.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\DataTypes.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing AUTOSAR XML-exchange file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\PortInterfaces.arxml>...
+Using DaVinci AUTOSAR V3.1.4 (XSD rev. 0004), SHORT-NAMEs with up to 128 characters
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\ComponentTypes\Ap_StabilityComp2_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Constants_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\DataTypes_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\PortInterfaces_gen_attr.xml>...
+file is valid
+
+Importing generic attributes XML file <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\autosar\Ap_StabilityComp_attr_def.xml>...
+file is valid
+Import finished
+
+Generation started at 15:48:49 2013-03-07
+
+
+Generating AUTOSAR RTE contract phase header files for Component Type <Ap_StabilityComp2> ...
+Output path: <C:\Synergy_projects\StabilityComp-lz4p8n\StabilityComp\utp\contract\Ap_StabilityComp2\>
+
+Generation finished at 15:48:53 2013-03-07
+
+
+0 Errors
+0 Warnings
+

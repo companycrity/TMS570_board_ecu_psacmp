@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="D:\Synergy_Work_Area\FordTqLoaWarn\FordTqLoaWarn\utp\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="559fbece-be11-464f-b222-b2eb709a11fb"
+    location="$(PROJECTROOT)\tessy"
+    name="DiagMgr_Core"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

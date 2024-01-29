@@ -1,0 +1,1575 @@
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Copyright (c) 2006-2011 by Vector Informatik GmbH.                                             All rights reserved.
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *          File:  Rte.oil
+ *     Workspace:  C:/Components/PSA_CMP/PSA_CMP_EPS_TMS570/Tools/AsrProject/Config/DCF/EPS.dcf
+ *   ECU-Project:  EPS
+ *
+ *     Generator:  MICROSAR RTE Generator Version 2.19.1
+ *       License:  License CBD1010124 valid for CBD1010124 Nexteer  Package: BMW MSR SIP BAC3.0     Micro: TI TMS570 TMS570LS30306  Compiler: Code Composer Studio 4.9.0
+ *
+ *   Description:  OIL-File containing project specific OS definitions for the MICROSAR RTE
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *                                              P L E A S E   N O T E
+ *
+ * The attributes in this file must not be changed. Missing mandatory attributes must be set in the including file.
+ * They are presented as a comment in the corresponding object definition containing a list of all legal values.
+ *********************************************************************************************************************/
+
+   TASK Task_100ms_10 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 32:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_100ms_10_0_100ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_100ms_10;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_100ms_11 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 31:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_100ms_11_0_100ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_100ms_11;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_100ms_6 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 30:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_100ms_6_0_100ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_100ms_6;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_100ms_9 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 33:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_100ms_9_0_100ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_100ms_9;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_10ms_10a {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 43:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_10ms_10a_0_10ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_10ms_10a;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_10ms_10b {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 41:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      EVENT = Rte_Ev_Cyclic_Task_10ms_10b_0_10ms:"@RO@";
+      EVENT = Rte_Ev_Cyclic_Task_10ms_10b_0_5ms:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDat4V2Bsi_552:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatAbr_50D:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatBsi_3F2:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatBsi_412:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatBsi_432:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatBsi_572:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDyn2Cmm_348:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDyn2Fre_3CD:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynAas_2EB:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynAbr_38D:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynCds_34D:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynCmm_208:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynCmm_388:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynVol_305:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsInteElectronBsi_092:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComInput_SrlComInput_MsgProtoHs1DynUcf_5CD:"@RO@";
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_10ms_10b_0_10ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = SETEVENT
+      {
+         TASK = Task_10ms_10b;
+         EVENT = Rte_Ev_Cyclic_Task_10ms_10b_0_10ms;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_10ms_10b_0_5ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = SETEVENT
+      {
+         TASK = Task_10ms_10b;
+         EVENT = Rte_Ev_Cyclic_Task_10ms_10b_0_5ms;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_10ms_11 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 40:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_10ms_11_0_10ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_10ms_11;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_10ms_6 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 42:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      EVENT = Rte_Ev_Cyclic_Task_10ms_6_0_10ms:"@RO@";
+      EVENT = Rte_Ev_Run_SrlComDriver_SrlComDriver_Per1:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_SrlComDriver_SrlComDriver_Per1 {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = SETEVENT
+      {
+         TASK = Task_10ms_6;
+         EVENT = Rte_Ev_Run_SrlComDriver_SrlComDriver_Per1;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_10ms_6_0_10ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = SETEVENT
+      {
+         TASK = Task_10ms_6;
+         EVENT = Rte_Ev_Cyclic_Task_10ms_6_0_10ms;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_10ms_9 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 44:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_10ms_9_0_10ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_10ms_9;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_2ms_10 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 62:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_2ms_10_0_2ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_2ms_10;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_2ms_11 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 61:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_2ms_11_0_2ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_2ms_11;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_2ms_6 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 60:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_2ms_6_0_2ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_2ms_6;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_2ms_9 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 63:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_2ms_9_0_2ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_2ms_9;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_4ms_10 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 52:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_4ms_10_0_4ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_4ms_10;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_4ms_9 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 53:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_Task_4ms_9_0_4ms {
+// COUNTER = SystemTimer;  (use implementation specific name of the system timer)
+      ACTION = ACTIVATETASK
+      {
+         TASK = Task_4ms_9;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_Init_10 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 72:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   TASK Task_Init_11a {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 74:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   TASK Task_Init_11b {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 71:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   TASK Task_Init_6 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 70:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   TASK Task_Init_9 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 73:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   TASK Task_Trns_10 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 12:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      EVENT = Rte_Ev_MS_Task_Trns_10:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_10_StaMd_SystemState_Mode_DISABLE:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_10_StaMd_SystemState_Mode_OFF:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_10_StaMd_SystemState_Mode_OPERATE:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_10_StaMd_SystemState_Mode_WARMINIT:"@RO@";
+      EVENT = Rte_Ev_OnExit_Task_Trns_10_StaMd_SystemState_Mode_OFF:"@RO@";
+      EVENT = Rte_Ev_Run_HwPwUp_HwPwUp_Trns1:"@RO@";
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   TASK Task_Trns_11 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 11:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      EVENT = Rte_Ev_MS_Task_Trns_11:"@RO@";
+      EVENT = Rte_Ev_Run_DiagMgr11_DiagMgr11_Trns:"@RO@";
+      EVENT = Rte_Ev_Run_RteErrata11_RteErrata11_Trns:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   TASK Task_Trns_6 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 10:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      EVENT = Rte_Ev_MS_Task_Trns_6:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_6_StaMd6_SystemState6_Mode_OFF:"@RO@";
+      EVENT = Rte_Ev_OnExit_Task_Trns_6_StaMd6_SystemState6_Mode_OFF:"@RO@";
+      EVENT = Rte_Ev_Run_RteErrata6_RteErrata6_Trns:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+      ACCESSING_APPLICATION = Ap_9;
+   }:"@RO@@NR@";
+
+   TASK Task_Trns_9 {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 13:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      EVENT = Rte_Ev_MS_Task_Trns_9:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_9_StaMd9_SystemState9_Mode_DISABLE:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_9_StaMd9_SystemState9_Mode_OFF:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_9_StaMd9_SystemState9_Mode_OPERATE:"@RO@";
+      EVENT = Rte_Ev_OnEntry_Task_Trns_9_StaMd9_SystemState9_Mode_WARMINIT:"@RO@";
+      EVENT = Rte_Ev_Run_DiagMgr9_DiagMgr9_Trns:"@RO@";
+      EVENT = Rte_Ev_Run_ePWM2_ePWM2_Trns2:"@RO@";
+      ACCESSING_APPLICATION = Ap_10;
+      ACCESSING_APPLICATION = Ap_11;
+      ACCESSING_APPLICATION = Ap_6;
+   }:"@RO@@NR@";
+
+   EVENT Rte_Ev_Cyclic_Task_10ms_10b_0_10ms {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Cyclic_Task_10ms_10b_0_5ms {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Cyclic_Task_10ms_6_0_10ms {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_MS_Task_Trns_10 {
+      MASK = 0x04;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_MS_Task_Trns_11 {
+      MASK = 0x04;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_MS_Task_Trns_6 {
+      MASK = 0x04;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_MS_Task_Trns_9 {
+      MASK = 0x04;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_10_StaMd_SystemState_Mode_DISABLE {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_10_StaMd_SystemState_Mode_OFF {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_10_StaMd_SystemState_Mode_OPERATE {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_10_StaMd_SystemState_Mode_WARMINIT {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_6_StaMd6_SystemState6_Mode_OFF {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_9_StaMd9_SystemState9_Mode_DISABLE {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_9_StaMd9_SystemState9_Mode_OFF {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_9_StaMd9_SystemState9_Mode_OPERATE {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnEntry_Task_Trns_9_StaMd9_SystemState9_Mode_WARMINIT {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnExit_Task_Trns_10_StaMd_SystemState_Mode_OFF {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_OnExit_Task_Trns_6_StaMd6_SystemState6_Mode_OFF {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_DiagMgr11_DiagMgr11_Trns {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_DiagMgr9_DiagMgr9_Trns {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_HwPwUp_HwPwUp_Trns1 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_RteErrata11_RteErrata11_Trns {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_RteErrata6_RteErrata6_Trns {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComDriver_SrlComDriver_Per1 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDat4V2Bsi_552 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatAbr_50D {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatBsi_3F2 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatBsi_412 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatBsi_432 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDatBsi_572 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDyn2Cmm_348 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDyn2Fre_3CD {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynAas_2EB {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynAbr_38D {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynCds_34D {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynCmm_208 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynCmm_388 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsDynVol_305 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgIsInteElectronBsi_092 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_SrlComInput_SrlComInput_MsgProtoHs1DynUcf_5CD {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+   EVENT Rte_Ev_Run_ePWM2_ePWM2_Trns2 {
+      MASK = AUTO;
+   }:"@ROC@@NR@";
+
+
+   APPLICATION Ap_10 {
+      TRUSTED = FALSE;
+// Add the following four attributes according to your needs.
+// Note: They do not have a default value and are therefore necessary in the configuration.
+//      STARTUPHOOK = FALSE;
+//      SHUTDOWNHOOK = FALSE;
+//      ERRORHOOK = FALSE;
+//      HAS_RESTARTTASK = FALSE;
+      TASK = Task_100ms_10;
+      ALARM = Rte_Al_TE_Task_100ms_10_0_100ms;
+      TASK = Task_10ms_10a;
+      ALARM = Rte_Al_TE_Task_10ms_10a_0_10ms;
+      TASK = Task_10ms_10b;
+      ALARM = Rte_Al_TE_Task_10ms_10b_0_10ms;
+      ALARM = Rte_Al_TE_Task_10ms_10b_0_5ms;
+      TASK = Task_2ms_10;
+      ALARM = Rte_Al_TE_Task_2ms_10_0_2ms;
+      TASK = Task_4ms_10;
+      ALARM = Rte_Al_TE_Task_4ms_10_0_4ms;
+      TASK = Task_Init_10;
+      TASK = Task_Trns_10;
+  };
+
+   APPLICATION Ap_11 {
+      TRUSTED = FALSE;
+// Add the following four attributes according to your needs.
+// Note: They do not have a default value and are therefore necessary in the configuration.
+//      STARTUPHOOK = FALSE;
+//      SHUTDOWNHOOK = FALSE;
+//      ERRORHOOK = FALSE;
+//      HAS_RESTARTTASK = FALSE;
+      TASK = Task_100ms_11;
+      ALARM = Rte_Al_TE_Task_100ms_11_0_100ms;
+      TASK = Task_10ms_11;
+      ALARM = Rte_Al_TE_Task_10ms_11_0_10ms;
+      TASK = Task_2ms_11;
+      ALARM = Rte_Al_TE_Task_2ms_11_0_2ms;
+      TASK = Task_Init_11a;
+      TASK = Task_Init_11b;
+      TASK = Task_Trns_11;
+  };
+
+   APPLICATION Ap_6 {
+      TRUSTED = TRUE
+      {
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_AbsHwPos_EOLVehCntrOffset_GetErrorStatus";
+            Params = "NvM_RequestResultType *ErrorStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_AbsHwPos_EOLVehCntrOffset_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ActivePull_FaultInjection_SCom_FltInjection";
+            Params = "Float *SignalPath_Uls_f32, FltInjectionLocType LocationKey_Cnt_enum";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ActivePull_PullCmpLTComp_SetRamBlockStatus";
+            Params = "Boolean RamBlockStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ActivePull_SystemTime_DtrmnElapsedTime_mS_u32";
+            Params = "UInt32 InitialTime, UInt32 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ActivePull_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_AvgFricLrn_AvgFricLrnData_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_AvgFricLrn_FltInjection_SCom_FltInjection";
+            Params = "Float *SignalPath_Uls_f32, FltInjectionLocType LocationKey_Cnt_enum";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_AvgFricLrn_SystemTime_DtrmnElapsedTime_mS_u32";
+            Params = "UInt32 InitialTime, UInt32 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_AvgFricLrn_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_BVDiag_SystemTime_DtrmnElapsedTime_mS_u16";
+            Params = "UInt32 InitialTime, UInt16 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_BVDiag_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_BatteryVoltage_FltInjection_SCom_FltInjection";
+            Params = "Float *SignalPath_Uls_f32, FltInjectionLocType LocationKey_Cnt_enum";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_BatteryVoltage_OvervoltageData_SetRamBlockStatus";
+            Params = "Boolean RamBlockStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_BatteryVoltage_OvervoltageData_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_100msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_100msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_10msaEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_10msaStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_10msbEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_10msbStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_2msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_2msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_4msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp10_ChkPtAp10_4msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp11_ChkPtAp11_100msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp11_ChkPtAp11_100msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp11_ChkPtAp11_10msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp11_ChkPtAp11_10msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp11_ChkPtAp11_2msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp11_ChkPtAp11_2msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp9_ChkPtAp9_100msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp9_ChkPtAp9_100msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp9_ChkPtAp9_10msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp9_ChkPtAp9_10msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp9_ChkPtAp9_2msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp9_ChkPtAp9_2msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp9_ChkPtAp9_4msEnd_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ChkPtAp9_ChkPtAp9_4msStart_CP_CheckpointReached";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_CtrlPolarityBrshlss_Polarity_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_CurrParamComp_EOLNomMtrParamBlk_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_CustBattDiag_EpsEn_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_CustBattDiag_SystemTime_DtrmnElapsedTime_mS_u16";
+            Params = "UInt32 InitialTime, UInt16 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_CustBattDiag_SystemTime_DtrmnElapsedTime_mS_u32";
+            Params = "UInt32 InitialTime, UInt32 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_CustBattDiag_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_DemIf_SystemTime_DtrmnElapsedTime_mS_u16";
+            Params = "UInt32 InitialTime, UInt16 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_DemIf_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_DiagSvc_IS_DYN_DAE_Get";
+            Params = "IS_DYN_DAE_Msg *IsDynDae";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_DiagSvc_IS_SUPV_DIRA_Get";
+            Params = "IS_SUPV_DIRA_Msg *IsSupvDira";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_FaultLog_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_LrnEOT_LearnedEOTData_SetRamBlockStatus";
+            Params = "Boolean RamBlockStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_LrnEOT_LearnedEOTData_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_LrnEOT_SystemTime_DtrmnElapsedTime_mS_u16";
+            Params = "UInt32 InitialTime, UInt16 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_LrnEOT_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_PSASH_SystemTime_DtrmnElapsedTime_mS_u32";
+            Params = "UInt32 InitialTime, UInt32 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_PSASH_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_PsaAgArbn_PsaAgArbnLrndOffsBlk_GetErrorStatus";
+            Params = "NvM_RequestResultType *ErrorStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_PsaAgArbn_PsaAgArbnLrndOffsBlk_SetRamBlockStatus";
+            Params = "Boolean RamBlockStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_PsaAgArbn_PsaAgArbnLrndOffsBlk_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_Return_FltInjection_SCom_FltInjection";
+            Params = "Float *SignalPath_Uls_f32, FltInjectionLocType LocationKey_Cnt_enum";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_SignlCondn_FaultInjection_SCom_FltInjection";
+            Params = "Float *SignalPath_Uls_f32, FltInjectionLocType LocationKey_Cnt_enum";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_SrlComInput_ElecInt_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_SrlComInput_EpsEn_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_SrlComInput_ShutdownTime_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_SrlComInput_VHHTYPE_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_SrlComOutput_EpsEn_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_SrlComOutput_IndStatusETATDA2_GetIndicatorStatus";
+            Params = "Dem_IndicatorStatusType *IndicatorStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_StaMd_CloseCheckData_GetErrorStatus";
+            Params = "NvM_RequestResultType *ErrorStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_StaMd_CloseCheckData_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_StaMd_TOD_OP_SET";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_StaMd_TypeHData_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ThrmlDutyCycle_ThrmlDutyCycle_FltStVar_GetErrorStatus";
+            Params = "NvM_RequestResultType *ErrorStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_ThrmlDutyCycle_ThrmlDutyCycle_FltStVar_SetRamBlockStatus";
+            Params = "Boolean RamBlockStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_TrqCanc_EOLCogTrqCanc_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_TrqCanc_EOLCogTrqRplComp_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_TrqCmdScl_TrqCmdScl_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_VehDyn_NVM_VehDynReset_Srv_GetErrorStatus";
+            Params = "NvM_RequestResultType *ErrorStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_VehDyn_NVM_VehDynReset_Srv_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_VehDyn_SystemTime_DtrmnElapsedTime_mS_u32";
+            Params = "UInt32 InitialTime, UInt32 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_VehDyn_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_VehPwrMd_EpsEn_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_VehPwrMd_SystemTime_DtrmnElapsedTime_mS_u16";
+            Params = "UInt32 InitialTime, UInt16 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Ap_VehPwrMd_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Cd_SrlComDriver_IS_DAT_DIRA_Get";
+            Params = "IS_DAT_DIRA_Msg *IsDatDira";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Cd_SrlComDriver_IS_DYN_DAE_Get";
+            Params = "IS_DYN_DAE_Msg *IsDynDae";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Cd_SrlComDriver_IS_DYN_VOL_Get";
+            Params = "IS_DYN_VOL_MsgBase *IsDynVolBase, IS_DYN_VOL_MsgAdd *IsDynVolAdd";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Cd_SrlComDriver_IS_SUPV_DIRA_Get";
+            Params = "IS_SUPV_DIRA_Msg *IsSupvDira";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Cd_SrlComDriver_SystemTime_DtrmnElapsedTime_mS_u16";
+            Params = "UInt32 InitialTime, UInt16 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Cd_SrlComDriver_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_ActivePull_SCom_SetLTComp";
+            Params = "Float LTComp_HwNm_f32";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_ActivePull_SCom_SetSTComp";
+            Params = "Float STComp_HwNm_f32";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_AvgFricLrn_SCom_InitLearnedTables";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_AvgFricLrn_SCom_ResetToZero";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_AvgFricLrn_SCom_SetEOLFric";
+            Params = "Float EOLFric_HwNm_f32";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_AvgFricLrn_SCom_SetOffsetOutputDefeat";
+            Params = "Boolean DefeatOffsetOutput_Cnt_lgc";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_AvgFricLrn_SCom_SetSelect";
+            Params = "Boolean EnableFricLearning_Cnt_lgc, Boolean EnableOffsetOutput_Cnt_lgc, UInt8 OpMode_Uls_u08";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_BatteryVoltage_SCom_ClearTransOvData";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_CmMtrCurr_SCom_CalGain";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_CmMtrCurr_SCom_CalOffset";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_CmMtrCurr_SCom_SetMtrCurrCals";
+            Params = "const PhaseCurrCal_DataType *ShCurrCalPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_IoHwAb_Adc_ResetAdcEnable";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_LrnEOT_Scom_ResetEOT";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_SrlComDriver_SCom_ElecIntStart";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_SrlComDriver_SCom_ElecIntStop";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_SrlComDriver_SCom_GetBusOffCounter";
+            Params = "UInt16 *BusOffCounter_Cnt_T_u16";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_SrlComDriver_SCom_SendMsgOnChange";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_NtWrap_C_VehDyn_SCom_ResetCenter";
+            Params = "void";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_BkCpPc_SystemTime_DtrmnElapsedTime_mS_u16";
+            Params = "UInt32 InitialTime, UInt16 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_BkCpPc_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_CDDInterface9_CDDPorts_ClearPhsReasSum";
+            Params = "UInt16 DataAccessBfr_Cnt_T_u16";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_CmMtrCurr_EOLCurrTempOffset_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_CmMtrCurr_EOLShCurrCal_SetRamBlockStatus";
+            Params = "Boolean RamBlockStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_CmMtrCurr_EOLShCurrCal_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_HwTqArbn_HwTqArbnEOLCh1OffsetTrim_WriteBlock";
+            Params = "const NvM_DestPtr *DstPtr";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_HwTqCorrln_HwTqCorrlnCh1CMCLPFSvBlk_SetRamBlockStatus";
+            Params = "Boolean RamBlockStatus";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_MtrDrvDiag_FetDrvReset_OP_SET";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_MtrDrvDiag_FetFlt1Data_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_MtrDrvDiag_FetFlt2Clk_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_MtrDrvDiag_FetFlt2Clk_OP_SET";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_MtrDrvDiag_IoHwAbPortConfig_SetFetFlt2ToOutput";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_OvrVoltMon_phyOvrVoltFdbk_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_ShtdnMech_FetDrvReset_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_ShtdnMech_SysFault2_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_ShtdnMech_SysFault3_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon2_WdMonitor_OP_SET";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_FetDrvCntl_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_PwrSwitchEn_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_SysFault2_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_SysFault2_OP_SET";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_SysFault3_OP_GET";
+            Params = "IoHwAb_BoolType *signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_SysFault3_OP_SET";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_SystemTime_DtrmnElapsedTime_mS_u16";
+            Params = "UInt32 InitialTime, UInt16 *ElapsedTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_SystemTime_GetSystemTime_mS_u32";
+            Params = "UInt32 *CurrentTime";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_WdMonitor_OP_SET";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         TRUSTED_FUNCTION = TRUE
+         {
+            NAME = "Rte_TrustedCall_Sa_TmprlMon_WdReset_OP_SET";
+            Params = "IoHwAb_BoolType signal";
+            ReturnType = "Std_ReturnType";
+         };
+         GenerateStub = TRUE;
+      };
+// Add the following four attributes according to your needs.
+// Note: They do not have a default value and are therefore necessary in the configuration.
+//      STARTUPHOOK = FALSE;
+//      SHUTDOWNHOOK = FALSE;
+//      ERRORHOOK = FALSE;
+//      HAS_RESTARTTASK = FALSE;
+      TASK = Task_100ms_6;
+      ALARM = Rte_Al_TE_Task_100ms_6_0_100ms;
+      TASK = Task_10ms_6;
+      ALARM = Rte_Al_TE_SrlComDriver_SrlComDriver_Per1;
+      ALARM = Rte_Al_TE_Task_10ms_6_0_10ms;
+      TASK = Task_2ms_6;
+      ALARM = Rte_Al_TE_Task_2ms_6_0_2ms;
+      TASK = Task_Init_6;
+      TASK = Task_SchM_100ms_6;
+      TASK = Task_SchM_10ms_6;
+      ALARM = Rte_Al_TE_Task_SchM_10ms_6_0_10ms;
+      ALARM = Rte_Al_TE_WdgM_MainFunction;
+      TASK = Task_SchM_Init_6;
+      TASK = Task_SchM_Trns_6;
+      ALARM = Rte_Al_TE_StaMd6_StaMd6_Trns_DemShutdown;
+      TASK = Task_Trns_6;
+  };
+
+   APPLICATION Ap_9 {
+      TRUSTED = FALSE;
+// Add the following four attributes according to your needs.
+// Note: They do not have a default value and are therefore necessary in the configuration.
+//      STARTUPHOOK = FALSE;
+//      SHUTDOWNHOOK = FALSE;
+//      ERRORHOOK = FALSE;
+//      HAS_RESTARTTASK = FALSE;
+      TASK = Task_100ms_9;
+      ALARM = Rte_Al_TE_Task_100ms_9_0_100ms;
+      TASK = Task_10ms_9;
+      ALARM = Rte_Al_TE_Task_10ms_9_0_10ms;
+      TASK = Task_2ms_9;
+      ALARM = Rte_Al_TE_Task_2ms_9_0_2ms;
+      TASK = Task_4ms_9;
+      ALARM = Rte_Al_TE_Task_4ms_9_0_4ms;
+      TASK = Task_Init_9;
+      TASK = Task_Trns_9;
+  };

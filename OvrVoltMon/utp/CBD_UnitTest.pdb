@@ -1,0 +1,59 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\OvrVoltMon\utp\Tessy\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\OvrVoltMon\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "Administrator"
+Created          : 11.07.2012 11:31
+Last Changed     : 18.02.2014 11:06
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "OvrVoltMon"
+      Comment     : "*************************************************************************************************************\r\nName of Tester:Sheetal Wadichar\r\nCode File(s) Under Test:Sa_OvrVoltMon.c\r\nCode File(s) Version:5\r\nModule Design Document:OverVoltageMonitor_MDD.docx\r\nModule Design Document Version:6\r\nData Dictionary Version:3\r\nUnit Test Plan Version:4\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d / EPS Library 1.30\r\nTotal FLASH Used (Bytes):138\r\nTotal RAM Used (Bytes):2\r\nTotal CALS Used (Bytes):6\r\nSpecial Test Requirements:\r\nTest Date:2/18/2014\r\nComments:""Note1: Inline function defined in GlobalMacro.h are not Unit Tested.\nNote2:""""CBD_Sandbox_dbg.map"""" map file is embedded for refernce.""\r\n\r\n\r\n\r\n*************************************************************************************************************\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\OvrVoltMon\utp\contract, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\NxtrLib\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Sa_OvrVoltMon.c"
+         Path : "$(PROJECTROOT)\OvrVoltMon\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0x00000000
+               Value : "0"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "OvrVoltMon_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

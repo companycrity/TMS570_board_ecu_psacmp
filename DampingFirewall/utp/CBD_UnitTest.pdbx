@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="bb6af3f6-ce55-4c90-8767-82544bbd2b2c"
+    location="$(PROJECTROOT)\tessy"
+    name="DampingFirewall_SF35_014.0_NoUTP"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

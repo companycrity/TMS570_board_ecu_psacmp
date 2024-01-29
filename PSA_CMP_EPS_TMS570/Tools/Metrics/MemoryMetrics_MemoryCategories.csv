@@ -1,0 +1,3 @@
+Application,C000,9FFFF
+Calibrations,A0000,BFFFF
+RAM,8000000,801FFFF

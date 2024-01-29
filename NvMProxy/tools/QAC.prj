@@ -1,0 +1,11 @@
+VersionTag45
+StartProjectMarker
+FolderName=QAC
+SourcePath=..\src\
+OutputPath=..\doc\QAC_Results\
+SubsPers=..\..\QAC\m2cmMessage.p_s
+AnalPers=..\..\QAC\m2cmAnalyser.p_a
+CompPers=..\..\QAC\m2cm.p_c
+..\src\Cd_NvMProxy.c
+EndContainedFilesMarker
+

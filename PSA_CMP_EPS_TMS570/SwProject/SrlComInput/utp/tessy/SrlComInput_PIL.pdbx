@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="43eeb1e9-b786-44f0-9cd2-6b8009896978"
+    location="$(PROJECTROOT)\tessy"
+    name="PSA_SrlComInput"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

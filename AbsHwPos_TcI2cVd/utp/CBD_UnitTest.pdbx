@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="true"
+    sourceRoot="$(PROJECTROOT)\AbsHwPos_TcI2cVd\src"
+    identifier="6dc76021-e3ef-4588-b7cf-d64983abbb5e"
+    location="$(PROJECTROOT)\tessy"
+    name="AbsHwPos"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

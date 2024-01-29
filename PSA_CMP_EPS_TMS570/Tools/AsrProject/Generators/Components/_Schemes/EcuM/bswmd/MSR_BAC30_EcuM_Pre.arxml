@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by Vector Employee (Vector Informatik GmbH) -->
+<!--
+============================================================================
+This file is generated with Eparm 2.0.2.14
+Date: Mon, 29 Jun 2009 10:57:40 GMT
+============================================================================
+-->
+<AUTOSAR xmlns="http://autosar.org/3.0.1">
+	<TOP-LEVEL-PACKAGES>
+		<AR-PACKAGE UUID="32139bce-3a75-497f-94af-f6a1e5872b4f">
+			<SHORT-NAME>MICROSAR</SHORT-NAME>
+			<ELEMENTS>
+				<MODULE-CONFIGURATION UUID="7bf07a06-a655-40df-8d36-e33a6fe8c480">
+					<SHORT-NAME>EcuM_Pre</SHORT-NAME>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/EcuM</DEFINITION-REF>
+					<!--
+-->
+					<CONTAINERS></CONTAINERS>
+				</MODULE-CONFIGURATION>
+				<MODULE-CONFIGURATION UUID="6f220cd8-55c5-48d2-b79a-b8b8dc341ca6">
+					<SHORT-NAME>EcuM_Rec</SHORT-NAME>
+					<ADMIN-DATA>
+						<SDGS>
+							<SDG GID="DV:ClassConfiguration">
+								<SD>/MICROSAR/EcuM_Rec_Class1/EcuMConfiguration</SD>
+								<SD>/MICROSAR/EcuM_Rec_Class2/EcuMConfiguration/EcuMSleepMode</SD>
+								<SD>/MICROSAR/EcuM_Rec_Class3/EcuMConfiguration/EcuMTTII</SD>
+							</SDG>
+						</SDGS>
+					</ADMIN-DATA>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/EcuM</DEFINITION-REF>
+					<!--
+-->
+					<IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+					<!--
+-->
+					<CONTAINERS>
+						<CONTAINER UUID="4845d42a-f343-4f22-8ed9-8a520c74265b">
+							<SHORT-NAME>EcuMGeneral</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMGeneral</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMMainFunctionPeriod</DEFINITION-REF>
+									<VALUE>0.01</VALUE>
+								</FLOAT-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMIncludeDem</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMIncludeDet</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMIncludeNvramMgr</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMIncludeWdgM</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMIncludeComM</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMIncludeRte</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMIncludeSchM</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMTTIIEnabled</DEFINITION-REF>
+									<VALUE>false</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMVersionInfoApi</DEFINITION-REF>
+									<VALUE>false</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMDevErrorDetect</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckParameter</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckPointerParameter</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckConfigType</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckUnInit</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckStateParameter</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckWkSourceParameter</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckBootTargetParameter</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckSleepModeParameter</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCheckUserParameter</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMEnableProdErrorReporting</DEFINITION-REF>
+									<VALUE>true</VALUE>
+								</BOOLEAN-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMDetErrorhookFunction</DEFINITION-REF>
+									<VALUE>Det_ReportError</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMDemSetError</DEFINITION-REF>
+									<VALUE>Dem_ReportErrorStatus</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMMcuIncludeFile</DEFINITION-REF>
+									<VALUE>Mcu.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMWdgMIncludeFile</DEFINITION-REF>
+									<VALUE>WdgM.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMComMIncludeFile</DEFINITION-REF>
+									<VALUE>ComM.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMSchMIncludeFile</DEFINITION-REF>
+									<VALUE>SchM.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMComMCallbackFile</DEFINITION-REF>
+									<VALUE>ComM_EcuM.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMRteIncludeFile</DEFINITION-REF>
+									<VALUE>Rte_Main.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMNvmIncludeFile</DEFINITION-REF>
+									<VALUE>Nvm.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMDetIncludeFile</DEFINITION-REF>
+									<VALUE>Det.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMDemIncludeFile</DEFINITION-REF>
+									<VALUE>Dem.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMOsIncludeFile</DEFINITION-REF>
+									<VALUE>Os.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMProdErrorDetectIncludeFile</DEFINITION-REF>
+									<VALUE>Dem.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMDevErrorDetectIncludeFile</DEFINITION-REF>
+									<VALUE>Det.h</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMAdditionalIncludes</DEFINITION-REF>
+									<VALUE>ApplMain.h</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMNvmCancelWriteAllTimeout</DEFINITION-REF>
+									<VALUE>1.0</VALUE>
+								</FLOAT-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMIrqHandling</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/ActiveEcuC/Board/InterruptFunctionality/SuspendAllInterrupts</VALUE-REF>
+								</REFERENCE-VALUE>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMWkupIsrHandling</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/ActiveEcuC/Board/InterruptFunctionality/SuspendAllInterrupts</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+							<SUB-CONTAINERS>
+								<CONTAINER UUID="240afafd-2ae4-474a-83ec-b2d3c47b3d69">
+									<SHORT-NAME>EcuMApiSwitches</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMApiSwitches</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMApiSwitches/EcuMKillAllRUNRequestApi</DEFINITION-REF>
+											<VALUE>true</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMApiSwitches/EcuMGetValidatedWakeupEventsApi</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMApiSwitches/EcuMGetExpiredWakeupEventsApi</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMApiSwitches/EcuMGetStatusOfWakeupSourceApi</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="4f2f6148-a6f7-4a86-9421-0ae2770bc047">
+									<SHORT-NAME>EcuMCalloutSwitches</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnRTEStartupCallout</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnEnterRunCallout</DEFINITION-REF>
+											<VALUE>true</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnExitRunCallout</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnExitPostRunCallout</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnPrepShutdownCallout</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnGoSleepCallout</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnGoOffOneCallout</DEFINITION-REF>
+											<VALUE>true</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnGoOffTwoCallout</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMOnWakeupReactionCallout</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMCalloutSwitches/EcuMGeneratorCompatibilityError</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="e63a6d92-9665-419a-a074-6728d64040f0">
+									<SHORT-NAME>EcuMServicePortConfig</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig/EcuMGenStateRequestPort</DEFINITION-REF>
+											<VALUE>true</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig/EcuMGenBootTargetPort</DEFINITION-REF>
+											<VALUE>true</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig/EcuMGenApplicationModePort</DEFINITION-REF>
+											<VALUE>true</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig/EcuMGenShutdownTargetPort</DEFINITION-REF>
+											<VALUE>true</VALUE>
+										</BOOLEAN-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig/EcuMGenModeSwitchPort</DEFINITION-REF>
+											<VALUE>true</VALUE>
+										</BOOLEAN-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig/EcuMModeSwitchCbkName</DEFINITION-REF>
+											<VALUE>Rte_Switch_currentMode_currentMode</VALUE>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig/EcuMServiceComponentName</DEFINITION-REF>
+											<VALUE>EcuM</VALUE>
+										</STRING-VALUE>
+										<BOOLEAN-VALUE>
+											<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/EcuM/EcuMGeneral/EcuMServicePortConfig/EcuMModeSwitchRteAck</DEFINITION-REF>
+											<VALUE>false</VALUE>
+										</BOOLEAN-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+							</SUB-CONTAINERS>
+						</CONTAINER>
+					</CONTAINERS>
+				</MODULE-CONFIGURATION>
+			</ELEMENTS>
+		</AR-PACKAGE>
+	</TOP-LEVEL-PACKAGES>
+</AUTOSAR>

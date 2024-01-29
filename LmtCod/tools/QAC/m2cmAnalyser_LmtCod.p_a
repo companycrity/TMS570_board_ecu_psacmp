@@ -1,0 +1,45 @@
+-il 0
+-i "..\..\tools\contract"
+-i "..\..\tools\contract\Ap_LmtCod"
+-i "..\..\include"
+-i "..\..\..\StdDef\include"
+-i "..\..\..\StdDef\include\TMS570_HerculesRegs"
+-i "..\..\..\StdDef\include\TMS570_4_9_5\include"
+-i "..\..\..\NxtrLib\include"
+-sty exdented
+-tab 8
+-wc abort=5126
+-wc asctime=5127
+-wc atof=5125
+-wc atoi=5125
+-wc atol=5125
+-wc calloc=5118
+-wc clock=5127
+-wc ctime=5127
+-wc difftime=5127
+-wc exit=5126
+-wc free=5118
+-wc getenv=5126
+-wc gmtime=5127
+-wc localtime=5127
+-wc longjmp=5122
+-wc malloc=5118
+-wc mktime=5127
+-wc raise=5123
+-wc realloc=5118
+-wc signal=5123
+-wc strftime=5127
+-wc system=5126
+-wc time=5127
+-en ASC
+-maxerr 0
+-spragma "DATA_SECTION*"
+-spragma "INTERRUPT*"
+-spragma "WEAK*"
+-met+
+-ppm-
+-co a
+-k+r s
+-ss+
+-sr-
+-mll 0

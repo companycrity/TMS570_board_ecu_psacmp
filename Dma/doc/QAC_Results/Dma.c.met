@@ -1,0 +1,1509 @@
+<RDEF> I Includes
+<R>I C:/SynergyWorkArea/Working/Dma/src/Dma.c C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 27
+<DEFINE> DMA_REGS_H C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 25 I DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 30
+<DEFINE> STD_TYPES_H C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/SynergyWorkArea/Working/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/StdDef/include/Compiler.h C:/SynergyWorkArea/Working/Dma/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/SynergyWorkArea/Working/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<DEFINE> dmactrlregs C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 32 I DC TG F N {sdmactrlregs} -
+<DEFINE> dmactrlregs C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 32 I DF TG F N {sdmactrlregs} -
+<DEFINE> GCTRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 34 I DC MB F N ul -
+<DEFINE> PEND C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 35 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 36 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 36 I DC MB F N ub -
+<DEFINE> DMASTAT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 37 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 38 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 38 I DC MB F N ub -
+<DEFINE> HWCHENAS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 39 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 40 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 40 I DC MB F N ub -
+<DEFINE> HWCHENAR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 41 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 42 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 42 I DC MB F N ub -
+<DEFINE> SWCHENAS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 43 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 44 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 44 I DC MB F N ub -
+<DEFINE> SWCHENAR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 45 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 46 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 46 I DC MB F N ub -
+<DEFINE> CHPRIOS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 47 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 48 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 48 I DC MB F N ub -
+<DEFINE> CHPRIOR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 49 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 50 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 50 I DC MB F N ub -
+<DEFINE> GCHIENAS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 51 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 52 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 52 I DC MB F N ub -
+<DEFINE> GCHIENAR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 53 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 54 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 54 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 55 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 55 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 56 36 I DN ui F B
+<DEFINE> DREQASI0_CH0ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 56 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 57 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 57 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 58 32 I DN ui F B
+<DEFINE> DREQASI0_CH1ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 58 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 59 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 59 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 60 36 I DN ui F B
+<DEFINE> DREQASI0_CH2ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 60 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 61 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 61 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 62 32 I DN ui F B
+<DEFINE> DREQASI0_CH3ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 62 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 63 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 63 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 64 36 I DN ui F B
+<DEFINE> DREQASI1_CH4ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 64 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 65 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 65 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 66 32 I DN ui F B
+<DEFINE> DREQASI1_CH5ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 66 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 67 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 67 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 68 36 I DN ui F B
+<DEFINE> DREQASI1_CH6ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 68 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 69 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 69 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 70 32 I DN ui F B
+<DEFINE> DREQASI1_CH7ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 70 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 71 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 71 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 72 36 I DN ui F B
+<DEFINE> DREQASI2_CH8ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 72 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 73 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 73 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 74 32 I DN ui F B
+<DEFINE> DREQASI2_CH9ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 74 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 75 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 75 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 76 36 I DN ui F B
+<DEFINE> DREQASI2_CH10ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 76 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 77 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 77 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 78 32 I DN ui F B
+<DEFINE> DREQASI2_CH11ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 78 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 79 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 79 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 80 36 I DN ui F B
+<DEFINE> DREQASI3_CH12ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 80 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 81 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 81 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 82 32 I DN ui F B
+<DEFINE> DREQASI3_CH13ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 82 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 83 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 83 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 84 36 I DN ui F B
+<DEFINE> DREQASI3_CH14ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 84 I DC MB F N ub -
+<LIT> 2 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 85 52 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 85 I DC MB F N ub -
+<LIT> 6 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 86 32 I DN ui F B
+<DEFINE> DREQASI3_CH15ASI C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 86 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 87 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 87 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 88 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 88 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 89 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 89 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 90 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 90 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 91 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 91 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 92 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 92 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 93 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 93 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 94 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 94 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 95 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 95 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 96 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 96 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 97 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 97 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 98 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 98 I DC MB F N ub -
+<DEFINE> PAR0 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 99 I DC MB F N ul -
+<DEFINE> PAR1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 100 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 101 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 101 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 102 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 102 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 103 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 103 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 104 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 104 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 105 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 105 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 106 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 106 I DC MB F N ub -
+<DEFINE> FTCMAP C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 107 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 108 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 108 I DC MB F N ub -
+<DEFINE> LFSMAP C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 109 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 110 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 110 I DC MB F N ub -
+<DEFINE> HBCMAP C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 111 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 112 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 112 I DC MB F N ub -
+<DEFINE> BTCMAP C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 113 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 114 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 114 I DC MB F N ub -
+<DEFINE> BERMAP C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 115 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 116 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 116 I DC MB F N ub -
+<DEFINE> FTCINTENAS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 117 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 118 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 118 I DC MB F N ub -
+<DEFINE> FTCINTENAR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 119 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 120 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 120 I DC MB F N ub -
+<DEFINE> LFSINTENAR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 121 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 122 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 122 I DC MB F N ub -
+<DEFINE> LFSINTENAS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 123 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 124 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 124 I DC MB F N ub -
+<DEFINE> HBCINTENAR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 125 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 126 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 126 I DC MB F N ub -
+<DEFINE> HBCINTENAS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 127 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 128 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 128 I DC MB F N ub -
+<DEFINE> BTCINTENAS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 129 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 130 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 130 I DC MB F N ub -
+<DEFINE> BTCINTENAR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 131 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 132 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 132 I DC MB F N ub -
+<DEFINE> GINTFLAG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 133 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 134 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 134 I DC MB F N ub -
+<DEFINE> FTCFLAG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 135 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 136 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 136 I DC MB F N ub -
+<DEFINE> LFSFLAG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 137 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 138 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 138 I DC MB F N ub -
+<DEFINE> HBCFLAG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 139 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 140 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 140 I DC MB F N ub -
+<DEFINE> BTCFLAG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 141 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 142 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 142 I DC MB F N ub -
+<DEFINE> BERFLAG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 143 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 144 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 144 I DC MB F N ub -
+<DEFINE> FTCAOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 145 I DC MB F N ul -
+<DEFINE> LFSAOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 146 I DC MB F N ul -
+<DEFINE> HBCAOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 147 I DC MB F N ul -
+<DEFINE> BTCAOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 148 I DC MB F N ul -
+<DEFINE> BERAOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 149 I DC MB F N ul -
+<DEFINE> FTCBOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 150 I DC MB F N ul -
+<DEFINE> LFSBOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 151 I DC MB F N ul -
+<DEFINE> HBCBOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 152 I DC MB F N ul -
+<DEFINE> BTCBOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 153 I DC MB F N ul -
+<DEFINE> BERBOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 154 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 155 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 155 I DC MB F N ub -
+<DEFINE> PTCRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 156 I DC MB F N ul -
+<DEFINE> RTCTRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 157 I DC MB F N ul -
+<DEFINE> DCTRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 158 I DC MB F N ul -
+<DEFINE> WPR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 159 I DC MB F N ul -
+<DEFINE> WMR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 160 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 161 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 161 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 162 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 162 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 163 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 163 I DC MB F N ub -
+<DEFINE> PBACSADDR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 164 I DC MB F N ul -
+<DEFINE> PBACDADDR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 165 I DC MB F N ul -
+<DEFINE> PBACTC C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 166 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 167 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 167 I DC MB F N ub -
+<DEFINE> DMAPCR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 168 I DC MB F N ul -
+<DEFINE> DMAPAR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 169 I DC MB F N ul -
+<DEFINE> DMAMPCTRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 170 I DC MB F N ul -
+<DEFINE> DMAMPST C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 171 I DC MB F N ul -
+<DEFINE> DMAMPR0S C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 172 I DC MB F N ul -
+<DEFINE> DMAMPR0E C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 173 I DC MB F N ul -
+<DEFINE> DMAMPR1S C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 174 I DC MB F N ul -
+<DEFINE> DMAMPR1E C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 175 I DC MB F N ul -
+<DEFINE> DMAMPR2S C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 176 I DC MB F N ul -
+<DEFINE> DMAMPR2E C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 177 I DC MB F N ul -
+<DEFINE> DMAMPR3S C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 178 I DC MB F N ul -
+<DEFINE> DMAMPR3E C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 179 I DC MB F N ul -
+<DEFINE> dmactrlregs_t C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 181 I DC OT F N ^{sdmactrlregs} -
+<DEFINE> dmactrlpkt C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 183 I DC TG F N {sdmactrlpkt} -
+<DEFINE> dmactrlpkt C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 183 I DF TG F N {sdmactrlpkt} -
+<DEFINE> ISADDR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 185 I DC MB F N ul -
+<DEFINE> IDADDR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 186 I DC MB F N ul -
+<DEFINE> ITCOUNT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 187 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 188 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 188 I DC MB F N ub -
+<DEFINE> CHCTRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 189 I DC MB F N ul -
+<DEFINE> EIOFF C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 190 I DC MB F N ul -
+<DEFINE> FIOFF C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 191 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 192 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 192 I DC MB F N ub -
+<DEFINE> dmactrlpkt_t C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 193 I DC OT F N ^{sdmactrlpkt} -
+<DEFINE> DMACTRLREG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 195 I DF OM - - - O
+<LIT> 0xFFFFF000 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 195 40 I HN - F M
+<DEFINE> DMACTRLPKT00 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 196 I DF OM - - - O
+<LIT> 0xFFF80000 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 196 39 I HN - F M
+<DEFINE> DMACTRLPKT01 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 197 I DF OM - - - O
+<LIT> 0xFFF80020 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 197 39 I HN - F M
+<DEFINE> DMACTRLPKT02 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 198 I DF OM - - - O
+<LIT> 0xFFF80040 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 198 39 I HN - F M
+<DEFINE> DMACTRLPKT03 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 199 I DF OM - - - O
+<LIT> 0xFFF80060 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 199 39 I HN - F M
+<DEFINE> DMACTRLPKT04 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 200 I DF OM - - - O
+<LIT> 0xFFF80080 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 200 39 I HN - F M
+<DEFINE> DMACTRLPKT05 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 201 I DF OM - - - O
+<LIT> 0xFFF800A0 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 201 39 I HN - F M
+<DEFINE> DMACTRLPKT06 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 202 I DF OM - - - O
+<LIT> 0xFFF800C0 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 202 39 I HN - F M
+<DEFINE> DMACTRLPKT07 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 203 I DF OM - - - O
+<LIT> 0xFFF800E0 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 203 39 I HN - F M
+<DEFINE> DMACTRLPKT08 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 204 I DF OM - - - O
+<LIT> 0xFFF80100 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 204 39 I HN - F M
+<DEFINE> DMACTRLPKT09 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 205 I DF OM - - - O
+<LIT> 0xFFF80120 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 205 39 I HN - F M
+<DEFINE> DMACTRLPKT10 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 206 I DF OM - - - O
+<LIT> 0xFFF80140 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 206 39 I HN - F M
+<DEFINE> DMACTRLPKT11 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 207 I DF OM - - - O
+<LIT> 0xFFF80160 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 207 39 I HN - F M
+<DEFINE> DMACTRLPKT12 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 208 I DF OM - - - O
+<LIT> 0xFFF80180 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 208 39 I HN - F M
+<DEFINE> DMACTRLPKT13 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 209 I DF OM - - - O
+<LIT> 0xFFF801A0 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 209 39 I HN - F M
+<DEFINE> DMACTRLPKT14 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 210 I DF OM - - - O
+<LIT> 0xFFF801C0 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 210 39 I HN - F M
+<DEFINE> DMACTRLPKT15 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 211 I DF OM - - - O
+<LIT> 0xFFF801E0 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/dma_regs.h 211 39 I HN - F M
+<R>I C:/SynergyWorkArea/Working/Dma/src/Dma.c C:/SynergyWorkArea/Working/Dma/include/Dma.h 28
+<DEFINE> DMA_H C:/SynergyWorkArea/Working/Dma/include/Dma.h 29 I DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 32
+<DEFINE> D_DMAFLSTSTENABLED_CNT_ENUM C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 2 I DF OM - - - O
+<DEFINE> D_FASTSPIGROUPENABLED_CNT_ENUM C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 3 I DF OM - - - O
+<DEFINE> D_FASTADCGROUPENABLED_CNT_ENUM C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 4 I DF OM - - - O
+<DEFINE> D_FASTPWMGROUPENABLED_CNT_ENUM C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 5 I DF OM - - - O
+<DEFINE> D_SLOWADCGROUPENABLED_CNT_ENUM C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 6 I DF OM - - - O
+<DEFINE> DMA_REPORTERRORSTATUS C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 8 I DF OM - - - F
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 8 71 I ON - F M
+<DEFINE> DMA_NHET1PROGHFILE C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 10 I DF OM - - - O
+<LIT> "Nhet_SENT_Prog.h" - - C:/SynergyWorkArea/Working/Dma/utp/contract/Dma_Cfg.h 10 28 I SN - F M
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/Dma/utp/contract/appinit_cfg.h 33
+<DEFINE> DMA_PARITY_ENABLE C:/SynergyWorkArea/Working/Dma/utp/contract/appinit_cfg.h 2 I DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 38
+<DEFINE> CRC_REGS_H C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 27 I DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 32
+<DEFINE> crcctrlregs C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 34 I DC TG F N {scrcctrlregs} -
+<DEFINE> crcctrlregs C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 34 I DF TG F N {scrcctrlregs} -
+<DEFINE> CRC_CTRL0 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 36 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 37 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 37 I DC MB F N ub -
+<DEFINE> CRC_CTRL1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 38 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 39 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 39 I DC MB F N ub -
+<DEFINE> CRC_CTRL2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 40 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 41 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 41 I DC MB F N ub -
+<DEFINE> CRC_INTS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 42 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 43 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 43 I DC MB F N ub -
+<DEFINE> CRC_INTR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 44 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 45 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 45 I DC MB F N ub -
+<DEFINE> CRC_STATUS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 46 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 47 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 47 I DC MB F N ub -
+<DEFINE> CRC_INT_OFFSET_REG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 48 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 49 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 49 I DC MB F N ub -
+<DEFINE> CRC_BUSY C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 50 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 51 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 51 I DC MB F N ub -
+<DEFINE> CRC_PCOUNT_REG1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 52 I DC MB F N ul -
+<DEFINE> CRC_SCOUNT_REG1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 53 I DC MB F N ul -
+<DEFINE> CRC_CURSEC_REG1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 54 I DC MB F N ul -
+<DEFINE> CRC_WDTOPLD1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 55 I DC MB F N ul -
+<DEFINE> CRC_BCTOPLD1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 56 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 57 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 57 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 58 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 58 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 59 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 59 I DC MB F N ub -
+<DEFINE> PSA_SIGREGL1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 60 I DC MB F N ul -
+<DEFINE> PSA_SIGREGH1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 61 I DC MB F N ul -
+<DEFINE> CRC_REGL1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 62 I DC MB F N ul -
+<DEFINE> CRC_REGH1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 63 I DC MB F N ul -
+<DEFINE> PSA_SECSIGREGL1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 64 I DC MB F N ul -
+<DEFINE> PSA_SECSIGREGH1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 65 I DC MB F N ul -
+<DEFINE> RAW_DATAREGL1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 66 I DC MB F N ul -
+<DEFINE> RAW_DATAREGH1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 67 I DC MB F N ul -
+<DEFINE> CRC_PCOUNT_REG2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 68 I DC MB F N ul -
+<DEFINE> CRC_SCOUNT_REG2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 69 I DC MB F N ul -
+<DEFINE> CRC_CURSEC_REG2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 70 I DC MB F N ul -
+<DEFINE> CRC_WDTOPLD2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 71 I DC MB F N ul -
+<DEFINE> CRC_BCTOPLD2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 72 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 73 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 73 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 74 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 74 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 75 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 75 I DC MB F N ub -
+<DEFINE> PSA_SIGREGL2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 76 I DC MB F N ul -
+<DEFINE> PSA_SIGREGH2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 77 I DC MB F N ul -
+<DEFINE> CRC_REGL2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 78 I DC MB F N ul -
+<DEFINE> CRC_REGH2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 79 I DC MB F N ul -
+<DEFINE> PSA_SECSIGREGL2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 80 I DC MB F N ul -
+<DEFINE> PSA_SECSIGREGH2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 81 I DC MB F N ul -
+<DEFINE> RAW_DATAREGL2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 82 I DC MB F N ul -
+<DEFINE> RAW_DATAREGH2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 83 I DC MB F N ul -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 84 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 84 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 85 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 85 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 86 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 86 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 87 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 87 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 88 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 88 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 89 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 89 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 90 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 90 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 91 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 91 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 92 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 92 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 93 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 93 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 94 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 94 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 95 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 95 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 96 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 96 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 97 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 97 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 98 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 98 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 99 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 99 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 100 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 100 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 101 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 101 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 102 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 102 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 103 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 103 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 104 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 104 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 105 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 105 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 106 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 106 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 107 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 107 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 108 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 108 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 109 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 109 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 110 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 110 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 111 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 111 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 112 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 112 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 113 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 113 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 114 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 114 I DC MB F N ub -
+<LIT> 32 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 115 18 I DN ni F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 115 I DC MB F N ub -
+<DEFINE> CRC_BUS_SEL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 116 I DC MB F N ul -
+<DEFINE> crcctrlregs_t C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 117 I DC OT F N ^{scrcctrlregs} -
+<DEFINE> CRCCTRLREG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 120 I DF OM - - - O
+<LIT> 0xFE000000 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/crc_regs.h 120 38 I HN - F M
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/Dma/utp/contract/SpiNxt.h 42
+<DEFINE> D_TGSIZE_CNT_U16 C:/SynergyWorkArea/Working/Dma/utp/contract/SpiNxt.h 2 I DF OM - - - O
+<LIT> 3 u P C:/SynergyWorkArea/Working/Dma/utp/contract/SpiNxt.h 2 33 I DN - F M
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 43
+<DEFINE> MIBSPI_REGS_H C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 22 I DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 27
+<DEFINE> mibspictrlregs C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 29 I DC TG F N {smibspictrlregs} -
+<DEFINE> mibspictrlregs C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 29 I DF TG F N {smibspictrlregs} -
+<DEFINE> GCR0 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 31 I DC MB F N ul -
+<LIT> 7 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 32 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 32 I DC MB F N ub -
+<LIT> 1 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 33 30 I DN ui F B
+<DEFINE> ENA C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 33 I DC MB F N ub -
+<LIT> 7 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 34 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 34 I DC MB F N ub -
+<LIT> 1 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 35 30 I DN ui F B
+<DEFINE> LB C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 35 I DC MB F N ub -
+<LIT> 7 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 36 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 36 I DC MB F N ub -
+<LIT> 1 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 37 30 I DN ui F B
+<DEFINE> PD C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 37 I DC MB F N ub -
+<LIT> 8 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 38 30 I DN ui F B
+<DEFINE> GCR1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 38 I DC MB F N ub -
+<LIT> 7 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 39 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 39 I DC MB F N ub -
+<LIT> 1 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 40 30 I DN ui F B
+<DEFINE> ENAHIGHZ C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 40 I DC MB F N ub -
+<LIT> 7 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 41 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 41 I DC MB F N ub -
+<LIT> 1 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 42 30 I DN ui F B
+<DEFINE> DMAREQEN C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 42 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 43 29 I DN ui F B
+<DEFINE> INT0 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 43 I DC MB F N ub -
+<DEFINE> LVL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 44 I DC MB F N ul -
+<LIT> 7 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 45 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 45 I DC MB F N ub -
+<LIT> 1 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 46 30 I DN ui F B
+<DEFINE> BUFINIT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 46 I DC MB F N ub -
+<LIT> 8 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 47 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 47 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 48 29 I DN ui F B
+<DEFINE> FLG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 48 I DC MB F N ub -
+<DEFINE> PCFUN C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 49 I DC MB F N ul -
+<DEFINE> PCDIR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 50 I DC MB F N ul -
+<DEFINE> PCDIN C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 51 I DC MB F N ul -
+<DEFINE> PCDOUT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 52 I DC MB F N ul -
+<DEFINE> PCSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 53 I DC MB F N ul -
+<DEFINE> PCCLR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 54 I DC MB F N ul -
+<DEFINE> PCPDR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 55 I DC MB F N ul -
+<DEFINE> PCDIS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 56 I DC MB F N ul -
+<DEFINE> PCPSL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 57 I DC MB F N ul -
+<DEFINE> DAT0 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 58 I DC MB F N ul -
+<DEFINE> DAT1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 59 I DC MB F N ul -
+<DEFINE> BUF C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 60 I DC MB F N ul -
+<DEFINE> EMU C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 61 I DC MB F N ul -
+<DEFINE> DELAY C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 62 I DC MB F N ul -
+<DEFINE> CSDEF C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 63 I DC MB F N ul -
+<DEFINE> FMT0 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 64 I DC MB F N ul -
+<DEFINE> FMT1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 65 I DC MB F N ul -
+<DEFINE> FMT2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 66 I DC MB F N ul -
+<DEFINE> FMT3 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 67 I DC MB F N ul -
+<DEFINE> INTVECT0 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 68 I DC MB F N ul -
+<DEFINE> INTVECT1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 69 I DC MB F N ul -
+<DEFINE> SRSEL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 70 I DC MB F N ul -
+<DEFINE> PMCTRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 71 I DC MB F N ul -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 72 29 I DN ui F B
+<DEFINE> RAMACCESS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 72 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 73 29 I DN ui F B
+<DEFINE> MIBSPIE C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 73 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 74 29 I DN ui F B
+<DEFINE> SETINTENARDY C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 74 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 75 29 I DN ui F B
+<DEFINE> SETINTENASUS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 75 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 76 29 I DN ui F B
+<DEFINE> CLRINTENARDY C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 76 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 77 29 I DN ui F B
+<DEFINE> CLRINTENASUS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 77 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 78 29 I DN ui F B
+<DEFINE> SETINTLVLRDY C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 78 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 79 29 I DN ui F B
+<DEFINE> SETINTLVLSUS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 79 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 80 29 I DN ui F B
+<DEFINE> CLRINTLVLRDY C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 80 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 81 29 I DN ui F B
+<DEFINE> CLRINTLVLSUS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 81 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 82 29 I DN ui F B
+<DEFINE> INTFLGRDY C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 82 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 83 29 I DN ui F B
+<DEFINE> INTFLGSUS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 83 I DC MB F N ub -
+<LIT> 32 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 84 29 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 84 I DC MB F N ub -
+<LIT> 32 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 85 29 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 85 I DC MB F N ub -
+<DEFINE> TICKCNT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 86 I DC MB F N ul -
+<LIT> 3 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 87 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 87 I DC MB F N ub -
+<LIT> 5 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 88 30 I DN ui F B
+<DEFINE> TGINSERVICE C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 88 I DC MB F N ub -
+<LIT> 9 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 89 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 89 I DC MB F N ub -
+<LIT> 7 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 90 30 I DN ui F B
+<DEFINE> LTGPEND C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 90 I DC MB F N ub -
+<LIT> 8 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 91 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 91 I DC MB F N ub -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 92 20 I DN ui F D
+<DEFINE> TGCTRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 92 I DC MB F N [16,ul] -
+<LIT> 8 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 93 21 I DN ui F D
+<DEFINE> DMACTRL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 93 I DC MB F N [8,ul] -
+<LIT> 8 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 94 22 I DN ui F D
+<DEFINE> DMACOUNT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 94 I DC MB F N [8,ul] -
+<DEFINE> DMACNTLEN C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 95 I DC MB F N ul -
+<LIT> 32 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 96 29 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 96 I DC MB F N ub -
+<LIT> 23 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 97 29 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 97 I DC MB F N ub -
+<LIT> 1 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 98 30 I DN ui F B
+<DEFINE> PTESTEN C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 98 I DC MB F N ub -
+<LIT> 4 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 99 30 I DN ui F B
+<DEFINE> - C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 99 I DC MB F N ub -
+<LIT> 4 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 100 30 I DN ui F B
+<DEFINE> EDEN C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 100 I DC MB F N ub -
+<DEFINE> UERRSTAT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 101 I DC MB F N ul -
+<DEFINE> UERRADDRRX C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 102 I DC MB F N ul -
+<DEFINE> UERRADDRTX C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 103 I DC MB F N ul -
+<DEFINE> RXOVRN_BUF_ADDR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 104 I DC MB F N ul -
+<DEFINE> IOLPKTSTCR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 105 I DC MB F N ul -
+<DEFINE> EXT_PRESCALE1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 106 I DC MB F N ul -
+<DEFINE> EXT_PRESCALE2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 107 I DC MB F N ul -
+<DEFINE> mibspictrlregs_t C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 108 I DC OT F N ^{smibspictrlregs} -
+<DEFINE> mibspiREG1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 111 I DF OM - - - O
+<LIT> 0xFFF7F400 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 111 41 I HN - F M
+<DEFINE> mibspiREG3 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 112 I DF OM - - - O
+<LIT> 0xFFF7F800 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 112 41 I HN - F M
+<DEFINE> mibspiREG5 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 113 I DF OM - - - O
+<LIT> 0xFFF7FC00 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 113 41 I HN - F M
+<DEFINE> mibspiRamBase C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 116 I DC TG F N {smibspiRamBase} -
+<DEFINE> mibspiRamBase C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 116 I DF TG F N {smibspiRamBase} -
+<DEFINE> control C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 120 I DC MB F N us -
+<DEFINE> data C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 121 I DC MB F N us -
+<LIT> 128 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 122 10 I DN ni F D
+<DEFINE> tx C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 122 I DC MB F N [128,{s}] -
+<DEFINE> flags C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 125 I DC MB F N us -
+<DEFINE> data C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 126 I DC MB F N us -
+<LIT> 128 - P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 127 10 I DN ni F D
+<DEFINE> rx C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 127 I DC MB F N [128,{s}] -
+<DEFINE> mibspiRAM_t C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 128 I DC OT F N ^{smibspiRamBase} -
+<DEFINE> mibspiRAM1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 131 I DF OM - - - O
+<LIT> 0xFF0E0000 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 131 36 I HN - F M
+<DEFINE> mibspiRAM3 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 132 I DF OM - - - O
+<LIT> 0xFF0C0000 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 132 36 I HN - F M
+<DEFINE> mibspiRAM5 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 133 I DF OM - - - O
+<LIT> 0xFF0A0000 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 133 36 I HN - F M
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/Dma/utp/contract/Adc2.h 47
+<DEFINE> D_ADC2G1BUFSZ_CNT_U08 C:/SynergyWorkArea/Working/Dma/utp/contract/Adc2.h 2 I DF OM - - - O
+<LIT> 4 u P C:/SynergyWorkArea/Working/Dma/utp/contract/Adc2.h 2 49 I DN - F M
+<DEFINE> D_ADC2EVTBUFSZ_CNT_U08 C:/SynergyWorkArea/Working/Dma/utp/contract/Adc2.h 3 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/Dma/utp/contract/Adc2.h 3 49 I ON - F M
+<DEFINE> D_ADC2RSLTBASEADR_CNT_U32 C:/SynergyWorkArea/Working/Dma/utp/contract/Adc2.h 4 I DF OM - - - O
+<LIT> 0xFF3A0000 ul P C:/SynergyWorkArea/Working/Dma/utp/contract/Adc2.h 4 49 I HN - F M
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/Dma/utp/contract/Nhet_SENT_Prog.h 51
+<DEFINE> data_word C:/SynergyWorkArea/Working/Dma/utp/contract/Nhet_SENT_Prog.h 6 I DC MB F N uc -
+<DEFINE> memory C:/SynergyWorkArea/Working/Dma/utp/contract/Nhet_SENT_Prog.h 7 I DC MB F N {s} -
+<DEFINE> utpnhetstruct C:/SynergyWorkArea/Working/Dma/utp/contract/Nhet_SENT_Prog.h 8 I DC OT F N {s} -
+<DEFINE> HET_PRD_BUF1_0 C:/SynergyWorkArea/Working/Dma/utp/contract/Nhet_SENT_Prog.h 10 I DF OM - - - O
+<LIT> 0xFF4600E8 - P C:/SynergyWorkArea/Working/Dma/utp/contract/Nhet_SENT_Prog.h 10 44 I HN - F M
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 52
+<DEFINE> EPWM_REGS_H C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 32 I DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h C:/SynergyWorkArea/Working/StdDef/include/Std_Types.h 37
+<DEFINE> etpwmBASE C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 39 I DC TG F N {setpwmBASE} -
+<DEFINE> etpwmBASE C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 39 I DF TG F N {setpwmBASE} -
+<DEFINE> TBSTS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 41 I DC MB F N us -
+<DEFINE> TBCTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 42 I DC MB F N us -
+<DEFINE> TBPHS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 43 I DC MB F N us -
+<DEFINE> rsvd1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 44 I DC MB F N us -
+<DEFINE> TBPRD C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 45 I DC MB F N us -
+<DEFINE> TBCTR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 46 I DC MB F N us -
+<DEFINE> CMPCTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 47 I DC MB F N us -
+<DEFINE> rsvd2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 48 I DC MB F N us -
+<DEFINE> CMPA C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 49 I DC MB F N us -
+<DEFINE> rsvd3 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 50 I DC MB F N us -
+<DEFINE> AQCTLA C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 51 I DC MB F N us -
+<DEFINE> CMPB C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 52 I DC MB F N us -
+<DEFINE> AQSFRC C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 53 I DC MB F N us -
+<DEFINE> AQCTLB C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 54 I DC MB F N us -
+<DEFINE> DBCTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 55 I DC MB F N us -
+<DEFINE> AQCSFRC C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 56 I DC MB F N us -
+<DEFINE> DBFED C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 57 I DC MB F N us -
+<DEFINE> DBRED C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 58 I DC MB F N us -
+<DEFINE> TZDCSEL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 59 I DC MB F N us -
+<DEFINE> TZSEL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 60 I DC MB F N us -
+<DEFINE> TZEINT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 61 I DC MB F N us -
+<DEFINE> TZCTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 62 I DC MB F N us -
+<DEFINE> TZCLR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 63 I DC MB F N us -
+<DEFINE> TZFLG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 64 I DC MB F N us -
+<DEFINE> ETSEL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 65 I DC MB F N us -
+<DEFINE> TZFRC C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 66 I DC MB F N us -
+<DEFINE> ETFLG C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 67 I DC MB F N us -
+<DEFINE> ETPS C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 68 I DC MB F N us -
+<DEFINE> ETFRC C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 69 I DC MB F N us -
+<DEFINE> ETCLR C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 70 I DC MB F N us -
+<DEFINE> rsvd4 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 71 I DC MB F N us -
+<DEFINE> PCCTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 72 I DC MB F N us -
+<LIT> 16 U P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 73 24 I DN ui F D
+<DEFINE> rsvd5 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 73 I DC MB F N [16,us] -
+<DEFINE> DCACTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 74 I DC MB F N us -
+<DEFINE> DCTRIPSEL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 75 I DC MB F N us -
+<DEFINE> DCFCTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 76 I DC MB F N us -
+<DEFINE> DCBCTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 77 I DC MB F N us -
+<DEFINE> DCFOFFSET C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 78 I DC MB F N us -
+<DEFINE> DCCAPCTL C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 79 I DC MB F N us -
+<DEFINE> DCFWINDOW C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 80 I DC MB F N us -
+<DEFINE> DCFOFFSETCNT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 81 I DC MB F N us -
+<DEFINE> DCCAP C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 82 I DC MB F N us -
+<DEFINE> DCFWINDOWCNT C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 83 I DC MB F N us -
+<DEFINE> etpwmBASE_t C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 84 I DC OT F N ^{setpwmBASE} -
+<DEFINE> ePWM1 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 88 I DF OM - - - O
+<LIT> 0xFCF78C00 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 88 31 I HN - F M
+<DEFINE> ePWM2 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 89 I DF OM - - - O
+<LIT> 0xFCF78D00 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 89 31 I HN - F M
+<DEFINE> ePWM3 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 90 I DF OM - - - O
+<LIT> 0xFCF78E00 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 90 31 I HN - F M
+<DEFINE> ePWM4 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 91 I DF OM - - - O
+<LIT> 0xFCF78F00 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 91 31 I HN - F M
+<DEFINE> ePWM5 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 92 I DF OM - - - O
+<LIT> 0xFCF79000 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 92 31 I HN - F M
+<DEFINE> ePWM6 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 93 I DF OM - - - O
+<LIT> 0xFCF79100 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 93 31 I HN - F M
+<DEFINE> ePWM7 C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 94 I DF OM - - - O
+<LIT> 0xFCF79200 UL P C:/SynergyWorkArea/Working/StdDef/include/TMS570_HerculesRegs/epwm_regs.h 94 31 I HN - F M
+<R>I C:/SynergyWorkArea/Working/Dma/include/Dma.h C:/SynergyWorkArea/Working/Dma/utp/contract/Adc.h 56
+<DEFINE> D_ADC1G2BUFSZ_CNT_U08 C:/SynergyWorkArea/Working/Dma/utp/contract/Adc.h 2 I DF OM - - - O
+<LIT> 4 u P C:/SynergyWorkArea/Working/Dma/utp/contract/Adc.h 2 49 I DN - F M
+<DEFINE> D_ADC1G1BUFSZ_CNT_U08 C:/SynergyWorkArea/Working/Dma/utp/contract/Adc.h 3 I DF OM - - - O
+<LIT> 60 u P C:/SynergyWorkArea/Working/Dma/utp/contract/Adc.h 3 49 I DN - F M
+<DEFINE> D_ADC1EVTBUFSZ_CNT_U08 C:/SynergyWorkArea/Working/Dma/utp/contract/Adc.h 4 I DF OM - - - O
+<LIT> 0 u P C:/SynergyWorkArea/Working/Dma/utp/contract/Adc.h 4 49 I ON - F M
+<DEFINE> D_CRCCTRLREGSTART_CNT_U32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 63 I DF OM - - - O
+<DEFINE> D_CRCPSASIGREGSTART_CNT_U32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 64 I DF OM - - - O
+<DEFINE> D_NUMFASTSPIWORDS_CNT_U16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 70 I DF OM - - - O
+<DEFINE> D_FASTSPISTARTADDR_CNT_U32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 71 I DF OM - - - O
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/include/Dma.h 71 74 I ON - F M
+<DEFINE> D_NUMSLOWSPIWORDS_CNT_U16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 72 I DF OM - - - O
+<DEFINE> D_SLOWSPISTARTADDR_CNT_U32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 73 I DF OM - - - O
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/include/Dma.h 73 74 I ON - F M
+<DEFINE> D_NUMFASTADCCHANNELS_CNT_U16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 79 I DF OM - - - O
+<DEFINE> D_FASTADCSTARTADDR_CNT_U32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 80 I DF OM - - - O
+<LIT> 4 u P C:/SynergyWorkArea/Working/Dma/include/Dma.h 80 87 I DN - F M
+<LIT> 2 u P C:/SynergyWorkArea/Working/Dma/include/Dma.h 80 118 I DN - F M
+<DEFINE> D_DMANHETPERIODADDR_CNT_U32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 86 I DF OM - - - O
+<DEFINE> D_EPWMSTARTADDR_CNT_U32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 87 I DF OM - - - O
+<DEFINE> D_NUMSLOWADCCHANNELS_CNT_U16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 93 I DF OM - - - O
+<DEFINE> D_SLOWADCSTARTADDR_CNT_U32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 94 I DF OM - - - O
+<LIT> 0xFF3E0000 ul P C:/SynergyWorkArea/Working/Dma/include/Dma.h 94 58 I HN - F M
+<LIT> 4 u P C:/SynergyWorkArea/Working/Dma/include/Dma.h 94 74 I DN - F M
+<LIT> 2 u P C:/SynergyWorkArea/Working/Dma/include/Dma.h 94 131 I DN - F M
+<DEFINE> DummyVarForAlignment_Uls_f64 C:/SynergyWorkArea/Working/Dma/include/Dma.h 105 I DC MB F N ff -
+<DEFINE> FastSPI_Cnt_u16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 107 I DC MB F N [3,us] -
+<DEFINE> SlowSPI_Cnt_u16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 108 I DC MB F N [3,us] -
+<DEFINE> SlowADC_Cnt_u16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 111 I DC MB F N [4,us] -
+<DEFINE> FastADC_Cnt_u16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 114 I DC MB F N [4,us] -
+<LIT> 4 - P C:/SynergyWorkArea/Working/Dma/include/Dma.h 117 32 I DN ni F D
+<LIT> 2 - P C:/SynergyWorkArea/Working/Dma/include/Dma.h 117 35 I DN ni F D
+<DEFINE> PWMCmp_Cnt_u16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 117 I DC MB F N [4,[2,us]] -
+<DEFINE> PWMPeriod_Cnt_u32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 118 I DC MB F N ul -
+<DEFINE> DMADataType_Str C:/SynergyWorkArea/Working/Dma/include/Dma.h 120 I DC OT F N {s} -
+<EXTN> DMAData_G_str C:/SynergyWorkArea/Working/Dma/include/Dma.h 122
+<DEFINE> DMAData_G_str C:/SynergyWorkArea/Working/Dma/include/Dma.h 122 I DC OV F X ^{sDMADataType_Str} S
+<EXTN> Dma_DmaRstFail_Cnt_G_lgc C:/SynergyWorkArea/Working/Dma/include/Dma.h 125
+<DEFINE> Dma_DmaRstFail_Cnt_G_lgc C:/SynergyWorkArea/Working/Dma/include/Dma.h 125 I DC OV F X uc S
+<EXTN> Dma_Init C:/SynergyWorkArea/Working/Dma/include/Dma.h 127
+<DEFINE> Dma_Init C:/SynergyWorkArea/Working/Dma/include/Dma.h 127 I DC OF F X (.,.) -
+<EXTN> Dma_SlowADCGroupValidity C:/SynergyWorkArea/Working/Dma/include/Dma.h 129
+<DEFINE> Dma_SlowADCGroupValidity C:/SynergyWorkArea/Working/Dma/include/Dma.h 129 I DC OF F X (uc,.) -
+<EXTN> Dma_InvalidateSlowADCGroup C:/SynergyWorkArea/Working/Dma/include/Dma.h 131
+<DEFINE> Dma_InvalidateSlowADCGroup C:/SynergyWorkArea/Working/Dma/include/Dma.h 131 I DC OF F X (.,.) -
+<EXTN> Dma_SetupMtrCtrlGroups C:/SynergyWorkArea/Working/Dma/include/Dma.h 133
+<DEFINE> Dma_SetupMtrCtrlGroups C:/SynergyWorkArea/Working/Dma/include/Dma.h 133 I DC OF F X (.,.) -
+<EXTN> Dma_SetupFlsTstBlock C:/SynergyWorkArea/Working/Dma/include/Dma.h 135
+<DEFINE> CRCAddr_Cnt_T_u32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 135 I DC OV P N ul R
+<DEFINE> FlsAddr_Cnt_T_u32 C:/SynergyWorkArea/Working/Dma/include/Dma.h 136 I DC OV P N ul R
+<DEFINE> DmaFrameCount_Cnt_T_u16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 137 I DC OV P N us R
+<DEFINE> DmaElementCount_Cnt_T_u16 C:/SynergyWorkArea/Working/Dma/include/Dma.h 138 I DC OV P N us R
+<DEFINE> Dma_SetupFlsTstBlock C:/SynergyWorkArea/Working/Dma/include/Dma.h 135 I DC OF F X (.,ul,ul,us,us) -
+<EXTN> Dma_EnableFlsTstBlock C:/SynergyWorkArea/Working/Dma/include/Dma.h 140
+<DEFINE> Dma_EnableFlsTstBlock C:/SynergyWorkArea/Working/Dma/include/Dma.h 140 I DC OF F X (.,.) -
+<EXTN> Dma_DisableFlsTstBlock C:/SynergyWorkArea/Working/Dma/include/Dma.h 142
+<DEFINE> Dma_DisableFlsTstBlock C:/SynergyWorkArea/Working/Dma/include/Dma.h 142 I DC OF F X (.,.) -
+<DEFINE> DMA_START_SEC_VAR_CLEARED_UNSPECIFIED C:/SynergyWorkArea/Working/Dma/src/Dma.c 35 N DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/Dma/src/Dma.c C:/SynergyWorkArea/Working/Dma/utp/contract/MemMap.h 36
+<EXTT> DMAData_G_str C:/SynergyWorkArea/Working/Dma/src/Dma.c 37
+<DEFINE> DMAData_G_str C:/SynergyWorkArea/Working/Dma/src/Dma.c 37 N DR OV F X ^{sDMADataType_Str} S
+<DEFINE> DMA_STOP_SEC_VAR_CLEARED_UNSPECIFIED C:/SynergyWorkArea/Working/Dma/src/Dma.c 38 N DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/Dma/src/Dma.c C:/SynergyWorkArea/Working/Dma/utp/contract/MemMap.h 39
+<DEFINE> DMA_START_SEC_VAR_CLEARED_BOOLEAN C:/SynergyWorkArea/Working/Dma/src/Dma.c 43 N DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/Dma/src/Dma.c C:/SynergyWorkArea/Working/Dma/utp/contract/MemMap.h 44
+<EXTT> Dma_DmaRstFail_Cnt_G_lgc C:/SynergyWorkArea/Working/Dma/src/Dma.c 46
+<DEFINE> Dma_DmaRstFail_Cnt_G_lgc C:/SynergyWorkArea/Working/Dma/src/Dma.c 46 N DR OV F X uc S
+<DEFINE> DMA_STOP_SEC_VAR_CLEARED_BOOLEAN C:/SynergyWorkArea/Working/Dma/src/Dma.c 47 N DF OM - - - O
+<R>I C:/SynergyWorkArea/Working/Dma/src/Dma.c C:/SynergyWorkArea/Working/Dma/utp/contract/MemMap.h 48
+<EXTD> Dma_Init C:/SynergyWorkArea/Working/Dma/src/Dma.c 57
+<DEFINE> Dma_Init C:/SynergyWorkArea/Working/Dma/src/Dma.c 57 N DR OF F X (.,.) -
+<DEFINE> Dma_Init C:/SynergyWorkArea/Working/Dma/src/Dma.c 57 N DF OF F X (.,.) -
+<LIT> 1 UL P C:/SynergyWorkArea/Working/Dma/src/Dma.c 65 35 N DN ul B X
+<LIT> 1 UL P C:/SynergyWorkArea/Working/Dma/src/Dma.c 65 44 N DN ul B X
+<RDEF> X Refers-to
+<R>X Dma_Init Dma_DmaRstFail_Cnt_G_lgc 68 W
+<R>X Dma_Init Dma_DmaRstFail_Cnt_G_lgc 73 W
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 118 50 N ON ul B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 123 70 N DN ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 125 70 N ON ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 125 77 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 126 70 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 126 77 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 129 70 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 129 77 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 131 70 N ON ul B X
+<LIT> 9 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 131 77 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 132 70 N DN ul B X
+<LIT> 11 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 132 77 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 137 70 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 137 77 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 139 70 N ON ul B X
+<LIT> 17 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 139 77 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 140 70 N DN ul B X
+<LIT> 19 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 140 77 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 141 70 N DN ul B X
+<LIT> 24 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 141 77 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 142 70 N DN ul B X
+<LIT> 25 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 142 77 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 143 70 N DN ul B X
+<LIT> 27 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 143 77 N DN ni B X
+<LIT> 0xFF0A0000 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 145 48 N HN ul B X
+<LIT> 0xFF473FFF ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 146 48 N HN ul B X
+<LIT> 0xFCF78C00 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 147 48 N HN ul B X
+<LIT> 0xFE0001FF ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 148 48 N HN ul B X
+<R>X Dma_Init DMAData_G_str 153 R
+<R>X Dma_Init DMAData_G_str 154 R
+<LIT> 1 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 154 101 N DN ui B X
+<LIT> 0x00200000 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 156 48 N HN ul B X
+<LIT> 0xFFFFFFFF ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 157 48 N HN ul B X
+<LIT> 0x0A ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 163 46 N HN ul B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 168 46 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 168 53 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 169 62 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 169 69 N DN ni B X
+<CTLG> Dma_Init 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 58 65 65 70 172 172 
+<S>
+<S>STFIL  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNAM  Dma_Init
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  113
+<S>STXLN  28
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.07   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  20
+<S>STAV2  23
+<S>STAV3  23
+<S>STST1  16
+<S>STST2  14
+<S>STST3  14
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  223
+<S>STFN2  111
+
+<EXTD> Dma_SlowADCGroupValidity C:/SynergyWorkArea/Working/Dma/src/Dma.c 182
+<DEFINE> Dma_SlowADCGroupValidity C:/SynergyWorkArea/Working/Dma/src/Dma.c 182 N DR OF F X (uc,.) -
+<DEFINE> Dma_SlowADCGroupValidity C:/SynergyWorkArea/Working/Dma/src/Dma.c 182 N DF OF F X (uc,.) -
+<DEFINE> i C:/SynergyWorkArea/Working/Dma/src/Dma.c 184 N DC OV B N us -
+<DEFINE> i C:/SynergyWorkArea/Working/Dma/src/Dma.c 184 N DF OV B N us -
+<DEFINE> RetValue_Cnt_T_lgc C:/SynergyWorkArea/Working/Dma/src/Dma.c 185 N DC OV B N uc -
+<DEFINE> RetValue_Cnt_T_lgc C:/SynergyWorkArea/Working/Dma/src/Dma.c 185 N DF OV B N uc -
+<LIT> 0 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 190 18 N ON ui B X
+<LIT> 0xFFFF u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 192 57 N HN ui B X
+<R>X Dma_SlowADCGroupValidity DMAData_G_str 192 R
+<CTLG> Dma_SlowADCGroupValidity 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 8
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 3
+<CTLG> 8 10
+<CTLGN> 183 190 190 190 192 192 190 190 200 200 
+<S>
+<S>STFIL  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNAM  Dma_SlowADCGroupValidity
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  2
+<S>STSUB  0
+<S>STAKI  3
+<S>STLIN  17
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  3
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  12
+<S>STST1  10
+<S>STST2  8
+<S>STST3  6
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  47
+<S>STFN2  28
+
+<EXTD> Dma_InvalidateSlowADCGroup C:/SynergyWorkArea/Working/Dma/src/Dma.c 210
+<DEFINE> Dma_InvalidateSlowADCGroup C:/SynergyWorkArea/Working/Dma/src/Dma.c 210 N DR OF F X (.,.) -
+<DEFINE> Dma_InvalidateSlowADCGroup C:/SynergyWorkArea/Working/Dma/src/Dma.c 210 N DF OF F X (.,.) -
+<DEFINE> i C:/SynergyWorkArea/Working/Dma/src/Dma.c 212 N DC OV B N us -
+<DEFINE> i C:/SynergyWorkArea/Working/Dma/src/Dma.c 212 N DF OV B N us -
+<LIT> 0 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 215 18 N ON ui B X
+<R>X Dma_InvalidateSlowADCGroup DMAData_G_str 217 W
+<LIT> 0xFFFF u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 217 52 N HN ui B X
+<CTLG> Dma_InvalidateSlowADCGroup 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 3 4
+<CTLG> 4 2
+<CTLG> 5 7
+<CTLGN> 211 215 215 215 215 221 221 
+<S>
+<S>STFIL  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNAM  Dma_InvalidateSlowADCGroup
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  9
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  14
+<S>STAV3  21
+<S>STST1  4
+<S>STST2  3
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  28
+<S>STFN2  15
+
+<EXTD> Dma_SetupMtrCtrlGroups C:/SynergyWorkArea/Working/Dma/src/Dma.c 231
+<DEFINE> Dma_SetupMtrCtrlGroups C:/SynergyWorkArea/Working/Dma/src/Dma.c 231 N DR OF F X (.,.) -
+<DEFINE> Dma_SetupMtrCtrlGroups C:/SynergyWorkArea/Working/Dma/src/Dma.c 231 N DF OF F X (.,.) -
+<R>X Dma_SetupMtrCtrlGroups DMAData_G_str 237 R
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 237 72 N ON ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 240 54 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 240 61 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 242 33 N DN ul B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 243 53 N DN ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 243 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 244 53 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 244 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 245 53 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 245 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 246 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 246 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 247 53 N DN ul B X
+<LIT> 14 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 247 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 248 53 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 248 60 N DN ni B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 250 32 N DN ul B X
+<LIT> 2 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 251 52 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 251 59 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 253 32 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 254 52 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 254 59 N DN ni B X
+<LIT> 14 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 256 39 N DN ui B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 258 30 N DN ul B X
+<LIT> 20 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 258 37 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 260 33 N DN ul B X
+<LIT> 2 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 260 40 N DN ni B X
+<R>X Dma_SetupMtrCtrlGroups DMAData_G_str 268 R
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 268 72 N ON ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 271 54 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 271 61 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 273 33 N DN ul B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 274 53 N DN ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 274 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 275 53 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 275 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 276 53 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 276 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 277 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 277 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 278 53 N DN ul B X
+<LIT> 14 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 278 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 279 53 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 279 60 N DN ni B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 281 32 N DN ul B X
+<LIT> 2 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 282 52 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 282 59 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 284 32 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 285 52 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 285 59 N DN ni B X
+<LIT> 16 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 287 39 N DN ui B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 289 30 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 289 37 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 291 33 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 291 40 N DN ni B X
+<R>X Dma_SetupMtrCtrlGroups DMAData_G_str 298 R
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 301 34 N DN ul B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 302 54 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 302 61 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 304 33 N DN ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 305 53 N ON ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 305 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 306 53 N ON ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 306 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 307 53 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 307 60 N DN ni B X
+<LIT> 2 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 308 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 308 60 N DN ni B X
+<LIT> 2 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 309 53 N DN ul B X
+<LIT> 14 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 309 60 N DN ni B X
+<LIT> 7 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 310 53 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 310 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 312 32 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 313 52 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 313 59 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 315 32 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 316 52 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 316 59 N DN ni B X
+<LIT> 20 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 318 39 N DN ui B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 320 30 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 320 37 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 322 33 N DN ul B X
+<LIT> 5 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 322 40 N DN ni B X
+<R>X Dma_SetupMtrCtrlGroups DMAData_G_str 327 R
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 327 71 N ON ni B X
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 327 74 N ON ni B X
+<LIT> 2 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 330 34 N DN ul B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 331 54 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 331 61 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 333 33 N DN ul B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 334 53 N DN ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 334 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 335 53 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 335 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 336 53 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 336 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 337 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 337 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 338 53 N DN ul B X
+<LIT> 14 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 338 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 339 53 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 339 60 N DN ni B X
+<LIT> 2 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 341 32 N DN ul B X
+<LIT> 6 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 342 52 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 342 59 N DN ni B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 344 32 N DN ul B X
+<LIT> 256 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 345 52 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 345 61 N DN ni B X
+<LIT> 28 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 347 39 N DN ui B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 349 30 N DN ul B X
+<LIT> 4 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 349 37 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 351 33 N DN ul B X
+<LIT> 6 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 351 40 N DN ni B X
+<R>X Dma_SetupMtrCtrlGroups DMAData_G_str 359 R
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 359 72 N ON ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 362 54 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 362 61 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 364 33 N DN ul B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 365 53 N DN ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 365 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 366 53 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 366 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 367 53 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 367 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 368 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 368 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 369 53 N DN ul B X
+<LIT> 14 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 369 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 370 53 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 370 60 N DN ni B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 372 32 N DN ul B X
+<LIT> 2 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 373 52 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 373 59 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 375 32 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 376 52 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 376 59 N DN ni B X
+<LIT> 11 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 378 39 N DN ui B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 380 30 N DN ul B X
+<LIT> 24 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 380 37 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 382 33 N DN ul B X
+<LIT> 9 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 382 40 N DN ni B X
+<R>X Dma_SetupMtrCtrlGroups DMAData_G_str 390 R
+<LIT> 0 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 390 72 N ON ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 393 54 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 393 61 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 395 33 N DN ul B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 396 53 N DN ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 396 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 397 53 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 397 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 398 53 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 398 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 399 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 399 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 400 53 N DN ul B X
+<LIT> 14 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 400 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 401 53 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 401 60 N DN ni B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 403 32 N DN ul B X
+<LIT> 2 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 404 52 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 404 59 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 406 32 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 407 52 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 407 59 N DN ni B X
+<LIT> 30 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 409 40 N DN ui B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 411 30 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 411 37 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 413 33 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 413 40 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 420 33 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 420 40 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 421 35 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 421 42 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 426 33 N ON ul B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 428 53 N DN ul B X
+<LIT> 2 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 428 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 431 53 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 431 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 434 53 N DN ul B X
+<LIT> 5 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 434 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 435 53 N DN ul B X
+<LIT> 6 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 435 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 438 53 N DN ul B X
+<LIT> 9 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 438 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 441 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 441 60 N DN ni B X
+<CTLG> Dma_SetupMtrCtrlGroups 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 232 445 445 445 
+<S>
+<S>STFIL  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNAM  Dma_SetupMtrCtrlGroups
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  212
+<S>STXLN  118
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.01   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  17
+<S>STAV2  17
+<S>STAV3  17
+<S>STST1  57
+<S>STST2  57
+<S>STST3  57
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  654
+<S>STFN2  351
+
+<EXTD> Dma_SetupFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 460
+<DEFINE> CRCAddr_Cnt_T_u32 C:/SynergyWorkArea/Working/Dma/src/Dma.c 460 N DC OV B N ul R
+<DEFINE> FlsAddr_Cnt_T_u32 C:/SynergyWorkArea/Working/Dma/src/Dma.c 461 N DC OV B N ul R
+<DEFINE> DmaFrameCount_Cnt_T_u16 C:/SynergyWorkArea/Working/Dma/src/Dma.c 462 N DC OV B N us R
+<DEFINE> DmaElementCount_Cnt_T_u16 C:/SynergyWorkArea/Working/Dma/src/Dma.c 463 N DC OV B N us R
+<DEFINE> Dma_SetupFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 460 N DR OF F X (.,ul,ul,us,us) -
+<DEFINE> Dma_SetupFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 460 N DF OF F X (.,ul,ul,us,us) -
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 472 34 N DN ul B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 473 54 N DN ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 473 61 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 475 33 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 476 53 N ON ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 476 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 477 53 N ON ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 477 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 478 53 N ON ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 478 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 479 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 479 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 480 53 N DN ul B X
+<LIT> 14 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 480 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 481 53 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 481 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 483 31 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 485 31 N ON ul B X
+<LIT> 26 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 487 39 N DN ui B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 489 30 N DN ul B X
+<LIT> 28 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 489 37 N DN ni B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 498 89 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 500 33 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 501 53 N ON ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 501 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 502 53 N DN ul B X
+<LIT> 3 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 502 60 N DN ni B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 503 53 N DN ul B X
+<LIT> 8 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 503 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 504 53 N DN ul B X
+<LIT> 12 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 504 60 N DN ni B X
+<LIT> 3 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 505 53 N DN ul B X
+<LIT> 14 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 505 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 506 53 N ON ul B X
+<LIT> 16 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 506 60 N DN ni B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 508 31 N ON ul B X
+<LIT> 0 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 510 31 N ON ul B X
+<LIT> 28 u P C:/SynergyWorkArea/Working/Dma/src/Dma.c 512 39 N DN ui B X
+<LIT> 4 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 514 30 N DN ul B X
+<LIT> 24 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 514 37 N DN ni B X
+<CTLG> Dma_SetupFlsTstBlock 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 464 517 517 517 
+<S>
+<S>STFIL  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNAM  Dma_SetupFlsTstBlock
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  52
+<S>STXLN  30
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.03   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  13
+<S>STAV2  13
+<S>STAV3  13
+<S>STST1  16
+<S>STST2  16
+<S>STST3  16
+<S>STPAR  4
+<S>STCAL  0
+<S>STFN1  139
+<S>STFN2  84
+
+<EXTD> Dma_EnableFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 526
+<DEFINE> Dma_EnableFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 526 N DR OF F X (.,.) -
+<DEFINE> Dma_EnableFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 526 N DF OF F X (.,.) -
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 531 32 N DN ul B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 534 33 N DN ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 534 40 N DN ni B X
+<CTLG> Dma_EnableFlsTstBlock 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 527 537 537 537 
+<S>
+<S>STFIL  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNAM  Dma_EnableFlsTstBlock
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  9
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  13
+<S>STAV2  13
+<S>STAV3  13
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  18
+<S>STFN2  9
+
+<EXTD> Dma_DisableFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 546
+<DEFINE> Dma_DisableFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 546 N DR OF F X (.,.) -
+<DEFINE> Dma_DisableFlsTstBlock C:/SynergyWorkArea/Working/Dma/src/Dma.c 546 N DF OF F X (.,.) -
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 551 32 N DN ul B X
+<LIT> 1 ul P C:/SynergyWorkArea/Working/Dma/src/Dma.c 552 33 N DN ul B X
+<LIT> 1 - P C:/SynergyWorkArea/Working/Dma/src/Dma.c 552 40 N DN ni B X
+<CTLG> Dma_DisableFlsTstBlock 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 547 555 555 555 
+<S>
+<S>STFIL  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNAM  Dma_DisableFlsTstBlock
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  7
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  13
+<S>STAV2  13
+<S>STAV3  13
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  18
+<S>STFN2  9
+
+<EXTD> DMAData_G_str C:/SynergyWorkArea/Working/Dma/src/Dma.c 37
+<DEFINE> DMAData_G_str C:/SynergyWorkArea/Working/Dma/src/Dma.c 37 N DI OV F X ^{sDMADataType_Str} S
+<EXTD> Dma_DmaRstFail_Cnt_G_lgc C:/SynergyWorkArea/Working/Dma/src/Dma.c 46
+<DEFINE> Dma_DmaRstFail_Cnt_G_lgc C:/SynergyWorkArea/Working/Dma/src/Dma.c 46 N DI OV F X uc S
+<S>
+<S>STFIL  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNAM  C:/SynergyWorkArea/Working/Dma/src/Dma.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  2
+<S>STFNC  7
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  102
+<S>STOPT  34
+<S>STOPN  372
+<S>STTOT  1921
+<S>STZIP  2673
+<S>STHAL  3350
+<S>STSHN  12587
+<S>STDIF  23.89  
+<S>STEFF  397639
+<S>STVOL  16646
+<S>STDEV  66.27  
+<S>STBUG  5
+<S>STTPP  556
+<S>STTLN  227
+<S>STM20  665
+<S>STM21  1250
+<S>STM22  100
+<S>STM28  222
+<S>STM33  214
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.296  
+<S>STBMS  1.555  
+<S>STBME  1.780  
+<S>STTDO  2.759  
+<S>STTDS  2.917  
+<S>STTDE  3.007  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.105  
+

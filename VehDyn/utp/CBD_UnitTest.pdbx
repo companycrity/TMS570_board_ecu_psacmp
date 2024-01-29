@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration=""
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="b6b56c67-e366-4387-9f0d-01c433eaf3fb"
+    location="$(PROJECTROOT)\tessy"
+    name="VehDyn"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

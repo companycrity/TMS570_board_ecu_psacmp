@@ -1,0 +1,980 @@
+<RDEF> I Includes
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 21
+<DEFINE> STD_TYPES_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 22
+<DEFINE> RESETCAUSE_H_ C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 4 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Platform_Types.h 6
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Compiler.h 7
+<DEFINE> PWRONRESET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 9 I DF OM - - - O
+<LIT> 0x0000FFFF U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 9 49 I HN - F M
+<DEFINE> DEBUGRESET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 10 I DF OM - - - O
+<LIT> 0x0001FFFE UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 10 49 I HN - F M
+<DEFINE> CPURESET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 11 I DF OM - - - O
+<LIT> 0x0002FFFD UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 11 49 I HN - F M
+<DEFINE> SPPBISTFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 12 I DF OM - - - O
+<LIT> 0x0003FFFC UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 12 41 I HN - F M
+<DEFINE> DPPBISTFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 13 I DF OM - - - O
+<LIT> 0x0004FFFB UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 13 41 I HN - F M
+<DEFINE> EXTRESET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 14 I DF OM - - - O
+<LIT> 0x0005FFFA UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 14 49 I HN - F M
+<DEFINE> OSCFAIL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 15 I DF OM - - - O
+<LIT> 0x0006FFF9 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 15 49 I HN - F M
+<DEFINE> SWRESET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 16 I DF OM - - - O
+<LIT> 0x0007FFF8 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 16 49 I HN - F M
+<DEFINE> WDGFAIL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 17 I DF OM - - - O
+<LIT> 0x0008FFF7 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 17 49 I HN - F M
+<DEFINE> CCMSTEFFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 18 I DF OM - - - O
+<LIT> 0x0009FFF6 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 18 41 I HN - F M
+<DEFINE> CCMSTFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 19 I DF OM - - - O
+<LIT> 0x000AFFF5 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 19 41 I HN - F M
+<DEFINE> CCMEFFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 20 I DF OM - - - O
+<LIT> 0x000BFFF4 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 20 41 I HN - F M
+<DEFINE> PBISTSCFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 21 I DF OM - - - O
+<LIT> 0x000CFFF3 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 21 41 I HN - F M
+<DEFINE> STCSCFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 22 I DF OM - - - O
+<LIT> 0x000DFFF2 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 22 41 I HN - F M
+<DEFINE> STCFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 23 I DF OM - - - O
+<LIT> 0x000EFFF1 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 23 49 I HN - F M
+<DEFINE> ESM3NONZERO C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 24 I DF OM - - - O
+<LIT> 0x000FFFF0 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 24 41 I HN - F M
+<DEFINE> EFCSTFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 25 I DF OM - - - O
+<LIT> 0x0010FFEF UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 25 41 I HN - F M
+<DEFINE> EFCSTUCKZERO C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 26 I DF OM - - - O
+<LIT> 0x0011FFEE UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 26 41 I HN - F M
+<DEFINE> EFCERROR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 27 I DF OM - - - O
+<LIT> 0x0012FFED UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 27 49 I HN - F M
+<DEFINE> FLSBUS2CORRFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 28 I DF OM - - - O
+<LIT> 0x0013FFEC UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 28 41 I HN - F M
+<DEFINE> FLSBUS2ADDCAPFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 29 I DF OM - - - O
+<LIT> 0x0014FFEB UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 29 33 I HN - F M
+<DEFINE> FLSBUS2MULBITDETFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 30 I DF OM - - - O
+<LIT> 0x0015FFEA UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 30 33 I HN - F M
+<DEFINE> FLSBUS2SNGBITDETFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 31 I DF OM - - - O
+<LIT> 0x0016FFE9 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 31 33 I HN - F M
+<DEFINE> VIMPARFLGFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 32 I DF OM - - - O
+<LIT> 0x0017FFE8 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 32 41 I HN - F M
+<DEFINE> VIMPARADDERRFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 33 I DF OM - - - O
+<LIT> 0x0018FFE7 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 33 41 I HN - F M
+<DEFINE> VIMPARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 34 I DF OM - - - O
+<LIT> 0x0019FFE6 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 34 41 I HN - F M
+<DEFINE> DCAN1PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 35 I DF OM - - - O
+<LIT> 0x001AFFE5 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 35 41 I HN - F M
+<DEFINE> DCAN2PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 36 I DF OM - - - O
+<LIT> 0x001BFFE4 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 36 41 I HN - F M
+<DEFINE> DCAN3PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 37 I DF OM - - - O
+<LIT> 0x001CFFE3 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 37 41 I HN - F M
+<DEFINE> DMAPARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 38 I DF OM - - - O
+<LIT> 0x001DFFE2 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 38 41 I HN - F M
+<DEFINE> MIBADC1PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 39 I DF OM - - - O
+<LIT> 0x001EFFE1 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 39 41 I HN - F M
+<DEFINE> MIBADC2PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 40 I DF OM - - - O
+<LIT> 0x001FFFE0 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 40 41 I HN - F M
+<DEFINE> MIBSPI1PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 41 I DF OM - - - O
+<LIT> 0x0020FFDF UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 41 41 I HN - F M
+<DEFINE> MIBSPI3PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 42 I DF OM - - - O
+<LIT> 0x0021FFDE UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 42 41 I HN - F M
+<DEFINE> MIBSPI5PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 43 I DF OM - - - O
+<LIT> 0x0022FFDD UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 43 41 I HN - F M
+<DEFINE> N2HET1PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 44 I DF OM - - - O
+<LIT> 0x0023FFDC UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 44 41 I HN - F M
+<DEFINE> N2HET1TUPARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 45 I DF OM - - - O
+<LIT> 0x0024FFDB UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 45 33 I HN - F M
+<DEFINE> N2HET2PARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 46 I DF OM - - - O
+<LIT> 0x0025FFDA UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 46 41 I HN - F M
+<DEFINE> N2HET2TUPARESMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 47 I DF OM - - - O
+<LIT> 0x0026FFD9 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 47 33 I HN - F M
+<DEFINE> B0MULBITRAMECCDETFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 48 I DF OM - - - O
+<LIT> 0x0027FFD8 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 48 33 I HN - F M
+<DEFINE> B1MULBITRAMECCDETFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 49 I DF OM - - - O
+<LIT> 0x0028FFD7 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 49 33 I HN - F M
+<DEFINE> B0SNGBITRAMECCDETFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 50 I DF OM - - - O
+<LIT> 0x0029FFD6 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 50 33 I HN - F M
+<DEFINE> B1SNGBITRAMECCDETFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 51 I DF OM - - - O
+<LIT> 0x002AFFD5 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 51 33 I HN - F M
+<DEFINE> SNGBITFLSECCDETFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 52 I DF OM - - - O
+<LIT> 0x002BFFD4 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 52 33 I HN - F M
+<DEFINE> MULBITFLSECCDETFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 53 I DF OM - - - O
+<LIT> 0x002CFFD3 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 53 33 I HN - F M
+<DEFINE> LPOTRIMERROR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 54 I DF OM - - - O
+<LIT> 0x002DFFD2 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 54 41 I HN - F M
+<DEFINE> DATAMULBITRAMECCFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 55 I DF OM - - - O
+<LIT> 0x002EFFD1 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 55 33 I HN - F M
+<DEFINE> DATAMULBITFLSECCFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 56 I DF OM - - - O
+<LIT> 0x002FFFD0 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 56 33 I HN - F M
+<DEFINE> CPUDATAABORT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 57 I DF OM - - - O
+<LIT> 0x0030FFCF UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 57 41 I HN - F M
+<DEFINE> CPUPREFETCHABORT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 58 I DF OM - - - O
+<LIT> 0x0031FFCE UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 58 41 I HN - F M
+<DEFINE> PRFTCMULBITRAMECCFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 59 I DF OM - - - O
+<LIT> 0x0032FFCD UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 59 33 I HN - F M
+<DEFINE> PRFTCMULBITFLSECCFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 60 I DF OM - - - O
+<LIT> 0x0033FFCC UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 60 33 I HN - F M
+<DEFINE> UNDEFINST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 61 I DF OM - - - O
+<LIT> 0x0034FFCB UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 61 49 I HN - F M
+<DEFINE> CLOCKMONITOR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 62 I DF OM - - - O
+<LIT> 0x0035FFCA UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 62 41 I HN - F M
+<DEFINE> CCMFAILED C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 63 I DF OM - - - O
+<LIT> 0x0036FFC9 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 63 49 I HN - F M
+<DEFINE> FMCUNCORRERR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 64 I DF OM - - - O
+<LIT> 0x0037FFC8 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 64 41 I HN - F M
+<DEFINE> B0UNCORRERR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 65 I DF OM - - - O
+<LIT> 0x0038FFC7 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 65 49 I HN - F M
+<DEFINE> B1UNCORRERR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 66 I DF OM - - - O
+<LIT> 0x0039FFC6 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 66 49 I HN - F M
+<DEFINE> B0ADDPARERR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 67 I DF OM - - - O
+<LIT> 0x003AFFC5 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 67 49 I HN - F M
+<DEFINE> B1ADDPARERR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 68 I DF OM - - - O
+<LIT> 0x003BFFC4 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 68 49 I HN - F M
+<DEFINE> FLSECCLIVELOCK C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 69 I DF OM - - - O
+<LIT> 0x003CFFC3 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 69 41 I HN - F M
+<DEFINE> VIMMULTBITFLT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 70 I DF OM - - - O
+<LIT> 0x003DFFC2 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 70 41 I HN - F M
+<DEFINE> VIMPARTHRSHFLT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 71 I DF OM - - - O
+<LIT> 0x003EFFC1 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 71 41 I HN - F M
+<DEFINE> UNUSEDINTERRUPT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 72 I DF OM - - - O
+<LIT> 0x003FFFC0 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 72 41 I HN - F M
+<DEFINE> STACKOVERWRITE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 73 I DF OM - - - O
+<LIT> 0x0040FFBF UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 73 41 I HN - F M
+<DEFINE> MPUVIOLATION C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 74 I DF OM - - - O
+<LIT> 0x0041FFBE UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 74 41 I HN - F M
+<DEFINE> WDGALIVEMONFAIL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 75 I DF OM - - - O
+<LIT> 0x0042FFBD UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 75 41 I HN - F M
+<DEFINE> WDGDEADLINEFAIL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 76 I DF OM - - - O
+<LIT> 0x0043FFBC UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 76 41 I HN - F M
+<DEFINE> WDGPROGFLOWFAIL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 77 I DF OM - - - O
+<LIT> 0x0044FFBB UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 77 41 I HN - F M
+<DEFINE> SWWDGFAIL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 78 I DF OM - - - O
+<LIT> 0x0045FFBA UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 78 49 I HN - F M
+<DEFINE> FPUDZCEXCP C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 79 I DF OM - - - O
+<LIT> 0x0046FFB9 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 79 49 I HN - F M
+<DEFINE> FPUOFCEXCP C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 80 I DF OM - - - O
+<LIT> 0x0047FFB8 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 80 49 I HN - F M
+<DEFINE> FPUIOCEXCP C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 81 I DF OM - - - O
+<LIT> 0x0048FFB7 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 81 49 I HN - F M
+<DEFINE> FPUUNKNOWNEXCP C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 82 I DF OM - - - O
+<LIT> 0x0049FFB6 UL P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 82 41 I HN - F M
+<DEFINE> ENUM_ResetCause C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 85 I DC OT F N ul -
+<EXTN> ResetCause_Cnt_Enum C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 86
+<DEFINE> ResetCause_Cnt_Enum C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 86 I DC OV F X ^ul S
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 23
+<DEFINE> REDNRPDSHTDN_H_ C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/ResetCause.h 21
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 22
+<DEFINE> N2HET_REGS_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 24
+<DEFINE> n2hetctrlregs C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 26 I DC TG F N {sn2hetctrlregs} -
+<DEFINE> n2hetctrlregs C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 26 I DF TG F N {sn2hetctrlregs} -
+<DEFINE> NHETGCR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 29 I DC MB F N ul -
+<DEFINE> NHETPFR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 30 I DC MB F N ul -
+<DEFINE> NHETADDR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 31 I DC MB F N ul -
+<DEFINE> NHETOFF1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 32 I DC MB F N ul -
+<DEFINE> NHETOFF2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 33 I DC MB F N ul -
+<DEFINE> NHETINTENAS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 34 I DC MB F N ul -
+<DEFINE> NHETINTENAC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 35 I DC MB F N ul -
+<DEFINE> NHETEXC1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 36 I DC MB F N ul -
+<DEFINE> NHETEXC2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 37 I DC MB F N ul -
+<DEFINE> NHETPRY C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 38 I DC MB F N ul -
+<DEFINE> NHETFLG C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 39 I DC MB F N ul -
+<DEFINE> NHETAND C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 40 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 41 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 41 I DC MB F N ub -
+<DEFINE> NHETHRSH C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 42 I DC MB F N ul -
+<DEFINE> NHETXOR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 43 I DC MB F N ul -
+<DEFINE> NHETREQENS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 44 I DC MB F N ul -
+<DEFINE> NHETREQENC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 45 I DC MB F N ul -
+<DEFINE> NHETREQDS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 46 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 47 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 47 I DC MB F N ub -
+<DEFINE> NHETDIR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 48 I DC MB F N ul -
+<DEFINE> NHETDIN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 49 I DC MB F N ul -
+<DEFINE> NHETDOUT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 50 I DC MB F N ul -
+<DEFINE> NHETDSET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 51 I DC MB F N ul -
+<DEFINE> NHETDCLR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 52 I DC MB F N ul -
+<DEFINE> NHETPDR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 53 I DC MB F N ul -
+<DEFINE> NHETPULDIS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 54 I DC MB F N ul -
+<DEFINE> NHETPSL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 55 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 56 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 56 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 57 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 57 I DC MB F N ub -
+<DEFINE> NHETPCR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 58 I DC MB F N ul -
+<DEFINE> NHETPAR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 59 I DC MB F N ul -
+<DEFINE> NHETPPR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 60 I DC MB F N ul -
+<DEFINE> NHETSFPRLD C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 61 I DC MB F N ul -
+<DEFINE> NHETSFENA C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 62 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 63 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 63 I DC MB F N ub -
+<DEFINE> NHETLBPSEL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 64 I DC MB F N ul -
+<DEFINE> NHETLBPDIR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 65 I DC MB F N ul -
+<DEFINE> NHETPINDIS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 66 I DC MB F N ul -
+<DEFINE> n2hetctrlregs_t C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 68 I DC OT F N ^{sn2hetctrlregs} -
+<DEFINE> NHET0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 70 I DF OM - - - O
+<LIT> 0xFFF7B800 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 70 36 I HN - F M
+<DEFINE> NHET1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 71 I DF OM - - - O
+<LIT> 0xFFF7B900 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/n2het_regs.h 71 36 I HN - F M
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 23
+<DEFINE> SYSTEM_REGS_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 24
+<DEFINE> systemctrlregs1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 26 I DC TG F N {ssystemctrlregs1} -
+<DEFINE> systemctrlregs1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 26 I DF TG F N {ssystemctrlregs1} -
+<DEFINE> SYSPC1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 28 I DC MB F N ul -
+<DEFINE> SYSPC2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 29 I DC MB F N ul -
+<DEFINE> SYSPC3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 30 I DC MB F N ul -
+<DEFINE> SYSPC4 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 31 I DC MB F N ul -
+<DEFINE> SYSPC5 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 32 I DC MB F N ul -
+<DEFINE> SYSPC6 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 33 I DC MB F N ul -
+<DEFINE> SYSPC7 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 34 I DC MB F N ul -
+<DEFINE> SYSPC8 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 35 I DC MB F N ul -
+<DEFINE> SYSPC9 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 36 I DC MB F N ul -
+<DEFINE> SSWPLL1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 37 I DC MB F N ul -
+<DEFINE> SSWPLL2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 38 I DC MB F N ul -
+<DEFINE> SSWPLL3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 39 I DC MB F N ul -
+<DEFINE> CSDIS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 40 I DC MB F N ul -
+<DEFINE> CSDISSET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 41 I DC MB F N ul -
+<DEFINE> CSDISCLR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 42 I DC MB F N ul -
+<DEFINE> CDDIS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 43 I DC MB F N ul -
+<DEFINE> CDDISSET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 44 I DC MB F N ul -
+<DEFINE> CDDISCLR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 45 I DC MB F N ul -
+<DEFINE> GHVSRC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 46 I DC MB F N ul -
+<DEFINE> VCLKASRC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 47 I DC MB F N ul -
+<DEFINE> RCLKSRC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 48 I DC MB F N ul -
+<DEFINE> CSVSTAT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 49 I DC MB F N ul -
+<DEFINE> MSTGCR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 50 I DC MB F N ul -
+<DEFINE> MINITGCR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 51 I DC MB F N ul -
+<DEFINE> MSINENA C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 52 I DC MB F N ul -
+<DEFINE> MSTFAIL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 53 I DC MB F N ul -
+<DEFINE> MSTCGSTAT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 54 I DC MB F N ul -
+<DEFINE> MINISTAT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 55 I DC MB F N ul -
+<DEFINE> PLLCTL1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 56 I DC MB F N ul -
+<DEFINE> PLLCTL2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 57 I DC MB F N ul -
+<DEFINE> UERFLAG C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 58 I DC MB F N ul -
+<DEFINE> DIEIDL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 59 I DC MB F N ul -
+<DEFINE> DIEIDH C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 60 I DC MB F N ul -
+<DEFINE> VRCTL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 61 I DC MB F N ul -
+<DEFINE> LPOMONCTL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 62 I DC MB F N ul -
+<DEFINE> CLKTEST C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 63 I DC MB F N ul -
+<DEFINE> DFTCTRLREG1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 64 I DC MB F N ul -
+<DEFINE> DFTCTRLREG2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 65 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 66 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 66 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 67 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 67 I DC MB F N ub -
+<DEFINE> GPREG1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 68 I DC MB F N ul -
+<DEFINE> BTRMSEL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 69 I DC MB F N ul -
+<DEFINE> IMPFASTS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 70 I DC MB F N ul -
+<DEFINE> IMPFTADD C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 71 I DC MB F N ul -
+<DEFINE> SSISR1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 72 I DC MB F N ul -
+<DEFINE> SSISR2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 73 I DC MB F N ul -
+<DEFINE> SSISR3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 74 I DC MB F N ul -
+<DEFINE> SSISR4 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 75 I DC MB F N ul -
+<DEFINE> RAMGCR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 76 I DC MB F N ul -
+<DEFINE> BMMCR1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 77 I DC MB F N ul -
+<DEFINE> BMMCR2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 78 I DC MB F N ul -
+<DEFINE> MMUGCR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 79 I DC MB F N ul -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 80 21 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 80 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 81 21 I DN ui F B
+<DEFINE> VCLK2R C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 81 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 82 21 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 82 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 83 21 I DN ui F B
+<DEFINE> VCLKR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 83 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 84 21 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 84 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 85 21 I DN ui F B
+<DEFINE> PENA C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 85 I DC MB F N ub -
+<LIT> 8 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 86 21 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 86 I DC MB F N ub -
+<DEFINE> ECPCNTL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 87 I DC MB F N ul -
+<DEFINE> DSPGCR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 88 I DC MB F N ul -
+<DEFINE> DEVCR1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 89 I DC MB F N ul -
+<DEFINE> SYSECR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 90 I DC MB F N ul -
+<DEFINE> SYSESR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 91 I DC MB F N ul -
+<DEFINE> ITIFLAG C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 92 I DC MB F N ul -
+<DEFINE> GBLSTAT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 93 I DC MB F N ul -
+<DEFINE> DEV C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 94 I DC MB F N ul -
+<DEFINE> SSIVEC C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 95 I DC MB F N ul -
+<DEFINE> SSIF C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 96 I DC MB F N ul -
+<DEFINE> systemctrlregs1_t C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 97 I DC OT F N ^{ssystemctrlregs1} -
+<DEFINE> systemREG1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 99 I DF OM - - - O
+<LIT> 0xFFFFFF00 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 99 42 I HN - F M
+<DEFINE> systemctrlregs2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 101 I DC TG F N {ssystemctrlregs2} -
+<DEFINE> systemctrlregs2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 101 I DF TG F N {ssystemctrlregs2} -
+<DEFINE> PLLCTL3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 103 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 104 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 104 I DC MB F N ub -
+<DEFINE> STCCLKDIV C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 105 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 106 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 106 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 107 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 107 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 108 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 108 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 109 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 109 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 110 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 110 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 111 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 111 I DC MB F N ub -
+<DEFINE> ECPCNTRL0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 112 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 113 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 113 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 114 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 114 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 115 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 115 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 116 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 116 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 117 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 117 I DC MB F N ub -
+<LIT> 20 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 118 21 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 118 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 119 21 I DN ui F B
+<DEFINE> VCLK4R C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 119 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 120 21 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 120 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 121 21 I DN ui F B
+<DEFINE> VCLK3R C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 121 I DC MB F N ub -
+<DEFINE> VCLKACON1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 122 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 123 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 123 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 124 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 124 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 125 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 125 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 126 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 126 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 127 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 127 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 128 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 128 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 129 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 129 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 130 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 130 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 131 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 131 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 132 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 132 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 133 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 133 I DC MB F N ub -
+<DEFINE> CLKSLIP C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 134 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 135 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 135 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 136 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 136 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 137 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 137 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 138 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 138 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 139 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 139 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 140 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 140 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 141 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 141 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 142 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 142 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 143 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 143 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 144 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 144 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 145 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 145 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 146 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 146 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 147 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 147 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 148 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 148 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 149 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 149 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 150 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 150 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 151 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 151 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 152 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 152 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 153 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 153 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 154 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 154 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 155 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 155 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 156 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 156 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 157 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 157 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 158 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 158 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 159 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 159 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 160 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 160 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 161 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 161 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 162 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 162 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 163 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 163 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 164 14 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 164 I DC MB F N ub -
+<DEFINE> EFC_CTLEN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 165 I DC MB F N ul -
+<DEFINE> DIEIDL_REG0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 166 I DC MB F N ul -
+<DEFINE> DIEIDH_REG1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 167 I DC MB F N ul -
+<DEFINE> DIEIDL_REG2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 168 I DC MB F N ul -
+<DEFINE> DIEIDH_REG3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 169 I DC MB F N ul -
+<DEFINE> systemctrlregs2_t C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 170 I DC OT F N ^{ssystemctrlregs2} -
+<DEFINE> systemREG2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 172 I DF OM - - - O
+<LIT> 0xFFFFE100 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/system_regs.h 172 42 I HN - F M
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 24
+<DEFINE> GIO_REGS_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 24
+<DEFINE> gioctrlregs C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 26 I DC TG F N {sgioctrlregs} -
+<DEFINE> gioctrlregs C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 26 I DF TG F N {sgioctrlregs} -
+<DEFINE> GCR0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 28 I DC MB F N ul -
+<DEFINE> PWDN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 29 I DC MB F N ul -
+<DEFINE> INTDET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 30 I DC MB F N ul -
+<DEFINE> POL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 31 I DC MB F N ul -
+<DEFINE> INTENASET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 32 I DC MB F N ul -
+<DEFINE> INTENACLR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 33 I DC MB F N ul -
+<DEFINE> LVLSET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 34 I DC MB F N ul -
+<DEFINE> LVLCLR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 35 I DC MB F N ul -
+<DEFINE> FLG C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 36 I DC MB F N ul -
+<DEFINE> OFFA C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 37 I DC MB F N ul -
+<DEFINE> OFFB C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 38 I DC MB F N ul -
+<DEFINE> EMUA C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 39 I DC MB F N ul -
+<DEFINE> EMUB C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 40 I DC MB F N ul -
+<DEFINE> gioctrlregs_t C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 41 I DC OT F N ^{sgioctrlregs} -
+<DEFINE> gioPort C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 43 I DC TG F N {sgioPort} -
+<DEFINE> gioPort C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 43 I DF TG F N {sgioPort} -
+<DEFINE> DIR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 45 I DC MB F N ul -
+<DEFINE> DIN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 46 I DC MB F N ul -
+<DEFINE> DOUT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 47 I DC MB F N ul -
+<DEFINE> DSET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 48 I DC MB F N ul -
+<DEFINE> DCLR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 49 I DC MB F N ul -
+<DEFINE> PDR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 50 I DC MB F N ul -
+<DEFINE> PULDIS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 51 I DC MB F N ul -
+<DEFINE> PSL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 52 I DC MB F N ul -
+<DEFINE> gioPORT_t C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 53 I DC OT F N ^{sgioPort} -
+<DEFINE> gioCTRL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 55 I DF OM - - - O
+<LIT> 0xFFF7BC00 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 55 35 I HN - F M
+<DEFINE> gioPORTA C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 56 I DF OM - - - O
+<LIT> 0xFFF7BC34 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 56 32 I HN - F M
+<DEFINE> gioPORTB C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 57 I DF OM - - - O
+<LIT> 0xFFF7BC54 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/gio_regs.h 57 32 I HN - F M
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 25
+<DEFINE> MIBSPI_REGS_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/Std_Types.h 24
+<DEFINE> mibspictrlregs C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 26 I DC TG F N {smibspictrlregs} -
+<DEFINE> mibspictrlregs C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 26 I DF TG F N {smibspictrlregs} -
+<DEFINE> GCR0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 28 I DC MB F N ul -
+<LIT> 7 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 29 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 29 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 30 30 I DN ui F B
+<DEFINE> ENA C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 30 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 31 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 31 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 32 30 I DN ui F B
+<DEFINE> LB C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 32 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 33 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 33 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 34 30 I DN ui F B
+<DEFINE> PD C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 34 I DC MB F N ub -
+<LIT> 8 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 35 30 I DN ui F B
+<DEFINE> GCR1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 35 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 36 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 36 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 37 30 I DN ui F B
+<DEFINE> ENAHIGHZ C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 37 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 38 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 38 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 39 30 I DN ui F B
+<DEFINE> DMAREQEN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 39 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 40 29 I DN ui F B
+<DEFINE> INT0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 40 I DC MB F N ub -
+<DEFINE> LVL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 41 I DC MB F N ul -
+<LIT> 7 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 42 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 42 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 43 30 I DN ui F B
+<DEFINE> BUFINIT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 43 I DC MB F N ub -
+<LIT> 8 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 44 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 44 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 45 29 I DN ui F B
+<DEFINE> FLG C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 45 I DC MB F N ub -
+<DEFINE> PCFUN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 46 I DC MB F N ul -
+<DEFINE> PCDIR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 47 I DC MB F N ul -
+<DEFINE> PCDIN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 48 I DC MB F N ul -
+<DEFINE> PCDOUT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 49 I DC MB F N ul -
+<DEFINE> PCSET C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 50 I DC MB F N ul -
+<DEFINE> PCCLR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 51 I DC MB F N ul -
+<DEFINE> PCPDR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 52 I DC MB F N ul -
+<DEFINE> PCDIS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 53 I DC MB F N ul -
+<DEFINE> PCPSL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 54 I DC MB F N ul -
+<DEFINE> DAT0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 55 I DC MB F N ul -
+<DEFINE> DAT1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 56 I DC MB F N ul -
+<DEFINE> BUF C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 57 I DC MB F N ul -
+<DEFINE> EMU C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 58 I DC MB F N ul -
+<DEFINE> DELAY C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 59 I DC MB F N ul -
+<DEFINE> CSDEF C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 60 I DC MB F N ul -
+<DEFINE> FMT0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 61 I DC MB F N ul -
+<DEFINE> FMT1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 62 I DC MB F N ul -
+<DEFINE> FMT2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 63 I DC MB F N ul -
+<DEFINE> FMT3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 64 I DC MB F N ul -
+<DEFINE> INTVECT0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 65 I DC MB F N ul -
+<DEFINE> INTVECT1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 66 I DC MB F N ul -
+<DEFINE> SRSEL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 67 I DC MB F N ul -
+<DEFINE> PMCTRL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 68 I DC MB F N ul -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 69 29 I DN ui F B
+<DEFINE> RAMACCESS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 69 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 70 29 I DN ui F B
+<DEFINE> MIBSPIE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 70 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 71 29 I DN ui F B
+<DEFINE> SETINTENARDY C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 71 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 72 29 I DN ui F B
+<DEFINE> SETINTENASUS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 72 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 73 29 I DN ui F B
+<DEFINE> CLRINTENARDY C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 73 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 74 29 I DN ui F B
+<DEFINE> CLRINTENASUS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 74 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 75 29 I DN ui F B
+<DEFINE> SETINTLVLRDY C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 75 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 76 29 I DN ui F B
+<DEFINE> SETINTLVLSUS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 76 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 77 29 I DN ui F B
+<DEFINE> CLRINTLVLRDY C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 77 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 78 29 I DN ui F B
+<DEFINE> CLRINTLVLSUS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 78 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 79 29 I DN ui F B
+<DEFINE> INTFLGRDY C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 79 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 80 29 I DN ui F B
+<DEFINE> INTFLGSUS C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 80 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 81 29 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 81 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 82 29 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 82 I DC MB F N ub -
+<DEFINE> TICKCNT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 83 I DC MB F N ul -
+<LIT> 3 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 84 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 84 I DC MB F N ub -
+<LIT> 5 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 85 30 I DN ui F B
+<DEFINE> TGINSERVICE C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 85 I DC MB F N ub -
+<LIT> 9 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 86 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 86 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 87 30 I DN ui F B
+<DEFINE> LTGPEND C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 87 I DC MB F N ub -
+<LIT> 8 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 88 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 88 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 89 20 I DN ui F D
+<DEFINE> TGCTRL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 89 I DC MB F N [16,ul] -
+<LIT> 8 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 90 21 I DN ui F D
+<DEFINE> DMACTRL C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 90 I DC MB F N [8,ul] -
+<LIT> 8 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 91 22 I DN ui F D
+<DEFINE> DMACOUNT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 91 I DC MB F N [8,ul] -
+<DEFINE> DMACNTLEN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 92 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 93 29 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 93 I DC MB F N ub -
+<LIT> 23 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 94 29 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 94 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 95 30 I DN ui F B
+<DEFINE> PTESTEN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 95 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 96 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 96 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 97 30 I DN ui F B
+<DEFINE> EDEN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 97 I DC MB F N ub -
+<DEFINE> UERRSTAT C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 98 I DC MB F N ul -
+<DEFINE> UERRADDRRX C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 99 I DC MB F N ul -
+<DEFINE> UERRADDRTX C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 100 I DC MB F N ul -
+<DEFINE> RXOVRN_BUF_ADDR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 101 I DC MB F N ul -
+<DEFINE> IOLPKTSTCR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 102 I DC MB F N ul -
+<DEFINE> EXT_PRESCALE1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 103 I DC MB F N ul -
+<DEFINE> EXT_PRESCALE2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 104 I DC MB F N ul -
+<DEFINE> mibspictrlregs_t C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 105 I DC OT F N ^{smibspictrlregs} -
+<DEFINE> mibspiREG1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 108 I DF OM - - - O
+<LIT> 0xFFF7F400 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 108 41 I HN - F M
+<DEFINE> mibspiREG3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 109 I DF OM - - - O
+<LIT> 0xFFF7F800 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 109 41 I HN - F M
+<DEFINE> mibspiREG5 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 110 I DF OM - - - O
+<LIT> 0xFFF7FC00 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 110 41 I HN - F M
+<DEFINE> mibspiRamBase C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 113 I DC TG F N {smibspiRamBase} -
+<DEFINE> mibspiRamBase C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 113 I DF TG F N {smibspiRamBase} -
+<DEFINE> control C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 117 I DC MB F N us -
+<DEFINE> data C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 118 I DC MB F N us -
+<LIT> 128 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 119 10 I DN ni F D
+<DEFINE> tx C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 119 I DC MB F N [128,{s}] -
+<DEFINE> flags C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 122 I DC MB F N us -
+<DEFINE> data C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 123 I DC MB F N us -
+<LIT> 128 - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 124 10 I DN ni F D
+<DEFINE> rx C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 124 I DC MB F N [128,{s}] -
+<DEFINE> mibspiRAM_t C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 125 I DC OT F N ^{smibspiRamBase} -
+<DEFINE> mibspiRAM1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 128 I DF OM - - - O
+<LIT> 0xFF0E0000 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 128 36 I HN - F M
+<DEFINE> mibspiRAM3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 129 I DF OM - - - O
+<LIT> 0xFF0C0000 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 129 36 I HN - F M
+<DEFINE> mibspiRAM5 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 130 I DF OM - - - O
+<LIT> 0xFF0A0000 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 130 36 I HN - F M
+<EXTD> RednRpdShtdn C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 27
+<DEFINE> ResetCause_Cnt_T_Enum C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 27 I DC OV B N ul R
+<DEFINE> RednRpdShtdn C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 27 I DC OF F X (.,ul) -
+<DEFINE> RednRpdShtdn C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 27 I DF OF F X (.,ul) -
+<LIT> 0x00000008 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 32 34 I HN ui B X
+<LIT> 0xBEABFFBB - P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 33 44 I HN ul B X
+<LIT> 0x00080000 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 34 37 I HN ul B X
+<RDEF> X Refers-to
+<R>X RednRpdShtdn ResetCause_Cnt_Enum 37 W
+<LIT> 0x00008000 u P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h 40 40 I HN ui B X
+<CTLG> RednRpdShtdn 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 6
+<CTLG> 4 5
+<CTLG> 5 3
+<CTLG> 6 8
+<CTLGN> 28 42 42 42 42 42 43 43 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/include/RednRpdShtdn.h
+<S>STNAM  RednRpdShtdn
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  0
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  0
+<S>STAV2  0
+<S>STAV3  0
+<S>STST1  7
+<S>STST2  6
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<R>I C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 24
+<DEFINE> OS_H C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 2 I DF OM - - - O
+<DEFINE> ISR C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 5 I DF OM - - - F
+<EXTN> FlsTst_IrqCh1Errfunc C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 8
+<DEFINE> FlsTst_IrqCh1Errfunc C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 8 I DC OF F X (.,.) -
+<DEFINE> osqRAM0 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 11 I DF OM - - - O
+<DEFINE> osqRAM1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 12 I DF OM - - - O
+<DEFINE> osqRAM2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 13 I DF OM - - - O
+<DEFINE> osqRAM3 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 14 I DF OM - - - O
+<DEFINE> PRO_SHUTDOWN C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 15 I DF OM - - - O
+<LIT> 4 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 15 35 I DN - F M
+<DEFINE> osqFunc1 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 16 I DF OM - - - O
+<DEFINE> osqFunc2 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 17 I DF OM - - - O
+<DEFINE> osuint8 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 19 I DC OT F N uc -
+<DEFINE> osuint16 C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 20 I DC OT F N us -
+<DEFINE> ProtectionReturnType C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 21 I DC OT F N uc -
+<EXTN> osLastError C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 25
+<DEFINE> osLastError C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 25 I DC OV F X us S
+<EXTN> ErrorHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 26
+<DEFINE> Error C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 26 I DC OV P N uc R
+<DEFINE> ErrorHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 26 I DC OF F X (.,uc) -
+<DEFINE> OSErrorGetosCANError C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 29 I DF OM - - - F
+<DEFINE> osdErrUEUnhandledException C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 32 I DF OM - - - O
+<LIT> 0x2801 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 32 39 I HN - F M
+<DEFINE> osdErrSOStackOverflow C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 33 I DF OM - - - O
+<LIT> 0x6101 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 33 39 I HN - F M
+<DEFINE> osdErrYOStackOverflow C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 34 I DF OM - - - O
+<LIT> 0xA101 U P C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 34 41 I HN - F M
+<EXTN> ProtectionHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 37
+<DEFINE> Fatalerror C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 37 I DC OV P N uc R
+<DEFINE> ProtectionHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/utp/contract/Os.h 37 I DC OF F X (uc,uc) -
+<EXTD> ErrorHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c 35
+<DEFINE> Error C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c 35 N DC OV B N uc R
+<DEFINE> ErrorHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c 35 N DR OF F X (.,uc) -
+<DEFINE> ErrorHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c 35 N DF OF F X (.,uc) -
+<R>X ErrorHook osLastError 37 R
+<RDEF> C Calls
+<R>C ErrorHook RednRpdShtdn 40
+<R>X ErrorHook RednRpdShtdn 40 R
+<CTLG> ErrorHook 1
+<CTLG> 1 2
+<CTLG> 1 4
+<CTLG> 2 3
+<CTLG> 3 6
+<CTLG> 4 6
+<CTLG> 6 8
+<CTLGN> 36 37 41 41 43 37 46 46 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c
+<S>STNAM  ErrorHook
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  1
+<S>STAKI  3
+<S>STLIN  9
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  3
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  7
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  20
+<S>STFN2  4
+
+<EXTD> ProtectionHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c 58
+<DEFINE> Fatalerror C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c 58 N DC OV B N uc R
+<DEFINE> ProtectionHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c 58 N DR OF F X (uc,uc) -
+<DEFINE> ProtectionHook C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c 58 N DF OF F X (uc,uc) -
+<R>X ProtectionHook osLastError 60 R
+<R>C ProtectionHook RednRpdShtdn 64
+<R>X ProtectionHook RednRpdShtdn 64 R
+<R>C ProtectionHook RednRpdShtdn 67
+<R>X ProtectionHook RednRpdShtdn 67 R
+<CTLG> ProtectionHook 1
+<CTLG> 1 2
+<CTLG> 1 2
+<CTLG> 1 4
+<CTLG> 2 3
+<CTLG> 3 7
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLG> 7 9
+<CTLGN> 59 60 65 65 68 68 60 71 71 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c
+<S>STNAM  ProtectionHook
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  2
+<S>STAKI  4
+<S>STLIN  12
+<S>STXLN  9
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.22   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  3
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  10
+<S>STST2  6
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  29
+<S>STFN2  8
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c
+<S>STNAM  C:/_Synergy_Projects/Working/TMS570_uDiag-nz63rn/TMS570_uDiag/src/OsErrCallouts.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  2
+<S>STFCO  2
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  17
+<S>STOPT  15
+<S>STOPN  17
+<S>STTOT  95
+<S>STZIP  129
+<S>STHAL  128
+<S>STSHN  411
+<S>STDIF  5.89   
+<S>STEFF  2795
+<S>STVOL  475
+<S>STDEV  0.47   
+<S>STBUG  0
+<S>STTPP  83
+<S>STTLN  25
+<S>STM20  23
+<S>STM21  68
+<S>STM22  8
+<S>STM28  5
+<S>STM33  2
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.176  
+<S>STBMS  0.185  
+<S>STBME  0.182  
+<S>STTDO  1.292  
+<S>STTDS  1.384  
+<S>STTDE  1.448  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  3.896  
+

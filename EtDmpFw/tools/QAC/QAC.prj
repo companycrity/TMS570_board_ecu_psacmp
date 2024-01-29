@@ -1,0 +1,16 @@
+VersionTag45
+StartProjectMarker
+FolderName=EtDmpFw
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=Ap_EtDmpFw
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_EtDmpFw.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Ap_EtDmpFw.c
+EndContainedFilesMarker
+EndSubProjectMarker
+

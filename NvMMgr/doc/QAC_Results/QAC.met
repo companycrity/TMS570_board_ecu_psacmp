@@ -1,0 +1,139 @@
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\doc\QAC_Results\QAC
+<S>STNAM C:\Synergy\NvMMgr-nzdx8v\NvMMgr\doc\QAC_Results\QAC
+<S>STCYA 23
+<S>STNFA 22
+<S>STNEA 21
+<S>STNRA 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_Cancel
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_EraseImmediateBlock
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_GetJobResult
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_GetStatus
+<S>STM29 2
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_Init
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_InvalidateBlock
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_Read
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_Write
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\fee.h
+<S>STNAM Fee_MainFunction
+<S>STM29 2
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\Os.h
+<S>STNAM CallTrustedFunction
+<S>STM29 10
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_FeeIf_Init
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_Fee_MainFunction
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_Fee_Read
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_Fee_Write
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_Fee_EraseImmediateBlock
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_Fee_InvalidateBlock
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_Fee_Cancel
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_Fee_GetStatus
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_Fee_GetJobResult
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TRUSTED_TWrapS_TI_Fee_SuspendResumeErase
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\utp\contract\trustfct.h
+<S>STNAM TI_Fee_SuspendResumeErase
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM FeeIf_Init
+<S>STM29 1
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_FeeIf_Init
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_Fee_MainFunction
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_Fee_Read
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_Fee_Write
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_Fee_EraseImmediateBlock
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_Fee_InvalidateBlock
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_Fee_Cancel
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_Fee_GetStatus
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_Fee_GetJobResult
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Cd_FeeIf.c
+<S>STNAM TWrapC_TI_Fee_SuspendResumeErase
+<S>STM29 0
+<S>
+<S>STFIL C:\Synergy\NvMMgr-nzdx8v\NvMMgr\src\Fapi_UserDefinedFunctions.c
+<S>STNAM Fapi_serviceWatchdogTimer
+<S>STM29 0

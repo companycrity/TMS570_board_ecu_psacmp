@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration=""
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="022436ad-daf7-49f3-ba84-e6d21f31cdad"
+    location="$(PROJECTROOT)\tessy"
+    name="SF049A_LoaMg"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+============================================================================
+   Copyright (c) 2009 by Vector Informatik GmbH.    All rights reserved.
+
+   This software is copyright protected and proprietary to Vector Informatik GmbH.
+   Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+   All other rights remain with Vector Informatik GmbH.
+
+============================================================================
+
+    This file is needed for internal use by DaVinci Configurator.
+    Please do not modify this file, otherwise the software may behave in unexpected way.
+
+============================================================================
+-->
+<AUTOSAR xmlns="http://autosar.org/3.0.1">
+	<TOP-LEVEL-PACKAGES>
+		<AR-PACKAGE UUID="">
+			<SHORT-NAME>MICROSAR</SHORT-NAME>
+			<ELEMENTS>
+				<MODULE-CONFIGURATION UUID="DCE:cf748d2a-1b63-45ce-b560-df2a8625c1cf">
+					<SHORT-NAME>Board_Rec</SHORT-NAME>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/Board</DEFINITION-REF>
+					<CONTAINERS>
+						<CONTAINER UUID="DCE:cf7ce70e-d3cf-4c75-aa02-df7d06bb1404">
+							<SHORT-NAME>InterruptFunctionality</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/Board/InterruptFunctionality</DEFINITION-REF>
+							<SUB-CONTAINERS>
+								<CONTAINER UUID="DCE:0a93ef22-b28d-440b-8e37-fc89cb06a89b">
+									<SHORT-NAME>SuspendAllInterrupts</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardGlobalSuspend</DEFINITION-REF>
+											<VALUE>SuspendAllInterrupts()</VALUE>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardGlobalRestore</DEFINITION-REF>
+											<VALUE>ResumeAllInterrupts()</VALUE>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardIncludeFile</DEFINITION-REF>
+											<VALUE>Os.h</VALUE>
+										</STRING-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="DCE:72905305-db98-4493-843e-f280c61ad15c">
+									<SHORT-NAME>SuspendOSInterrupts</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardGlobalSuspend</DEFINITION-REF>
+											<VALUE>SuspendOSInterrupts()</VALUE>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardGlobalRestore</DEFINITION-REF>
+											<VALUE>ResumeOSInterrupts()</VALUE>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardIncludeFile</DEFINITION-REF>
+											<VALUE>Os.h</VALUE>
+										</STRING-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="DCE:f78cc6ad-697c-44d0-bcc1-c97eb30f6751">
+									<SHORT-NAME>DisableAllInterrupts</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardGlobalSuspend</DEFINITION-REF>
+											<VALUE>DisableAllInterrupts()</VALUE>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardGlobalRestore</DEFINITION-REF>
+											<VALUE>EnableAllInterrupts()</VALUE>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardIncludeFile</DEFINITION-REF>
+											<VALUE>Os.h</VALUE>
+										</STRING-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+								<CONTAINER UUID="DCE:1553edd6-8eb8-49e5-9b7f-31975dc9c609">
+									<SHORT-NAME>NoCriticalSectionHandling</SHORT-NAME>
+									<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet</DEFINITION-REF>
+									<PARAMETER-VALUES>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardGlobalSuspend</DEFINITION-REF>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardGlobalRestore</DEFINITION-REF>
+										</STRING-VALUE>
+										<STRING-VALUE>
+											<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/Board/InterruptFunctionality/InterruptFunctionSet/BoardIncludeFile</DEFINITION-REF>
+										</STRING-VALUE>
+									</PARAMETER-VALUES>
+								</CONTAINER>
+							</SUB-CONTAINERS>
+						</CONTAINER>
+					</CONTAINERS>
+				</MODULE-CONFIGURATION>
+				<MODULE-CONFIGURATION UUID="DCE:c7ca00d6-98ce-473c-b1b3-df8a71ff2db6">
+					<SHORT-NAME>Board_Pre</SHORT-NAME>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/Board</DEFINITION-REF>
+					<CONTAINERS>
+						<CONTAINER UUID="c6c5ff7e-3f57-4376-8b66-4b9c51395b76">
+							<SHORT-NAME>BoardGeneral</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/Board/BoardGeneral</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<BOOLEAN-VALUE>
+									<DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/MICROSAR/Board/BoardGeneral/BoardEnableSnvPrefixes</DEFINITION-REF>
+									<VALUE>false</VALUE>
+								</BOOLEAN-VALUE>
+								<ENUMERATION-VALUE>
+									<DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/MICROSAR/Board/BoardGeneral/BoardSizeOfPduIdType</DEFINITION-REF>
+									<VALUE>Two_Byte</VALUE>
+								</ENUMERATION-VALUE>								
+							</PARAMETER-VALUES>
+						</CONTAINER>
+					</CONTAINERS>
+				</MODULE-CONFIGURATION>
+			</ELEMENTS>
+		</AR-PACKAGE>
+	</TOP-LEVEL-PACKAGES>
+</AUTOSAR>

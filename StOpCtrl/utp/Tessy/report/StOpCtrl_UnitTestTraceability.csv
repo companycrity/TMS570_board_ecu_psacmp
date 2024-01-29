@@ -1,0 +1,35 @@
+Sw_ReqId,Verfication File Name,Verification File Version,PIL Test case #,PIL Test Vector #,PIL  Test Status,PIL Comments
+.SwReqId, .PILSpecName, .PILSpecVer, .PILTestCase, .PILTestVector, .PILTestStatus, .PILComments
+SF-05_11,StOpCtrl_PIL.pdbx,1,TC_SF05_11_B_1,"TV_11_B_TC1_23 -TV_11_B_TC1_34,",PASS,12 out of 12 Passed
+SF-05_61,StOpCtrl_PIL.pdbx,1,"TC_SF05_61_B_1,
+TC_SF05_61_P_1"," TV_61_B_TC1_15, 
+TV_61_P_TC1_1",PASS,2 out of 2 Passed
+SF-05_59,StOpCtrl_PIL.pdbx,1,"TC_SF05_59_B_1,
+TC_SF05_59_P_1","TV_59_B_TC1_16,
+TV_59_P_TC1_2",PASS,2 out of 2 Passed
+SF-05_58,StOpCtrl_PIL.pdbx,1,TC_SF05_58_B_1, TV_58_B_TC1_17-TV_58_B_TC1_22,PASS,6 out of 6 Passed
+SF-05_49,StOpCtrl_PIL.pdbx,1,TC_SF05_58_B_1, TV_49_B_TC1_17-TV_49_B_TC1_22,PASS,6 out of 6 Passed
+SF-05_33,StOpCtrl_PIL.pdbx,1,"TC_SF05_33_B_1,
+TC_SF05_33_P_1","TV_33_B_TC1_7-TV_33_B_TC1_12,
+TV_33_P_TC1_1,
+TV_33_P_TC1_2",PASS,8 out of 8 Passed
+SF-05_51,StOpCtrl_PIL.pdbx,1,TC_SF05_51_B_1, TV_51_B_TC1_23-TV_51_B_TC1_34,PASS,12 out of 12 Passed
+SF-05_37,StOpCtrl_PIL.pdbx,1,TC_SF05_37_B_1,"TV_37_B_TC1_13-TV_37_B_TC1_14,",PASS,3 out of 3 Passed
+SF-05_36,StOpCtrl_PIL.pdbx,1,TC_SF05_36_B_1,TV_36_B_TC1_15-TV_36_B_TC1_16,PASS,2 out of 2 Passed
+SF-05_35,StOpCtrl_PIL.pdbx,1,TC_SF05_35_B_1,TV_35_B_TC1_4-TV_35_B_TC1_6,PASS,3 out of 3 Passed
+SF-05_34,StOpCtrl_PIL.pdbx,1,TC_SF05_34_B_1,TV_34_B_TC1_1-TV_34_B_TC1_3,PASS,3 out of 3 Passed
+SF-05_60,StOpCtrl_PIL.pdbx,1,TC_SF05_60_B_1,TV_60_B_TC1_17-TV_60_B_TC1_22,PASS,6 out of 6 Passed
+SF-05_46,StOpCtrl_PIL.pdbx,1,TC_SF05_46_B_1,TV_46_B_TC1_7-TV_46_B_TC1_9,PASS,3 out of 3 Passed
+SF-05_62,StOpCtrl_PIL.pdbx,1,TC_SF05_62_B_1," TV_62_B_TC1_15, 
+TV_62_P_TC1_1",PASS,2 out of 2 Passed
+SF-05_63,StOpCtrl_PIL.pdbx,1,TC_SF05_63_B_1, TV_63_B_TC1_15,PASS,1 out of 1 Passed
+SF-05_53,StOpCtrl_PIL.pdbx,1,TC_SF05_53_B_1," TV_53_B_TC1_15-
+TV_53_P_TC1_16",PASS,2 out of 2 Passed
+SF-05_32,StOpCtrl_PIL.pdbx,1,TC_SF05_32_B_1," TV_32_B_TC1_38- 
+TV_32_B_TC1_42",PASS,5 out of 5 Passed
+SF-05_9,StOpCtrl_PIL.pdbx,1,TC_SF05_09_B_1," TV_9_B_TC1_7- 
+TV_9_B_TC1_9",PASS,3 out of 3 Passed
+SF-05_52,StOpCtrl_PIL.pdbx,1,TC_SF05_52_B_1," TV_52_B_TC1_17-
+TV_52_B_TC1_19",PASS,3 out of 3 Passed
+SF-05_50,StOpCtrl_PIL.pdbx,1,TC_SF05_50_B_1," TV_50_B_TC1_17-
+TV_50_B_TC1_19",PASS,3 out of 3 Passed

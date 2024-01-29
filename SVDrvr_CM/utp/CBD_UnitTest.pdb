@@ -1,0 +1,108 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\SVDrvr\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\SVDrvr\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "AnkitaB"
+Created          : 11.11.2013 15:06
+Last Changed     : 13.11.2013 20:27
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "PWMCdd"
+      Comment     : "***********************************************************************************************************\r\n\r\nName of Tester:Sumit Kumar Gupta\r\nCode File(s) Under Test:PwmCdd.c\r\nCode File(s) Version:1\r\nModule Design Document:PWM_CDD_MDD.docx\r\nModule Design Document Version:4\r\nData Dictionary Version:4\r\nUnit Test Plan Version:4\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:Tms470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7c/ EPS Libraray 1.29\r\nSpecial Test Requirements:Nexteer EPS Unit Test Tool 2.7c/ EPS Library 1.29\r\nTest Date:11/13/2013\r\nComments:""Comments:""""NOTE1: Inline function defined in globalmarco.h is not unit tested.\n\nNOTE2: In PwmCdd_Per1 function, offset logic is added for Phase_Rev_T_u0p16 and PhaseIndex_Rev_T_u0p16 variables while unit testing to avoid failures in the VBA code.\n\nNOTE3: In ModIndxPhase_u0p16 function, coverage is not 100% due to the usage of FPM_InitFixedPoint_m macro for d_240Deg_Rev_u0p16 and d_120Deg_Rev_u0p16 constants.\n\nNOTE4: In CDD_ApplyPWMMtrElecMechPol function, coverage is not 100% due to the usage of FPM_InitFixedPoint_m macro for d_PhaseAOffsetNrm_Rev_u0p16 , d_PhaseBOffsetNrm_Rev_u0p16, d_PhaseCOffsetNrm_Rev_u0p16,d_PhaseAOffsetInv_Rev_u0p16,d_PhaseBOffsetInv_Rev_u0p16 and d_PhaseCOffsetInv_Rev_u0p16 constants.""""\n\nNOTE5: In """"PwmCdd_Per1"""" function, """"CDD_Read_CorrectedMtrPos_Rev_u0p16"""" is #define to """"CDD_MtrPosElec_Rev_G_u0p16[CDD_CDDDataAccessBfr_Cnt_G_u16]"""" in """"PwmCdd_Cfg.h"""" header file. Hence in VBA """"CDD_MtrPosElec_Rev_G_u0p16[CDD_CDDDataAccessBfr_Cnt_G_u16]""""is taken as input.\n\nNOTE6: In PwmCdd_Per1 Function  following array variables are going out of range :\n    i)CDD_PWMDutyCycleASum_Cnt_G_u32[2]\n    ii)CDD_PWMDutyCycleBSum_Cnt_G_u32[2]\n    iii)CDD_PWMDutyCycleCSum_Cnt_G_u32[2] \n    iv)CDD_PWMDutyCycleCSum_Cnt_G_u32 [2] \n    ""\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\SVDrvr\utp\contract, $(PROJECTROOT)\SVDrvr\utp\contract\PwmCdd, $(PROJECTROOT)\SVDrvr\include, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\StdDef\include\TMS570_HerculesRegs, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "PwmCdd.c"
+         Path : "$(PROJECTROOT)\SVDrvr\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "PwmCdd_Init"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "PwmCdd_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "PwmPeriodDither_u16"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "ModIndxPhase_u0p16"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CDD_ApplyPWMMtrElecMechPol"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CDDPorts_ClearPhsReasSum"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

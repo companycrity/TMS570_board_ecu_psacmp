@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project projectVersion="2" tessyVersion="3.1.7" name="CBD_SVDiag" location="$(PROJECTROOT)\tessy" configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"/>

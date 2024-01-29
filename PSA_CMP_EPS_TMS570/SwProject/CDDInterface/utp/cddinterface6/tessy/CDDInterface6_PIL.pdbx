@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="5f7a25f3-f9af-4e97-a03c-ab1b2cf228ec"
+    location="$(PROJECTROOT)\tessy"
+    name="CDDInterface_PSA_CMP_04.03.00"
+    projectVersion="3"
+    tessyVersion="3.1.12"
+    isTemplate="false"/>

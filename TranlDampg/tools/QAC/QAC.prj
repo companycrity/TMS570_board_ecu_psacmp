@@ -1,0 +1,17 @@
+VersionTag45
+ProjectDataflowFile=..\..\..\QAC\Preset_4.p_d
+StartProjectMarker
+FolderName=TranlDampg
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=Ap_TranlDampg
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_TranlDampg.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Ap_TranlDampg.c
+EndContainedFilesMarker
+EndSubProjectMarker
+

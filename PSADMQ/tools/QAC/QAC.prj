@@ -1,0 +1,17 @@
+VersionTag45
+ProjectDataflowFile=..\..\..\QAC\Preset_4.p_d
+StartProjectMarker
+FolderName=PSADMQ
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=Ap_PSADMQ
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_PSADMQ.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Ap_PSADMQ.c
+EndContainedFilesMarker
+EndSubProjectMarker
+

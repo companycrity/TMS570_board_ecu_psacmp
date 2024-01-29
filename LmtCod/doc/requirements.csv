@@ -1,0 +1,7 @@
+FDD, ID, Source, Function, Line(s), Status, Comment
+, , .SwFileName, .SwFuncName, .SwLines, .SwStatus, .SwComment
+SF038A,91,Ap_LmtCod.c,LmtCod_Per1,276-296,I,""
+SF038A,76,Ap_LmtCod.c,LmtCod_Per1,239-241,I,""
+SF038A,75,Ap_LmtCod.c,LmtCod_Per1,235-237,I,""
+SF038A,74,Ap_LmtCod.c,LmtCod_Per1,231-233,I,""
+SF038A,90,Ap_LmtCod.c,LmtCod_Per1,246-269,I,""

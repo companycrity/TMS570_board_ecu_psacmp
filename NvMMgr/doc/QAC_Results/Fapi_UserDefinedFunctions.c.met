@@ -1,0 +1,123 @@
+<RDEF> I Includes
+<R>I C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Fapi_UserDefinedFunctions.c C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 29
+<DEFINE> F021_H C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 2 I DF OM - - - O
+<LIT> 0 - P C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 6 24 I ON ni F E
+<DEFINE> Fapi_Status_Success C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 6 I DC OE F N ne -
+<DEFINE> Fapi_Status_Success C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 6 I DF OE F N ne -
+<DEFINE> Fapi_Status_FsmBusy C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 7 I DC OE F N ne -
+<DEFINE> Fapi_Status_FsmBusy C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 7 I DF OE F N ne -
+<DEFINE> Fapi_Status_FsmReady C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 8 I DC OE F N ne -
+<DEFINE> Fapi_Status_FsmReady C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 8 I DF OE F N ne -
+<DEFINE> Fapi_Error_Fail C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 9 I DC OE F N ne -
+<DEFINE> Fapi_Error_Fail C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 9 I DF OE F N ne -
+<DEFINE> Fapi_Error_NullPointer C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 10 I DC OE F N ne -
+<DEFINE> Fapi_Error_NullPointer C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 10 I DF OE F N ne -
+<DEFINE> Fapi_Error_InvalidCommand C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 11 I DC OE F N ne -
+<DEFINE> Fapi_Error_InvalidCommand C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 11 I DF OE F N ne -
+<DEFINE> Fapi_Error_InvalidEccAddress C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 12 I DC OE F N ne -
+<DEFINE> Fapi_Error_InvalidEccAddress C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 12 I DF OE F N ne -
+<DEFINE> Fapi_Error_OtpChecksumMismatch C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 13 I DC OE F N ne -
+<DEFINE> Fapi_Error_OtpChecksumMismatch C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 13 I DF OE F N ne -
+<DEFINE> Fapi_Error_InvalidHclkValue C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 14 I DC OE F N ne -
+<DEFINE> Fapi_Error_InvalidHclkValue C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 14 I DF OE F N ne -
+<DEFINE> Fapi_Error_InvalidBank C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 16 I DC OE F N ne -
+<DEFINE> Fapi_Error_InvalidBank C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 16 I DF OE F N ne -
+<DEFINE> Fapi_Error_InvalidAddress C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 17 I DC OE F N ne -
+<DEFINE> Fapi_Error_InvalidAddress C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 17 I DF OE F N ne -
+<DEFINE> Fapi_Error_InvalidReadMode C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 18 I DC OE F N ne -
+<DEFINE> Fapi_Error_InvalidReadMode C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 18 I DF OE F N ne -
+<DEFINE> Fapi_Error_AsyncIncorrectDataBufferLength C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 19 I DC OE F N ne -
+<DEFINE> Fapi_Error_AsyncIncorrectDataBufferLength C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 19 I DF OE F N ne -
+<DEFINE> Fapi_Error_AsyncIncorrectEccBufferLength C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 20 I DC OE F N ne -
+<DEFINE> Fapi_Error_AsyncIncorrectEccBufferLength C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 20 I DF OE F N ne -
+<DEFINE> Fapi_Error_AsyncDataEccBufferLengthMismatch C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 21 I DC OE F N ne -
+<DEFINE> Fapi_Error_AsyncDataEccBufferLengthMismatch C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 21 I DF OE F N ne -
+<DEFINE> Fapi_Error_FeatureNotAvailable C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 23 I DC OE F N ne -
+<DEFINE> Fapi_Error_FeatureNotAvailable C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 23 I DF OE F N ne -
+<DEFINE> Fapi_StatusType C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 24 I DC OT F N {e} -
+<EXTN> Fapi_serviceWatchdogTimer C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 26
+<DEFINE> Fapi_serviceWatchdogTimer C:/Synergy/NvMMgr-nzdx8v/NvMMgr/utp/contract/F021.h 26 I DC OF F X ({eFapi_StatusType},.) -
+<EXTD> Fapi_serviceWatchdogTimer C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Fapi_UserDefinedFunctions.c 42
+<DEFINE> Fapi_serviceWatchdogTimer C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Fapi_UserDefinedFunctions.c 42 N DR OF F X ({eFapi_StatusType},.) -
+<DEFINE> Fapi_serviceWatchdogTimer C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Fapi_UserDefinedFunctions.c 42 N DF OF F X ({eFapi_StatusType},.) -
+<CTLG> Fapi_serviceWatchdogTimer 1
+<CTLG> 1 3
+<CTLGN> 43 46 46 
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Fapi_UserDefinedFunctions.c
+<S>STNAM  Fapi_serviceWatchdogTimer
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  3
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  6
+<S>STFN2  1
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Fapi_UserDefinedFunctions.c
+<S>STNAM  Fapi_serviceWatchdogTimer
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Fapi_UserDefinedFunctions.c
+<S>STNAM  C:/Synergy/NvMMgr-nzdx8v/NvMMgr/src/Fapi_UserDefinedFunctions.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  0
+<S>STFNC  1
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  3
+<S>STOPT  9
+<S>STOPN  3
+<S>STTOT  15
+<S>STZIP  37
+<S>STHAL  33
+<S>STSHN  95
+<S>STDIF  4.63   
+<S>STEFF  249
+<S>STVOL  54
+<S>STDEV  0.04   
+<S>STBUG  0
+<S>STTPP  52
+<S>STTLN  4
+<S>STM20  3
+<S>STM21  11
+<S>STM22  1
+<S>STM28  4
+<S>STM33  1
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.108  
+<S>STBMS  0.109  
+<S>STBME  0.104  
+<S>STTDO  1.072  
+<S>STTDS  1.152  
+<S>STTDE  1.210  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  23.783 
+

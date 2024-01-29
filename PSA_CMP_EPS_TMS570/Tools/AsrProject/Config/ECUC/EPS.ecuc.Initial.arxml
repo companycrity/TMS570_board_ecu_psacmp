@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file was saved with a tool from Vector Informatik GmbH
+-->
+<AUTOSAR xmlns="http://autosar.org/3.0.2">
+  <TOP-LEVEL-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>InitialEcuC</SHORT-NAME>
+      <ELEMENTS>
+        <ECU-CONFIGURATION>
+          <SHORT-NAME>InitialEcuC</SHORT-NAME>
+          <ADMIN-DATA>
+            <DOC-REVISIONS />
+            <SDGS>
+              <SDG GID="DV:GenTool_CsAsrInitialEcuC">
+                
+                  <SD GID="DV:Version">1.20.26.0</SD>
+                
+              </SDG>
+              <SDG GID="DV:GENy_EcucPlugin_FirstImportFinished">
+                
+                  <SD GID="DV:Value">false</SD>
+                
+              </SDG>
+            </SDGS>
+          </ADMIN-DATA>
+          <ECU-EXTRACT-REF DEST="SYSTEM">/VehicleProject/System</ECU-EXTRACT-REF>
+          <MODULE-REFS>
+            <MODULE-REF DEST="MODULE-CONFIGURATION">/InitialEcuC/Can</MODULE-REF>
+            <MODULE-REF DEST="MODULE-CONFIGURATION">/InitialEcuC/CanIf</MODULE-REF>
+            <MODULE-REF DEST="MODULE-CONFIGURATION">/InitialEcuC/CanSM</MODULE-REF>
+            <MODULE-REF DEST="MODULE-CONFIGURATION">/InitialEcuC/CanTp</MODULE-REF>
+            <MODULE-REF DEST="MODULE-CONFIGURATION">/InitialEcuC/Com</MODULE-REF>
+            <MODULE-REF DEST="MODULE-CONFIGURATION">/InitialEcuC/PduR</MODULE-REF>
+            <MODULE-REF DEST="MODULE-CONFIGURATION">/InitialEcuC/EcuC</MODULE-REF>
+            <MODULE-REF DEST="MODULE-CONFIGURATION">/InitialEcuC/ComM</MODULE-REF>
+          </MODULE-REFS>
+        </ECU-CONFIGURATION>
+        <MODULE-CONFIGURATION>
+          <SHORT-NAME>Can</SHORT-NAME>
+          <DEFINITION-REF DEST="MODULE-DEF">/AUTOSAR/Can</DEFINITION-REF>
+          <CONTAINERS>
+            <CONTAINER>
+              <SHORT-NAME>CanGeneral</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Can/CanGeneral</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <INTEGER-VALUE>
+                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Can/CanGeneral/CanIndex</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </INTEGER-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS />
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>CanConfigSet</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Can/CanConfigSet</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Can/CanConfigSet/CanController</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <BOOLEAN-VALUE>
+                      <DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/AUTOSAR/Can/CanConfigSet/CanController/CanControllerActivation</DEFINITION-REF>
+                      <VALUE>true</VALUE>
+                    </BOOLEAN-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+          </CONTAINERS>
+        </MODULE-CONFIGURATION>
+        <MODULE-CONFIGURATION>
+          <SHORT-NAME>CanIf</SHORT-NAME>
+          <DEFINITION-REF DEST="MODULE-DEF">/AUTOSAR/CanIf</DEFINITION-REF>
+          <CONTAINERS>
+            <CONTAINER>
+              <SHORT-NAME>CanIfPublicConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfPublicConfiguration</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS />
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>CanIfPrivateConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfPrivateConfiguration</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS />
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>CanIfInitConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <STRING-VALUE>
+                  <DEFINITION-REF DEST="STRING-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfConfigSet</DEFINITION-REF>
+                  <VALUE>initConfiguration</VALUE>
+                </STRING-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>CanIfInitHohConfig</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfInitHohConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfInitHohConfig/CanIfRefConfigSet</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Can/CanConfigSet</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>CT_CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfInitControllerConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>ABS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduCanId</DEFINITION-REF>
+                      <VALUE>864</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfRxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/ABS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>BCM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduCanId</DEFINITION-REF>
+                      <VALUE>1056</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfRxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/BCM1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagFuncReqFT_Tp__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduCanId</DEFINITION-REF>
+                      <VALUE>2000</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfRxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagFuncReqFT_Tp__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagPhysReqToEPAS_Tp__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduCanId</DEFINITION-REF>
+                      <VALUE>1906</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfRxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagPhysReqToEPAS_Tp__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagRespFromEPAS_Tp__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduIdCanId</DEFINITION-REF>
+                      <VALUE>1970</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduIdDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduType</DEFINITION-REF>
+                      <VALUE>STATIC</VALUE>
+                    </ENUMERATION-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfTxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagRespFromEPAS_Tp__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>ECM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduCanId</DEFINITION-REF>
+                      <VALUE>790</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfRxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/ECM1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduIdCanId</DEFINITION-REF>
+                      <VALUE>922</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduIdDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduType</DEFINITION-REF>
+                      <VALUE>STATIC</VALUE>
+                    </ENUMERATION-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfTxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/EPAS1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>EPAS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduIdCanId</DEFINITION-REF>
+                      <VALUE>926</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduIdDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduType</DEFINITION-REF>
+                      <VALUE>STATIC</VALUE>
+                    </ENUMERATION-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfTxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/EPAS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>XcpMaster__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduCanId</DEFINITION-REF>
+                      <VALUE>1685</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfCanRxPduDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/CanIfRxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfRxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/XcpMaster__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>XcpSlave__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduIdCanId</DEFINITION-REF>
+                      <VALUE>1765</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduIdDlc</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfCanTxPduType</DEFINITION-REF>
+                      <VALUE>STATIC</VALUE>
+                    </ENUMERATION-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/CanIfTxPduIdCanIdType</DEFINITION-REF>
+                      <VALUE>STANDARD_CAN</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfInitConfiguration/CanIfTxPduConfig/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/XcpSlave__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>CanIfDriverConfig</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfDriverConfig</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES>
+                <REFERENCE-VALUE>
+                  <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfDriverConfig/CanIfDriverNameRef</DEFINITION-REF>
+                  <VALUE-REF DEST="CONTAINER">/InitialEcuC/Can/CanGeneral</VALUE-REF>
+                </REFERENCE-VALUE>
+                <REFERENCE-VALUE>
+                  <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfDriverConfig/CanIfInitHohConfigRef</DEFINITION-REF>
+                  <VALUE-REF DEST="CONTAINER">/InitialEcuC/CanIf/CanIfInitConfiguration/CanIfInitHohConfig</VALUE-REF>
+                </REFERENCE-VALUE>
+              </REFERENCE-VALUES>
+              <SUB-CONTAINERS />
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>CT_CAN00</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanIf/CanIfControllerConfig</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES>
+                <REFERENCE-VALUE>
+                  <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanIf/CanIfControllerConfig/CanIfDriverNameRef</DEFINITION-REF>
+                  <VALUE-REF DEST="CONTAINER">/InitialEcuC/CanIf/CanIfDriverConfig</VALUE-REF>
+                </REFERENCE-VALUE>
+              </REFERENCE-VALUES>
+              <SUB-CONTAINERS />
+            </CONTAINER>
+          </CONTAINERS>
+        </MODULE-CONFIGURATION>
+        <MODULE-CONFIGURATION>
+          <SHORT-NAME>CanSM</SHORT-NAME>
+          <DEFINITION-REF DEST="MODULE-DEF">/AUTOSAR/CanSM</DEFINITION-REF>
+          <CONTAINERS>
+            <CONTAINER>
+              <SHORT-NAME>CanStateManagerConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanSM/CanStateManagerConfiguration</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanSM/CanStateManagerConfiguration/CanStateManagerNetworks</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="SYMBOLIC-NAME-REFERENCE-PARAM-DEF">/AUTOSAR/CanSM/CanStateManagerConfiguration/CanStateManagerNetworks/CanSMNetworkHandle</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/ComM/CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS>
+                    <CONTAINER>
+                      <SHORT-NAME>CT_CAN00</SHORT-NAME>
+                      <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanSM/CanStateManagerConfiguration/CanStateManagerNetworks/CanStateManagerControllers</DEFINITION-REF>
+                      <PARAMETER-VALUES />
+                      <REFERENCE-VALUES>
+                        <REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="SYMBOLIC-NAME-REFERENCE-PARAM-DEF">/AUTOSAR/CanSM/CanStateManagerConfiguration/CanStateManagerNetworks/CanStateManagerControllers/CanSMControllerId</DEFINITION-REF>
+                          <VALUE-REF DEST="CONTAINER">/InitialEcuC/Can/CanConfigSet/CAN00</VALUE-REF>
+                        </REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                      <SUB-CONTAINERS />
+                    </CONTAINER>
+                  </SUB-CONTAINERS>
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+          </CONTAINERS>
+        </MODULE-CONFIGURATION>
+        <MODULE-CONFIGURATION>
+          <SHORT-NAME>CanTp</SHORT-NAME>
+          <DEFINITION-REF DEST="MODULE-DEF">/AUTOSAR/CanTp</DEFINITION-REF>
+          <CONTAINERS>
+            <CONTAINER>
+              <SHORT-NAME>CanTpGeneral</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpGeneral</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <BOOLEAN-VALUE>
+                  <DEFINITION-REF DEST="BOOLEAN-PARAM-DEF">/AUTOSAR/CanTp/CanTpGeneral/CanTpSupportMixed11Addressing</DEFINITION-REF>
+                  <VALUE>false</VALUE>
+                </BOOLEAN-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS />
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>DiagFuncReqFT__CAN00</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpRxNSdu</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpAddressingFormat</DEFINITION-REF>
+                  <VALUE>CANTP_STANDARD</VALUE>
+                </ENUMERATION-VALUE>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxPaddingActivation</DEFINITION-REF>
+                  <VALUE>CANTP_ON</VALUE>
+                </ENUMERATION-VALUE>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxTaType</DEFINITION-REF>
+                  <VALUE>CANTP_FUNCTIONAL</VALUE>
+                </ENUMERATION-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES>
+                <REFERENCE-VALUE>
+                  <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxNSduRef</DEFINITION-REF>
+                  <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagFuncReqFT__CAN00</VALUE-REF>
+                </REFERENCE-VALUE>
+              </REFERENCE-VALUES>
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>DiagFuncReqFT_Tp__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxNPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxNPdu/CanTpRxNPduRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagFuncReqFT_Tp__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>DiagRespFromEPAS__CAN00</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpTxNSdu</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpTxNSdu/CanTpAddressingMode</DEFINITION-REF>
+                  <VALUE>CANTP_STANDARD</VALUE>
+                </ENUMERATION-VALUE>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpTxNSdu/CanTpTxPaddingActivation</DEFINITION-REF>
+                  <VALUE>CANTP_ON</VALUE>
+                </ENUMERATION-VALUE>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpTxNSdu/CanTpTxTaType</DEFINITION-REF>
+                  <VALUE>CANTP_PHYSICAL</VALUE>
+                </ENUMERATION-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES>
+                <REFERENCE-VALUE>
+                  <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanTp/CanTpTxNSdu/CanTpTxNSduRef</DEFINITION-REF>
+                  <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagRespFromEPAS__CAN00</VALUE-REF>
+                </REFERENCE-VALUE>
+              </REFERENCE-VALUES>
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>DiagRespFromEPAS_Tp__CAN00_0</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpTxNSdu/CanTpTxNPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanTp/CanTpTxNSdu/CanTpTxNPdu/CanTpTxNPduRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagRespFromEPAS_Tp__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagPhysReqToEPAS_Tp__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpTxNSdu/CanTpRxFcNPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanTp/CanTpTxNSdu/CanTpRxFcNPdu/CanTpRxFcNPduRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagPhysReqToEPAS_Tp__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>DiagPhysReqToEPAS__CAN00_EPAS</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpRxNSdu</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpAddressingFormat</DEFINITION-REF>
+                  <VALUE>CANTP_STANDARD</VALUE>
+                </ENUMERATION-VALUE>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxPaddingActivation</DEFINITION-REF>
+                  <VALUE>CANTP_ON</VALUE>
+                </ENUMERATION-VALUE>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxTaType</DEFINITION-REF>
+                  <VALUE>CANTP_PHYSICAL</VALUE>
+                </ENUMERATION-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES>
+                <REFERENCE-VALUE>
+                  <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxNSduRef</DEFINITION-REF>
+                  <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagPhysReqToEPAS__CAN00</VALUE-REF>
+                </REFERENCE-VALUE>
+              </REFERENCE-VALUES>
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>DiagPhysReqToEPAS_Tp__CAN00_2</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxNPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpRxNPdu/CanTpRxNPduRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagPhysReqToEPAS_Tp__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagPhysReqToEPAS_Tp__CAN00_1</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpTxFcNPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/CanTp/CanTpRxNSdu/CanTpTxFcNPdu/CanTpTxFcNPduRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/DiagRespFromEPAS_Tp__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+          </CONTAINERS>
+        </MODULE-CONFIGURATION>
+        <MODULE-CONFIGURATION>
+          <SHORT-NAME>Com</SHORT-NAME>
+          <DEFINITION-REF DEST="MODULE-DEF">/AUTOSAR/Com</DEFINITION-REF>
+          <CONTAINERS>
+            <CONTAINER>
+              <SHORT-NAME>ComGeneral</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComGeneral</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <FLOAT-VALUE>
+                  <DEFINITION-REF DEST="FLOAT-PARAM-DEF">/AUTOSAR/Com/ComGeneral/ComConfigurationTimeBase</DEFINITION-REF>
+                  <VALUE>0.001</VALUE>
+                </FLOAT-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS />
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>ComConfig</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>PduGrp_EPAS__CAN00_Rx</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPduGroup</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>PduGrp_EPAS__CAN00_Tx</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPduGroup</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Pdu_ABS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIpduDirection</DEFINITION-REF>
+                      <VALUE>RECEIVE</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSize</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduGroupRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/PduGrp_EPAS__CAN00_Rx</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_VehSpeed__ABS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/ABS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Pdu_BCM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIpduDirection</DEFINITION-REF>
+                      <VALUE>RECEIVE</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSize</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduGroupRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/PduGrp_EPAS__CAN00_Rx</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_BCM_Key_Sta__BCM1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/BCM1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Pdu_ECM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIpduDirection</DEFINITION-REF>
+                      <VALUE>RECEIVE</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSize</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduGroupRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/PduGrp_EPAS__CAN00_Rx</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_LV_CAN_N_ERR__ECM1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_CAN_N__ECM1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/ECM1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Pdu_EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIpduDirection</DEFINITION-REF>
+                      <VALUE>SEND</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSize</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduGroupRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/PduGrp_EPAS__CAN00_Tx</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_SAS_Angle__EPAS1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_SAS_OK__EPAS1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_SAS_CAL__EPAS1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_SAS_CheckSum__EPAS1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_SAS_MsgCount__EPAS1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_SAS_Init__EPAS1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/EPAS1__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS>
+                    <CONTAINER>
+                      <SHORT-NAME>ComTxIPdu</SHORT-NAME>
+                      <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <INTEGER-VALUE>
+                          <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxIPduMinimumDelayTimeFactor</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </INTEGER-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES />
+                      <SUB-CONTAINERS>
+                        <CONTAINER>
+                          <SHORT-NAME>ComTxModeFalse</SHORT-NAME>
+                          <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse</DEFINITION-REF>
+                          <PARAMETER-VALUES />
+                          <REFERENCE-VALUES />
+                          <SUB-CONTAINERS>
+                            <CONTAINER>
+                              <SHORT-NAME>ComTxModeFalseFalse</SHORT-NAME>
+                              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode</DEFINITION-REF>
+                              <PARAMETER-VALUES>
+                                <ENUMERATION-VALUE>
+                                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeMode</DEFINITION-REF>
+                                  <VALUE>PERIODIC</VALUE>
+                                </ENUMERATION-VALUE>
+                                <INTEGER-VALUE>
+                                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeTimeOffsetFactor</DEFINITION-REF>
+                                  <VALUE>0</VALUE>
+                                </INTEGER-VALUE>
+                                <INTEGER-VALUE>
+                                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeTimePeriodFactor</DEFINITION-REF>
+                                  <VALUE>10</VALUE>
+                                </INTEGER-VALUE>
+                              </PARAMETER-VALUES>
+                              <REFERENCE-VALUES />
+                              <SUB-CONTAINERS />
+                            </CONTAINER>
+                          </SUB-CONTAINERS>
+                        </CONTAINER>
+                        <CONTAINER>
+                          <SHORT-NAME>ComTxModeTrue</SHORT-NAME>
+                          <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue</DEFINITION-REF>
+                          <PARAMETER-VALUES />
+                          <REFERENCE-VALUES />
+                          <SUB-CONTAINERS>
+                            <CONTAINER>
+                              <SHORT-NAME>ComTxModeTrueTrue</SHORT-NAME>
+                              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode</DEFINITION-REF>
+                              <PARAMETER-VALUES>
+                                <ENUMERATION-VALUE>
+                                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeMode</DEFINITION-REF>
+                                  <VALUE>PERIODIC</VALUE>
+                                </ENUMERATION-VALUE>
+                                <INTEGER-VALUE>
+                                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimeOffsetFactor</DEFINITION-REF>
+                                  <VALUE>0</VALUE>
+                                </INTEGER-VALUE>
+                                <INTEGER-VALUE>
+                                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimePeriodFactor</DEFINITION-REF>
+                                  <VALUE>10</VALUE>
+                                </INTEGER-VALUE>
+                              </PARAMETER-VALUES>
+                              <REFERENCE-VALUES />
+                              <SUB-CONTAINERS />
+                            </CONTAINER>
+                          </SUB-CONTAINERS>
+                        </CONTAINER>
+                      </SUB-CONTAINERS>
+                    </CONTAINER>
+                  </SUB-CONTAINERS>
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Pdu_EPAS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIpduDirection</DEFINITION-REF>
+                      <VALUE>SEND</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSize</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduGroupRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/PduGrp_EPAS__CAN00_Tx</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_Elect_PWR_Consumpt__EPAS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_Steering_Torque_V__EPAS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_EpasFailed__EPAS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/Com/ComConfig/Com_Steering_Torque__EPAS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/PduIdRef</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/EcuC/PduCollection/EPAS2__CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS>
+                    <CONTAINER>
+                      <SHORT-NAME>ComTxIPdu</SHORT-NAME>
+                      <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <INTEGER-VALUE>
+                          <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxIPduMinimumDelayTimeFactor</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </INTEGER-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES />
+                      <SUB-CONTAINERS>
+                        <CONTAINER>
+                          <SHORT-NAME>ComTxModeFalse</SHORT-NAME>
+                          <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse</DEFINITION-REF>
+                          <PARAMETER-VALUES />
+                          <REFERENCE-VALUES />
+                          <SUB-CONTAINERS>
+                            <CONTAINER>
+                              <SHORT-NAME>ComTxModeFalseFalse</SHORT-NAME>
+                              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode</DEFINITION-REF>
+                              <PARAMETER-VALUES>
+                                <ENUMERATION-VALUE>
+                                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeMode</DEFINITION-REF>
+                                  <VALUE>PERIODIC</VALUE>
+                                </ENUMERATION-VALUE>
+                                <INTEGER-VALUE>
+                                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeTimeOffsetFactor</DEFINITION-REF>
+                                  <VALUE>0</VALUE>
+                                </INTEGER-VALUE>
+                                <INTEGER-VALUE>
+                                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeTimePeriodFactor</DEFINITION-REF>
+                                  <VALUE>10</VALUE>
+                                </INTEGER-VALUE>
+                              </PARAMETER-VALUES>
+                              <REFERENCE-VALUES />
+                              <SUB-CONTAINERS />
+                            </CONTAINER>
+                          </SUB-CONTAINERS>
+                        </CONTAINER>
+                        <CONTAINER>
+                          <SHORT-NAME>ComTxModeTrue</SHORT-NAME>
+                          <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue</DEFINITION-REF>
+                          <PARAMETER-VALUES />
+                          <REFERENCE-VALUES />
+                          <SUB-CONTAINERS>
+                            <CONTAINER>
+                              <SHORT-NAME>ComTxModeTrueTrue</SHORT-NAME>
+                              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode</DEFINITION-REF>
+                              <PARAMETER-VALUES>
+                                <ENUMERATION-VALUE>
+                                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeMode</DEFINITION-REF>
+                                  <VALUE>PERIODIC</VALUE>
+                                </ENUMERATION-VALUE>
+                                <INTEGER-VALUE>
+                                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimeOffsetFactor</DEFINITION-REF>
+                                  <VALUE>0</VALUE>
+                                </INTEGER-VALUE>
+                                <INTEGER-VALUE>
+                                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimePeriodFactor</DEFINITION-REF>
+                                  <VALUE>10</VALUE>
+                                </INTEGER-VALUE>
+                              </PARAMETER-VALUES>
+                              <REFERENCE-VALUES />
+                              <SUB-CONTAINERS />
+                            </CONTAINER>
+                          </SUB-CONTAINERS>
+                        </CONTAINER>
+                      </SUB-CONTAINERS>
+                    </CONTAINER>
+                  </SUB-CONTAINERS>
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_VehSpeed__ABS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>7</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>12</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/ABS2__CAN00/VehSpeed</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_BCM_Key_Sta__BCM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>7</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>2</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/BCM1__CAN00/BCM_Key_Sta</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_LV_CAN_N_ERR__ECM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/ECM1__CAN00/LV_CAN_N_ERR</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_CAN_N__ECM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>23</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>16</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/ECM1__CAN00/CAN_N</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_SAS_Angle__EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>7</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>16</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>9001</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS1__CAN00/SAS_Angle</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_SAS_OK__EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>24</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS1__CAN00/SAS_OK</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_SAS_CAL__EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>25</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS1__CAN00/SAS_CAL</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_SAS_CheckSum__EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>35</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>4</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS1__CAN00/SAS_CheckSum</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_SAS_MsgCount__EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>39</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>4</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS1__CAN00/SAS_MsgCount</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_SAS_Init__EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>47</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS1__CAN00/SAS_Init</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_Elect_PWR_Consumpt__EPAS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>7</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS2__CAN00/Elect_PWR_Consumpt</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_Steering_Torque_V__EPAS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS2__CAN00/Steering_Torque_V</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_EpasFailed__EPAS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>15</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS2__CAN00/EpasFailed</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>Com_Steering_Torque__EPAS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Com/ComConfig/ComSignal</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                      <VALUE>23</VALUE>
+                    </INTEGER-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                      <VALUE>8</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalEndianess</DEFINITION-REF>
+                      <VALUE>BIG_ENDIAN</VALUE>
+                    </ENUMERATION-VALUE>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                      <VALUE>128</VALUE>
+                    </INTEGER-VALUE>
+                    <ENUMERATION-VALUE>
+                      <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                      <VALUE>PENDING</VALUE>
+                    </ENUMERATION-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="FOREIGN-REFERENCE-PARAM-DEF">/AUTOSAR/Com/ComConfig/ComSignal/SystemTemplateSystemSignalRef</DEFINITION-REF>
+                      <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/PDU/EPAS2__CAN00/Steering_Torque</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+          </CONTAINERS>
+        </MODULE-CONFIGURATION>
+        <MODULE-CONFIGURATION>
+          <SHORT-NAME>PduR</SHORT-NAME>
+          <DEFINITION-REF DEST="MODULE-DEF">/AUTOSAR/PduR</DEFINITION-REF>
+          <CONTAINERS>
+            <CONTAINER>
+              <SHORT-NAME>PduRGeneral</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/PduR/PduRGeneral</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS />
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>PduRGlobalConfig</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/PduR/PduRGlobalConfig</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>PduRRoutingTable</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/PduR/PduRGlobalConfig/PduRRoutingTable</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+          </CONTAINERS>
+        </MODULE-CONFIGURATION>
+        <MODULE-CONFIGURATION>
+          <SHORT-NAME>EcuC</SHORT-NAME>
+          <DEFINITION-REF DEST="MODULE-DEF">/AUTOSAR/EcuC</DEFINITION-REF>
+          <CONTAINERS>
+            <CONTAINER>
+              <SHORT-NAME>PduCollection</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>ABS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>BCM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagFuncReqFT_Tp__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagPhysReqToEPAS_Tp__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagRespFromEPAS_Tp__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>ECM1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>EPAS1__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>EPAS2__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>XcpMaster__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>XcpSlave__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagFuncReqFT__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagPhysReqToEPAS__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+                <CONTAINER>
+                  <SHORT-NAME>DiagRespFromEPAS__CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <INTEGER-VALUE>
+                      <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/EcuC/PduCollection/Pdu/PduLength</DEFINITION-REF>
+                      <VALUE>64</VALUE>
+                    </INTEGER-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES />
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+          </CONTAINERS>
+        </MODULE-CONFIGURATION>
+        <MODULE-CONFIGURATION>
+          <SHORT-NAME>ComM</SHORT-NAME>
+          <DEFINITION-REF DEST="MODULE-DEF">/AUTOSAR/ComM</DEFINITION-REF>
+          <CONTAINERS>
+            <CONTAINER>
+              <SHORT-NAME>ComMConfig</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/ComM/ComMConfig</DEFINITION-REF>
+              <PARAMETER-VALUES />
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS>
+                <CONTAINER>
+                  <SHORT-NAME>CAN00</SHORT-NAME>
+                  <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/ComM/ComMConfig/ComMNetworks</DEFINITION-REF>
+                  <PARAMETER-VALUES />
+                  <REFERENCE-VALUES>
+                    <REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="SYMBOLIC-NAME-REFERENCE-PARAM-DEF">/AUTOSAR/ComM/ComMConfig/ComMNetworks/ComMNetworkHandle</DEFINITION-REF>
+                      <VALUE-REF DEST="CONTAINER">/InitialEcuC/ComM/CAN00</VALUE-REF>
+                    </REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS />
+                </CONTAINER>
+              </SUB-CONTAINERS>
+            </CONTAINER>
+            <CONTAINER>
+              <SHORT-NAME>CAN00</SHORT-NAME>
+              <DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/ComM/ComMChannel</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ENUMERATION-VALUE>
+                  <DEFINITION-REF DEST="ENUMERATION-PARAM-DEF">/AUTOSAR/ComM/ComMChannel/ComMBusType</DEFINITION-REF>
+                  <VALUE>COMM_BUS_TYPE_CAN</VALUE>
+                </ENUMERATION-VALUE>
+                <INTEGER-VALUE>
+                  <DEFINITION-REF DEST="INTEGER-PARAM-DEF">/AUTOSAR/ComM/ComMChannel/ComMChannelId</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </INTEGER-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES />
+              <SUB-CONTAINERS />
+            </CONTAINER>
+          </CONTAINERS>
+        </MODULE-CONFIGURATION>
+      </ELEMENTS>
+      <SUB-PACKAGES />
+    </AR-PACKAGE>
+  </TOP-LEVEL-PACKAGES>
+</AUTOSAR>

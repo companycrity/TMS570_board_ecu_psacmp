@@ -1,0 +1,1559 @@
+<RDEF> I Includes
+<R>I C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 18
+<DEFINE> SPINXT_H C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 20 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h C:/_Synergy_Projects/Working/SpiNxt/utp/contract/sys_common.h 22
+<DEFINE> __SYS_COMMON_H__ C:/_Synergy_Projects/Working/SpiNxt/utp/contract/sys_common.h 16 I DF OM - - - O
+<DEFINE> NULL C:/_Synergy_Projects/Working/SpiNxt/utp/contract/sys_common.h 28 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/sys_common.h 28 28 I ON - F M
+<DEFINE> TRUE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/sys_common.h 35 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/sys_common.h 35 18 I DN - F M
+<DEFINE> FALSE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/sys_common.h 42 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/sys_common.h 42 19 I ON - F M
+<R>I C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 23
+<DEFINE> STD_TYPES_H C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> CPU_TYPE C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/_Synergy_Projects/Working/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/StdDef/include/Compiler.h C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/_Synergy_Projects/Working/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<R>I C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 24
+<DEFINE> MIBSPI_REGS_H C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h C:/_Synergy_Projects/Working/StdDef/include/Std_Types.h 24
+<DEFINE> mibspictrlregs C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 26 I DC TG F N {smibspictrlregs} -
+<DEFINE> mibspictrlregs C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 26 I DF TG F N {smibspictrlregs} -
+<DEFINE> GCR0 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 28 I DC MB F N ul -
+<LIT> 7 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 29 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 29 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 30 30 I DN ui F B
+<DEFINE> ENA C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 30 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 31 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 31 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 32 30 I DN ui F B
+<DEFINE> LB C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 32 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 33 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 33 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 34 30 I DN ui F B
+<DEFINE> PD C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 34 I DC MB F N ub -
+<LIT> 8 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 35 30 I DN ui F B
+<DEFINE> GCR1 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 35 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 36 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 36 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 37 30 I DN ui F B
+<DEFINE> ENAHIGHZ C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 37 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 38 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 38 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 39 30 I DN ui F B
+<DEFINE> DMAREQEN C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 39 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 40 29 I DN ui F B
+<DEFINE> INT0 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 40 I DC MB F N ub -
+<DEFINE> LVL C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 41 I DC MB F N ul -
+<LIT> 7 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 42 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 42 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 43 30 I DN ui F B
+<DEFINE> BUFINIT C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 43 I DC MB F N ub -
+<LIT> 8 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 44 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 44 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 45 29 I DN ui F B
+<DEFINE> FLG C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 45 I DC MB F N ub -
+<DEFINE> PCFUN C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 46 I DC MB F N ul -
+<DEFINE> PCDIR C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 47 I DC MB F N ul -
+<DEFINE> PCDIN C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 48 I DC MB F N ul -
+<DEFINE> PCDOUT C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 49 I DC MB F N ul -
+<DEFINE> PCSET C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 50 I DC MB F N ul -
+<DEFINE> PCCLR C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 51 I DC MB F N ul -
+<DEFINE> PCPDR C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 52 I DC MB F N ul -
+<DEFINE> PCDIS C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 53 I DC MB F N ul -
+<DEFINE> PCPSL C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 54 I DC MB F N ul -
+<DEFINE> DAT0 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 55 I DC MB F N ul -
+<DEFINE> DAT1 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 56 I DC MB F N ul -
+<DEFINE> BUF C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 57 I DC MB F N ul -
+<DEFINE> EMU C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 58 I DC MB F N ul -
+<DEFINE> DELAY C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 59 I DC MB F N ul -
+<DEFINE> CSDEF C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 60 I DC MB F N ul -
+<DEFINE> FMT0 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 61 I DC MB F N ul -
+<DEFINE> FMT1 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 62 I DC MB F N ul -
+<DEFINE> FMT2 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 63 I DC MB F N ul -
+<DEFINE> FMT3 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 64 I DC MB F N ul -
+<DEFINE> INTVECT0 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 65 I DC MB F N ul -
+<DEFINE> INTVECT1 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 66 I DC MB F N ul -
+<DEFINE> SRSEL C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 67 I DC MB F N ul -
+<DEFINE> PMCTRL C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 68 I DC MB F N ul -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 69 29 I DN ui F B
+<DEFINE> RAMACCESS C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 69 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 70 29 I DN ui F B
+<DEFINE> MIBSPIE C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 70 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 71 29 I DN ui F B
+<DEFINE> SETINTENARDY C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 71 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 72 29 I DN ui F B
+<DEFINE> SETINTENASUS C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 72 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 73 29 I DN ui F B
+<DEFINE> CLRINTENARDY C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 73 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 74 29 I DN ui F B
+<DEFINE> CLRINTENASUS C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 74 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 75 29 I DN ui F B
+<DEFINE> SETINTLVLRDY C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 75 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 76 29 I DN ui F B
+<DEFINE> SETINTLVLSUS C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 76 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 77 29 I DN ui F B
+<DEFINE> CLRINTLVLRDY C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 77 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 78 29 I DN ui F B
+<DEFINE> CLRINTLVLSUS C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 78 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 79 29 I DN ui F B
+<DEFINE> INTFLGRDY C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 79 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 80 29 I DN ui F B
+<DEFINE> INTFLGSUS C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 80 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 81 29 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 81 I DC MB F N ub -
+<LIT> 32 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 82 29 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 82 I DC MB F N ub -
+<DEFINE> TICKCNT C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 83 I DC MB F N ul -
+<LIT> 3 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 84 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 84 I DC MB F N ub -
+<LIT> 5 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 85 30 I DN ui F B
+<DEFINE> TGINSERVICE C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 85 I DC MB F N ub -
+<LIT> 9 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 86 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 86 I DC MB F N ub -
+<LIT> 7 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 87 30 I DN ui F B
+<DEFINE> LTGPEND C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 87 I DC MB F N ub -
+<LIT> 8 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 88 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 88 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 89 20 I DN ui F D
+<DEFINE> TGCTRL C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 89 I DC MB F N [16,ul] -
+<LIT> 8 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 90 21 I DN ui F D
+<DEFINE> DMACTRL C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 90 I DC MB F N [8,ul] -
+<LIT> 8 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 91 22 I DN ui F D
+<DEFINE> DMACOUNT C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 91 I DC MB F N [8,ul] -
+<DEFINE> DMACNTLEN C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 92 I DC MB F N ul -
+<LIT> 32 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 93 29 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 93 I DC MB F N ub -
+<LIT> 23 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 94 29 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 94 I DC MB F N ub -
+<LIT> 1 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 95 30 I DN ui F B
+<DEFINE> PTESTEN C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 95 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 96 30 I DN ui F B
+<DEFINE> - C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 96 I DC MB F N ub -
+<LIT> 4 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 97 30 I DN ui F B
+<DEFINE> EDEN C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 97 I DC MB F N ub -
+<DEFINE> UERRSTAT C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 98 I DC MB F N ul -
+<DEFINE> UERRADDRRX C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 99 I DC MB F N ul -
+<DEFINE> UERRADDRTX C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 100 I DC MB F N ul -
+<DEFINE> RXOVRN_BUF_ADDR C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 101 I DC MB F N ul -
+<DEFINE> IOLPKTSTCR C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 102 I DC MB F N ul -
+<DEFINE> EXT_PRESCALE1 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 103 I DC MB F N ul -
+<DEFINE> EXT_PRESCALE2 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 104 I DC MB F N ul -
+<DEFINE> mibspictrlregs_t C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 105 I DC OT F N ^{smibspictrlregs} -
+<DEFINE> mibspiREG1 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 108 I DF OM - - - O
+<LIT> 0xFFF7F400 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 108 41 I HN - F M
+<DEFINE> mibspiREG3 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 109 I DF OM - - - O
+<LIT> 0xFFF7F800 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 109 41 I HN - F M
+<DEFINE> mibspiREG5 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 110 I DF OM - - - O
+<LIT> 0xFFF7FC00 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 110 41 I HN - F M
+<DEFINE> mibspiRamBase C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 113 I DC TG F N {smibspiRamBase} -
+<DEFINE> mibspiRamBase C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 113 I DF TG F N {smibspiRamBase} -
+<DEFINE> control C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 117 I DC MB F N us -
+<DEFINE> data C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 118 I DC MB F N us -
+<LIT> 128 - P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 119 10 I DN ni F D
+<DEFINE> tx C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 119 I DC MB F N [128,{s}] -
+<DEFINE> flags C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 122 I DC MB F N us -
+<DEFINE> data C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 123 I DC MB F N us -
+<LIT> 128 - P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 124 10 I DN ni F D
+<DEFINE> rx C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 124 I DC MB F N [128,{s}] -
+<DEFINE> mibspiRAM_t C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 125 I DC OT F N ^{smibspiRamBase} -
+<DEFINE> mibspiRAM1 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 128 I DF OM - - - O
+<LIT> 0xFF0E0000 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 128 36 I HN - F M
+<DEFINE> mibspiRAM3 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 129 I DF OM - - - O
+<LIT> 0xFF0C0000 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 129 36 I HN - F M
+<DEFINE> mibspiRAM5 C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 130 I DF OM - - - O
+<LIT> 0xFF0A0000 U P C:/_Synergy_Projects/Working/StdDef/include/TMS570_HerculesRegs/mibspi_regs.h 130 36 I HN - F M
+<R>I C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 25
+<DEFINE> SPI_H C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 2 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 11 18 I ON ni F E
+<DEFINE> SPI_UNINIT C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 11 I DC OE F N ne -
+<DEFINE> SPI_UNINIT C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 11 I DF OE F N ne -
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 12 16 I DN ni F E
+<DEFINE> SPI_IDLE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 12 I DC OE F N ne -
+<DEFINE> SPI_IDLE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 12 I DF OE F N ne -
+<LIT> 2 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 13 16 I DN ni F E
+<DEFINE> SPI_BUSY C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 13 I DC OE F N ne -
+<DEFINE> SPI_BUSY C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 13 I DF OE F N ne -
+<DEFINE> Spi_StatusType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 14 I DC OT F N {e} -
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 18 18 I ON ni F E
+<DEFINE> SPI_JOB_OK C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 18 I DC OE F N ne -
+<DEFINE> SPI_JOB_OK C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 18 I DF OE F N ne -
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 19 23 I DN ni F E
+<DEFINE> SPI_JOB_PENDING C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 19 I DC OE F N ne -
+<DEFINE> SPI_JOB_PENDING C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 19 I DF OE F N ne -
+<LIT> 2 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 20 22 I DN ni F E
+<DEFINE> SPI_JOB_ACTIVE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 20 I DC OE F N ne -
+<DEFINE> SPI_JOB_ACTIVE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 20 I DF OE F N ne -
+<LIT> 3 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 21 22 I DN ni F E
+<DEFINE> SPI_JOB_FAILED C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 21 I DC OE F N ne -
+<DEFINE> SPI_JOB_FAILED C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 21 I DF OE F N ne -
+<DEFINE> Spi_JobResultType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 22 I DC OT F N {e} -
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 26 18 I ON ni F E
+<DEFINE> SPI_DLC_OK C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 26 I DC OE F N ne -
+<DEFINE> SPI_DLC_OK C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 26 I DF OE F N ne -
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 27 23 I DN ni F E
+<DEFINE> SPI_DLC_PENDING C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 27 I DC OE F N ne -
+<DEFINE> SPI_DLC_PENDING C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 27 I DF OE F N ne -
+<LIT> 2 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 28 22 I DN ni F E
+<DEFINE> SPI_DLC_FAILED C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 28 I DC OE F N ne -
+<DEFINE> SPI_DLC_FAILED C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 28 I DF OE F N ne -
+<DEFINE> Spi_HwUnitResultType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 29 I DC OT F N {e} -
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 33 18 I ON ni F E
+<DEFINE> SPI_SEQ_OK C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 33 I DC OE F N ne -
+<DEFINE> SPI_SEQ_OK C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 33 I DF OE F N ne -
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 34 23 I DN ni F E
+<DEFINE> SPI_SEQ_PENDING C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 34 I DC OE F N ne -
+<DEFINE> SPI_SEQ_PENDING C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 34 I DF OE F N ne -
+<LIT> 2 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 35 22 I DN ni F E
+<DEFINE> SPI_SEQ_FAILED C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 35 I DC OE F N ne -
+<DEFINE> SPI_SEQ_FAILED C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 35 I DF OE F N ne -
+<LIT> 3 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 36 25 I DN ni F E
+<DEFINE> SPI_SEQ_CANCELLED C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 36 I DC OE F N ne -
+<DEFINE> SPI_SEQ_CANCELLED C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 36 I DF OE F N ne -
+<DEFINE> Spi_SeqResultType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 37 I DC OT F N {e} -
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 41 15 I ON ni F E
+<DEFINE> SPI_MSB C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 41 I DC OE F N ne -
+<DEFINE> SPI_MSB C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 41 I DF OE F N ne -
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 42 15 I DN ni F E
+<DEFINE> SPI_LSB C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 42 I DC OE F N ne -
+<DEFINE> SPI_LSB C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 42 I DF OE F N ne -
+<DEFINE> Spi_TransferType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 43 I DC OT F N {e} -
+<DEFINE> SPI_LOW C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 48 I DC OE F N ne -
+<DEFINE> SPI_LOW C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 48 I DF OE F N ne -
+<DEFINE> SPI_HIGH C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 49 I DC OE F N ne -
+<DEFINE> SPI_HIGH C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 49 I DF OE F N ne -
+<DEFINE> Spi_LevelType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 50 I DC OT F N {e} -
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 55 16 I ON ni F E
+<DEFINE> SPI_PCS0 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 55 I DC OE F N ne -
+<DEFINE> SPI_PCS0 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 55 I DF OE F N ne -
+<DEFINE> SPI_PCS1 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 56 I DC OE F N ne -
+<DEFINE> SPI_PCS1 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 56 I DF OE F N ne -
+<DEFINE> SPI_PCS2 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 57 I DC OE F N ne -
+<DEFINE> SPI_PCS2 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 57 I DF OE F N ne -
+<DEFINE> SPI_PCS3 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 58 I DC OE F N ne -
+<DEFINE> SPI_PCS3 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 58 I DF OE F N ne -
+<DEFINE> SPI_PCS4 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 59 I DC OE F N ne -
+<DEFINE> SPI_PCS4 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 59 I DF OE F N ne -
+<DEFINE> SPI_PCS5 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 60 I DC OE F N ne -
+<DEFINE> SPI_PCS5 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 60 I DF OE F N ne -
+<DEFINE> SPI_PCS6 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 61 I DC OE F N ne -
+<DEFINE> SPI_PCS6 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 61 I DF OE F N ne -
+<DEFINE> SPI_PCS7 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 62 I DC OE F N ne -
+<DEFINE> SPI_PCS7 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 62 I DF OE F N ne -
+<DEFINE> Spi_PCsType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 63 I DC OT F N {e} -
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 68 18 I ON ni F E
+<DEFINE> SPI_SINGLE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 68 I DC OE F N ne -
+<DEFINE> SPI_SINGLE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 68 I DF OE F N ne -
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 69 21 I DN ni F E
+<DEFINE> SPI_CONTINOUS C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 69 I DC OE F N ne -
+<DEFINE> SPI_CONTINOUS C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 69 I DF OE F N ne -
+<DEFINE> Spi_CsModeType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 70 I DC OT F N {e} -
+<DEFINE> Spi_NumberOfDataType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 76 I DC OT F N us -
+<DEFINE> Spi_JobType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 77 I DC OT F N us -
+<DEFINE> Spi_DataType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 79 I DC OT F N uc -
+<DEFINE> Spi_ChannelType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 80 I DC OT F N uc -
+<DEFINE> Spi_SequenceType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 81 I DC OT F N uc -
+<DEFINE> Spi_HWUnitType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 82 I DC OT F N uc -
+<DEFINE> Spi_ExternalDeviceType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Spi.h 83 I DC OT F N uc -
+<R>I C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SpiNxt/SpiNxt_Cfg.h 26
+<DEFINE> SPINXT_CFG_H C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SpiNxt/SpiNxt_Cfg.h 31 I DF OM - - - O
+<DEFINE> D_SPINXT_USEWITHTC C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SpiNxt/SpiNxt_Cfg.h 38 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SpiNxt/SpiNxt_Cfg.h 38 41 I ON - F M
+<DEFINE> D_SPINXT_USEWITHDIGMSB C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SpiNxt/SpiNxt_Cfg.h 39 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SpiNxt/SpiNxt_Cfg.h 39 33 I DN - F M
+<DEFINE> D_SPINXTUSEWITH_CNT_ENUM C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SpiNxt/SpiNxt_Cfg.h 42 I DF OM - - - O
+<DEFINE> BC_SPINXT_USEDMA C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SpiNxt/SpiNxt_Cfg.h 45 I DF OM - - - O
+<DEFINE> TRANS_GRP_0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 28 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 28 28 I ON - F M
+<DEFINE> TRANS_GRP_1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 29 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 29 28 I DN - F M
+<DEFINE> chipSelect C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 34 I DF TG F N {echipSelect} -
+<LIT> 0xFF - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 36 15 I HN ni F E
+<DEFINE> CS_NONE C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 36 I DC OE F N ne -
+<DEFINE> CS_NONE C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 36 I DF OE F N ne -
+<LIT> 0xFE - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 37 15 I HN ni F E
+<DEFINE> CS_0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 37 I DC OE F N ne -
+<DEFINE> CS_0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 37 I DF OE F N ne -
+<LIT> 0xFD - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 38 15 I HN ni F E
+<DEFINE> CS_1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 38 I DC OE F N ne -
+<DEFINE> CS_1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 38 I DF OE F N ne -
+<LIT> 0xFB - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 39 15 I HN ni F E
+<DEFINE> CS_2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 39 I DC OE F N ne -
+<DEFINE> CS_2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 39 I DF OE F N ne -
+<LIT> 0xF7 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 40 15 I HN ni F E
+<DEFINE> CS_3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 40 I DC OE F N ne -
+<DEFINE> CS_3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 40 I DF OE F N ne -
+<LIT> 0xEF - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 41 15 I HN ni F E
+<DEFINE> CS_4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 41 I DC OE F N ne -
+<DEFINE> CS_4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 41 I DF OE F N ne -
+<LIT> 0xDF - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 42 15 I HN ni F E
+<DEFINE> CS_5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 42 I DC OE F N ne -
+<DEFINE> CS_5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 42 I DF OE F N ne -
+<LIT> 0xBF - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 43 15 I HN ni F E
+<DEFINE> CS_6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 43 I DC OE F N ne -
+<DEFINE> CS_6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 43 I DF OE F N ne -
+<LIT> 0x7F - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 44 15 I HN ni F E
+<DEFINE> CS_7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 44 I DC OE F N ne -
+<DEFINE> CS_7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 44 I DF OE F N ne -
+<DEFINE> triggerEvent C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 50 I DF TG F N {etriggerEvent} -
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 52 19 I ON ni F E
+<DEFINE> TRG_NEVER C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 52 I DC OE F N ne -
+<DEFINE> TRG_NEVER C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 52 I DF OE F N ne -
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 53 19 I DN ni F E
+<DEFINE> TRG_RISING C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 53 I DC OE F N ne -
+<DEFINE> TRG_RISING C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 53 I DF OE F N ne -
+<LIT> 2 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 54 19 I DN ni F E
+<DEFINE> TRG_FALLING C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 54 I DC OE F N ne -
+<DEFINE> TRG_FALLING C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 54 I DF OE F N ne -
+<LIT> 3 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 55 19 I DN ni F E
+<DEFINE> TRG_BOTH C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 55 I DC OE F N ne -
+<DEFINE> TRG_BOTH C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 55 I DF OE F N ne -
+<LIT> 5 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 56 19 I DN ni F E
+<DEFINE> TRG_HIGH C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 56 I DC OE F N ne -
+<DEFINE> TRG_HIGH C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 56 I DF OE F N ne -
+<LIT> 6 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 57 19 I DN ni F E
+<DEFINE> TRG_LOW C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 57 I DC OE F N ne -
+<DEFINE> TRG_LOW C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 57 I DF OE F N ne -
+<LIT> 7 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 58 19 I DN ni F E
+<DEFINE> TRG_ALWAYS C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 58 I DC OE F N ne -
+<DEFINE> TRG_ALWAYS C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 58 I DF OE F N ne -
+<DEFINE> mibspiPinSelect C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 64 I DF TG F N {emibspiPinSelect} -
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 66 17 I ON ni F E
+<DEFINE> PIN_CS0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 66 I DC OE F N ne -
+<DEFINE> PIN_CS0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 66 I DF OE F N ne -
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 67 15 I DN ni F E
+<DEFINE> PIN_CS1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 67 I DC OE F N ne -
+<DEFINE> PIN_CS1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 67 I DF OE F N ne -
+<LIT> 2 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 68 15 I DN ni F E
+<DEFINE> PIN_CS2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 68 I DC OE F N ne -
+<DEFINE> PIN_CS2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 68 I DF OE F N ne -
+<LIT> 3 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 69 16 I DN ni F E
+<DEFINE> PIN_CS3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 69 I DC OE F N ne -
+<DEFINE> PIN_CS3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 69 I DF OE F N ne -
+<LIT> 4 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 70 15 I DN ni F E
+<DEFINE> PIN_CS4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 70 I DC OE F N ne -
+<DEFINE> PIN_CS4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 70 I DF OE F N ne -
+<LIT> 5 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 71 18 I DN ni F E
+<DEFINE> PIN_CS5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 71 I DC OE F N ne -
+<DEFINE> PIN_CS5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 71 I DF OE F N ne -
+<LIT> 6 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 72 18 I DN ni F E
+<DEFINE> PIN_CS6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 72 I DC OE F N ne -
+<DEFINE> PIN_CS6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 72 I DF OE F N ne -
+<LIT> 7 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 73 16 I DN ni F E
+<DEFINE> PIN_CS7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 73 I DC OE F N ne -
+<DEFINE> PIN_CS7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 73 I DF OE F N ne -
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 74 15 I DN ni F E
+<DEFINE> PIN_ENA C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 74 I DC OE F N ne -
+<DEFINE> PIN_ENA C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 74 I DF OE F N ne -
+<LIT> 9 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 75 15 I DN ni F E
+<DEFINE> PIN_CLK C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 75 I DC OE F N ne -
+<DEFINE> PIN_CLK C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 75 I DF OE F N ne -
+<LIT> 10 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 76 16 I DN ni F E
+<DEFINE> PIN_SIMO C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 76 I DC OE F N ne -
+<DEFINE> PIN_SIMO C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 76 I DF OE F N ne -
+<LIT> 11 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 77 16 I DN ni F E
+<DEFINE> PIN_SOMI C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 77 I DC OE F N ne -
+<DEFINE> PIN_SOMI C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 77 I DF OE F N ne -
+<LIT> 17 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 78 17 I DN ni F E
+<DEFINE> PIN_SIMO_1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 78 I DC OE F N ne -
+<DEFINE> PIN_SIMO_1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 78 I DF OE F N ne -
+<LIT> 18 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 79 17 I DN ni F E
+<DEFINE> PIN_SIMO_2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 79 I DC OE F N ne -
+<DEFINE> PIN_SIMO_2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 79 I DF OE F N ne -
+<LIT> 19 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 80 17 I DN ni F E
+<DEFINE> PIN_SIMO_3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 80 I DC OE F N ne -
+<DEFINE> PIN_SIMO_3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 80 I DF OE F N ne -
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 81 17 I DN ni F E
+<DEFINE> PIN_SIMO_4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 81 I DC OE F N ne -
+<DEFINE> PIN_SIMO_4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 81 I DF OE F N ne -
+<LIT> 21 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 82 17 I DN ni F E
+<DEFINE> PIN_SIMO_5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 82 I DC OE F N ne -
+<DEFINE> PIN_SIMO_5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 82 I DF OE F N ne -
+<LIT> 22 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 83 17 I DN ni F E
+<DEFINE> PIN_SIMO_6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 83 I DC OE F N ne -
+<DEFINE> PIN_SIMO_6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 83 I DF OE F N ne -
+<LIT> 23 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 84 17 I DN ni F E
+<DEFINE> PIN_SIMO_7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 84 I DC OE F N ne -
+<DEFINE> PIN_SIMO_7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 84 I DF OE F N ne -
+<LIT> 25 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 85 17 I DN ni F E
+<DEFINE> PIN_SOMI_1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 85 I DC OE F N ne -
+<DEFINE> PIN_SOMI_1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 85 I DF OE F N ne -
+<LIT> 26 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 86 17 I DN ni F E
+<DEFINE> PIN_SOMI_2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 86 I DC OE F N ne -
+<DEFINE> PIN_SOMI_2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 86 I DF OE F N ne -
+<LIT> 27 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 87 17 I DN ni F E
+<DEFINE> PIN_SOMI_3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 87 I DC OE F N ne -
+<DEFINE> PIN_SOMI_3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 87 I DF OE F N ne -
+<LIT> 28 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 88 17 I DN ni F E
+<DEFINE> PIN_SOMI_4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 88 I DC OE F N ne -
+<DEFINE> PIN_SOMI_4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 88 I DF OE F N ne -
+<LIT> 29 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 89 17 I DN ni F E
+<DEFINE> PIN_SOMI_5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 89 I DC OE F N ne -
+<DEFINE> PIN_SOMI_5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 89 I DF OE F N ne -
+<LIT> 30 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 90 17 I DN ni F E
+<DEFINE> PIN_SOMI_6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 90 I DC OE F N ne -
+<DEFINE> PIN_SOMI_6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 90 I DF OE F N ne -
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 91 17 I DN ni F E
+<DEFINE> PIN_SOMI_7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 91 I DC OE F N ne -
+<DEFINE> PIN_SOMI_7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 91 I DF OE F N ne -
+<DEFINE> triggerSource C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 97 I DF TG F N {etriggerSource} -
+<DEFINE> TRG_DISABLED C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 99 I DC OE F N ne -
+<DEFINE> TRG_DISABLED C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 99 I DF OE F N ne -
+<DEFINE> TRG_GIOA0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 100 I DC OE F N ne -
+<DEFINE> TRG_GIOA0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 100 I DF OE F N ne -
+<DEFINE> TRG_GIOA1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 101 I DC OE F N ne -
+<DEFINE> TRG_GIOA1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 101 I DF OE F N ne -
+<DEFINE> TRG_GIOA2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 102 I DC OE F N ne -
+<DEFINE> TRG_GIOA2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 102 I DF OE F N ne -
+<DEFINE> TRG_GIOA3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 103 I DC OE F N ne -
+<DEFINE> TRG_GIOA3 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 103 I DF OE F N ne -
+<DEFINE> TRG_GIOA4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 104 I DC OE F N ne -
+<DEFINE> TRG_GIOA4 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 104 I DF OE F N ne -
+<DEFINE> TRG_GIOA5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 105 I DC OE F N ne -
+<DEFINE> TRG_GIOA5 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 105 I DF OE F N ne -
+<DEFINE> TRG_GIOA6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 106 I DC OE F N ne -
+<DEFINE> TRG_GIOA6 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 106 I DF OE F N ne -
+<DEFINE> TRG_GIOA7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 107 I DC OE F N ne -
+<DEFINE> TRG_GIOA7 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 107 I DF OE F N ne -
+<DEFINE> TRG_HET8 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 108 I DC OE F N ne -
+<DEFINE> TRG_HET8 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 108 I DF OE F N ne -
+<DEFINE> TRG_HET10 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 109 I DC OE F N ne -
+<DEFINE> TRG_HET10 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 109 I DF OE F N ne -
+<DEFINE> TRG_HET12 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 110 I DC OE F N ne -
+<DEFINE> TRG_HET12 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 110 I DF OE F N ne -
+<DEFINE> TRG_HET14 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 111 I DC OE F N ne -
+<DEFINE> TRG_HET14 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 111 I DF OE F N ne -
+<DEFINE> TRG_HET16 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 112 I DC OE F N ne -
+<DEFINE> TRG_HET16 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 112 I DF OE F N ne -
+<DEFINE> TRG_HET18 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 113 I DC OE F N ne -
+<DEFINE> TRG_HET18 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 113 I DF OE F N ne -
+<DEFINE> TRG_TICK C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 114 I DC OE F N ne -
+<DEFINE> TRG_TICK C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 114 I DF OE F N ne -
+<DEFINE> SPI_DIE1DATA_CH C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 377 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 377 25 I ON - F M
+<DEFINE> SPI_DIE2DATA_CH C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 378 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 378 25 I DN - F M
+<DEFINE> SPI_DIE1DATA_SEQ C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 381 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 381 26 I ON - F M
+<DEFINE> SPI_DIE2DATA_SEQ C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 382 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 382 26 I DN - F M
+<DEFINE> D_SPINXTNUMCHAN_CNT_U16 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 385 I DF OM - - - O
+<LIT> 2 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 385 34 I DN - F M
+<DEFINE> D_SPINXTNUMSEQ_CNT_U16 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 386 I DF OM - - - O
+<LIT> 2 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 386 33 I DN - F M
+<DEFINE> D_TGSIZE_CNT_U16 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 387 I DF OM - - - O
+<LIT> 3 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 387 26 I DN - F M
+<DEFINE> MIBSPI3_GCR1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 391 I DF OM - - - O
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 390 24 I DN - F M
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 390 31 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 391 44 I DN - F M
+<DEFINE> MIBSPI5_GCR1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 394 I DF OM - - - O
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 393 24 I DN - F M
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 393 31 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 394 44 I DN - F M
+<DEFINE> MIBSPI3_DELAY C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 400 I DF OM - - - O
+<LIT> 4 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 397 25 I DN - F M
+<LIT> 24 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 397 32 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 398 25 I DN - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 398 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 399 25 I ON - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 399 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 400 25 I ON - F M
+<DEFINE> MIBSPI5_DELAY C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 406 I DF OM - - - O
+<LIT> 4 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 403 25 I DN - F M
+<LIT> 24 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 403 32 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 404 25 I DN - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 404 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 405 25 I ON - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 405 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 406 25 I ON - F M
+<DEFINE> MIBSPI3_FMT0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 427 I DF OM - - - O
+<LIT> 4 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 417 25 I DN - F M
+<LIT> 24 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 417 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 418 25 I ON - F M
+<LIT> 23 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 418 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 419 25 I ON - F M
+<LIT> 22 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 419 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 420 25 I ON - F M
+<LIT> 21 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 420 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 421 25 I ON - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 421 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 422 45 I ON - F M
+<LIT> 19 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 422 52 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 423 45 I ON - F M
+<LIT> 18 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 423 52 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 424 45 I DN - F M
+<LIT> 17 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 424 52 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 425 25 I ON - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 425 32 I DN - F M
+<LIT> 7 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 426 25 I DN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 426 32 I DN - F M
+<LIT> 16 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 427 25 I DN - F M
+<DEFINE> MIBSPI5_FMT0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 444 I DF OM - - - O
+<LIT> 4 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 434 25 I DN - F M
+<LIT> 24 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 434 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 435 25 I ON - F M
+<LIT> 23 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 435 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 436 25 I ON - F M
+<LIT> 22 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 436 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 437 25 I ON - F M
+<LIT> 21 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 437 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 438 25 I ON - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 438 32 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 439 45 I ON - F M
+<LIT> 19 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 439 52 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 440 45 I ON - F M
+<LIT> 18 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 440 52 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 441 45 I DN - F M
+<LIT> 17 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 441 52 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 442 25 I ON - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 442 32 I DN - F M
+<LIT> 7 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 443 25 I DN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 443 32 I DN - F M
+<LIT> 16 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 444 25 I DN - F M
+<DEFINE> MIBSPI3_TGCNTRL0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 459 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 454 28 I ON - F M
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 454 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 455 28 I ON - F M
+<LIT> 30 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 455 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 456 28 I ON - F M
+<LIT> 29 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 456 35 I DN - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 457 50 I DN - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 458 49 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 459 28 I ON - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 459 35 I DN - F M
+<DEFINE> MIBSPI3_TGCNTRL1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 466 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 461 28 I ON - F M
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 461 35 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 462 28 I DN - F M
+<LIT> 30 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 462 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 463 28 I ON - F M
+<LIT> 29 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 463 35 I DN - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 464 51 I DN - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 465 49 I DN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 466 58 I DN - F M
+<DEFINE> MIBSPI3_TGCNTRL2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 473 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 468 28 I ON - F M
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 468 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 469 28 I ON - F M
+<LIT> 30 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 469 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 470 28 I ON - F M
+<LIT> 29 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 470 35 I DN - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 471 50 I DN - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 472 52 I DN - F M
+<LIT> 2 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 473 37 I DN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 473 61 I DN - F M
+<DEFINE> MIBSPI3_TOTALTGLENGTH C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 475 I DF OM - - - O
+<LIT> 2 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 475 41 I DN - F M
+<DEFINE> MIBSPI5_TGCNTRL0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 485 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 480 28 I ON - F M
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 480 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 481 28 I ON - F M
+<LIT> 30 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 481 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 482 28 I ON - F M
+<LIT> 29 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 482 35 I DN - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 483 50 I DN - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 484 49 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 485 28 I ON - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 485 35 I DN - F M
+<DEFINE> MIBSPI5_TGCNTRL1 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 492 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 487 28 I ON - F M
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 487 35 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 488 28 I DN - F M
+<LIT> 30 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 488 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 489 28 I ON - F M
+<LIT> 29 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 489 35 I DN - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 490 51 I DN - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 491 49 I DN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 492 58 I DN - F M
+<DEFINE> MIBSPI5_TGCNTRL2 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 499 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 494 28 I ON - F M
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 494 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 495 28 I ON - F M
+<LIT> 30 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 495 35 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 496 28 I ON - F M
+<LIT> 29 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 496 35 I DN - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 497 50 I DN - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 498 52 I DN - F M
+<LIT> 2 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 499 37 I DN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 499 61 I DN - F M
+<DEFINE> MIBSPI5_TOTALTGLENGTH C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 501 I DF OM - - - O
+<LIT> 2 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 501 41 I DN - F M
+<DEFINE> MIBSPI3_BUFRAMCTRLINIT C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 510 I DF OM - - - O
+<LIT> 4 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 505 42 I DN - F M
+<LIT> 13 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 505 48 I DN - F M
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 506 42 I ON - F M
+<LIT> 12 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 506 48 I DN - F M
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 507 42 I DN - F M
+<LIT> 11 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 507 48 I DN - F M
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 508 46 I DN - F M
+<LIT> 10 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 508 52 I DN - F M
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 509 42 I ON - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 509 48 I DN - F M
+<DEFINE> MIBSPI5_BUFRAMCTRLINIT C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 518 I DF OM - - - O
+<LIT> 4 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 513 42 I DN - F M
+<LIT> 13 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 513 48 I DN - F M
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 514 42 I ON - F M
+<LIT> 12 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 514 48 I DN - F M
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 515 42 I DN - F M
+<LIT> 11 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 515 48 I DN - F M
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 516 46 I DN - F M
+<LIT> 10 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 516 52 I DN - F M
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 517 42 I ON - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 517 48 I DN - F M
+<DEFINE> MIBSPI3_TICKCNT C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 539 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 539 26 I ON - F M
+<DEFINE> MIBSPI5_TICKCNT C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 543 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 543 26 I ON - F M
+<DEFINE> MIBSPI3_DMACTRL0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 557 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 550 32 I ON - F M
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 550 39 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 551 60 I ON - F M
+<LIT> 24 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 551 67 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 552 60 I DN - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 552 67 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 553 60 I ON - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 553 67 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 554 36 I DN - F M
+<LIT> 15 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 554 43 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 555 36 I ON - F M
+<LIT> 14 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 555 43 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 556 36 I DN - F M
+<LIT> 13 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 556 43 I DN - F M
+<LIT> 1 U N C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 557 62 I DN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 557 69 I DN - F M
+<DEFINE> MIBSPI5_DMACTRL0 C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 567 I DF OM - - - O
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 560 32 I ON - F M
+<LIT> 31 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 560 39 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 561 60 I ON - F M
+<LIT> 24 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 561 67 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 562 60 I DN - F M
+<LIT> 20 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 562 67 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 563 60 I ON - F M
+<LIT> 16 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 563 67 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 564 36 I DN - F M
+<LIT> 15 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 564 43 I DN - F M
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 565 36 I ON - F M
+<LIT> 14 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 565 43 I DN - F M
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 566 36 I DN - F M
+<LIT> 13 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 566 43 I DN - F M
+<LIT> 1 U N C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 567 62 I DN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 567 69 I DN - F M
+<DEFINE> CALL_MIBSPI3_NOTIFFCN C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 585 I DF OM - - - F
+<EXTN> mibspiGroupNotification C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 594
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 594 I DC OV P N p=^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 594 I DC OV P N ul R
+<DEFINE> mibspiGroupNotification C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 594 I DC OF F X (.,p=^{smibspictrlregs},ul) -
+<EXTN> mibspiNotification C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 595
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 595 I DC OV P N p=^{smibspictrlregs} R
+<DEFINE> flags C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 595 I DC OV P N ul R
+<DEFINE> mibspiNotification C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 595 I DC OF F X (.,p=^{smibspictrlregs},ul) -
+<EXTN> mibspiSetData C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 604
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 604 I DC OV P N p=^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 604 I DC OV P N ul R
+<DEFINE> data C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 604 I DC OV P N p=us R
+<DEFINE> mibspiSetData C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 604 I DC OF F X (.,p=^{smibspictrlregs},ul,p=us) -
+<EXTN> mibspiSetCtrlData C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 605
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 605 I DC OV P N p=^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 605 I DC OV P N ul R
+<DEFINE> data C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 605 I DC OV P N p=ul R
+<DEFINE> mibspiSetCtrlData C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 605 I DC OF F X (.,p=^{smibspictrlregs},ul,p=ul) -
+<EXTN> mibspiGetData C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 606
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 606 I DC OV P N p=^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 606 I DC OV P N ul R
+<DEFINE> data C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 606 I DC OV P N pus R
+<DEFINE> mibspiGetData C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 606 I DC OF F X (ul,p=^{smibspictrlregs},ul,pus) -
+<EXTN> mibspiTransfer C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 607
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 607 I DC OV P N p^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 607 I DC OV P N ul R
+<DEFINE> mibspiTransfer C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 607 I DC OF F X (.,p^{smibspictrlregs},ul) -
+<EXTN> SpiNxt_Init C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 613
+<DEFINE> SpiNxt_Init C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 613 I DC OF F X (.,.) -
+<EXTN> SpiNxt_AsyncTransmit C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 614
+<DEFINE> Sequence C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 614 I DC OV P N uc R
+<DEFINE> SpiNxt_AsyncTransmit C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 614 I DC OF F X (uc,uc) -
+<EXTN> SpiNxt_GetSequenceResult C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 615
+<DEFINE> Sequence C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 615 I DC OV P N uc R
+<DEFINE> SpiNxt_GetSequenceResult C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 615 I DC OF F X ({eSpi_SeqResultType},uc) -
+<EXTN> SpiNxt_SetupEB C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 616
+<DEFINE> Channel C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 618 I DC OV P N uc R
+<DEFINE> SrcDataBufferPtr C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 619 I DC OV P N p=uc R
+<DEFINE> DesDataBufferPtr C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 620 I DC OV P N puc R
+<DEFINE> Length C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 621 I DC OV P N us R
+<DEFINE> SpiNxt_SetupEB C:/_Synergy_Projects/Working/SpiNxt/include/SpiNxt.h 616 I DC OF F X (uc,uc,p=uc,puc,us) -
+<R>I C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 19
+<DEFINE> DIO_H C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 50 I DF OM - - - O
+<DEFINE> DRVDIO_TMS570TIGIO01ASR_VERSION C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 58 I DF OM - - - O
+<LIT> 0x0100 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 58 51 I HN - F M
+<DEFINE> DRVDIO_TMS570TIGIO01ASR_RELEASE_VERSION C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 59 I DF OM - - - O
+<LIT> 0xff u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 59 51 I HN - F M
+<DEFINE> DIO_VENDOR_ID C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 62 I DF OM - - - O
+<LIT> 30 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 62 37 I DN - F M
+<DEFINE> DIO_MODULE_ID C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 63 I DF OM - - - O
+<LIT> 120 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 63 37 I DN - F M
+<DEFINE> DIO_AR_MAJOR_VERSION C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 66 I DF OM - - - O
+<LIT> 0x02 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 66 37 I HN - F M
+<DEFINE> DIO_AR_MINOR_VERSION C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 67 I DF OM - - - O
+<LIT> 0x02 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 67 37 I HN - F M
+<DEFINE> DIO_AR_PATCH_VERSION C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 68 I DF OM - - - O
+<LIT> 0x00 - P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 68 37 I HN - F M
+<DEFINE> DIO_SW_MAJOR_VERSION C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 71 I DF OM - - - O
+<LIT> 8 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 71 72 I DN - F M
+<DEFINE> DIO_SW_MINOR_VERSION C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 72 I DF OM - - - O
+<LIT> 0x00FF u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 72 71 I HN - F M
+<DEFINE> DIO_SW_PATCH_VERSION C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 73 I DF OM - - - O
+<DEFINE> DIO_E_PARAM_INVALID_CHANNEL_ID C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 77 I DF OM - - - O
+<LIT> 10 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 77 46 I DN - F M
+<DEFINE> DIO_E_PARAM_INVALID_PORT_ID C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 78 I DF OM - - - O
+<LIT> 20 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 78 46 I DN - F M
+<DEFINE> DIO_E_PARAM_INVALID_GROUP_ID C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 79 I DF OM - - - O
+<LIT> 31 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 79 46 I DN - F M
+<DEFINE> DIO_E_PARAM_VINFO C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 80 I DF OM - - - O
+<LIT> 32 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 80 46 I DN - F M
+<DEFINE> DIO_SID_READ_CHANNEL C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 83 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 83 47 I ON - F M
+<DEFINE> DIO_SID_WRITE_CHANNEL C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 84 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 84 47 I DN - F M
+<DEFINE> DIO_SID_READ_PORT C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 85 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 85 47 I DN - F M
+<DEFINE> DIO_SID_WRITE_PORT C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 86 I DF OM - - - O
+<LIT> 3 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 86 47 I DN - F M
+<DEFINE> DIO_SID_READ_CHL_GROUP C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 87 I DF OM - - - O
+<LIT> 4 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 87 47 I DN - F M
+<DEFINE> DIO_SID_WRITE_CHL_GROUP C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 88 I DF OM - - - O
+<LIT> 5 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 88 47 I DN - F M
+<DEFINE> DIO_SID_GET_VERSION_INFO C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 89 I DF OM - - - O
+<LIT> 18 u P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 89 46 I DN - F M
+<DEFINE> Dio_ChannelType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 95 I DC OT F N ul -
+<DEFINE> Dio_PortType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 98 I DC OT F N ul -
+<DEFINE> Dio_PortLevelType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 103 I DC OT F N ul -
+<DEFINE> Dio_LevelType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 106 I DC OT F N uc -
+<DEFINE> port C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 110 I DC MB F N ul -
+<DEFINE> mask C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 111 I DC MB F N ul -
+<DEFINE> offset C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 112 I DC MB F N uc -
+<DEFINE> Dio_ChannelGroupType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 113 I DC OT F N {s} -
+<DEFINE> Dio_ChannelGroupRefType C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 116 I DC OT F N p={sDio_ChannelGroupType} -
+<R>I C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio_Cfg.h 121
+<DEFINE> DIO_CFG_H C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio_Cfg.h 19 I DF OM - - - O
+<DEFINE> SPI_TCCS C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio_Cfg.h 29 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio_Cfg.h 29 25 I ON - F M
+<DEFINE> DIO_START_SEC_CODE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 126 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h C:/_Synergy_Projects/Working/SpiNxt/utp/contract/MemMap.h 127
+<DEFINE> MEMMAP_H C:/_Synergy_Projects/Working/SpiNxt/utp/contract/MemMap.h 19 I DF OM - - - O
+<EXTN> Dio_ReadChannel C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 129
+<DEFINE> ChannelId C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 131 I DC OV P N ul R
+<DEFINE> Dio_ReadChannel C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 129 I DC OF F X (uc,ul) -
+<EXTN> Dio_WriteChannel C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 134
+<DEFINE> ChannelId C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 136 I DC OV P N ul R
+<DEFINE> Level C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 137 I DC OV P N uc R
+<DEFINE> Dio_WriteChannel C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 134 I DC OF F X (.,ul,uc) -
+<EXTN> Dio_ReadPort C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 141
+<DEFINE> PortId C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 143 I DC OV P N ul R
+<DEFINE> Dio_ReadPort C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 141 I DC OF F X (ul,ul) -
+<EXTN> Dio_WritePort C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 146
+<DEFINE> PortId C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 148 I DC OV P N ul R
+<DEFINE> Level C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 149 I DC OV P N ul R
+<DEFINE> Dio_WritePort C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 146 I DC OF F X (.,ul,ul) -
+<EXTN> Dio_ReadChannelGroup C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 153
+<DEFINE> ChannelGroupIdPtr C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 155 I DC OV P N p={sDio_ChannelGroupType} R
+<DEFINE> Dio_ReadChannelGroup C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 153 I DC OF F X (ul,p={sDio_ChannelGroupType}) -
+<EXTN> Dio_WriteChannelGroup C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 158
+<DEFINE> ChannelGroupIdPtr C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 160 I DC OV P N p={sDio_ChannelGroupType} R
+<DEFINE> Level C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 161 I DC OV P N ul R
+<DEFINE> Dio_WriteChannelGroup C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 158 I DC OF F X (.,p={sDio_ChannelGroupType},ul) -
+<DEFINE> DIO_STOP_SEC_CODE C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h 172 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/SpiNxt/utp/contract/Dio.h C:/_Synergy_Projects/Working/SpiNxt/utp/contract/MemMap.h 173
+<R>I C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 20
+<DEFINE> SCHM_SPINXT_H C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 2 I DF OM - - - O
+<DEFINE> SPINXT_EXCLUSIVE_AREA_0 C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 4 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 4 33 I ON - F M
+<EXTN> SchM_Enter_SpiNxt C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 7
+<DEFINE> area C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 7 I DC OV P N us R
+<DEFINE> SchM_Enter_SpiNxt C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 7 I DC OF F X (.,us) -
+<EXTN> SchM_Exit_SpiNxt C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 8
+<DEFINE> area C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 8 I DC OV P N us R
+<DEFINE> SchM_Exit_SpiNxt C:/_Synergy_Projects/Working/SpiNxt/utp/contract/SchM_SpiNxt.h 8 I DC OF F X (.,us) -
+<DEFINE> SrcDataBufferPtr C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 40 N DC MB F N p=uc -
+<DEFINE> DesDataBufferPtr C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 41 N DC MB F N puc -
+<DEFINE> Length C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 42 N DC MB F N us -
+<DEFINE> EbCfg_Type C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 43 N DC OT F N {s} -
+<DEFINE> SPINXT_START_SEC_VAR_CLEARED_UNSPECIFIED C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 46 N DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c C:/_Synergy_Projects/Working/SpiNxt/utp/contract/MemMap.h 47
+<EXTT> SeqResult_Enum C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 53
+<DEFINE> SeqResult_Enum C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 53 N DC OV F I [2,{eSpi_SeqResultType}] S
+<DEFINE> SPINXT_STOP_SEC_VAR_CLEARED_UNSPECIFIED C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 54 N DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c C:/_Synergy_Projects/Working/SpiNxt/utp/contract/MemMap.h 55
+<DEFINE> SPINXT_START_SEC_CODE C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 57 N DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c C:/_Synergy_Projects/Working/SpiNxt/utp/contract/MemMap.h 58
+<EXTD> SpiNxt_SetupEB C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 76
+<DEFINE> Channel C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 78 N DC OV B N uc R
+<DEFINE> SrcDataBufferPtr C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 79 N DC OV B N p=uc R
+<DEFINE> DesDataBufferPtr C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 80 N DC OV B N puc R
+<DEFINE> Length C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 81 N DC OV B N us R
+<DEFINE> SpiNxt_SetupEB C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 76 N DR OF F X (uc,uc,p=uc,puc,us) -
+<DEFINE> SpiNxt_SetupEB C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 76 N DF OF F X (uc,uc,p=uc,puc,us) -
+<CTLG> SpiNxt_SetupEB 1
+<CTLG> 1 3
+<CTLGN> 84 93 93 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  SpiNxt_SetupEB
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  10
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  4
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  16
+<S>STAV2  16
+<S>STAV3  16
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  4
+<S>STCAL  0
+<S>STFN1  13
+<S>STFN2  3
+
+<EXTD> SpiNxt_GetSequenceResult C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 105
+<DEFINE> Sequence C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 105 N DC OV B N uc R
+<DEFINE> SpiNxt_GetSequenceResult C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 105 N DR OF F X ({eSpi_SeqResultType},uc) -
+<DEFINE> SpiNxt_GetSequenceResult C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 105 N DF OF F X ({eSpi_SeqResultType},uc) -
+<CTLG> SpiNxt_GetSequenceResult 1
+<CTLG> 1 3
+<CTLGN> 106 107 107 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  SpiNxt_GetSequenceResult
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> SpiNxt_AsyncTransmit C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 122
+<DEFINE> Sequence C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 122 N DC OV B N uc R
+<DEFINE> SpiNxt_AsyncTransmit C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 122 N DR OF F X (uc,uc) -
+<DEFINE> SpiNxt_AsyncTransmit C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 122 N DF OF F X (uc,uc) -
+<DEFINE> result_T_Cnt C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 124 N DC OV B N uc -
+<DEFINE> result_T_Cnt C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 124 N DF OV B N uc -
+<CTLG> SpiNxt_AsyncTransmit 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 123 168 168 168 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  SpiNxt_AsyncTransmit
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  45
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  11
+<S>STST1  3
+<S>STST2  3
+<S>STST3  2
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  16
+<S>STFN2  7
+
+<EXTD> SpiNxt_Init C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 182
+<DEFINE> SpiNxt_Init C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 182 N DR OF F X (.,.) -
+<DEFINE> SpiNxt_Init C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 182 N DF OF F X (.,.) -
+<DEFINE> i C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 184 N DC OV B N ul -
+<DEFINE> i C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 184 N DF OV B N ul -
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 189 24 N DN ui B X
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 192 27 N DN ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 198 28 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 201 28 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 227 37 N ON ui B X
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 230 24 N ON ni B X
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 232 36 N DN ni B X
+<LIT> 2 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 235 36 N DN ni B X
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 253 52 N DN ul B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 257 21 N ON ui B X
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 284 37 N ON ni B X
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 288 23 N DN ui B X
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 293 24 N DN ui B X
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 296 27 N DN ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 302 28 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 305 28 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 331 37 N ON ui B X
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 335 24 N ON ni B X
+<LIT> 1 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 337 36 N DN ni B X
+<LIT> 2 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 340 36 N DN ni B X
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 358 52 N DN ul B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 362 21 N ON ui B X
+<LIT> 0 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 381 37 N ON ni B X
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 385 23 N DN ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 403 12 N ON ui B X
+<CTLG> SpiNxt_Init 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 2
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 5
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 8
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 11
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 15 18
+<CTLG> 16 17
+<CTLG> 17 15
+<CTLG> 18 20
+<CTLGN> 183 227 227 227 259 259 259 331 331 331 364 364 364 403 403 403 403 403 408 408 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  SpiNxt_Init
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  6
+<S>STLIN  224
+<S>STXLN  38
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  32
+<S>STPDN  0.84   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  11
+<S>STAV3  12
+<S>STST1  44
+<S>STST2  39
+<S>STST3  38
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  296
+<S>STFN2  162
+
+<EXTD> mibspiSetData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 421
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 421 N DC OV B N p=^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 421 N DC OV B N ul R
+<DEFINE> data C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 421 N DC OV B N p=us R
+<DEFINE> mibspiSetData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 421 N DR OF F X (.,p=^{smibspictrlregs},ul,p=us) -
+<DEFINE> mibspiSetData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 421 N DF OF F X (.,p=^{smibspictrlregs},ul,p=us) -
+<DEFINE> ram C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 424 N DC OV B N p^{smibspiRamBase} -
+<DEFINE> ram C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 424 N DF OV B N p^{smibspiRamBase} -
+<DEFINE> start C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 425 N DC OV B N ul -
+<DEFINE> start C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 425 N DF OV B N ul -
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 425 63 N DN ni B O
+<LIT> 0xFF U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 425 68 N HN ui B O
+<DEFINE> end C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 426 N DC OV B N ul -
+<DEFINE> end C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 426 N DF OV B N ul -
+<LIT> 7 UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 426 47 N DN ul B O
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 426 73 N DN ul B O
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 426 111 N DN ui B O
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 426 118 N DN ni B O
+<LIT> 0xFF UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 426 123 N HN ul B O
+<DEFINE> i C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 427 N DC OV B N us -
+<DEFINE> i C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 427 N DF OV B N us -
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 427 36 N ON ui B O
+<LIT> 128 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 429 29 N DN ui B X
+<CTLG> mibspiSetData 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 3
+<CTLG> 5 7
+<CTLGN> 422 429 429 431 431 437 437 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiSetData
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  3
+<S>STLIN  14
+<S>STXLN  9
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  4
+<S>STPTH  4
+<S>STPDN  0.44   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  14
+<S>STAV3  24
+<S>STST1  12
+<S>STST2  10
+<S>STST3  6
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  91
+<S>STFN2  56
+
+<EXTD> mibspiSetCtrlData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 479
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 479 N DC OV B N p=^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 479 N DC OV B N ul R
+<DEFINE> data C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 479 N DC OV B N p=ul R
+<DEFINE> mibspiSetCtrlData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 479 N DR OF F X (.,p=^{smibspictrlregs},ul,p=ul) -
+<DEFINE> mibspiSetCtrlData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 479 N DF OF F X (.,p=^{smibspictrlregs},ul,p=ul) -
+<DEFINE> ram C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 481 N DC OV B N p^{smibspiRamBase} -
+<DEFINE> ram C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 481 N DF OV B N p^{smibspiRamBase} -
+<DEFINE> start C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 482 N DC OV B N ul -
+<DEFINE> start C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 482 N DF OV B N ul -
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 482 63 N DN ni B O
+<LIT> 0xFF U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 482 68 N HN ui B O
+<DEFINE> end C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 483 N DC OV B N ul -
+<DEFINE> end C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 483 N DF OV B N ul -
+<LIT> 7 UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 483 47 N DN ul B O
+<LIT> 1 UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 483 73 N DN ul B O
+<LIT> 1 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 483 111 N DN ui B O
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 483 118 N DN ni B O
+<LIT> 0xFF UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 483 123 N HN ul B O
+<DEFINE> i C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 484 N DC OV B N us -
+<DEFINE> i C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 484 N DF OV B N us -
+<LIT> 0 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 484 36 N ON ui B O
+<LIT> 128 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 486 29 N DN ui B X
+<LIT> 16 U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 491 54 N DN ui B X
+<CTLG> mibspiSetCtrlData 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 3
+<CTLG> 5 7
+<CTLGN> 480 486 486 488 488 495 495 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiSetCtrlData
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  3
+<S>STLIN  14
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  4
+<S>STPTH  4
+<S>STPDN  0.40   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  13
+<S>STAV2  15
+<S>STAV3  24
+<S>STST1  13
+<S>STST2  11
+<S>STST3  7
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  108
+<S>STFN2  65
+
+<EXTD> mibspiGetData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 547
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 547 N DC OV B N p=^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 547 N DC OV B N ul R
+<DEFINE> data C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 547 N DC OV B N pus R
+<DEFINE> mibspiGetData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 547 N DR OF F X (ul,p=^{smibspictrlregs},ul,pus) -
+<DEFINE> mibspiGetData C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 547 N DF OF F X (ul,p=^{smibspictrlregs},ul,pus) -
+<DEFINE> ram C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 554 N DC OV B N p^{smibspiRamBase} -
+<DEFINE> ram C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 554 N DF OV B N p^{smibspiRamBase} -
+<DEFINE> start C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 555 N DC OV B N ul -
+<DEFINE> start C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 555 N DF OV B N ul -
+<LIT> 8 - P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 555 63 N DN ni B O
+<LIT> 0xFF U P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 555 68 N HN ui B O
+<DEFINE> i C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 556 N DC OV B N us -
+<DEFINE> i C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 556 N DF OV B N us -
+<LIT> 0 u P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 558 18 N ON ui B X
+<LIT> 0 UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 564 13 N ON ul B X
+<CTLG> mibspiGetData 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 3 4
+<CTLG> 4 2
+<CTLG> 5 7
+<CTLGN> 548 558 558 558 558 564 564 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiGetData
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  38
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  2
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  14
+<S>STAV3  25
+<S>STST1  8
+<S>STST2  7
+<S>STST3  4
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  64
+<S>STFN2  37
+
+<EXTD> mibspiTransfer C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 596
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 596 N DC OV B N p^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 596 N DC OV B N ul R
+<DEFINE> mibspiTransfer C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 596 N DR OF F X (.,p^{smibspictrlregs},ul) -
+<DEFINE> mibspiTransfer C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 596 N DF OF F X (.,p^{smibspictrlregs},ul) -
+<LIT> 0x80000000 UL P C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 598 30 N HN ul B X
+<CTLG> mibspiTransfer 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 597 599 599 599 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiTransfer
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  11
+<S>STAV2  11
+<S>STAV3  11
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  7
+<S>STFN2  4
+
+<EXTD> mibspiNotification C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 643
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 643 N DC OV B N p=^{smibspictrlregs} R
+<DEFINE> flags C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 643 N DC OV B N ul R
+<DEFINE> mibspiNotification C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 643 N DR OF F X (.,p=^{smibspictrlregs},ul) -
+<DEFINE> mibspiNotification C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 643 N DF OF F X (.,p=^{smibspictrlregs},ul) -
+<CTLG> mibspiNotification 1
+<CTLG> 1 3
+<CTLGN> 644 654 654 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiNotification
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  9
+<S>STXLN  0
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  0
+<S>STAV2  0
+<S>STAV3  0
+<S>STST1  0
+<S>STST2  0
+<S>STST3  0
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  9
+<S>STFN2  2
+
+<EXTD> mibspiGroupNotification C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 665
+<DEFINE> mibspi C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 665 N DC OV B N p=^{smibspictrlregs} R
+<DEFINE> group C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 665 N DC OV B N ul R
+<DEFINE> mibspiGroupNotification C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 665 N DR OF F X (.,p=^{smibspictrlregs},ul) -
+<DEFINE> mibspiGroupNotification C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 665 N DF OF F X (.,p=^{smibspictrlregs},ul) -
+<CTLG> mibspiGroupNotification 1
+<CTLG> 1 3
+<CTLGN> 666 681 681 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiGroupNotification
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  14
+<S>STXLN  0
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  0
+<S>STAV2  0
+<S>STAV3  0
+<S>STST1  0
+<S>STST2  0
+<S>STST3  0
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  9
+<S>STFN2  2
+
+<DEFINE> SPINXT_STOP_SEC_CODE C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 683 N DF OM - - - O
+<R>I C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c C:/_Synergy_Projects/Working/SpiNxt/utp/contract/MemMap.h 684
+<DEFINE> SeqResult_Enum C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c 53 N DI OV F I [2,{eSpi_SeqResultType}] S
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  SpiNxt_AsyncTransmit
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  SpiNxt_GetSequenceResult
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  SpiNxt_Init
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  SpiNxt_SetupEB
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiGetData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiGroupNotification
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiNotification
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiSetCtrlData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiSetData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  mibspiTransfer
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNAM  C:/_Synergy_Projects/Working/SpiNxt/src/SpiNxt.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  1
+<S>STECT  0
+<S>STFNC  10
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  116
+<S>STOPT  38
+<S>STOPN  165
+<S>STTOT  1254
+<S>STZIP  1196
+<S>STHAL  1415
+<S>STSHN  5131
+<S>STDIF  11.84  
+<S>STEFF  113768
+<S>STVOL  9612
+<S>STDEV  18.96  
+<S>STBUG  2
+<S>STTPP  714
+<S>STTLN  125
+<S>STM20  454
+<S>STM21  795
+<S>STM22  65
+<S>STM28  110
+<S>STM33  78
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.685  
+<S>STBMS  2.057  
+<S>STBME  2.403  
+<S>STTDO  3.048  
+<S>STTDS  3.218  
+<S>STTDE  3.310  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.186  
+

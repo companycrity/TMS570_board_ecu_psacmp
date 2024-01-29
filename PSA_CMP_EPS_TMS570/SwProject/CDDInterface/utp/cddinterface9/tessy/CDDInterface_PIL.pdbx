@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="0f67381a-1eb4-48b3-9120-ccba1df8eaa4"
+    location="$(PROJECTROOT)\tessy"
+    name="CDDInterface9"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

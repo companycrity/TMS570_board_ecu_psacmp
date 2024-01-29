@@ -1,0 +1,16 @@
+VersionTag45
+StartProjectMarker
+FolderName=SVDrvr
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=PwmCdd
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_PwmCdd.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\PwmCdd.c
+EndContainedFilesMarker
+EndSubProjectMarker
+

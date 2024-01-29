@@ -1,0 +1,1628 @@
+<RDEF> I Includes
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 18
+<DEFINE> ADC2_H C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 18 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc2.h C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 20
+<DEFINE> STD_TYPES_H C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/_Synergy_Projects/Prep/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h C:/_Synergy_Projects/Prep/Adc/utp/Contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/_Synergy_Projects/Prep/Adc/utp/Contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/_Synergy_Projects/Prep/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc2.h C:/_Synergy_Projects/Prep/Adc/utp/Contract/CDD_Const.h 21
+<DEFINE> CDD_CONST_H C:/_Synergy_Projects/Prep/Adc/utp/Contract/CDD_Const.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc2.h C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 22
+<DEFINE> ADC_REGS_H C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h C:/_Synergy_Projects/Prep/StdDef/include/Std_Types.h 24
+<DEFINE> adcctrlregs C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 26 I DC TG F N {sadcctrlregs} -
+<DEFINE> adcctrlregs C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 26 I DF TG F N {sadcctrlregs} -
+<DEFINE> RSTCR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 28 I DC MB F N ul -
+<DEFINE> OPMODECR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 29 I DC MB F N ul -
+<DEFINE> CLOCKCR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 30 I DC MB F N ul -
+<DEFINE> CALCR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 31 I DC MB F N ul -
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 32 21 I DN ui F D
+<DEFINE> GxMODECR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 32 I DC MB F N [3,ul] -
+<DEFINE> G0SRC C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 33 I DC MB F N ul -
+<DEFINE> G1SRC C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 34 I DC MB F N ul -
+<DEFINE> G2SRC C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 35 I DC MB F N ul -
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 36 21 I DN ui F D
+<DEFINE> GxINTENA C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 36 I DC MB F N [3,ul] -
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 37 21 I DN ui F D
+<DEFINE> GxINTFLG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 37 I DC MB F N [3,ul] -
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 38 20 I DN ui F D
+<DEFINE> GxINTCR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 38 I DC MB F N [3,ul] -
+<DEFINE> G0DMACR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 39 I DC MB F N ul -
+<DEFINE> G1DMACR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 40 I DC MB F N ul -
+<DEFINE> G2DMACR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 41 I DC MB F N ul -
+<DEFINE> BNDCR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 42 I DC MB F N ul -
+<LIT> 16 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 43 22 I DN ui F B
+<DEFINE> BUFINIT C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 43 I DC MB F N ub -
+<LIT> 16 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 44 22 I DN ui F B
+<DEFINE> BNDEND C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 44 I DC MB F N ub -
+<DEFINE> G0SAMP C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 45 I DC MB F N ul -
+<DEFINE> G1SAMP C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 46 I DC MB F N ul -
+<DEFINE> G2SAMP C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 47 I DC MB F N ul -
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 48 17 I DN ui F D
+<DEFINE> GxSR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 48 I DC MB F N [3,ul] -
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 49 18 I DN ui F D
+<DEFINE> GxSEL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 49 I DC MB F N [3,ul] -
+<DEFINE> CALR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 50 I DC MB F N ul -
+<DEFINE> SMSTATE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 51 I DC MB F N ul -
+<DEFINE> LASTCONV C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 52 I DC MB F N ul -
+<DEFINE> BUF0 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 55 I DC MB F N ul -
+<DEFINE> BUF1 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 56 I DC MB F N ul -
+<DEFINE> BUF2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 57 I DC MB F N ul -
+<DEFINE> BUF3 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 58 I DC MB F N ul -
+<DEFINE> BUF4 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 59 I DC MB F N ul -
+<DEFINE> BUF5 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 60 I DC MB F N ul -
+<DEFINE> BUF6 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 61 I DC MB F N ul -
+<DEFINE> BUF7 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 62 I DC MB F N ul -
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 63 13 I DN ui F D
+<DEFINE> GxBUF C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 63 I DC MB F N [3,{s}] -
+<DEFINE> G0EMUBUFFER C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 64 I DC MB F N ul -
+<DEFINE> G1EMUBUFFER C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 65 I DC MB F N ul -
+<DEFINE> G2EMUBUFFER C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 66 I DC MB F N ul -
+<DEFINE> EVTDIR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 67 I DC MB F N ul -
+<DEFINE> EVTOUT C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 68 I DC MB F N ul -
+<DEFINE> EVTIN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 69 I DC MB F N ul -
+<DEFINE> EVTSET C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 70 I DC MB F N ul -
+<DEFINE> EVTCLR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 71 I DC MB F N ul -
+<DEFINE> EVTPDR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 72 I DC MB F N ul -
+<DEFINE> EVTDIS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 73 I DC MB F N ul -
+<DEFINE> EVTPSEL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 74 I DC MB F N ul -
+<DEFINE> G0SAMPDISEN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 75 I DC MB F N ul -
+<DEFINE> G1SAMPDISEN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 76 I DC MB F N ul -
+<DEFINE> G2SAMPDISEN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 77 I DC MB F N ul -
+<DEFINE> MAGINTCR1 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 78 I DC MB F N ul -
+<DEFINE> MAGINT1MASK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 79 I DC MB F N ul -
+<DEFINE> MAGINTCR2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 80 I DC MB F N ul -
+<DEFINE> MAGINT2MASK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 81 I DC MB F N ul -
+<DEFINE> MAGINTCR3 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 82 I DC MB F N ul -
+<DEFINE> MAGINT3MASK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 83 I DC MB F N ul -
+<DEFINE> MAGINTCR4 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 84 I DC MB F N ul -
+<DEFINE> MAGINT4MASK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 85 I DC MB F N ul -
+<DEFINE> MAGINTCR5 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 86 I DC MB F N ul -
+<DEFINE> MAGINT5MASK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 87 I DC MB F N ul -
+<DEFINE> MAGINTCR6 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 88 I DC MB F N ul -
+<DEFINE> MAGINT6MASK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 89 I DC MB F N ul -
+<DEFINE> MAGTHRINTENASET C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 90 I DC MB F N ul -
+<DEFINE> MAGTHRINTENACLR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 91 I DC MB F N ul -
+<DEFINE> MAGTHRINTFLG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 92 I DC MB F N ul -
+<DEFINE> MAGTHRINTOFFSET C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 93 I DC MB F N ul -
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 94 26 I DN ui F D
+<DEFINE> GxFIFORESETCR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 94 I DC MB F N [3,ul] -
+<DEFINE> G0RAMADDR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 95 I DC MB F N ul -
+<DEFINE> G1RAMADDR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 96 I DC MB F N ul -
+<DEFINE> G2RAMADDR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 97 I DC MB F N ul -
+<DEFINE> PARCR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 98 I DC MB F N ul -
+<DEFINE> PARADDR C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 99 I DC MB F N ul -
+<DEFINE> adcctrlregs_t C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 100 I DC OT F N ^{sadcctrlregs} -
+<DEFINE> adcREG1 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 102 I DF OM - - - O
+<LIT> 0xFFF7C000 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 102 35 I HN - F M
+<DEFINE> adcREG2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 103 I DF OM - - - O
+<LIT> 0xFFF7C200 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 103 35 I HN - F M
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc2.h C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 23
+<DEFINE> ADC2_CFG_H C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 20 I DF OM - - - O
+<DEFINE> D_ADC2NUMEVTCH_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 24 I DF OM - - - O
+<LIT> 4 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 24 33 I DN - F M
+<DEFINE> D_ADC2EVTCH_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 25 I DF OM - - - O
+<LIT> 0x00000603 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 25 41 I HN - F M
+<DEFINE> D_ADC2EVTBUFSZ_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 26 I DF OM - - - O
+<LIT> 4 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 26 33 I DN - F M
+<DEFINE> D_ADC2EVSRC_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 27 I DF OM - - - O
+<LIT> 3 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 27 41 I DN - F M
+<DEFINE> D_ADC2NUMG1CH_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 29 I DF OM - - - O
+<LIT> 4 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 29 33 I DN - F M
+<DEFINE> D_ADC2G1CH_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 30 I DF OM - - - O
+<LIT> 0x0000E100 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 30 41 I HN - F M
+<DEFINE> D_ADC2G1BUFSZ_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 31 I DF OM - - - O
+<LIT> 4 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 31 33 I DN - F M
+<DEFINE> D_ADC2G1SRC_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 32 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 32 41 I DN - F M
+<DEFINE> D_ADC2NUMG2CH_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 34 I DF OM - - - O
+<LIT> 4 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 34 33 I DN - F M
+<DEFINE> D_ADC2G2CH_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 35 I DF OM - - - O
+<LIT> 0x00000603 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 35 41 I HN - F M
+<DEFINE> D_ADC2G2BUFSZ_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 36 I DF OM - - - O
+<LIT> 56 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 36 33 I DN - F M
+<DEFINE> D_ADC2G2SRC_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 37 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 37 41 I ON - F M
+<DEFINE> ADC2_E_PERDIAG_FAILURE C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 40 I DF OM - - - O
+<DEFINE> ADC2_E_PERDIAG_INFO C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 42 I DF OM - - - O
+<LIT> 0x04 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 42 57 I HN - F M
+<EXTN> ADC2_REPORTERRORSTATUS C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 44
+<DEFINE> event C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 44 I DC OV P N uc R
+<DEFINE> param C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 44 I DC OV P N uc R
+<DEFINE> status C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 44 I DC OV P N uc R
+<DEFINE> ADC2_REPORTERRORSTATUS C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 44 I DC OF F X (.,uc,uc,uc) -
+<DEFINE> ADC2_EVENT_PASSED C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 45 I DF OM - - - O
+<DEFINE> ADC2_EVENT_FAILED C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 46 I DF OM - - - O
+<DEFINE> D_PHASEBCHN_CNT_U16 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 53 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 53 40 I ON - F M
+<DEFINE> D_PHASECCHN_CNT_U16 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 54 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 54 40 I DN - F M
+<DEFINE> D_COSTHETA1CHN_CNT_U16 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 55 I DF OM - - - O
+<LIT> 2 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 55 40 I DN - F M
+<DEFINE> D_SINTHETA1CHN_CNT_U16 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 56 I DF OM - - - O
+<LIT> 3 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 56 40 I DN - F M
+<DEFINE> D_ADC2T1CHN_CNT_U16 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 57 I DF OM - - - O
+<LIT> 6 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 57 40 I DN - F M
+<DEFINE> D_ADC2T2CHN_CNT_U16 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 58 I DF OM - - - O
+<LIT> 7 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 58 40 I DN - F M
+<DEFINE> Adc2_GetPhsBCurr_Cnt_u16_m C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 60 I DF OM - - - O
+<DEFINE> Adc2_GetPhsCCurr_Cnt_u16_m C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 61 I DF OM - - - O
+<DEFINE> Adc2_GetCosTheta1_Cnt_u16_m C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 62 I DF OM - - - O
+<DEFINE> Adc2_GetSinTheta1_Cnt_u16_m C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 63 I DF OM - - - O
+<DEFINE> Adc2_GetT1_Cnt_u16_m C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 64 I DF OM - - - O
+<DEFINE> Adc2_GetT2_Cnt_u16_m C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 65 I DF OM - - - O
+<DEFINE> D_ADC2EVINTENA_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 68 I DF OM - - - O
+<LIT> 8 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 68 41 I DN - F M
+<DEFINE> D_ADC2EVSAMPDISEN_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 69 I DF OM - - - O
+<LIT> 0x00000201 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 69 41 I HN - F M
+<DEFINE> D_ADC2EVFIFORESETCR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 70 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 70 41 I ON - F M
+<DEFINE> D_ADC2EVDMACR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 71 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 71 41 I ON - F M
+<DEFINE> D_ADC2G1INTENA_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 74 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 74 41 I ON - F M
+<DEFINE> D_ADC2G1SAMPDISEN_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 75 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 75 41 I ON - F M
+<DEFINE> D_ADC2G1FIFORESETCR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 76 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 76 41 I ON - F M
+<DEFINE> D_ADC2G1DMACR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 77 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 77 41 I ON - F M
+<DEFINE> D_ADC2G2INTENA_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 80 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 80 41 I ON - F M
+<DEFINE> D_ADC2G2SAMPDISEN_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 81 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 81 41 I ON - F M
+<DEFINE> D_ADC2G2FIFORESETCR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 82 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 82 41 I DN - F M
+<DEFINE> D_ADC2G2DMACR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 83 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 83 41 I ON - F M
+<DEFINE> D_HWTRGADC2GEVT_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 86 I DF OM - - - O
+<DEFINE> D_HWTRGADC2G1_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 87 I DF OM - - - O
+<DEFINE> D_HWTRGADC2G2_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 88 I DF OM - - - O
+<DEFINE> D_ADC2USEDMA_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 91 I DF OM - - - O
+<DEFINE> D_ISRGROUP_CNT_U8 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 96 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 96 33 I ON - F M
+<DEFINE> Adc2_Write_ADC2OffsetComp_Cnt_u8p8 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc2_Cfg.h 98 I DF OM - - - F
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc2.h C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 24
+<DEFINE> ADC_COMMON_H C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 20 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h C:/_Synergy_Projects/Prep/StdDef/include/TMS570_HerculesRegs/adc_regs.h 22
+<DEFINE> D_MAXCONVERSIONVALUE_CNT_U16 C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 27 I DF OM - - - O
+<LIT> 0x0FFF U P C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 27 41 I HN - F M
+<DEFINE> D_GROUPEND_CNT_U32 C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 28 I DF OM - - - O
+<LIT> 0x00000001 U P C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 28 57 I HN - F M
+<DEFINE> D_GROUPBUSY_CNT_U32 C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 29 I DF OM - - - O
+<LIT> 0x00000004 U P C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 29 57 I HN - F M
+<DEFINE> D_GROUPMEMEMPTY_CNT_U32 C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 30 I DF OM - - - O
+<LIT> 0x00000008 U P C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 30 49 I HN - F M
+<DEFINE> ADC_START_SEC_CODE C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 39 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 40
+<DEFINE> MEMMAP_H C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 19 I DF OM - - - O
+<EXTN> ADCOffsetCalibration C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 42
+<DEFINE> adcREG C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 42 I DC OV P N p^{sadcctrlregs} R
+<DEFINE> ADCOffset_Cnt_T_u8p8 C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 42 I DC OV P N pus R
+<DEFINE> ADCOffsetCalibration C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 42 I DC OF F X (uc,p^{sadcctrlregs},pus) -
+<DEFINE> ADC_STOP_SEC_CODE C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 44 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 45
+<DEFINE> D_ADC2RSLTBASEADR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 28 I DF OM - - - O
+<LIT> 0xFF3A0000 U P C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 28 41 I HN - F M
+<EXTN> Adc2_ReadConversion C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 39
+<DEFINE> Adc2_ReadConversion C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 39 I DC OF F X (us,us) -
+<EXTD> Adc2_ReadConversion C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 42
+<DEFINE> ConvId C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 42 I DC OV B N us R
+<DEFINE> Adc2_ReadConversion C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 42 I DR OF F X (us,us) -
+<DEFINE> Adc2_ReadConversion C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 42 I DF OF F X (us,us) -
+<CTLG> Adc2_ReadConversion 1
+<CTLG> 1 3
+<CTLGN> 43 44 44 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/include/Adc2.h
+<S>STNAM  Adc2_ReadConversion
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTN> Adc2_Init1 C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 48
+<DEFINE> Adc2_Init1 C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 48 I DC OF F X (.,.) -
+<EXTN> Adc2_StartGroupConversion C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 49
+<DEFINE> group C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 49 I DC OV P N uc R
+<DEFINE> Adc2_StartGroupConversion C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 49 I DC OF F X (.,uc) -
+<EXTN> Adc2_EnableGroupNotification C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 50
+<DEFINE> group C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 50 I DC OV P N uc R
+<DEFINE> Adc2_EnableGroupNotification C:/_Synergy_Projects/Prep/Adc/include/Adc2.h 50 I DC OF F X (.,uc) -
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/include/Adc_Common.h 19
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/utp/Contract/CDD_Data.h 20
+<DEFINE> CDD_DATA_H C:/_Synergy_Projects/Prep/Adc/utp/Contract/CDD_Data.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/utp/Contract/Calconstants.h 21
+<DEFINE> CALCONSTANTS_H C:/_Synergy_Projects/Prep/Adc/utp/Contract/Calconstants.h 20 I DF OM - - - O
+<EXTN> k_VbattOVTransIntConfig_Cnt_u32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Calconstants.h 30
+<DEFINE> k_VbattOVTransIntConfig_Cnt_u32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Calconstants.h 30 I DC OV F X =ul S
+<EXTN> k_MaxADCConvTime_uS_u16 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Calconstants.h 31
+<DEFINE> k_MaxADCConvTime_uS_u16 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Calconstants.h 31 I DC OV F X =us S
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 22
+<DEFINE> SYSTEMTIME_H C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 20 I DF OM - - - O
+<EXTN> DtrmnElapsedTime_uS_u16 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 22
+<DEFINE> InitialTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 22 I DC OV P N ul R
+<DEFINE> ElapsedTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 22 I DC OV P N pus R
+<DEFINE> DtrmnElapsedTime_uS_u16 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 22 I DC OF F X (.,ul,pus) -
+<EXTN> DtrmnElapsedTime_uS_u32 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 23
+<DEFINE> InitialTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 23 I DC OV P N ul R
+<DEFINE> ElapsedTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 23 I DC OV P N pul R
+<DEFINE> DtrmnElapsedTime_uS_u32 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 23 I DC OF F X (.,ul,pul) -
+<EXTN> DtrmnElapsedTime_mS_u16 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 24
+<DEFINE> InitialTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 24 I DC OV P N ul R
+<DEFINE> ElapsedTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 24 I DC OV P N pus R
+<DEFINE> DtrmnElapsedTime_mS_u16 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 24 I DC OF F X (.,ul,pus) -
+<EXTN> DtrmnElapsedTime_mS_u32 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 25
+<DEFINE> InitialTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 25 I DC OV P N ul R
+<DEFINE> ElapsedTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 25 I DC OV P N pul R
+<DEFINE> DtrmnElapsedTime_mS_u32 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 25 I DC OF F X (.,ul,pul) -
+<EXTN> GetSystemTime_uS_u32 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 26
+<DEFINE> CurrentTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 26 I DC OV P N pul R
+<DEFINE> GetSystemTime_uS_u32 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 26 I DC OF F X (.,pul) -
+<EXTN> GetSystemTime_mS_u32 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 27
+<DEFINE> CurrentTime C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 27 I DC OV P N pul R
+<DEFINE> GetSystemTime_mS_u32 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 27 I DC OF F X (.,pul) -
+<EXTN> SystemTime_Per1 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 28
+<DEFINE> SystemTime_Per1 C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 28 I DC OF F X (.,.) -
+<EXTN> SystemTime_Init C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 29
+<DEFINE> SystemTime_Init C:/_Synergy_Projects/Prep/NxtrLib/include/SystemTime.h 29 I DC OF F X (.,.) -
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/utp/Contract/Ap_DiagMgr.h 23
+<DEFINE> AP_DIAGMGR_H C:/_Synergy_Projects/Prep/Adc/utp/Contract/Ap_DiagMgr.h 19 I DF OM - - - O
+<DEFINE> NTC_Num_PerDiag_ADC1Flt C:/_Synergy_Projects/Prep/Adc/utp/Contract/Ap_DiagMgr.h 21 I DF OM - - - O
+<LIT> 50 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Ap_DiagMgr.h 21 42 I DN - F M
+<DEFINE> NTC_Num_PerDiag_ADC2Flt C:/_Synergy_Projects/Prep/Adc/utp/Contract/Ap_DiagMgr.h 22 I DF OM - - - O
+<LIT> 51 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Ap_DiagMgr.h 22 42 I DN - F M
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/include/Adc.h 24
+<DEFINE> ADC_H C:/_Synergy_Projects/Prep/Adc/include/Adc.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc.h C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 21
+<DEFINE> ADC_CFG_H C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 20 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h C:/_Synergy_Projects/Prep/Adc/include/Adc.h 26
+<DEFINE> D_ADC1CURRENTMODE_ULS_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 28 I DF OM - - - O
+<DEFINE> AdcFwdPath C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 31 I DF OM - - - O
+<DEFINE> AdcFdbkPath C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 32 I DF OM - - - O
+<DEFINE> adcGROUP0 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 33 I DF OM - - - O
+<DEFINE> D_ADC1NUMEVTCH_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 36 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 36 33 I ON - F M
+<DEFINE> D_ADC1EVTCH_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 37 I DF OM - - - O
+<LIT> 0x0000 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 37 41 I HN - F M
+<DEFINE> D_ADC1EVTBUFSZ_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 38 I DF OM - - - O
+<LIT> 52 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 38 33 I DN - F M
+<DEFINE> D_ADC1NUMG1CH_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 40 I DF OM - - - O
+<LIT> 2 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 40 33 I DN - F M
+<DEFINE> D_ADC1G1CH_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 41 I DF OM - - - O
+<LIT> 0xC000 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 41 41 I HN - F M
+<DEFINE> D_ADC1G1BUFSZ_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 42 I DF OM - - - O
+<LIT> 2 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 42 33 I DN - F M
+<DEFINE> D_ADC1NUMG2CH_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 44 I DF OM - - - O
+<LIT> 10 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 44 33 I DN - F M
+<DEFINE> D_ADC1G2CH_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 45 I DF OM - - - O
+<LIT> 0x3F65 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 45 41 I HN - F M
+<DEFINE> D_ADC1G2BUFSZ_CNT_U08 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 46 I DF OM - - - O
+<LIT> 10 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 46 33 I DN - F M
+<EXTN> ADC1_REPORTERRORSTATUS C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 48
+<DEFINE> event C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 48 I DC OV P N uc R
+<DEFINE> param C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 48 I DC OV P N uc R
+<DEFINE> status C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 48 I DC OV P N uc R
+<DEFINE> ADC1_REPORTERRORSTATUS C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 48 I DC OF F X (.,uc,uc,uc) -
+<DEFINE> ADC_EVENT_PASSED C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 50 I DF OM - - - O
+<DEFINE> ADC_EVENT_FAILED C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 51 I DF OM - - - O
+<DEFINE> D_TRUE_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 52 I DF OM - - - O
+<DEFINE> D_FALSE_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 53 I DF OM - - - O
+<DEFINE> Adc_ConfigType C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 55 I DC OT F N uc -
+<DEFINE> D_ADC1GEVTSRC_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 58 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 58 41 I ON - F M
+<DEFINE> D_ADC1GEVTDMACR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 59 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 59 41 I ON - F M
+<DEFINE> D_ADC1G1SRC_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 62 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 62 49 I ON - F M
+<DEFINE> D_ADC1G1DMACR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 63 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 63 41 I ON - F M
+<DEFINE> D_ADC1G2SRC_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 66 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 66 49 I ON - F M
+<DEFINE> D_ADC1G2DMACR_CNT_U32 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 67 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 67 41 I ON - F M
+<DEFINE> D_ADC1USEDMA_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 70 I DF OM - - - O
+<DEFINE> D_HWTRGADC1GEVT_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 74 I DF OM - - - O
+<DEFINE> D_HWTRGADC1G1_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 75 I DF OM - - - O
+<DEFINE> D_HWTRGADC1G2_CNT_LGC C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 76 I DF OM - - - O
+<DEFINE> Adc1_Write_ADC1OffsetComp_Cnt_u8p8 C:/_Synergy_Projects/Prep/Adc/utp/Contract/Adc_Cfg.h 78 I DF OM - - - F
+<DEFINE> D_NUMOFGROUPS_CNT_U8 C:/_Synergy_Projects/Prep/Adc/include/Adc.h 25 I DF OM - - - O
+<LIT> 3 U P C:/_Synergy_Projects/Prep/Adc/include/Adc.h 25 49 I DN - F M
+<DEFINE> D_GROUPEV_CNT_U8 C:/_Synergy_Projects/Prep/Adc/include/Adc.h 26 I DF OM - - - O
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/include/Adc.h 26 57 I ON - F M
+<DEFINE> D_GROUP1_CNT_U8 C:/_Synergy_Projects/Prep/Adc/include/Adc.h 27 I DF OM - - - O
+<LIT> 1 U P C:/_Synergy_Projects/Prep/Adc/include/Adc.h 27 57 I DN - F M
+<DEFINE> D_GROUP2_CNT_U8 C:/_Synergy_Projects/Prep/Adc/include/Adc.h 28 I DF OM - - - O
+<LIT> 2 U P C:/_Synergy_Projects/Prep/Adc/include/Adc.h 28 57 I DN - F M
+<DEFINE> D_NTCPARMBIT0_CNT_U8 C:/_Synergy_Projects/Prep/Adc/include/Adc.h 29 I DF OM - - - O
+<LIT> 0x01 U P C:/_Synergy_Projects/Prep/Adc/include/Adc.h 29 49 I HN - F M
+<DEFINE> D_NTCPARMBIT1_CNT_U8 C:/_Synergy_Projects/Prep/Adc/include/Adc.h 30 I DF OM - - - O
+<LIT> 0x02 U P C:/_Synergy_Projects/Prep/Adc/include/Adc.h 30 49 I HN - F M
+<DEFINE> D_NTCPARMBIT2_CNT_U8 C:/_Synergy_Projects/Prep/Adc/include/Adc.h 31 I DF OM - - - O
+<LIT> 0x04 U P C:/_Synergy_Projects/Prep/Adc/include/Adc.h 31 49 I HN - F M
+<DEFINE> Adc_GroupType C:/_Synergy_Projects/Prep/Adc/include/Adc.h 38 I DC OT F N uc -
+<DEFINE> Adc_ValueGroupType C:/_Synergy_Projects/Prep/Adc/include/Adc.h 41 I DC OT F N us -
+<DEFINE> ADC_IDLE C:/_Synergy_Projects/Prep/Adc/include/Adc.h 46 I DC OE F N ne -
+<DEFINE> ADC_IDLE C:/_Synergy_Projects/Prep/Adc/include/Adc.h 46 I DF OE F N ne -
+<DEFINE> ADC_BUSY C:/_Synergy_Projects/Prep/Adc/include/Adc.h 47 I DC OE F N ne -
+<DEFINE> ADC_BUSY C:/_Synergy_Projects/Prep/Adc/include/Adc.h 47 I DF OE F N ne -
+<DEFINE> ADC_COMPLETED C:/_Synergy_Projects/Prep/Adc/include/Adc.h 48 I DC OE F N ne -
+<DEFINE> ADC_COMPLETED C:/_Synergy_Projects/Prep/Adc/include/Adc.h 48 I DF OE F N ne -
+<DEFINE> ADC_STREAM_COMPLETED C:/_Synergy_Projects/Prep/Adc/include/Adc.h 49 I DC OE F N ne -
+<DEFINE> ADC_STREAM_COMPLETED C:/_Synergy_Projects/Prep/Adc/include/Adc.h 49 I DF OE F N ne -
+<DEFINE> Adc_StatusType C:/_Synergy_Projects/Prep/Adc/include/Adc.h 50 I DC OT F N {e} -
+<DEFINE> NumOfChannels C:/_Synergy_Projects/Prep/Adc/include/Adc.h 54 I DC MB F N uc -
+<DEFINE> ChannelSelect C:/_Synergy_Projects/Prep/Adc/include/Adc.h 55 I DC MB F N ul -
+<DEFINE> ResultBuf C:/_Synergy_Projects/Prep/Adc/include/Adc.h 56 I DC MB F N p^ul -
+<DEFINE> Adc_GroupConfigDataType C:/_Synergy_Projects/Prep/Adc/include/Adc.h 57 I DC OT F N {s} -
+<DEFINE> Adc_ValueGroupRefType C:/_Synergy_Projects/Prep/Adc/include/Adc.h 61 I DC OT F N pus -
+<DEFINE> Adc_SetupResultBuffer C:/_Synergy_Projects/Prep/Adc/include/Adc.h 80 I DF OM - - - F
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc.h C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 86
+<DEFINE> Adc_Init C:/_Synergy_Projects/Prep/Adc/include/Adc.h 94 I DF OM - - - F
+<EXTN> Adc_Init_FixedCfg C:/_Synergy_Projects/Prep/Adc/include/Adc.h 96
+<DEFINE> Adc_Init_FixedCfg C:/_Synergy_Projects/Prep/Adc/include/Adc.h 96 I DC OF F X (.,.) -
+<EXTN> Adc_StartGroupConversion C:/_Synergy_Projects/Prep/Adc/include/Adc.h 97
+<DEFINE> Group C:/_Synergy_Projects/Prep/Adc/include/Adc.h 97 I DC OV P N uc R
+<DEFINE> Adc_StartGroupConversion C:/_Synergy_Projects/Prep/Adc/include/Adc.h 97 I DC OF F X (.,uc) -
+<EXTN> Adc_ReadGroup C:/_Synergy_Projects/Prep/Adc/include/Adc.h 98
+<DEFINE> Group C:/_Synergy_Projects/Prep/Adc/include/Adc.h 98 I DC OV P N uc R
+<DEFINE> DataBufferPtr C:/_Synergy_Projects/Prep/Adc/include/Adc.h 98 I DC OV P N pus R
+<DEFINE> Adc_ReadGroup C:/_Synergy_Projects/Prep/Adc/include/Adc.h 98 I DC OF F X (uc,uc,pus) -
+<EXTN> Adc_GetGroupStatus C:/_Synergy_Projects/Prep/Adc/include/Adc.h 99
+<DEFINE> Group C:/_Synergy_Projects/Prep/Adc/include/Adc.h 99 I DC OV P N uc R
+<DEFINE> Adc_GetGroupStatus C:/_Synergy_Projects/Prep/Adc/include/Adc.h 99 I DC OF F X ({eAdc_StatusType},uc) -
+<R>I C:/_Synergy_Projects/Prep/Adc/include/Adc.h C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 102
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 25
+<DEFINE> GLOBALMACRO_H C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 19 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 22
+<DEFINE> _MATH C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 39 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 41
+<DEFINE> _YMATH C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 3 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 4
+<DEFINE> _YVALS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 3 I DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 4
+<DEFINE> _STDARG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 39 I DF OM - - - O
+<DEFINE> _NS_PREFIX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 45 I DF OM - - - O
+<DEFINE> va_list C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 53 I DC OT F N p_c -
+<DEFINE> _VA_RNDUP C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 60 I DF OM - - - F
+<LIT> 3 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 60 34 I DN - F M
+<LIT> 3 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 60 40 I DN - F M
+<DEFINE> _VA_MASK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 61 I DF OM - - - F
+<LIT> 8 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 61 47 I DN - F M
+<LIT> 7 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 61 52 I DN - F M
+<LIT> 3 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 61 56 I DN - F M
+<DEFINE> _VA_ALN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 62 I DF OM - - - F
+<DEFINE> va_start C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 74 I DF OM - - - F
+<LIT> 4 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 71 63 I DN - F M
+<LIT> 4 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 73 65 I DN - F M
+<LIT> 3 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 73 70 I DN - F M
+<DEFINE> va_arg C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 102 I DF OM - - - F
+<DEFINE> va_end C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 106 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/stdarg.h 106 27 I ON - F M
+<DEFINE> _CPPLIB_VER C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 5 I DF OM - - - O
+<LIT> 402 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 5 25 I DN - F M
+<DEFINE> _AEABI_PORTABILITY_CHECK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 23 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 23 34 I ON - F M
+<DEFINE> __STDC_HOSTED__ C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 103 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 103 33 I DN - F M
+<DEFINE> __STDC_IEC_559__ C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 107 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 107 33 I DN - F M
+<DEFINE> __STDC_IEC_559_COMPLEX__ C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 111 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 111 41 I DN - F M
+<DEFINE> __STDC_ISO_10646__ C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 115 I DF OM - - - O
+<LIT> 200009 L P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 115 33 I DN - F M
+<DEFINE> _C99_MATH C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 211 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 211 23 I DN - F M
+<DEFINE> _DLONG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 231 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 231 25 I ON - F M
+<DEFINE> _LBIAS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 232 I DF OM - - - O
+<LIT> 0x3fe - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 232 25 I HN - F M
+<DEFINE> _LOFF C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 233 I DF OM - - - O
+<LIT> 4 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 233 25 I DN - F M
+<DEFINE> _FPP_TYPE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 234 I DF OM - - - O
+<DEFINE> _Int32t C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 245 I DC OT F N nl -
+<DEFINE> _Uint32t C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 246 I DC OT F N ul -
+<DEFINE> _Ptrdifft C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 254 I DC OT F N ni -
+<DEFINE> _Sizet C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 262 I DC OT F N ui -
+<DEFINE> _POSIX_C_LIB C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 275 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 275 25 I DN - F M
+<DEFINE> _HAS_C9X_IMAGINARY_TYPE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 283 I DF OM - - - O
+<DEFINE> _HAS_EXCEPTIONS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 296 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 296 33 I DN - F M
+<DEFINE> _HAS_NAMESPACE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 310 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 310 33 I DN - F M
+<DEFINE> _MULTI_THREAD C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 343 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 343 33 I DN - F M
+<DEFINE> _GLOBAL_LOCALE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 353 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 353 25 I ON - F M
+<DEFINE> _FILE_OP_LOCKS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 354 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 354 25 I ON - F M
+<DEFINE> _IOSTREAM_OP_LOCKS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 355 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 355 33 I ON - F M
+<DEFINE> _COMPILER_TLS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 358 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 358 25 I ON - F M
+<DEFINE> _TLS_QUAL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 359 I DF OM - - - O
+<DEFINE> _HAS_IMMUTABLE_SETS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 361 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 361 33 I DN - F M
+<DEFINE> _HAS_TRADITIONAL_IOSTREAMS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 363 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 363 41 I ON - F M
+<DEFINE> _HAS_TRADITIONAL_ITERATORS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 364 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 364 41 I ON - F M
+<DEFINE> _HAS_TRADITIONAL_POS_TYPE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 365 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 365 41 I ON - F M
+<DEFINE> _HAS_TRADITIONAL_STL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 366 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 366 33 I DN - F M
+<DEFINE> _ADDED_C_LIB C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 372 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 372 25 I DN - F M
+<DEFINE> _USE_EXISTING_SYSTEM_NAMES C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 373 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 373 41 I DN - F M
+<DEFINE> _HAS_STRICT_CONFORMANCE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 376 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 376 41 I ON - F M
+<DEFINE> _STD_BEGIN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 470 I DF OM - - - O
+<DEFINE> _STD_END C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 471 I DF OM - - - O
+<DEFINE> _STD C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 472 I DF OM - - - O
+<DEFINE> _X_STD_BEGIN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 474 I DF OM - - - O
+<DEFINE> _X_STD_END C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 475 I DF OM - - - O
+<DEFINE> _XSTD C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 476 I DF OM - - - O
+<DEFINE> _C_STD_BEGIN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 478 I DF OM - - - O
+<DEFINE> _C_STD_END C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 479 I DF OM - - - O
+<DEFINE> _CSTD C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 480 I DF OM - - - O
+<DEFINE> _C_LIB_DECL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 482 I DF OM - - - O
+<DEFINE> _END_C_LIB_DECL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 483 I DF OM - - - O
+<DEFINE> _EXTERN_C C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 484 I DF OM - - - O
+<DEFINE> _END_EXTERN_C C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 485 I DF OM - - - O
+<LIT> 199901 L P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 488 6 I DN - F P
+<DEFINE> _Restrict C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 499 I DF OM - - - O
+<DEFINE> _CRTIMP C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 509 I DF OM - - - O
+<DEFINE> _CDECL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 510 I DF OM - - - O
+<DEFINE> _LONGLONG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 517 I DF OM - - - O
+<DEFINE> _ULONGLONG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 518 I DF OM - - - O
+<DEFINE> _LLONG_MAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 519 I DF OM - - - O
+<LIT> 0x7fffffffffffffff LL P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 519 25 I HN - F M
+<DEFINE> _ULLONG_MAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 520 I DF OM - - - O
+<LIT> 0xffffffffffffffff ULL P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 520 25 I HN - F M
+<DEFINE> _DBIAS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 533 I DF OM - - - O
+<LIT> 0x3fe - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 533 17 I HN - F M
+<DEFINE> _DOFF C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 534 I DF OM - - - O
+<LIT> 4 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 534 17 I DN - F M
+<DEFINE> _FBIAS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 535 I DF OM - - - O
+<LIT> 0x7e - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 535 17 I HN - F M
+<DEFINE> _FOFF C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 536 I DF OM - - - O
+<LIT> 7 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 536 17 I DN - F M
+<DEFINE> _FRND C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 537 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 537 17 I DN - F M
+<DEFINE> _BITS_BYTE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 541 I DF OM - - - O
+<LIT> 8 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 541 25 I DN - F M
+<DEFINE> _C2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 542 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 542 25 I DN - F M
+<DEFINE> _MBMAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 543 I DF OM - - - O
+<LIT> 8 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 543 25 I DN - F M
+<DEFINE> _ILONG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 544 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 544 25 I DN - F M
+<DEFINE> _CSIGN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 550 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 550 25 I DN - F M
+<DEFINE> _MAX_EXP_DIG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 553 I DF OM - - - O
+<LIT> 8 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 553 25 I DN - F M
+<DEFINE> _MAX_INT_DIG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 554 I DF OM - - - O
+<LIT> 32 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 554 25 I DN - F M
+<DEFINE> _MAX_SIG_DIG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 555 I DF OM - - - O
+<LIT> 36 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 555 25 I DN - F M
+<DEFINE> _Longlong C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 558 I DC OT F N nll -
+<DEFINE> _ULonglong C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 559 I DC OT F N ull -
+<DEFINE> _WCMIN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 636 I DF OM - - - O
+<DEFINE> _WCMAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 637 I DF OM - - - O
+<LIT> 0x7fffffff - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 637 25 I HN - F M
+<DEFINE> _Wchart C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 640 I DC OT F N nl -
+<DEFINE> _Wintt C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 641 I DC OT F N nl -
+<DEFINE> _NULL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 647 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 647 25 I ON - F M
+<DEFINE> _SIGABRT C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 651 I DF OM - - - O
+<LIT> 6 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 651 25 I DN - F M
+<DEFINE> _SIGMAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 652 I DF OM - - - O
+<LIT> 44 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 652 25 I DN - F M
+<DEFINE> _Va_list C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 655 I DC OT F N p_c -
+<DEFINE> _EXFAIL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 672 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 672 17 I DN - F M
+<EXTN> _Atexit C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 675
+<DEFINE> _Atexit C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 675 I DC OF F X (.,p(.,.)) -
+<DEFINE> _FNAMAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 679 I DF OM - - - O
+<LIT> 256 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 679 17 I DN - F M
+<DEFINE> _FOPMAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 680 I DF OM - - - O
+<LIT> 10 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 680 17 I DN - F M
+<DEFINE> _TNAMAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 681 I DF OM - - - O
+<LIT> 16 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 681 17 I DN - F M
+<DEFINE> _FD_TYPE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 683 I DF OM - - - O
+<DEFINE> _FD_NO C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 684 I DF OM - - - F
+<DEFINE> _FD_VALID C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 685 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 685 26 I ON - F M
+<DEFINE> _FD_INVALID C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 686 I DF OM - - - O
+<LIT> 1 - N C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 686 27 I DN - F M
+<DEFINE> _SYSCH C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 687 I DF OM - - - F
+<DEFINE> _Sysch_t C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 688 I DC OT F N _c -
+<DEFINE> _MEMBND C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 691 I DF OM - - - O
+<LIT> 3 U P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 691 17 I DN - F M
+<DEFINE> _CPS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 697 I DF OM - - - O
+<LIT> 1000 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 697 21 I DN - F M
+<DEFINE> _TBIAS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 699 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 699 25 I ON - F M
+<EXTN> _Locksyslock C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 705
+<DEFINE> _Locksyslock C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 705 I DC OF F X (.,ni) -
+<EXTN> _Unlocksyslock C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 706
+<DEFINE> _Unlocksyslock C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 706 I DC OF F X (.,ni) -
+<DEFINE> _LOCK_LOCALE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 720 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 720 25 I ON - F M
+<DEFINE> _LOCK_MALLOC C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 721 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 721 25 I DN - F M
+<DEFINE> _LOCK_STREAM C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 722 I DF OM - - - O
+<LIT> 2 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 722 25 I DN - F M
+<DEFINE> _LOCK_DEBUG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 723 I DF OM - - - O
+<LIT> 3 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 723 25 I DN - F M
+<DEFINE> _MAX_LOCK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 724 I DF OM - - - O
+<LIT> 4 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 724 33 I DN - F M
+<DEFINE> _MAYBE_LOCK C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 731 I DF OM - - - O
+<DEFINE> _ATEXIT_T C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 830 I DF OM - - - O
+<DEFINE> _MAX C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 832 I DF OM - - - O
+<DEFINE> _MIN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 833 I DF OM - - - O
+<DEFINE> _TEMPLATE_STAT C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 835 I DF OM - - - O
+<DEFINE> _NO_RETURN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/yvals.h 837 I DF OM - - - F
+<DEFINE> _FPP_NONE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 9 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 9 25 I ON - F M
+<DEFINE> _FPP_X86 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 10 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 10 25 I DN - F M
+<DEFINE> _FPP_SPARC C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 11 I DF OM - - - O
+<LIT> 2 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 11 25 I DN - F M
+<DEFINE> _FPP_MIPS C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 12 I DF OM - - - O
+<LIT> 3 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 12 25 I DN - F M
+<DEFINE> _FPP_S390 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 13 I DF OM - - - O
+<LIT> 4 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 13 25 I DN - F M
+<DEFINE> _FPP_PPC C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 14 I DF OM - - - O
+<LIT> 5 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 14 25 I DN - F M
+<DEFINE> _FPP_HPPA C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 15 I DF OM - - - O
+<LIT> 6 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 15 25 I DN - F M
+<DEFINE> _FPP_ALPHA C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 16 I DF OM - - - O
+<LIT> 7 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 16 25 I DN - F M
+<DEFINE> _FPP_ARM C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 17 I DF OM - - - O
+<LIT> 8 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 17 25 I DN - F M
+<DEFINE> _FPP_M68K C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 18 I DF OM - - - O
+<LIT> 9 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 18 25 I DN - F M
+<DEFINE> _FPP_SH4 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 19 I DF OM - - - O
+<LIT> 10 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 19 25 I DN - F M
+<DEFINE> _FPP_IA64 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 20 I DF OM - - - O
+<LIT> 11 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 20 25 I DN - F M
+<DEFINE> _FPP_WCE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 21 I DF OM - - - O
+<LIT> 12 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 21 25 I DN - F M
+<DEFINE> _DENORM C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 24 I DF OM - - - O
+<LIT> 2 - N C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 24 27 I DN - F M
+<DEFINE> _FINITE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 25 I DF OM - - - O
+<LIT> 1 - N C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 25 27 I DN - F M
+<DEFINE> _INFCODE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 26 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 26 25 I DN - F M
+<DEFINE> _NANCODE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 27 I DF OM - - - O
+<LIT> 2 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 27 25 I DN - F M
+<DEFINE> _FPP_TYPE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 117 I DF OM - - - O
+<DEFINE> _FE_DIVBYZERO C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 119 I DF OM - - - O
+<LIT> 0x04 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 119 25 I HN - F M
+<DEFINE> _FE_INEXACT C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 120 I DF OM - - - O
+<LIT> 0x20 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 120 25 I HN - F M
+<DEFINE> _FE_INVALID C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 121 I DF OM - - - O
+<LIT> 0x01 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 121 25 I HN - F M
+<DEFINE> _FE_OVERFLOW C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 122 I DF OM - - - O
+<LIT> 0x08 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 122 25 I HN - F M
+<DEFINE> _FE_UNDERFLOW C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 123 I DF OM - - - O
+<LIT> 0x10 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 123 25 I HN - F M
+<LIT> 8 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 129 30 I DN ni F D
+<DEFINE> _Word C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 129 I DC MB F N [8,us] -
+<DEFINE> _Float C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 130 I DC MB F N fs -
+<DEFINE> _Double C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 131 I DC MB F N ff -
+<DEFINE> _Long_double C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 132 I DC MB F N fl -
+<DEFINE> _Dconst C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 133 I DC OT F N {u} -
+<EXTN> _Feraise C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 136
+<DEFINE> _Feraise C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 136 I DC OF F X (.,ni) -
+<EXTN> _Cosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 139
+<DEFINE> _Cosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 139 I DC OF F X (ff,ff,ff) -
+<EXTN> _Dtest C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 140
+<DEFINE> _Dtest C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 140 I DC OF F X (ns,pff) -
+<EXTN> _Exp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 141
+<DEFINE> _Exp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 141 I DC OF F X (ns,pff,ff,ns) -
+<EXTN> _Log C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 142
+<DEFINE> _Log C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 142 I DC OF F X (ff,ff,ni) -
+<EXTN> _Sin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 143
+<DEFINE> _Sin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 143 I DC OF F X (ff,ff,ui) -
+<EXTN> _Sinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 144
+<DEFINE> _Sinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 144 I DC OF F X (ff,ff,ff) -
+<EXTN> _Denorm C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 145
+<DEFINE> _Denorm C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 145 I DC OV F X {u_Dconst} S
+<EXTN> _Hugeval C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 145
+<DEFINE> _Hugeval C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 145 I DC OV F X {u_Dconst} S
+<EXTN> _Inf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 145
+<DEFINE> _Inf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 145 I DC OV F X {u_Dconst} S
+<EXTN> _Nan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 146
+<DEFINE> _Nan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 146 I DC OV F X {u_Dconst} S
+<EXTN> _Snan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 146
+<DEFINE> _Snan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 146 I DC OV F X {u_Dconst} S
+<EXTN> _FCosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 149
+<DEFINE> _FCosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 149 I DC OF F X (fs,fs,fs) -
+<EXTN> _FDtest C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 150
+<DEFINE> _FDtest C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 150 I DC OF F X (ns,pfs) -
+<EXTN> _FExp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 151
+<DEFINE> _FExp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 151 I DC OF F X (ns,pfs,fs,ns) -
+<EXTN> _FLog C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 152
+<DEFINE> _FLog C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 152 I DC OF F X (fs,fs,ni) -
+<EXTN> _FSin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 153
+<DEFINE> _FSin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 153 I DC OF F X (fs,fs,ui) -
+<EXTN> _FSinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 154
+<DEFINE> _FSinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 154 I DC OF F X (fs,fs,fs) -
+<EXTN> _FDenorm C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 155
+<DEFINE> _FDenorm C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 155 I DC OV F X {u_Dconst} S
+<EXTN> _FInf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 155
+<DEFINE> _FInf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 155 I DC OV F X {u_Dconst} S
+<EXTN> _FNan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 155
+<DEFINE> _FNan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 155 I DC OV F X {u_Dconst} S
+<EXTN> _FSnan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 155
+<DEFINE> _FSnan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 155 I DC OV F X {u_Dconst} S
+<EXTN> _LCosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 158
+<DEFINE> _LCosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 158 I DC OF F X (fl,fl,fl) -
+<EXTN> _LDtest C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 159
+<DEFINE> _LDtest C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 159 I DC OF F X (ns,pfl) -
+<EXTN> _LExp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 160
+<DEFINE> _LExp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 160 I DC OF F X (ns,pfl,fl,ns) -
+<EXTN> _LLog C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 161
+<DEFINE> _LLog C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 161 I DC OF F X (fl,fl,ni) -
+<EXTN> _LSin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 162
+<DEFINE> _LSin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 162 I DC OF F X (fl,fl,ui) -
+<EXTN> _LSinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 163
+<DEFINE> _LSinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 163 I DC OF F X (fl,fl,fl) -
+<EXTN> _LDenorm C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 164
+<DEFINE> _LDenorm C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 164 I DC OV F X {u_Dconst} S
+<EXTN> _LInf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 164
+<DEFINE> _LInf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 164 I DC OV F X {u_Dconst} S
+<EXTN> _LNan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 164
+<DEFINE> _LNan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 164 I DC OV F X {u_Dconst} S
+<EXTN> _LSnan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 164
+<DEFINE> _LSnan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/ymath.h 164 I DC OV F X {u_Dconst} S
+<DEFINE> _FP_LT C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 67 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 67 17 I DN - F M
+<DEFINE> _FP_EQ C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 68 I DF OM - - - O
+<LIT> 2 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 68 17 I DN - F M
+<DEFINE> _FP_GT C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 69 I DF OM - - - O
+<LIT> 4 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 69 17 I DN - F M
+<DEFINE> _FP_ILOGB0 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 74 I DF OM - - - O
+<LIT> 0x7fffffff - N C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 74 27 I HN - F M
+<DEFINE> _FP_ILOGBNAN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 75 I DF OM - - - O
+<LIT> 0x7fffffff - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 75 25 I HN - F M
+<DEFINE> float_t C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 94 I DC OT F N fs -
+<DEFINE> double_t C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 95 I DC OT F N ff -
+<DEFINE> HUGE_VAL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 115 I DF OM - - - O
+<DEFINE> HUGE_VALF C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 116 I DF OM - - - O
+<DEFINE> HUGE_VALL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 117 I DF OM - - - O
+<DEFINE> INFINITY C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 118 I DF OM - - - O
+<DEFINE> NAN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 119 I DF OM - - - O
+<DEFINE> FP_INFINITE C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 123 I DF OM - - - O
+<DEFINE> FP_NAN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 124 I DF OM - - - O
+<DEFINE> FP_NORMAL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 125 I DF OM - - - O
+<DEFINE> FP_SUBNORMAL C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 126 I DF OM - - - O
+<DEFINE> FP_ZERO C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 127 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 127 33 I ON - F M
+<DEFINE> FP_ILOGB0 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 139 I DF OM - - - O
+<DEFINE> FP_ILOGBNAN C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 140 I DF OM - - - O
+<DEFINE> MATH_ERRNO C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 142 I DF OM - - - O
+<LIT> 1 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 142 41 I DN - F M
+<DEFINE> MATH_ERREXCEPT C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 143 I DF OM - - - O
+<LIT> 2 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 143 33 I DN - F M
+<DEFINE> math_errhandling C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 144 I DF OM - - - O
+<EXTN> _FFpcomp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 147
+<DEFINE> _FFpcomp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 147 I DC OF F X (ni,fs,fs) -
+<EXTN> _Fpcomp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 148
+<DEFINE> _Fpcomp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 148 I DC OF F X (ni,ff,ff) -
+<EXTN> _LFpcomp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 149
+<DEFINE> _LFpcomp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 149 I DC OF F X (ni,fl,fl) -
+<EXTN> _FDclass C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 151
+<DEFINE> _FDclass C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 151 I DC OF F X (ni,fs) -
+<EXTN> _Dclass C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 152
+<DEFINE> _Dclass C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 152 I DC OF F X (ni,ff) -
+<EXTN> _LDclass C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 153
+<DEFINE> _LDclass C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 153 I DC OF F X (ni,fl) -
+<EXTN> _FDsign C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 155
+<DEFINE> _FDsign C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 155 I DC OF F X (ni,fs) -
+<EXTN> _Dsign C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 156
+<DEFINE> _Dsign C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 156 I DC OF F X (ni,ff) -
+<EXTN> _LDsign C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 157
+<DEFINE> _LDsign C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 157 I DC OF F X (ni,fl) -
+<DEFINE> _FPCOMP_template C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 170 I DF OM - - - O
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 170 31 I ON - F M
+<DEFINE> _ARG C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 185 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 183 47 I ON - F M
+<LIT> 'f' - - C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 183 70 I CN - F M
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 184 33 I ON - F M
+<LIT> 'd' - - C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 184 57 I CN - F M
+<LIT> 'l' - - C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 185 11 I CN - F M
+<DEFINE> _CARGI C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 189 I DF OM - - - F
+<LIT> 'f' - - C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 187 21 I CN - F M
+<LIT> 'd' - - C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 188 22 I CN - F M
+<DEFINE> _CARG2I C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 193 I DF OM - - - F
+<LIT> 'f' - - C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 191 29 I CN - F M
+<LIT> 'd' - - C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 192 30 I CN - F M
+<DEFINE> _FPCOMP C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 197 I DF OM - - - F
+<DEFINE> fpclassify C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 199 I DF OM - - - F
+<DEFINE> signbit C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 201 I DF OM - - - F
+<DEFINE> isfinite C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 203 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 203 43 I ON - F M
+<DEFINE> isinf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 204 I DF OM - - - F
+<DEFINE> isnan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 205 I DF OM - - - F
+<DEFINE> isnormal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 206 I DF OM - - - F
+<DEFINE> isgreater C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 208 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 208 54 I ON - F M
+<DEFINE> isgreaterequal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 210 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 210 49 I ON - F M
+<DEFINE> isless C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 211 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 211 54 I ON - F M
+<DEFINE> islessequal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 212 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 212 73 I ON - F M
+<DEFINE> islessgreater C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 214 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 214 49 I ON - F M
+<DEFINE> isunordered C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 215 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 215 51 I ON - F M
+<EXTN> acos C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 226
+<DEFINE> acos C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 226 I DC OF F X (ff,ff) -
+<EXTN> asin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 227
+<DEFINE> asin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 227 I DC OF F X (ff,ff) -
+<EXTN> atan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 228
+<DEFINE> atan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 228 I DC OF F X (ff,ff) -
+<EXTN> atan2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 229
+<DEFINE> atan2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 229 I DC OF F X (ff,ff,ff) -
+<EXTN> ceil C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 230
+<DEFINE> ceil C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 230 I DC OF F X (ff,ff) -
+<EXTN> exp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 231
+<DEFINE> exp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 231 I DC OF F X (ff,ff) -
+<EXTN> fabs C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 232
+<DEFINE> fabs C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 232 I DC OF F X (ff,ff) -
+<EXTN> floor C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 233
+<DEFINE> floor C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 233 I DC OF F X (ff,ff) -
+<EXTN> fmod C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 234
+<DEFINE> fmod C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 234 I DC OF F X (ff,ff,ff) -
+<EXTN> frexp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 235
+<DEFINE> frexp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 235 I DC OF F X (ff,ff,pni) -
+<EXTN> ldexp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 236
+<DEFINE> ldexp C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 236 I DC OF F X (ff,ff,ni) -
+<EXTN> modf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 237
+<DEFINE> modf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 237 I DC OF F X (ff,ff,pff) -
+<EXTN> pow C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 238
+<DEFINE> pow C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 238 I DC OF F X (ff,ff,ff) -
+<EXTN> sqrt C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 239
+<DEFINE> sqrt C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 239 I DC OF F X (ff,ff) -
+<EXTN> tan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 240
+<DEFINE> tan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 240 I DC OF F X (ff,ff) -
+<EXTN> tanh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 241
+<DEFINE> tanh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 241 I DC OF F X (ff,ff) -
+<EXTN> acosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 244
+<DEFINE> acosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 244 I DC OF F X (ff,ff) -
+<EXTN> asinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 245
+<DEFINE> asinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 245 I DC OF F X (ff,ff) -
+<EXTN> atanh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 246
+<DEFINE> atanh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 246 I DC OF F X (ff,ff) -
+<EXTN> cbrt C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 247
+<DEFINE> cbrt C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 247 I DC OF F X (ff,ff) -
+<EXTN> copysign C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 248
+<DEFINE> copysign C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 248 I DC OF F X (ff,ff,ff) -
+<EXTN> erf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 249
+<DEFINE> erf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 249 I DC OF F X (ff,ff) -
+<EXTN> erfc C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 250
+<DEFINE> erfc C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 250 I DC OF F X (ff,ff) -
+<EXTN> exp2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 251
+<DEFINE> exp2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 251 I DC OF F X (ff,ff) -
+<EXTN> expm1 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 252
+<DEFINE> expm1 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 252 I DC OF F X (ff,ff) -
+<EXTN> fdim C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 253
+<DEFINE> fdim C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 253 I DC OF F X (ff,ff,ff) -
+<EXTN> fma C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 254
+<DEFINE> fma C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 254 I DC OF F X (ff,ff,ff,ff) -
+<EXTN> fmax C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 255
+<DEFINE> fmax C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 255 I DC OF F X (ff,ff,ff) -
+<EXTN> fmin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 256
+<DEFINE> fmin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 256 I DC OF F X (ff,ff,ff) -
+<EXTN> hypot C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 257
+<DEFINE> hypot C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 257 I DC OF F X (ff,ff,ff) -
+<EXTN> ilogb C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 258
+<DEFINE> ilogb C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 258 I DC OF F X (ni,ff) -
+<EXTN> lgamma C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 259
+<DEFINE> lgamma C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 259 I DC OF F X (ff,ff) -
+<EXTN> llrint C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 260
+<DEFINE> llrint C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 260 I DC OF F X (nll,ff) -
+<EXTN> llround C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 261
+<DEFINE> llround C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 261 I DC OF F X (nll,ff) -
+<EXTN> log1p C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 262
+<DEFINE> log1p C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 262 I DC OF F X (ff,ff) -
+<EXTN> logb C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 263
+<DEFINE> logb C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 263 I DC OF F X (ff,ff) -
+<EXTN> lrint C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 264
+<DEFINE> lrint C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 264 I DC OF F X (nl,ff) -
+<EXTN> lround C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 265
+<DEFINE> lround C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 265 I DC OF F X (nl,ff) -
+<EXTN> nan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 266
+<DEFINE> nan C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 266 I DC OF F X (ff,p=_c) -
+<EXTN> nearbyint C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 267
+<DEFINE> nearbyint C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 267 I DC OF F X (ff,ff) -
+<EXTN> nextafter C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 268
+<DEFINE> nextafter C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 268 I DC OF F X (ff,ff,ff) -
+<EXTN> nexttoward C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 269
+<DEFINE> nexttoward C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 269 I DC OF F X (ff,ff,fl) -
+<EXTN> remainder C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 270
+<DEFINE> remainder C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 270 I DC OF F X (ff,ff,ff) -
+<EXTN> remquo C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 271
+<DEFINE> remquo C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 271 I DC OF F X (ff,ff,ff,pni) -
+<EXTN> rint C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 272
+<DEFINE> rint C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 272 I DC OF F X (ff,ff) -
+<EXTN> round C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 273
+<DEFINE> round C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 273 I DC OF F X (ff,ff) -
+<EXTN> scalbn C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 274
+<DEFINE> scalbn C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 274 I DC OF F X (ff,ff,ni) -
+<EXTN> scalbln C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 275
+<DEFINE> scalbln C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 275 I DC OF F X (ff,ff,nl) -
+<EXTN> tgamma C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 276
+<DEFINE> tgamma C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 276 I DC OF F X (ff,ff) -
+<EXTN> trunc C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 277
+<DEFINE> trunc C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 277 I DC OF F X (ff,ff) -
+<EXTN> acosf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 280
+<DEFINE> acosf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 280 I DC OF F X (fs,fs) -
+<EXTN> asinf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 281
+<DEFINE> asinf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 281 I DC OF F X (fs,fs) -
+<EXTN> atanf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 282
+<DEFINE> atanf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 282 I DC OF F X (fs,fs) -
+<EXTN> atan2f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 283
+<DEFINE> atan2f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 283 I DC OF F X (fs,fs,fs) -
+<EXTN> ceilf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 284
+<DEFINE> ceilf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 284 I DC OF F X (fs,fs) -
+<EXTN> expf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 285
+<DEFINE> expf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 285 I DC OF F X (fs,fs) -
+<EXTN> fabsf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 286
+<DEFINE> fabsf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 286 I DC OF F X (fs,fs) -
+<EXTN> floorf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 287
+<DEFINE> floorf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 287 I DC OF F X (fs,fs) -
+<EXTN> fmodf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 288
+<DEFINE> fmodf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 288 I DC OF F X (fs,fs,fs) -
+<EXTN> frexpf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 289
+<DEFINE> frexpf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 289 I DC OF F X (fs,fs,pni) -
+<EXTN> ldexpf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 290
+<DEFINE> ldexpf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 290 I DC OF F X (fs,fs,ni) -
+<EXTN> modff C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 291
+<DEFINE> modff C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 291 I DC OF F X (fs,fs,pfs) -
+<EXTN> powf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 292
+<DEFINE> powf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 292 I DC OF F X (fs,fs,fs) -
+<EXTN> sqrtf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 293
+<DEFINE> sqrtf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 293 I DC OF F X (fs,fs) -
+<EXTN> tanf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 294
+<DEFINE> tanf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 294 I DC OF F X (fs,fs) -
+<EXTN> tanhf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 295
+<DEFINE> tanhf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 295 I DC OF F X (fs,fs) -
+<EXTN> acoshf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 298
+<DEFINE> acoshf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 298 I DC OF F X (fs,fs) -
+<EXTN> asinhf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 299
+<DEFINE> asinhf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 299 I DC OF F X (fs,fs) -
+<EXTN> atanhf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 300
+<DEFINE> atanhf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 300 I DC OF F X (fs,fs) -
+<EXTN> cbrtf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 301
+<DEFINE> cbrtf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 301 I DC OF F X (fs,fs) -
+<EXTN> copysignf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 302
+<DEFINE> copysignf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 302 I DC OF F X (fs,fs,fs) -
+<EXTN> erff C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 303
+<DEFINE> erff C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 303 I DC OF F X (fs,fs) -
+<EXTN> erfcf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 304
+<DEFINE> erfcf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 304 I DC OF F X (fs,fs) -
+<EXTN> expm1f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 305
+<DEFINE> expm1f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 305 I DC OF F X (fs,fs) -
+<EXTN> exp2f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 306
+<DEFINE> exp2f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 306 I DC OF F X (fs,fs) -
+<EXTN> fdimf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 307
+<DEFINE> fdimf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 307 I DC OF F X (fs,fs,fs) -
+<EXTN> fmaf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 308
+<DEFINE> fmaf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 308 I DC OF F X (fs,fs,fs,fs) -
+<EXTN> fmaxf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 309
+<DEFINE> fmaxf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 309 I DC OF F X (fs,fs,fs) -
+<EXTN> fminf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 310
+<DEFINE> fminf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 310 I DC OF F X (fs,fs,fs) -
+<EXTN> hypotf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 311
+<DEFINE> hypotf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 311 I DC OF F X (fs,fs,fs) -
+<EXTN> ilogbf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 312
+<DEFINE> ilogbf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 312 I DC OF F X (ni,fs) -
+<EXTN> lgammaf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 313
+<DEFINE> lgammaf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 313 I DC OF F X (fs,fs) -
+<EXTN> llrintf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 314
+<DEFINE> llrintf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 314 I DC OF F X (nll,fs) -
+<EXTN> llroundf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 315
+<DEFINE> llroundf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 315 I DC OF F X (nll,fs) -
+<EXTN> log1pf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 316
+<DEFINE> log1pf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 316 I DC OF F X (fs,fs) -
+<EXTN> logbf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 317
+<DEFINE> logbf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 317 I DC OF F X (fs,fs) -
+<EXTN> lrintf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 318
+<DEFINE> lrintf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 318 I DC OF F X (nl,fs) -
+<EXTN> lroundf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 319
+<DEFINE> lroundf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 319 I DC OF F X (nl,fs) -
+<EXTN> nanf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 320
+<DEFINE> nanf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 320 I DC OF F X (fs,p=_c) -
+<EXTN> nearbyintf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 321
+<DEFINE> nearbyintf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 321 I DC OF F X (fs,fs) -
+<EXTN> nextafterf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 322
+<DEFINE> nextafterf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 322 I DC OF F X (fs,fs,fs) -
+<EXTN> nexttowardf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 323
+<DEFINE> nexttowardf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 323 I DC OF F X (fs,fs,fl) -
+<EXTN> remainderf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 324
+<DEFINE> remainderf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 324 I DC OF F X (fs,fs,fs) -
+<EXTN> remquof C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 325
+<DEFINE> remquof C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 325 I DC OF F X (fs,fs,fs,pni) -
+<EXTN> rintf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 326
+<DEFINE> rintf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 326 I DC OF F X (fs,fs) -
+<EXTN> roundf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 327
+<DEFINE> roundf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 327 I DC OF F X (fs,fs) -
+<EXTN> scalbnf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 328
+<DEFINE> scalbnf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 328 I DC OF F X (fs,fs,ni) -
+<EXTN> scalblnf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 329
+<DEFINE> scalblnf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 329 I DC OF F X (fs,fs,nl) -
+<EXTN> tgammaf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 330
+<DEFINE> tgammaf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 330 I DC OF F X (fs,fs) -
+<EXTN> truncf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 331
+<DEFINE> truncf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 331 I DC OF F X (fs,fs) -
+<EXTN> acosl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 335
+<DEFINE> acosl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 335 I DC OF F X (fl,fl) -
+<EXTN> asinl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 336
+<DEFINE> asinl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 336 I DC OF F X (fl,fl) -
+<EXTN> atanl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 337
+<DEFINE> atanl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 337 I DC OF F X (fl,fl) -
+<EXTN> atan2l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 338
+<DEFINE> atan2l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 338 I DC OF F X (fl,fl,fl) -
+<EXTN> ceill C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 339
+<DEFINE> ceill C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 339 I DC OF F X (fl,fl) -
+<EXTN> expl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 340
+<DEFINE> expl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 340 I DC OF F X (fl,fl) -
+<EXTN> fabsl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 341
+<DEFINE> fabsl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 341 I DC OF F X (fl,fl) -
+<EXTN> floorl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 342
+<DEFINE> floorl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 342 I DC OF F X (fl,fl) -
+<EXTN> fmodl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 343
+<DEFINE> fmodl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 343 I DC OF F X (fl,fl,fl) -
+<EXTN> frexpl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 344
+<DEFINE> frexpl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 344 I DC OF F X (fl,fl,pni) -
+<EXTN> ldexpl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 345
+<DEFINE> ldexpl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 345 I DC OF F X (fl,fl,ni) -
+<EXTN> modfl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 346
+<DEFINE> modfl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 346 I DC OF F X (fl,fl,pfl) -
+<EXTN> powl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 347
+<DEFINE> powl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 347 I DC OF F X (fl,fl,fl) -
+<EXTN> sqrtl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 348
+<DEFINE> sqrtl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 348 I DC OF F X (fl,fl) -
+<EXTN> tanl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 349
+<DEFINE> tanl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 349 I DC OF F X (fl,fl) -
+<EXTN> tanhl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 350
+<DEFINE> tanhl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 350 I DC OF F X (fl,fl) -
+<EXTN> acoshl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 353
+<DEFINE> acoshl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 353 I DC OF F X (fl,fl) -
+<EXTN> asinhl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 354
+<DEFINE> asinhl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 354 I DC OF F X (fl,fl) -
+<EXTN> atanhl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 355
+<DEFINE> atanhl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 355 I DC OF F X (fl,fl) -
+<EXTN> cbrtl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 356
+<DEFINE> cbrtl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 356 I DC OF F X (fl,fl) -
+<EXTN> copysignl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 357
+<DEFINE> copysignl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 357 I DC OF F X (fl,fl,fl) -
+<EXTN> erfl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 358
+<DEFINE> erfl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 358 I DC OF F X (fl,fl) -
+<EXTN> erfcl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 359
+<DEFINE> erfcl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 359 I DC OF F X (fl,fl) -
+<EXTN> exp2l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 360
+<DEFINE> exp2l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 360 I DC OF F X (fl,fl) -
+<EXTN> expm1l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 361
+<DEFINE> expm1l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 361 I DC OF F X (fl,fl) -
+<EXTN> fdiml C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 362
+<DEFINE> fdiml C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 362 I DC OF F X (fl,fl,fl) -
+<EXTN> fmal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 363
+<DEFINE> fmal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 363 I DC OF F X (fl,fl,fl,fl) -
+<EXTN> fmaxl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 364
+<DEFINE> fmaxl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 364 I DC OF F X (fl,fl,fl) -
+<EXTN> fminl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 365
+<DEFINE> fminl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 365 I DC OF F X (fl,fl,fl) -
+<EXTN> hypotl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 366
+<DEFINE> hypotl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 366 I DC OF F X (fl,fl,fl) -
+<EXTN> ilogbl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 367
+<DEFINE> ilogbl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 367 I DC OF F X (ni,fl) -
+<EXTN> lgammal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 368
+<DEFINE> lgammal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 368 I DC OF F X (fl,fl) -
+<EXTN> llrintl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 369
+<DEFINE> llrintl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 369 I DC OF F X (nll,fl) -
+<EXTN> llroundl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 370
+<DEFINE> llroundl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 370 I DC OF F X (nll,fl) -
+<EXTN> log1pl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 371
+<DEFINE> log1pl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 371 I DC OF F X (fl,fl) -
+<EXTN> logbl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 372
+<DEFINE> logbl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 372 I DC OF F X (fl,fl) -
+<EXTN> lrintl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 373
+<DEFINE> lrintl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 373 I DC OF F X (nl,fl) -
+<EXTN> lroundl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 374
+<DEFINE> lroundl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 374 I DC OF F X (nl,fl) -
+<EXTN> nanl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 375
+<DEFINE> nanl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 375 I DC OF F X (fl,p=_c) -
+<EXTN> nearbyintl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 376
+<DEFINE> nearbyintl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 376 I DC OF F X (fl,fl) -
+<EXTN> nextafterl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 377
+<DEFINE> nextafterl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 377 I DC OF F X (fl,fl,fl) -
+<EXTN> nexttowardl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 378
+<DEFINE> nexttowardl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 378 I DC OF F X (fl,fl,fl) -
+<EXTN> remainderl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 379
+<DEFINE> remainderl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 379 I DC OF F X (fl,fl,fl) -
+<EXTN> remquol C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 380
+<DEFINE> remquol C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 380 I DC OF F X (fl,fl,fl,pni) -
+<EXTN> rintl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 381
+<DEFINE> rintl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 381 I DC OF F X (fl,fl) -
+<EXTN> roundl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 382
+<DEFINE> roundl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 382 I DC OF F X (fl,fl) -
+<EXTN> scalbnl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 383
+<DEFINE> scalbnl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 383 I DC OF F X (fl,fl,ni) -
+<EXTN> scalblnl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 384
+<DEFINE> scalblnl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 384 I DC OF F X (fl,fl,nl) -
+<EXTN> tgammal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 385
+<DEFINE> tgammal C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 385 I DC OF F X (fl,fl) -
+<EXTN> truncl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 386
+<DEFINE> truncl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 386 I DC OF F X (fl,fl) -
+<EXTN> cos C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 393
+<DEFINE> cos C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 393 I DC OF F X (ff,ff) -
+<EXTN> cosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 394
+<DEFINE> cosh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 394 I DC OF F X (ff,ff) -
+<EXTN> log C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 395
+<DEFINE> log C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 395 I DC OF F X (ff,ff) -
+<EXTN> log10 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 396
+<DEFINE> log10 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 396 I DC OF F X (ff,ff) -
+<EXTN> sin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 397
+<DEFINE> sin C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 397 I DC OF F X (ff,ff) -
+<EXTN> sinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 398
+<DEFINE> sinh C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 398 I DC OF F X (ff,ff) -
+<EXTN> log2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 401
+<DEFINE> log2 C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 401 I DC OF F X (ff,ff) -
+<EXTN> cosf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 404
+<DEFINE> cosf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 404 I DC OF F X (fs,fs) -
+<EXTN> coshf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 405
+<DEFINE> coshf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 405 I DC OF F X (fs,fs) -
+<EXTN> logf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 406
+<DEFINE> logf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 406 I DC OF F X (fs,fs) -
+<EXTN> log10f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 407
+<DEFINE> log10f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 407 I DC OF F X (fs,fs) -
+<EXTN> sinf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 408
+<DEFINE> sinf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 408 I DC OF F X (fs,fs) -
+<EXTN> sinhf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 409
+<DEFINE> sinhf C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 409 I DC OF F X (fs,fs) -
+<EXTN> log2f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 412
+<DEFINE> log2f C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 412 I DC OF F X (fs,fs) -
+<EXTN> cosl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 415
+<DEFINE> cosl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 415 I DC OF F X (fl,fl) -
+<EXTN> coshl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 416
+<DEFINE> coshl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 416 I DC OF F X (fl,fl) -
+<EXTN> logl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 417
+<DEFINE> logl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 417 I DC OF F X (fl,fl) -
+<EXTN> log10l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 418
+<DEFINE> log10l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 418 I DC OF F X (fl,fl) -
+<EXTN> sinl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 419
+<DEFINE> sinl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 419 I DC OF F X (fl,fl) -
+<EXTN> sinhl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 420
+<DEFINE> sinhl C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 420 I DC OF F X (fl,fl) -
+<EXTN> log2l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 423
+<DEFINE> log2l C:/_Synergy_Projects/Prep/StdDef/include/TMS570_4_9_5/include/math.h 423 I DC OF F X (fl,fl) -
+<EXTN> Blend_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 25
+<DEFINE> In1_Uls_T_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 25 I DC OV P N fs R
+<DEFINE> In2_Uls_T_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 26 I DC OV P N fs R
+<DEFINE> Factor_Uls_T_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 27 I DC OV P N fs R
+<DEFINE> Blend_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 25 I DC OF F X (fs,fs,fs,fs) -
+<EXTD> Blend_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 38
+<DEFINE> In1_Uls_T_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 38 I DC OV B N fs R
+<DEFINE> In2_Uls_T_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 39 I DC OV B N fs R
+<DEFINE> Factor_Uls_T_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 40 I DC OV B N fs R
+<DEFINE> Blend_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 38 I DR OF F X (fs,fs,fs,fs) -
+<DEFINE> Blend_f32 C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 38 I DF OF F X (fs,fs,fs,fs) -
+<LIT> 1.0 - P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 42 31 I FN ff B X
+<CTLG> Blend_f32 1
+<CTLG> 1 3
+<CTLGN> 41 42 42 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h
+<S>STNAM  Blend_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<DEFINE> Redundant_Format_1_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 52 I DF OM - - - F
+<DEFINE> TableSize_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 60 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 60 52 I ON - F M
+<DEFINE> Abs_s16_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 69 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 69 30 I ON - F M
+<LIT> 1 - N C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 69 63 I DN - F M
+<DEFINE> Abs_s32_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 78 I DF OM - - - F
+<LIT> 0 L P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 78 30 I ON - F M
+<LIT> 1 L N C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 78 64 I DN - F M
+<DEFINE> Abs_f32_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 87 I DF OM - - - F
+<DEFINE> Sign_s16_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 96 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 96 31 I ON - F M
+<LIT> 1 - P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 96 37 I DN - F M
+<LIT> 1 - N C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 96 44 I DN - F M
+<DEFINE> Sign_s32_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 105 I DF OM - - - F
+<LIT> 0 - P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 105 39 I ON - F M
+<LIT> 1 - P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 105 45 I DN - F M
+<LIT> 1 - N C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 105 52 I DN - F M
+<DEFINE> Sign_f32_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 114 I DF OM - - - F
+<LIT> 0.0 f P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 114 31 I FN - F M
+<LIT> 1 - P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 114 40 I DN - F M
+<LIT> 1 - N C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 114 47 I DN - F M
+<DEFINE> Min_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 123 I DF OM - - - F
+<DEFINE> Max_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 133 I DF OM - - - F
+<DEFINE> Limit_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 146 I DF OM - - - F
+<DEFINE> DiagNStep_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 157 I DF OM - - - F
+<LIT> 0 U P C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 157 61 I ON - F M
+<DEFINE> DiagPStep_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 170 I DF OM - - - F
+<DEFINE> DiagFailed_m C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h 181 I DF OM - - - F
+<DEFINE> D_ADC2NUMRSLTBUF_CNT_U08 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 30 N DF OM - - - O
+<LIT> 64 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 28 49 N DN - F M
+<LIT> 1 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 35 36 N DN - F P
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 35 41 N ON - F P
+<LIT> 1 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 35 74 N DN - F P
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 35 78 N ON - F P
+<LIT> 1 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 35 111 N DN - F P
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 35 116 N ON - F P
+<DEFINE> ADC2_START_SEC_CONST_32 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 39 N DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 40
+<LIT> 3 - P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 45 80 N DN ni F D
+<LIT> 0 - P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 50 56 N ON ni F A
+<DEFINE> T_Adc2GroupConfigData_Cnt_Str C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 45 N DC OV F I [3,={sAdc_GroupConfigDataType}] S
+<DEFINE> T_Adc2GroupConfigData_Cnt_Str C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 45 N DF OV F I [3,={sAdc_GroupConfigDataType}] S
+<DEFINE> ADC2_STOP_SEC_CONST_32 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 63 N DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 64
+<DEFINE> ADC2_START_SEC_CODE C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 67 N DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 68
+<EXTD> Adc2_Init1 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 76
+<DEFINE> Adc2_Init1 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 76 N DR OF F X (.,.) -
+<DEFINE> Adc2_Init1 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 76 N DF OF F X (.,.) -
+<DEFINE> i C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 78 N DC OV B N nc -
+<DEFINE> i C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 78 N DF OV B N nc -
+<DEFINE> Group_Cnt_T_u08 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 79 N DC OV B N uc -
+<DEFINE> Group_Cnt_T_u08 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 79 N DF OV B N uc -
+<DEFINE> convMask_Cnt_T_u32 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 80 N DC OV B N ul -
+<DEFINE> convMask_Cnt_T_u32 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 80 N DF OV B N ul -
+<DEFINE> ADCOffset_Cnt_T_u8p8 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 81 N DC OV B N us -
+<DEFINE> ADCOffset_Cnt_T_u8p8 C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 81 N DF OV B N us -
+<LIT> 0x80140001 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 87 29 N HN ul B X
+<LIT> 4 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 90 28 N DN ui B X
+<LIT> 0x02 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 93 27 N HN ui B X
+<LIT> 0xFE U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 95 72 N HN ui B X
+<LIT> 15 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 95 82 N DN ui B X
+<LIT> 1 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 96 104 N DN ui B X
+<LIT> 6 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 98 27 N DN ui B X
+<LIT> 6 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 99 27 N DN ui B X
+<LIT> 6 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 100 27 N DN ui B X
+<RDEF> C Calls
+<R>C Adc2_Init1 ADC2_REPORTERRORSTATUS 103
+<RDEF> X Refers-to
+<R>X Adc2_Init1 ADC2_REPORTERRORSTATUS 103 R
+<R>C Adc2_Init1 ADCOffsetCalibration 103
+<R>X Adc2_Init1 ADCOffsetCalibration 103 R
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 106 26 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 107 27 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 108 27 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 109 28 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 110 32 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 111 32 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 112 32 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 113 30 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 114 30 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 115 30 N ON ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 116 36 N ON ui B X
+<LIT> 0x7 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 117 36 N HN ui B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 122 46 N ON ui B X
+<LIT> 0x00010030 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 126 47 N HN ul B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 131 45 N ON ui B X
+<LIT> 0x00010030 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 135 46 N HN ul B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 140 45 N ON ui B X
+<LIT> 0x00010030 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 144 46 N HN ul B X
+<LIT> 0 - P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 155 19 N ON ni B X
+<LIT> 1 ul P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 156 39 N DN ul B X
+<LIT> 16 - P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 156 47 N DN ni B X
+<LIT> 16 - P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 156 47 N DN ni B X
+<LIT> 1 ul P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 156 64 N DN ul B X
+<LIT> 16 - P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 157 22 N DN ni B X
+<LIT> 0 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 159 81 N ON ui B X
+<R>C Adc2_Init1 Adc2_StartGroupConversion 166
+<R>X Adc2_Init1 Adc2_StartGroupConversion 166 R
+<R>C Adc2_Init1 Adc2_StartGroupConversion 167
+<R>X Adc2_Init1 Adc2_StartGroupConversion 167 R
+<R>C Adc2_Init1 Adc2_StartGroupConversion 168
+<R>X Adc2_Init1 Adc2_StartGroupConversion 168 R
+<LIT> 0x00010038 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 179 54 N HN ul B X
+<R>C Adc2_Init1 Adc2_EnableGroupNotification 191
+<R>X Adc2_Init1 Adc2_EnableGroupNotification 191 R
+<CTLG> Adc2_Init1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 7
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 4
+<CTLG> 6 2
+<CTLG> 7 8
+<CTLG> 8 10
+<CTLGN> 77 155 155 159 159 159 155 195 195 195 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/src/Adc2.c
+<S>STNAM  Adc2_Init1
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  2
+<S>STSUB  6
+<S>STAKI  9
+<S>STLIN  117
+<S>STXLN  55
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  4
+<S>STPTH  3
+<S>STPDN  0.05   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  60
+<S>STST2  58
+<S>STST3  54
+<S>STPAR  0
+<S>STCAL  4
+<S>STFN1  284
+<S>STFN2  208
+
+<EXTD> Adc2_StartGroupConversion C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 197
+<DEFINE> group C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 197 N DC OV B N uc R
+<DEFINE> Adc2_StartGroupConversion C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 197 N DR OF F X (.,uc) -
+<DEFINE> Adc2_StartGroupConversion C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 197 N DF OF F X (.,uc) -
+<CTLG> Adc2_StartGroupConversion 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 198 205 205 205 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/src/Adc2.c
+<S>STNAM  Adc2_StartGroupConversion
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  6
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  15
+<S>STAV2  15
+<S>STAV3  15
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  18
+<S>STFN2  12
+
+<EXTD> Adc2_EnableGroupNotification C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 207
+<DEFINE> group C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 207 N DC OV B N uc R
+<DEFINE> Adc2_EnableGroupNotification C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 207 N DR OF F X (.,uc) -
+<DEFINE> Adc2_EnableGroupNotification C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 207 N DF OF F X (.,uc) -
+<LIT> 8 U P C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 209 36 N DN ui B X
+<CTLG> Adc2_EnableGroupNotification 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 208 210 210 210 
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/src/Adc2.c
+<S>STNAM  Adc2_EnableGroupNotification
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  11
+<S>STAV2  11
+<S>STAV3  11
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  7
+<S>STFN2  4
+
+<DEFINE> ADC2_STOP_SEC_CODE C:/_Synergy_Projects/Prep/Adc/src/Adc2.c 212 N DF OM - - - O
+<R>I C:/_Synergy_Projects/Prep/Adc/src/Adc2.c C:/_Synergy_Projects/Prep/Adc/utp/Contract/MemMap.h 213
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/src/Adc2.c
+<S>STNAM  Adc2_EnableGroupNotification
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/src/Adc2.c
+<S>STNAM  Adc2_StartGroupConversion
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/src/Adc2.c
+<S>STNAM  Adc2_Init1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/include/Adc2.h
+<S>STNAM  Adc2_ReadConversion
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/NxtrLib/include/GlobalMacro.h
+<S>STNAM  Blend_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_Synergy_Projects/Prep/Adc/src/Adc2.c
+<S>STNAM  C:/_Synergy_Projects/Prep/Adc/src/Adc2.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  1
+<S>STECT  0
+<S>STFNC  3
+<S>STFCO  4
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  103
+<S>STOPT  30
+<S>STOPN  147
+<S>STTOT  791
+<S>STZIP  1018
+<S>STHAL  1206
+<S>STSHN  4284
+<S>STDIF  8.38   
+<S>STEFF  49491
+<S>STVOL  5907
+<S>STDEV  8.25   
+<S>STBUG  1
+<S>STTPP  235
+<S>STTLN  91
+<S>STM20  274
+<S>STM21  508
+<S>STM22  60
+<S>STM28  37
+<S>STM33  32
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.525  
+<S>STBMS  0.593  
+<S>STBME  0.633  
+<S>STTDO  1.956  
+<S>STTDS  2.082  
+<S>STTDE  2.160  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.910  
+

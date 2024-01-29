@@ -1,0 +1,408 @@
+<RDEF> I Includes
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 21
+<DEFINE> STD_TYPES_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 22
+<DEFINE> RESETCAUSE_H_ C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 2 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 4
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 5
+<DEFINE> PWRONRESET C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 7 I DF OM - - - O
+<LIT> 0x0000FFFF UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 7 49 I HN - F M
+<DEFINE> DEBUGRESET C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 8 I DF OM - - - O
+<LIT> 0x0001FFFE UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 8 49 I HN - F M
+<DEFINE> CPURESET C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 9 I DF OM - - - O
+<LIT> 0x0002FFFD UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 9 49 I HN - F M
+<DEFINE> SPPBISTFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 10 I DF OM - - - O
+<LIT> 0x0003FFFC UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 10 41 I HN - F M
+<DEFINE> DPPBISTFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 11 I DF OM - - - O
+<LIT> 0x0004FFFB UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 11 41 I HN - F M
+<DEFINE> EXTRESET C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 12 I DF OM - - - O
+<LIT> 0x0005FFFA UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 12 49 I HN - F M
+<DEFINE> OSCFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 13 I DF OM - - - O
+<LIT> 0x0006FFF9 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 13 49 I HN - F M
+<DEFINE> SWRESET C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 14 I DF OM - - - O
+<LIT> 0x0007FFF8 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 14 49 I HN - F M
+<DEFINE> WDGFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 15 I DF OM - - - O
+<LIT> 0x0008FFF7 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 15 49 I HN - F M
+<DEFINE> CCMSTEFFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 16 I DF OM - - - O
+<LIT> 0x0009FFF6 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 16 41 I HN - F M
+<DEFINE> CCMSTFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 17 I DF OM - - - O
+<LIT> 0x000AFFF5 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 17 41 I HN - F M
+<DEFINE> CCMEFFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 18 I DF OM - - - O
+<LIT> 0x000BFFF4 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 18 41 I HN - F M
+<DEFINE> PBISTSCFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 19 I DF OM - - - O
+<LIT> 0x000CFFF3 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 19 41 I HN - F M
+<DEFINE> STCSCFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 20 I DF OM - - - O
+<LIT> 0x000DFFF2 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 20 41 I HN - F M
+<DEFINE> STCFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 21 I DF OM - - - O
+<LIT> 0x000EFFF1 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 21 49 I HN - F M
+<DEFINE> ESM3NONZERO C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 22 I DF OM - - - O
+<LIT> 0x000FFFF0 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 22 41 I HN - F M
+<DEFINE> EFCSTFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 23 I DF OM - - - O
+<LIT> 0x0010FFEF UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 23 41 I HN - F M
+<DEFINE> EFCSTUCKZERO C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 24 I DF OM - - - O
+<LIT> 0x0011FFEE UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 24 41 I HN - F M
+<DEFINE> EFCERROR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 25 I DF OM - - - O
+<LIT> 0x0012FFED UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 25 49 I HN - F M
+<DEFINE> FLSBUS2CORRFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 26 I DF OM - - - O
+<LIT> 0x0013FFEC UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 26 41 I HN - F M
+<DEFINE> FLSBUS2ADDCAPFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 27 I DF OM - - - O
+<LIT> 0x0014FFEB UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 27 33 I HN - F M
+<DEFINE> FLSBUS2MULBITDETFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 28 I DF OM - - - O
+<LIT> 0x0015FFEA UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 28 33 I HN - F M
+<DEFINE> FLSBUS2SNGBITDETFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 29 I DF OM - - - O
+<LIT> 0x0016FFE9 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 29 33 I HN - F M
+<DEFINE> VIMPARFLGFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 30 I DF OM - - - O
+<LIT> 0x0017FFE8 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 30 41 I HN - F M
+<DEFINE> VIMPARADDERRFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 31 I DF OM - - - O
+<LIT> 0x0018FFE7 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 31 41 I HN - F M
+<DEFINE> VIMPARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 32 I DF OM - - - O
+<LIT> 0x0019FFE6 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 32 41 I HN - F M
+<DEFINE> DCAN1PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 33 I DF OM - - - O
+<LIT> 0x001AFFE5 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 33 41 I HN - F M
+<DEFINE> DCAN2PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 34 I DF OM - - - O
+<LIT> 0x001BFFE4 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 34 41 I HN - F M
+<DEFINE> DCAN3PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 35 I DF OM - - - O
+<LIT> 0x001CFFE3 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 35 41 I HN - F M
+<DEFINE> DMAPARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 36 I DF OM - - - O
+<LIT> 0x001DFFE2 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 36 41 I HN - F M
+<DEFINE> MIBADC1PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 37 I DF OM - - - O
+<LIT> 0x001EFFE1 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 37 41 I HN - F M
+<DEFINE> MIBADC2PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 38 I DF OM - - - O
+<LIT> 0x001FFFE0 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 38 41 I HN - F M
+<DEFINE> MIBSPI1PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 39 I DF OM - - - O
+<LIT> 0x0020FFDF UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 39 41 I HN - F M
+<DEFINE> MIBSPI3PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 40 I DF OM - - - O
+<LIT> 0x0021FFDE UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 40 41 I HN - F M
+<DEFINE> MIBSPI5PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 41 I DF OM - - - O
+<LIT> 0x0022FFDD UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 41 41 I HN - F M
+<DEFINE> N2HET1PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 42 I DF OM - - - O
+<LIT> 0x0023FFDC UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 42 41 I HN - F M
+<DEFINE> N2HET1TUPARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 43 I DF OM - - - O
+<LIT> 0x0024FFDB UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 43 33 I HN - F M
+<DEFINE> N2HET2PARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 44 I DF OM - - - O
+<LIT> 0x0025FFDA UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 44 41 I HN - F M
+<DEFINE> N2HET2TUPARESMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 45 I DF OM - - - O
+<LIT> 0x0026FFD9 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 45 33 I HN - F M
+<DEFINE> B0MULBITRAMECCDETFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 46 I DF OM - - - O
+<LIT> 0x0027FFD8 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 46 33 I HN - F M
+<DEFINE> B1MULBITRAMECCDETFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 47 I DF OM - - - O
+<LIT> 0x0028FFD7 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 47 33 I HN - F M
+<DEFINE> B0SNGBITRAMECCDETFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 48 I DF OM - - - O
+<LIT> 0x0029FFD6 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 48 33 I HN - F M
+<DEFINE> B1SNGBITRAMECCDETFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 49 I DF OM - - - O
+<LIT> 0x002AFFD5 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 49 33 I HN - F M
+<DEFINE> SNGBITFLSECCDETFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 50 I DF OM - - - O
+<LIT> 0x002BFFD4 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 50 33 I HN - F M
+<DEFINE> MULBITFLSECCDETFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 51 I DF OM - - - O
+<LIT> 0x002CFFD3 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 51 33 I HN - F M
+<DEFINE> LPOTRIMERROR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 52 I DF OM - - - O
+<LIT> 0x002DFFD2 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 52 41 I HN - F M
+<DEFINE> DATAMULBITRAMECCFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 53 I DF OM - - - O
+<LIT> 0x002EFFD1 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 53 33 I HN - F M
+<DEFINE> DATAMULBITFLSECCFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 54 I DF OM - - - O
+<LIT> 0x002FFFD0 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 54 33 I HN - F M
+<DEFINE> CPUDATAABORT C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 55 I DF OM - - - O
+<LIT> 0x0030FFCF UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 55 41 I HN - F M
+<DEFINE> CPUPREFETCHABORT C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 56 I DF OM - - - O
+<LIT> 0x0031FFCE UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 56 41 I HN - F M
+<DEFINE> PRFTCMULBITRAMECCFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 57 I DF OM - - - O
+<LIT> 0x0032FFCD UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 57 33 I HN - F M
+<DEFINE> PRFTCMULBITFLSECCFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 58 I DF OM - - - O
+<LIT> 0x0033FFCC UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 58 33 I HN - F M
+<DEFINE> UNDEFINST C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 59 I DF OM - - - O
+<LIT> 0x0034FFCB UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 59 49 I HN - F M
+<DEFINE> CLOCKMONITOR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 60 I DF OM - - - O
+<LIT> 0x0035FFCA UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 60 41 I HN - F M
+<DEFINE> CCMFAILED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 61 I DF OM - - - O
+<LIT> 0x0036FFC9 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 61 49 I HN - F M
+<DEFINE> FMCUNCORRERR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 62 I DF OM - - - O
+<LIT> 0x0037FFC8 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 62 41 I HN - F M
+<DEFINE> B0UNCORRERR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 63 I DF OM - - - O
+<LIT> 0x0038FFC7 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 63 49 I HN - F M
+<DEFINE> B1UNCORRERR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 64 I DF OM - - - O
+<LIT> 0x0039FFC6 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 64 49 I HN - F M
+<DEFINE> B0ADDPARERR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 65 I DF OM - - - O
+<LIT> 0x003AFFC5 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 65 49 I HN - F M
+<DEFINE> B1ADDPARERR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 66 I DF OM - - - O
+<LIT> 0x003BFFC4 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 66 49 I HN - F M
+<DEFINE> FLSECCLIVELOCK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 67 I DF OM - - - O
+<LIT> 0x003CFFC3 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 67 41 I HN - F M
+<DEFINE> VIMMULTBITFLT C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 68 I DF OM - - - O
+<LIT> 0x003DFFC2 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 68 41 I HN - F M
+<DEFINE> VIMPARTHRSHFLT C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 69 I DF OM - - - O
+<LIT> 0x003EFFC1 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 69 41 I HN - F M
+<DEFINE> UNUSEDINTERRUPT C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 70 I DF OM - - - O
+<LIT> 0x003FFFC0 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 70 41 I HN - F M
+<DEFINE> STACKOVERWRITE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 71 I DF OM - - - O
+<LIT> 0x0040FFBF UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 71 41 I HN - F M
+<DEFINE> MPUVIOLATION C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 72 I DF OM - - - O
+<LIT> 0x0041FFBE UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 72 41 I HN - F M
+<DEFINE> WDGALIVEMONFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 73 I DF OM - - - O
+<LIT> 0x0042FFBD UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 73 41 I HN - F M
+<DEFINE> WDGDEADLINEFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 74 I DF OM - - - O
+<LIT> 0x0043FFBC UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 74 41 I HN - F M
+<DEFINE> WDGPROGFLOWFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 75 I DF OM - - - O
+<LIT> 0x0044FFBB UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 75 41 I HN - F M
+<DEFINE> SWWDGFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 76 I DF OM - - - O
+<LIT> 0x0045FFBA UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 76 49 I HN - F M
+<DEFINE> FPUDZCEXCP C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 77 I DF OM - - - O
+<LIT> 0x0046FFB9 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 77 49 I HN - F M
+<DEFINE> FPUOFCEXCP C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 78 I DF OM - - - O
+<LIT> 0x0047FFB8 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 78 49 I HN - F M
+<DEFINE> FPUIOCEXCP C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 79 I DF OM - - - O
+<LIT> 0x0048FFB7 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 79 49 I HN - F M
+<DEFINE> FPUUNKNOWNEXCP C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 80 I DF OM - - - O
+<LIT> 0x0049FFB6 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 80 41 I HN - F M
+<DEFINE> HTU1MPUSTARTUPFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 81 I DF OM - - - O
+<LIT> 0x004AFFB5 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 81 41 I HN - F M
+<DEFINE> HTU2MPUSTARTUPFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 82 I DF OM - - - O
+<LIT> 0x004BFFB4 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 82 41 I HN - F M
+<DEFINE> DMAMPUSTARTUPFAIL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 83 I DF OM - - - O
+<LIT> 0x004CFFB3 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 83 41 I HN - F M
+<DEFINE> PLLSLIP C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 84 I DF OM - - - O
+<LIT> 0x004DFFB2 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 84 49 I HN - F M
+<DEFINE> PLLSLIPRESET C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 86 I DF OM - - - O
+<LIT> 0x004FFFB0 UL P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 86 41 I HN - F M
+<DEFINE> ENUM_ResetCause C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 88 I DC OT F N ul -
+<EXTN> ResetCause_Cnt_Enum C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 89
+<DEFINE> ResetCause_Cnt_Enum C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 89 I DC OV F X ^ul S
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/include/RednRpdShtdn.h 23
+<DEFINE> REDNRPDSHTDN_H_ C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/include/RednRpdShtdn.h 19 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/include/RednRpdShtdn.h C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/utp/contract/ResetCause.h 21
+<EXTN> RednRpdShtdn C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/include/RednRpdShtdn.h 23
+<DEFINE> ResetCause_Cnt_T_Enum C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/include/RednRpdShtdn.h 23 I DC OV P N ul R
+<DEFINE> RednRpdShtdn C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/include/RednRpdShtdn.h 23 I DC OF F X (.,ul) -
+<EXTN> AbortHandler C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c 28
+<DEFINE> ResetCause_Cnt_T_Enum C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c 28 N DC OV P N ul R
+<DEFINE> AbortHandler C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c 28 N DC OF F X (.,ul) -
+<EXTD> AbortHandler C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c 30
+<DEFINE> ResetCause_Cnt_T_Enum C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c 30 N DC OV B N ul R
+<DEFINE> AbortHandler C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c 30 N DR OF F X (.,ul) -
+<DEFINE> AbortHandler C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c 30 N DF OF F X (.,ul) -
+<RDEF> C Calls
+<R>C AbortHandler RednRpdShtdn 32
+<RDEF> X Refers-to
+<R>X AbortHandler RednRpdShtdn 32 R
+<CTLG> AbortHandler 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 31 33 33 33 
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c
+<S>STNAM  AbortHandler
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  5
+<S>STFN2  2
+
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c
+<S>STNAM  AbortHandler
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c
+<S>STNAM  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_uDiag/src/AbortHandler.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  0
+<S>STFNC  1
+<S>STFCO  1
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  6
+<S>STOPT  9
+<S>STOPN  6
+<S>STTOT  39
+<S>STZIP  49
+<S>STHAL  44
+<S>STSHN  133
+<S>STDIF  6.35   
+<S>STEFF  967
+<S>STVOL  152
+<S>STDEV  0.16   
+<S>STBUG  0
+<S>STTPP  42
+<S>STTLN  5
+<S>STM20  12
+<S>STM21  24
+<S>STM22  2
+<S>STM28  2
+<S>STM33  0
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.086  
+<S>STBMS  0.086  
+<S>STBME  0.080  
+<S>STTDO  0.984  
+<S>STTDS  1.060  
+<S>STTDE  1.115  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  4.798  
+

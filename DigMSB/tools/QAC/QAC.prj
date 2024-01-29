@@ -1,0 +1,11 @@
+VersionTag45
+ProjectDataflowFile=..\..\..\QAC\Preset_4.p_d
+StartProjectMarker
+FolderName=Sa_DigMSB
+SourcePath=
+OutputPath=..\..\doc\QAC_Results
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_DigMSB.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Sa_DigMSB.c
+EndContainedFilesMarker

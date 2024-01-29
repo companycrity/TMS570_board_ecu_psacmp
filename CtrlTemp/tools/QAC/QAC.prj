@@ -1,0 +1,16 @@
+VersionTag45
+StartProjectMarker
+FolderName=CtrlTemp
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=Sa_CtrlTemp
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_CtrlTemp.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Sa_CtrlTemp.c
+EndContainedFilesMarker
+EndSubProjectMarker
+

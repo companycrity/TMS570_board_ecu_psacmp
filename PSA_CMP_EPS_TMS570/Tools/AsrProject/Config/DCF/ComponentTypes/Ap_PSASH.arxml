@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xsi:schemaLocation="http://autosar.org/3.1.4 autosar_314_ext.xsd" xmlns="http://autosar.org/3.1.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TOP-LEVEL-PACKAGES>
+		<AR-PACKAGE>
+			<SHORT-NAME>ComponentType</SHORT-NAME>
+			<ELEMENTS>
+				<APPLICATION-SOFTWARE-COMPONENT-TYPE>
+					<SHORT-NAME>Ap_PSASH</SHORT-NAME>
+					<PORTS>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>ApaState</SHORT-NAME>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/PsaApaSt_Cnt_enum/Cnt_enum</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="INTEGER-LITERAL">/Constant/D_PSAAPASTINIT_CNT_ENUM/D_PSAAPASTINIT_CNT_ENUM</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/PsaApaSt_Cnt_enum</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>ApaStateTransitionCause</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Indicates the transition reason of the Automatic Parking Assist State</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/PsaApaTranCause_Cnt_enum/Cnt_enum</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="INTEGER-LITERAL">/Constant/D_PSAAPATRANCAUSEINIT_CNT_ENUM/D_PSAAPATRANCAUSEINIT_CNT_ENUM</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/PsaApaTranCause_Cnt_enum</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>DrvrIntvDetd</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True -&gt; Hands are on the wheel.</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>EPSStateForLxa</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">EPS State For LXA</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/PsaEpsStLxa_Cnt_enum/Cnt_enum</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="INTEGER-LITERAL">/Constant/D_PSAEPSSTLXAINIT_CNT_ENUM/D_PSAEPSSTLXAINIT_CNT_ENUM</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/PsaEpsStLxa_Cnt_enum</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>HwTrqRate</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Computes Handwheel Torque gradient during LXA command</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwTrqRate_HwNmpS_f32/HwNmpS_f32</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/HwTrqRate_HwNmpS_f32</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaApaConflictReqNTC</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True means that NTC VLF_20 has been set to FAILED at least one time.</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaCorrnFacReqLimd</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">If equal to 1, then the trajectory correction is maximal. If equal to 0, then the trajectory correction is minimal.</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/ScaleFactor_Uls_f32/Uls_f32</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/ScaleFactor_Uls_f32</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaDrvrAbsntDetd</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True = Lxa is inactive or driver absent detected</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaDrvrAbsntHwVelDetd</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True means Lxa has been deactivated on handwheel velocity.</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaDrvrAbsntWarn</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True means a warning that hands are not on the wheel.</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaHwAgDetd</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True means LXA has been deactivated on handwheel angle.</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaInactivOnDrvrBhvr</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">LXA Inactive on Driver Behavior</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>PosSrvoEnable</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True means Position Servo is enabled.</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>PosSrvoHwAngle</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Tracking angle.</L-2>
+							</DESC>
+							<PROVIDED-COM-SPECS>
+								<UNQUEUED-SENDER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwPos_HwDeg_f32/HwDeg_f32</DATA-ELEMENT-REF>
+									<CAN-INVALIDATE>false</CAN-INVALIDATE>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-SENDER-COM-SPEC>
+							</PROVIDED-COM-SPECS>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/HwPos_HwDeg_f32</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>AbsActv</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">CAN signal indicating whether ABS is active or not.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>ApaAuthn</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: Ignition is running and auto park function is authorized.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>ApaCmdReq</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: Automatic Parking Assist Command is requested.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>ApaEna</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: if the coding variant of Automatic Parking Assist is enabled</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>ApaHwAgCmd</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Handwheel position set point for Automatic Parking Assist.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwPos_HwDeg_f32/HwDeg_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/HwPos_HwDeg_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>ApaPosSrvoFlt</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: If an NTC is detected due to fact that Automatic Parking ASsist is still active during a vehicle speed greater than a certain threshold</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>ApaRelaxReq</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: Temporary request to hold the Automatic Parking Assist command.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>AssistStallLimit</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Motor is stalled when Stall limit is lower or equal than a certain calibrated threshold</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/MtrTrq_MtrNm_f32/MtrNm_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_MTRTRQCMDHILMT_MTRNM_F32/D_MTRTRQCMDHILMT_MTRNM_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/MtrTrq_MtrNm_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>CpkOk</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: All CAN signal used by Automatic Parking Assist are valid.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>EscActv</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: Electrical stability control is active</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>EscEna</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: Electronic Stability Control is enabled.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>EscFltPrsnt</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: Fault present on Electronic Stability Control</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_TRUE_CNT_LGC/D_TRUE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>FTermActv</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: Fault term is active</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>HandwheelAuthority</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Handwheel Authority signal whichis used in order to determine APA State and LXA State.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/Authority_Uls_f32/Uls_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/Authority_Uls_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>HandwheelPosition</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Handwheel Position Signal. Used in all kinds of computations: LXA State, APA State and LXA Driver Behavior</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwPos_HwDeg_f32/HwDeg_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/HwPos_HwDeg_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>HandwheelVelocity</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Handwheel Velocity. Used for calculating handwheel velocity thresholds used in LXA Driver Behavior algorithm to determine its outputs.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwVel_HwRadpS_f32/HwRadpS_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/HwVel_HwRadpS_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>HOWState</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Computes if hands are on the wheel or not with a levelof confident goi'ng from -3 to 3</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/Count_Cnt_s08/Cnt_s08</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="INTEGER-LITERAL">/Constant/D_ZERO_CNT_S8/D_ZERO_CNT_S8</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/Count_Cnt_s08</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>HwTorque</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Standard Handwheel Torque used in LXA Driver Behavior algorithm.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwTrq_HwNm_f32/HwNm_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/HwTrq_HwNm_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>LpaSeld</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">To select between LKA (Lane Keeping Assist) &amp; LPA (Lane Positioning Assist). 0 = LPA Not Selected (LKA Active), 1 - Otherwise</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaHwAgCmd</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Handwheel position set point for LXA</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwPos_HwDeg_f32/HwDeg_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/HwPos_HwDeg_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaInpVld</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">True: CAN signals used by the LXA function are valid</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaSelected</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Variand coding to enable/disbale the Lxa function</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaState</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Lane Keeping Assist comand request to change the EPS state for LKA</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/PsaLxaSt_Cnt_enum/Cnt_enum</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="INTEGER-LITERAL">/Constant/D_PSALXASTINIT_CNT_ENUM/D_PSALXASTINIT_CNT_ENUM</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/PsaLxaSt_Cnt_enum</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>LxaTqFacReq</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">A scale factor for LXA Command.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/ScaleFactor_Uls_f32/Uls_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/ScaleFactor_Uls_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>NxtrDiagMgr</SHORT-NAME>
+							<REQUIRED-COM-SPECS>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/NxtrDiagMgr/GetNTCActive</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/NxtrDiagMgr/GetNTCFailed</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/NxtrDiagMgr/GetNTCStatus</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/NxtrDiagMgr/SetNTCStatus</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/PortInterface/NxtrDiagMgr</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>OutputRampMult</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Signal used in computing internal EPS State which is part of EPS State For Lxa computations.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/ScaleFactor_Uls_f32/Uls_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/ScaleFactor_Uls_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>SystemState</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Indicates the system state.</L-2>
+							</DESC>
+							<REQUIRED-COM-SPECS></REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/SystemState</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>SystemTime</SHORT-NAME>
+							<REQUIRED-COM-SPECS>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/SystemTime/DtrmnElapsedTime_mS_u16</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/SystemTime/DtrmnElapsedTime_mS_u32</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/SystemTime/DtrmnElapsedTime_uS_u16</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/SystemTime/DtrmnElapsedTime_uS_u32</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/SystemTime/GetSystemTime_mS_u32</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+								<CLIENT-COM-SPEC>
+									<OPERATION-REF DEST="OPERATION-PROTOTYPE">/PortInterface/SystemTime/GetSystemTime_uS_u32</OPERATION-REF>
+								</CLIENT-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/PortInterface/SystemTime</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>ThermLimitPerc</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Thermal Limit is reached when thermal Limit is higher than or equal to a certain calibrated threshold.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/UnityScalar_Uls_f32/Uls_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/UnityScalar_Uls_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>VehicleSpeed</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Standard Vehicle Speed signal.</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/VehSpd_Kph_f32/Kph_f32</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="REAL-LITERAL">/Constant/D_ZERO_ULS_F32/D_ZERO_ULS_F32</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/VehSpd_Kph_f32</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>VehicleSpeedValid</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">TRUE: Vehicle Speed signal is valid</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS/>
+							</ADMIN-DATA>
+							<REQUIRED-COM-SPECS>
+								<UNQUEUED-RECEIVER-COM-SPEC>
+									<DATA-ELEMENT-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-REF>
+									<FILTER>
+										<ALWAYS></ALWAYS>
+									</FILTER>
+									<ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+									<INIT-VALUE-REF DEST="BOOLEAN-LITERAL">/Constant/D_FALSE_CNT_LGC/D_FALSE_CNT_LGC</INIT-VALUE-REF>
+								</UNQUEUED-RECEIVER-COM-SPEC>
+							</REQUIRED-COM-SPECS>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterface/BoolStatusFlag_Cnt_lgc</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+					</PORTS>
+				</APPLICATION-SOFTWARE-COMPONENT-TYPE>
+				<INTERNAL-BEHAVIOR>
+					<SHORT-NAME>Ap_PSASH_InternalBehavior</SHORT-NAME>
+					<COMPONENT-REF DEST="APPLICATION-SOFTWARE-COMPONENT-TYPE">/ComponentType/Ap_PSASH</COMPONENT-REF>
+					<EVENTS>
+						<TIMING-EVENT>
+							<SHORT-NAME>PSASH_Init1_InitEvent</SHORT-NAME>
+							<START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/ComponentType/Ap_PSASH_InternalBehavior/PSASH_Init1</START-ON-EVENT-REF>
+							<PERIOD>0</PERIOD>
+						</TIMING-EVENT>
+						<TIMING-EVENT>
+							<SHORT-NAME>TMT_PSASH_Per1</SHORT-NAME>
+							<START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/ComponentType/Ap_PSASH_InternalBehavior/PSASH_Per1</START-ON-EVENT-REF>
+							<PERIOD>0.002000000</PERIOD>
+						</TIMING-EVENT>
+					</EVENTS>
+					<PORT-API-OPTIONS>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/AbsActv</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaAuthn</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaCmdReq</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaEna</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaHwAgCmd</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaPosSrvoFlt</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaRelaxReq</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaState</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaStateTransitionCause</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/AssistStallLimit</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/CpkOk</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/DrvrIntvDetd</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/EPSStateForLxa</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/EscActv</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/EscEna</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/EscFltPrsnt</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/FTermActv</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HandwheelAuthority</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HandwheelPosition</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HandwheelVelocity</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HOWState</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HwTorque</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HwTrqRate</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LpaSeld</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaApaConflictReqNTC</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaCorrnFacReqLimd</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaDrvrAbsntDetd</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaDrvrAbsntHwVelDetd</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaDrvrAbsntWarn</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaHwAgCmd</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaHwAgDetd</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaInactivOnDrvrBhvr</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaInpVld</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaSelected</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaState</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaTqFacReq</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/NxtrDiagMgr</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/OutputRampMult</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/PosSrvoEnable</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/PosSrvoHwAngle</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/SystemState</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/SystemTime</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ThermLimitPerc</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/VehicleSpeed</PORT-REF>
+						</PORT-API-OPTION>
+						<PORT-API-OPTION>
+							<ENABLE-TAKE-ADDRESS>false</ENABLE-TAKE-ADDRESS>
+							<INDIRECT-API>false</INDIRECT-API>
+							<PORT-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/VehicleSpeedValid</PORT-REF>
+						</PORT-API-OPTION>
+					</PORT-API-OPTIONS>
+					<RUNNABLES>
+						<RUNNABLE-ENTITY>
+							<SHORT-NAME>PSASH_Init1</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Function initialization</L-2>
+							</DESC>
+							<ADMIN-DATA>
+								<SDGS>
+									<SDG GID="edve:RunnableKind">
+										<SD>InitRunnable</SD>
+									</SDG>
+								</SDGS>
+							</ADMIN-DATA>
+							<CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+							<MINIMUM-START-INTERVAL>0.000000</MINIMUM-START-INTERVAL>
+							<SERVER-CALL-POINTS>
+								<SYNCHRONOUS-SERVER-CALL-POINT>
+									<SHORT-NAME>SC_NxtrDiagMgr_SetNTCStatus</SHORT-NAME>
+									<OPERATION-IREFS>
+										<OPERATION-IREF>
+											<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/NxtrDiagMgr</R-PORT-PROTOTYPE-REF>
+											<OPERATION-PROTOTYPE-REF DEST="OPERATION-PROTOTYPE">/PortInterface/NxtrDiagMgr/SetNTCStatus</OPERATION-PROTOTYPE-REF>
+										</OPERATION-IREF>
+									</OPERATION-IREFS>
+									<TIMEOUT>0.000000000</TIMEOUT>
+								</SYNCHRONOUS-SERVER-CALL-POINT>
+							</SERVER-CALL-POINTS>
+							<SYMBOL>PSASH_Init1</SYMBOL>
+						</RUNNABLE-ENTITY>
+						<RUNNABLE-ENTITY>
+							<SHORT-NAME>PSASH_Per1</SHORT-NAME>
+							<DESC>
+								<L-2 L="FOR-ALL">Periodic Runnable execute at every 0.002 sec. Shouble be executed before SF020A PosnTrakgServo</L-2>
+							</DESC>
+							<CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+							<DATA-READ-ACCESSS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_AbsActv_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/AbsActv</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_ApaAuthn_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaAuthn</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_ApaCmdReq_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaCmdReq</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_ApaEna_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaEna</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_ApaHwAgCmd_HwDeg_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaHwAgCmd</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwPos_HwDeg_f32/HwDeg_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_ApaPosSrvoFlt_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaPosSrvoFlt</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_ApaRelaxReq_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaRelaxReq</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_AssistStallLimit_MtrNm_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/AssistStallLimit</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/MtrTrq_MtrNm_f32/MtrNm_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_CpkOk_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/CpkOk</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_EscActv_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/EscActv</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_EscEna_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/EscEna</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_EscFltPrsnt_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/EscFltPrsnt</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_FTermActv_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/FTermActv</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_HandwheelAuthority_Uls_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HandwheelAuthority</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/Authority_Uls_f32/Uls_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_HandwheelPosition_HwDeg_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HandwheelPosition</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwPos_HwDeg_f32/HwDeg_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_HandwheelVelocity_HwRadpS_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HandwheelVelocity</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwVel_HwRadpS_f32/HwRadpS_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_HOWState_Cnt_s08</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HOWState</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/Count_Cnt_s08/Cnt_s08</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_HwTorque_HwNm_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HwTorque</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwTrq_HwNm_f32/HwNm_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_LpaSeld_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LpaSeld</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_LxaHwAgCmd_HwDeg_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaHwAgCmd</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwPos_HwDeg_f32/HwDeg_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_LxaInpVld_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaInpVld</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_LxaSelected_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaSelected</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_LxaState_Cnt_enum</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaState</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/PsaLxaSt_Cnt_enum/Cnt_enum</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_LxaTqFacReq_Uls_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaTqFacReq</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/ScaleFactor_Uls_f32/Uls_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_OutputRampMult_Uls_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/OutputRampMult</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/ScaleFactor_Uls_f32/Uls_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_ThermLimitPerc_Uls_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ThermLimitPerc</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/UnityScalar_Uls_f32/Uls_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_VehicleSpeed_Kph_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/VehicleSpeed</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/VehSpd_Kph_f32/Kph_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+								<DATA-READ-ACCESS>
+									<SHORT-NAME>READ_VehicleSpeedValid_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/VehicleSpeedValid</R-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-READ-ACCESS>
+							</DATA-READ-ACCESSS>
+							<DATA-WRITE-ACCESSS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_ApaState_Cnt_enum</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaState</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/PsaApaSt_Cnt_enum/Cnt_enum</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_ApaStateTransitionCause_Cnt_enum</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/ApaStateTransitionCause</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/PsaApaTranCause_Cnt_enum/Cnt_enum</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_DrvrIntvDetd_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/DrvrIntvDetd</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_EPSStateForLxa_Cnt_enum</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/EPSStateForLxa</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/PsaEpsStLxa_Cnt_enum/Cnt_enum</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_HwTrqRate_HwNmpS_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/HwTrqRate</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwTrqRate_HwNmpS_f32/HwNmpS_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_LxaApaConflictReqNTC_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaApaConflictReqNTC</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_LxaCorrnFacReqLimd_Uls_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaCorrnFacReqLimd</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/ScaleFactor_Uls_f32/Uls_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_LxaDrvrAbsntDetd_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaDrvrAbsntDetd</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_LxaDrvrAbsntHwVelDetd_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaDrvrAbsntHwVelDetd</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_LxaDrvrAbsntWarn_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaDrvrAbsntWarn</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_LxaHwAgDetd_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaHwAgDetd</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_LxaInactivOnDrvrBhvr_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/LxaInactivOnDrvrBhvr</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_PosSrvoEnable_Cnt_lgc</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/PosSrvoEnable</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/BoolStatusFlag_Cnt_lgc/Cnt_lgc</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+								<DATA-WRITE-ACCESS>
+									<SHORT-NAME>WRITE_PosSrvoHwAngle_HwDeg_f32</SHORT-NAME>
+									<DATA-ELEMENT-IREF>
+										<P-PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/PosSrvoHwAngle</P-PORT-PROTOTYPE-REF>
+										<DATA-ELEMENT-PROTOTYPE-REF DEST="DATA-ELEMENT-PROTOTYPE">/PortInterface/HwPos_HwDeg_f32/HwDeg_f32</DATA-ELEMENT-PROTOTYPE-REF>
+									</DATA-ELEMENT-IREF>
+								</DATA-WRITE-ACCESS>
+							</DATA-WRITE-ACCESSS>
+							<MINIMUM-START-INTERVAL>0.000000</MINIMUM-START-INTERVAL>
+							<SERVER-CALL-POINTS>
+								<SYNCHRONOUS-SERVER-CALL-POINT>
+									<SHORT-NAME>SC_NxtrDiagMgr_GetNTCActive</SHORT-NAME>
+									<OPERATION-IREFS>
+										<OPERATION-IREF>
+											<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/NxtrDiagMgr</R-PORT-PROTOTYPE-REF>
+											<OPERATION-PROTOTYPE-REF DEST="OPERATION-PROTOTYPE">/PortInterface/NxtrDiagMgr/GetNTCActive</OPERATION-PROTOTYPE-REF>
+										</OPERATION-IREF>
+									</OPERATION-IREFS>
+									<TIMEOUT>0.000000000</TIMEOUT>
+								</SYNCHRONOUS-SERVER-CALL-POINT>
+								<SYNCHRONOUS-SERVER-CALL-POINT>
+									<SHORT-NAME>SC_NxtrDiagMgr_SetNTCStatus</SHORT-NAME>
+									<OPERATION-IREFS>
+										<OPERATION-IREF>
+											<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/NxtrDiagMgr</R-PORT-PROTOTYPE-REF>
+											<OPERATION-PROTOTYPE-REF DEST="OPERATION-PROTOTYPE">/PortInterface/NxtrDiagMgr/SetNTCStatus</OPERATION-PROTOTYPE-REF>
+										</OPERATION-IREF>
+									</OPERATION-IREFS>
+									<TIMEOUT>0.000000000</TIMEOUT>
+								</SYNCHRONOUS-SERVER-CALL-POINT>
+								<SYNCHRONOUS-SERVER-CALL-POINT>
+									<SHORT-NAME>SC_SystemTime_DtrmnElapsedTime_mS_u32</SHORT-NAME>
+									<OPERATION-IREFS>
+										<OPERATION-IREF>
+											<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/SystemTime</R-PORT-PROTOTYPE-REF>
+											<OPERATION-PROTOTYPE-REF DEST="OPERATION-PROTOTYPE">/PortInterface/SystemTime/DtrmnElapsedTime_mS_u32</OPERATION-PROTOTYPE-REF>
+										</OPERATION-IREF>
+									</OPERATION-IREFS>
+									<TIMEOUT>0.000000000</TIMEOUT>
+								</SYNCHRONOUS-SERVER-CALL-POINT>
+								<SYNCHRONOUS-SERVER-CALL-POINT>
+									<SHORT-NAME>SC_SystemTime_GetSystemTime_mS_u32</SHORT-NAME>
+									<OPERATION-IREFS>
+										<OPERATION-IREF>
+											<R-PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ComponentType/Ap_PSASH/SystemTime</R-PORT-PROTOTYPE-REF>
+											<OPERATION-PROTOTYPE-REF DEST="OPERATION-PROTOTYPE">/PortInterface/SystemTime/GetSystemTime_mS_u32</OPERATION-PROTOTYPE-REF>
+										</OPERATION-IREF>
+									</OPERATION-IREFS>
+									<TIMEOUT>0.000000000</TIMEOUT>
+								</SYNCHRONOUS-SERVER-CALL-POINT>
+							</SERVER-CALL-POINTS>
+							<SYMBOL>PSASH_Per1</SYMBOL>
+						</RUNNABLE-ENTITY>
+					</RUNNABLES>
+					<SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
+				</INTERNAL-BEHAVIOR>
+				<SWC-IMPLEMENTATION>
+					<SHORT-NAME>Ap_PSASH_Implementation</SHORT-NAME>
+					<CODE-DESCRIPTORS>
+						<CODE>
+							<SHORT-NAME>Code</SHORT-NAME>
+							<TYPE>SRC</TYPE>
+						</CODE>
+					</CODE-DESCRIPTORS>
+					<BEHAVIOR-REF DEST="INTERNAL-BEHAVIOR">/ComponentType/Ap_PSASH_InternalBehavior</BEHAVIOR-REF>
+				</SWC-IMPLEMENTATION>
+			</ELEMENTS>
+		</AR-PACKAGE>
+		<AR-PACKAGE>
+			<SHORT-NAME>DaVinci</SHORT-NAME>
+			<ELEMENTS/>
+		</AR-PACKAGE>
+	</TOP-LEVEL-PACKAGES>
+</AUTOSAR>

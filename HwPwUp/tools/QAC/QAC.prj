@@ -1,0 +1,16 @@
+VersionTag45
+StartProjectMarker
+FolderName=HwPwUp
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=Ap_HwPwUp
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_HwPwUp.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Ap_HwPwUp.c
+EndContainedFilesMarker
+EndSubProjectMarker
+

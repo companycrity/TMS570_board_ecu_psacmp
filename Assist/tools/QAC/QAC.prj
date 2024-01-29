@@ -1,0 +1,11 @@
+VersionTag45
+StartProjectMarker
+FolderName=Assist
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Ap_Assist.c
+EndContainedFilesMarker
+

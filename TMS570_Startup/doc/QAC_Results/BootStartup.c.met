@@ -1,0 +1,263 @@
+<RDEF> I Includes
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 21
+<DEFINE> PLATFORM_TYPES_H C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 22
+<DEFINE> COMPILER_H C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/utp/contract/Compiler_Cfg.h 2 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> handler_fptr C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 24 N DC OT F N p(.,p=uc,puc) -
+<PRAGMA> C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 26 WEAK(__TI_Handler_Table_Base)
+<PRAGMA> C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 27 WEAK(__TI_Handler_Table_Limit)
+<PRAGMA> C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 28 WEAK(__TI_CINIT_Base)
+<PRAGMA> C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 29 WEAK(__TI_CINIT_Limit)
+<EXTN> __TI_Handler_Table_Base C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 31
+<DEFINE> __TI_Handler_Table_Base C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 31 N DC OV F X ui S
+<EXTN> __TI_Handler_Table_Limit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 32
+<DEFINE> __TI_Handler_Table_Limit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 32 N DC OV F X ui S
+<EXTN> __TI_CINIT_Base C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 33
+<DEFINE> __TI_CINIT_Base C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 33 N DC OV F X ui S
+<EXTN> __TI_CINIT_Limit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 34
+<DEFINE> __TI_CINIT_Limit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 34 N DC OV F X ui S
+<EXTN> __TI_PINIT_Base C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 35
+<DEFINE> __TI_PINIT_Base C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 35 N DC OV F X ui S
+<EXTN> __TI_PINIT_Limit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 36
+<DEFINE> __TI_PINIT_Limit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 36 N DC OV F X ui S
+<EXTN> __binit__ C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 37
+<DEFINE> __binit__ C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 37 N DC OV F X pui S
+<EXTN> main C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 39
+<DEFINE> main C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 39 N DC OF F X (.,.) -
+<EXTN> BootStartupCallout1 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 40
+<DEFINE> BootStartupCallout1 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 40 N DC OF F X (.,.) -
+<EXTN> BootStartupCallout2 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 41
+<DEFINE> BootStartupCallout2 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 41 N DC OF F X (.,.) -
+<EXTD> BootStartup C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 43
+<DEFINE> BootStartup C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 43 N DC OF F X (.,.) -
+<DEFINE> BootStartup C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 43 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C BootStartup BootStartupCallout1 46
+<RDEF> X Refers-to
+<R>X BootStartup BootStartupCallout1 46 R
+<LIT> 0xFFFFFFFF U P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 50 47 N HN ul B X
+<R>X BootStartup __binit__ 50 R
+<EXTN> copy_in C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 52
+<DEFINE> binit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 52 N DC OV P N p. R
+<DEFINE> copy_in C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 52 N DC OF B X (.,p.) -
+<R>C BootStartup copy_in 53
+<R>X BootStartup copy_in 53 R
+<R>X BootStartup __binit__ 53 R
+<R>X BootStartup __binit__ 53 W
+<R>X BootStartup __TI_Handler_Table_Base 57 R
+<R>X BootStartup __TI_Handler_Table_Limit 57 R
+<DEFINE> tablePtr C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 59 N DC OV B N ppuc -
+<DEFINE> tablePtr C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 59 N DF OV B N ppuc -
+<R>X BootStartup __TI_CINIT_Base 59 R
+<R>X BootStartup __TI_CINIT_Base 59 W
+<DEFINE> tableLimit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 60 N DC OV B N ppuc -
+<DEFINE> tableLimit C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 60 N DF OV B N ppuc -
+<R>X BootStartup __TI_CINIT_Limit 60 R
+<R>X BootStartup __TI_CINIT_Limit 60 W
+<DEFINE> loadAdr C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 64 N DC OV B N puc -
+<DEFINE> loadAdr C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 64 N DF OV B N puc -
+<DEFINE> runAdr C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 65 N DC OV B N puc -
+<DEFINE> runAdr C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 65 N DF OV B N puc -
+<DEFINE> idx C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 66 N DC OV B N uc -
+<DEFINE> idx C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 66 N DF OV B N uc -
+<DEFINE> handler C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 67 N DC OV B N p(.,p=uc,puc) -
+<DEFINE> handler C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 67 N DF OV B N p(.,p=uc,puc) -
+<R>X BootStartup __TI_Handler_Table_Base 67 R
+<R>X BootStartup __TI_PINIT_Base 74 R
+<R>X BootStartup __TI_PINIT_Limit 74 R
+<DEFINE> p0 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 76 N DC OV B N pp(.,) -
+<DEFINE> p0 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 76 N DF OV B N pp(.,) -
+<R>X BootStartup __TI_PINIT_Base 76 R
+<R>X BootStartup __TI_PINIT_Limit 78 R
+<DEFINE> p C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 80 N DC OV B N p(.,) -
+<DEFINE> p C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c 80 N DF OV B N p(.,) -
+<R>C BootStartup p 81
+<R>C BootStartup BootStartupCallout2 86
+<R>X BootStartup BootStartupCallout2 86 R
+<R>C BootStartup main 88
+<R>X BootStartup main 88 R
+<CTLG> BootStartup 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 8
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 5
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 12
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 9
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 15
+<CTLGN> 44 50 50 50 57 62 62 57 74 78 78 74 89 89 89 
+<S>
+<S>STFIL  C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c
+<S>STNAM  BootStartup
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  2
+<S>STSUB  6
+<S>STAKI  12
+<S>STLIN  44
+<S>STXLN  19
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  8
+<S>STPTH  18
+<S>STPDN  0.95   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  17
+<S>STST1  25
+<S>STST2  20
+<S>STST3  11
+<S>STPAR  0
+<S>STCAL  4
+<S>STFN1  145
+<S>STFN2  51
+
+<S>
+<S>STFIL  C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c
+<S>STNAM  C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/BootStartup.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  7
+<S>STFNC  1
+<S>STFCO  6
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  27
+<S>STOPT  25
+<S>STOPN  28
+<S>STTOT  300
+<S>STZIP  241
+<S>STHAL  251
+<S>STSHN  842
+<S>STDIF  12.20  
+<S>STEFF  20960
+<S>STVOL  1718
+<S>STDEV  3.49   
+<S>STBUG  1
+<S>STTPP  91
+<S>STTLN  44
+<S>STM20  73
+<S>STM21  225
+<S>STM22  26
+<S>STM28  6
+<S>STM33  6
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.194  
+<S>STBMS  0.205  
+<S>STBME  0.203  
+<S>STTDO  1.340  
+<S>STTDS  1.435  
+<S>STTDE  1.500  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.790  
+

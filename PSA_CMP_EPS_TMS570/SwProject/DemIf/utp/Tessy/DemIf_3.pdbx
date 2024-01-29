@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="141efda0-81d9-4ae7-bf7c-3932a30dab0c"
+    location="$(PROJECTROOT)\tessy"
+    name="DemIf"
+    projectVersion="3"
+    tessyVersion="3.1.12"
+    isTemplate="false"/>

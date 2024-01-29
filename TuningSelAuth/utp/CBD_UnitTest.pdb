@@ -1,0 +1,79 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\TuningSelAuth\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\TuningSelAuth\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 23.12.2011 13:48
+Last Changed     : 07.11.2013 14:25
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "TuningSelAuth"
+      Comment     : "*************************************************************************************************************\r\nName of Tester:Rasika Deshpande\r\nCode File(s) Under Test:Ap_TuningSelAuth.c\r\nCode File(s) Version:6\r\nModule Design Document:Tuning_Select_Authority_MDD.docx\r\nModule Design Document Version:5\r\nData Dictionary Version:6\r\nUnit Test Plan Version:4\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7c/EPS Library 1.29\r\nSpecial Test Requirements:\r\nTest Date:11/7/2013\r\nComments:""NOTE 1: Inline functions defined in globalmacro.h are not unit tested.\n\nNOTE 2: To display address updated in  """"TunPer_Ptr_Str"""" pointer from  """"T_TunPersSelectionTbl_Ptr_Str[] []"""", """"TunPer_Ptr_Str"""" is taken in """"In"""" and """"Out"""" and value of """"T_TunPersSelectionTbl_Ptr_Str[] []""""will be given as input to “TunPer_Ptr_Str” which will reflect in output for each of the vector.\n""\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,_DATA_ACCESS=,static="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\TuningSelAuth\utp\contract, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\NxtrLib\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_TuningSelAuth.c"
+         Path : "$(PROJECTROOT)\TuningSelAuth\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "TuningSelAuth_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TuningSelAuth_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

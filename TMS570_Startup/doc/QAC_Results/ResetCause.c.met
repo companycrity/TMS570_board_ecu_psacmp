@@ -1,0 +1,306 @@
+<RDEF> I Includes
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 22
+<DEFINE> PLATFORM_TYPES_H C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 23
+<DEFINE> COMPILER_H C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/utp/contract/Compiler_Cfg.h 2 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 148 I DF OM - - - F
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 24
+<DEFINE> RESETCAUSE_H_ C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 26 I DF OM - - - O
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Platform_Types.h 28
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/StdDef/include/Compiler.h 29
+<DEFINE> PWRONRESET C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 31 I DF OM - - - O
+<LIT> 0x0000FFFF UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 31 49 I HN - F M
+<DEFINE> DEBUGRESET C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 32 I DF OM - - - O
+<LIT> 0x0001FFFE UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 32 49 I HN - F M
+<DEFINE> CPURESET C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 33 I DF OM - - - O
+<LIT> 0x0002FFFD UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 33 49 I HN - F M
+<DEFINE> SPPBISTFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 34 I DF OM - - - O
+<LIT> 0x0003FFFC UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 34 41 I HN - F M
+<DEFINE> DPPBISTFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 35 I DF OM - - - O
+<LIT> 0x0004FFFB UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 35 41 I HN - F M
+<DEFINE> EXTRESET C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 36 I DF OM - - - O
+<LIT> 0x0005FFFA UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 36 49 I HN - F M
+<DEFINE> OSCFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 37 I DF OM - - - O
+<LIT> 0x0006FFF9 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 37 49 I HN - F M
+<DEFINE> SWRESET C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 38 I DF OM - - - O
+<LIT> 0x0007FFF8 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 38 49 I HN - F M
+<DEFINE> WDGFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 39 I DF OM - - - O
+<LIT> 0x0008FFF7 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 39 49 I HN - F M
+<DEFINE> CCMSTEFFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 40 I DF OM - - - O
+<LIT> 0x0009FFF6 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 40 41 I HN - F M
+<DEFINE> CCMSTFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 41 I DF OM - - - O
+<LIT> 0x000AFFF5 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 41 41 I HN - F M
+<DEFINE> CCMEFFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 42 I DF OM - - - O
+<LIT> 0x000BFFF4 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 42 41 I HN - F M
+<DEFINE> PBISTSCFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 43 I DF OM - - - O
+<LIT> 0x000CFFF3 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 43 41 I HN - F M
+<DEFINE> STCSCFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 44 I DF OM - - - O
+<LIT> 0x000DFFF2 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 44 41 I HN - F M
+<DEFINE> STCFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 45 I DF OM - - - O
+<LIT> 0x000EFFF1 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 45 49 I HN - F M
+<DEFINE> ESM3NONZERO C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 46 I DF OM - - - O
+<LIT> 0x000FFFF0 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 46 41 I HN - F M
+<DEFINE> EFCSTFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 47 I DF OM - - - O
+<LIT> 0x0010FFEF UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 47 41 I HN - F M
+<DEFINE> EFCSTUCKZERO C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 48 I DF OM - - - O
+<LIT> 0x0011FFEE UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 48 41 I HN - F M
+<DEFINE> EFCERROR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 49 I DF OM - - - O
+<LIT> 0x0012FFED UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 49 49 I HN - F M
+<DEFINE> FLSBUS2CORRFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 50 I DF OM - - - O
+<LIT> 0x0013FFEC UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 50 41 I HN - F M
+<DEFINE> FLSBUS2ADDCAPFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 51 I DF OM - - - O
+<LIT> 0x0014FFEB UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 51 33 I HN - F M
+<DEFINE> FLSBUS2MULBITDETFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 52 I DF OM - - - O
+<LIT> 0x0015FFEA UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 52 33 I HN - F M
+<DEFINE> FLSBUS2SNGBITDETFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 53 I DF OM - - - O
+<LIT> 0x0016FFE9 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 53 33 I HN - F M
+<DEFINE> VIMPARFLGFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 54 I DF OM - - - O
+<LIT> 0x0017FFE8 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 54 41 I HN - F M
+<DEFINE> VIMPARADDERRFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 55 I DF OM - - - O
+<LIT> 0x0018FFE7 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 55 41 I HN - F M
+<DEFINE> VIMPARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 56 I DF OM - - - O
+<LIT> 0x0019FFE6 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 56 41 I HN - F M
+<DEFINE> DCAN1PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 57 I DF OM - - - O
+<LIT> 0x001AFFE5 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 57 41 I HN - F M
+<DEFINE> DCAN2PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 58 I DF OM - - - O
+<LIT> 0x001BFFE4 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 58 41 I HN - F M
+<DEFINE> DCAN3PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 59 I DF OM - - - O
+<LIT> 0x001CFFE3 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 59 41 I HN - F M
+<DEFINE> DMAPARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 60 I DF OM - - - O
+<LIT> 0x001DFFE2 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 60 41 I HN - F M
+<DEFINE> MIBADC1PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 61 I DF OM - - - O
+<LIT> 0x001EFFE1 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 61 41 I HN - F M
+<DEFINE> MIBADC2PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 62 I DF OM - - - O
+<LIT> 0x001FFFE0 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 62 41 I HN - F M
+<DEFINE> MIBSPI1PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 63 I DF OM - - - O
+<LIT> 0x0020FFDF UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 63 41 I HN - F M
+<DEFINE> MIBSPI3PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 64 I DF OM - - - O
+<LIT> 0x0021FFDE UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 64 41 I HN - F M
+<DEFINE> MIBSPI5PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 65 I DF OM - - - O
+<LIT> 0x0022FFDD UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 65 41 I HN - F M
+<DEFINE> N2HET1PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 66 I DF OM - - - O
+<LIT> 0x0023FFDC UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 66 41 I HN - F M
+<DEFINE> N2HET1TUPARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 67 I DF OM - - - O
+<LIT> 0x0024FFDB UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 67 33 I HN - F M
+<DEFINE> N2HET2PARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 68 I DF OM - - - O
+<LIT> 0x0025FFDA UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 68 41 I HN - F M
+<DEFINE> N2HET2TUPARESMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 69 I DF OM - - - O
+<LIT> 0x0026FFD9 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 69 33 I HN - F M
+<DEFINE> B0MULBITRAMECCDETFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 70 I DF OM - - - O
+<LIT> 0x0027FFD8 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 70 33 I HN - F M
+<DEFINE> B1MULBITRAMECCDETFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 71 I DF OM - - - O
+<LIT> 0x0028FFD7 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 71 33 I HN - F M
+<DEFINE> B0SNGBITRAMECCDETFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 72 I DF OM - - - O
+<LIT> 0x0029FFD6 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 72 33 I HN - F M
+<DEFINE> B1SNGBITRAMECCDETFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 73 I DF OM - - - O
+<LIT> 0x002AFFD5 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 73 33 I HN - F M
+<DEFINE> SNGBITFLSECCDETFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 74 I DF OM - - - O
+<LIT> 0x002BFFD4 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 74 33 I HN - F M
+<DEFINE> MULBITFLSECCDETFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 75 I DF OM - - - O
+<LIT> 0x002CFFD3 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 75 33 I HN - F M
+<DEFINE> LPOTRIMERROR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 76 I DF OM - - - O
+<LIT> 0x002DFFD2 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 76 41 I HN - F M
+<DEFINE> DATAMULBITRAMECCFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 77 I DF OM - - - O
+<LIT> 0x002EFFD1 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 77 33 I HN - F M
+<DEFINE> DATAMULBITFLSECCFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 78 I DF OM - - - O
+<LIT> 0x002FFFD0 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 78 33 I HN - F M
+<DEFINE> CPUDATAABORT C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 79 I DF OM - - - O
+<LIT> 0x0030FFCF UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 79 41 I HN - F M
+<DEFINE> CPUPREFETCHABORT C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 80 I DF OM - - - O
+<LIT> 0x0031FFCE UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 80 41 I HN - F M
+<DEFINE> PRFTCMULBITRAMECCFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 81 I DF OM - - - O
+<LIT> 0x0032FFCD UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 81 33 I HN - F M
+<DEFINE> PRFTCMULBITFLSECCFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 82 I DF OM - - - O
+<LIT> 0x0033FFCC UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 82 33 I HN - F M
+<DEFINE> UNDEFINST C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 83 I DF OM - - - O
+<LIT> 0x0034FFCB UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 83 49 I HN - F M
+<DEFINE> CLOCKMONITOR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 84 I DF OM - - - O
+<LIT> 0x0035FFCA UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 84 41 I HN - F M
+<DEFINE> CCMFAILED C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 85 I DF OM - - - O
+<LIT> 0x0036FFC9 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 85 49 I HN - F M
+<DEFINE> FMCUNCORRERR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 86 I DF OM - - - O
+<LIT> 0x0037FFC8 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 86 41 I HN - F M
+<DEFINE> B0UNCORRERR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 87 I DF OM - - - O
+<LIT> 0x0038FFC7 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 87 49 I HN - F M
+<DEFINE> B1UNCORRERR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 88 I DF OM - - - O
+<LIT> 0x0039FFC6 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 88 49 I HN - F M
+<DEFINE> B0ADDPARERR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 89 I DF OM - - - O
+<LIT> 0x003AFFC5 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 89 49 I HN - F M
+<DEFINE> B1ADDPARERR C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 90 I DF OM - - - O
+<LIT> 0x003BFFC4 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 90 49 I HN - F M
+<DEFINE> FLSECCLIVELOCK C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 91 I DF OM - - - O
+<LIT> 0x003CFFC3 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 91 41 I HN - F M
+<DEFINE> VIMMULTBITFLT C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 92 I DF OM - - - O
+<LIT> 0x003DFFC2 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 92 41 I HN - F M
+<DEFINE> VIMPARTHRSHFLT C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 93 I DF OM - - - O
+<LIT> 0x003EFFC1 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 93 41 I HN - F M
+<DEFINE> UNUSEDINTERRUPT C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 94 I DF OM - - - O
+<LIT> 0x003FFFC0 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 94 41 I HN - F M
+<DEFINE> STACKOVERWRITE C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 95 I DF OM - - - O
+<LIT> 0x0040FFBF UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 95 41 I HN - F M
+<DEFINE> MPUVIOLATION C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 96 I DF OM - - - O
+<LIT> 0x0041FFBE UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 96 41 I HN - F M
+<DEFINE> WDGALIVEMONFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 97 I DF OM - - - O
+<LIT> 0x0042FFBD UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 97 41 I HN - F M
+<DEFINE> WDGDEADLINEFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 98 I DF OM - - - O
+<LIT> 0x0043FFBC UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 98 41 I HN - F M
+<DEFINE> WDGPROGFLOWFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 99 I DF OM - - - O
+<LIT> 0x0044FFBB UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 99 41 I HN - F M
+<DEFINE> SWWDGFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 100 I DF OM - - - O
+<LIT> 0x0045FFBA UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 100 49 I HN - F M
+<DEFINE> FPUDZCEXCP C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 101 I DF OM - - - O
+<LIT> 0x0046FFB9 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 101 49 I HN - F M
+<DEFINE> FPUOFCEXCP C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 102 I DF OM - - - O
+<LIT> 0x0047FFB8 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 102 49 I HN - F M
+<DEFINE> FPUIOCEXCP C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 103 I DF OM - - - O
+<LIT> 0x0048FFB7 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 103 49 I HN - F M
+<DEFINE> FPUUNKNOWNEXCP C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 104 I DF OM - - - O
+<LIT> 0x0049FFB6 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 104 41 I HN - F M
+<DEFINE> HTU1MPUSTARTUPFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 105 I DF OM - - - O
+<LIT> 0x004AFFB5 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 105 41 I HN - F M
+<DEFINE> HTU2MPUSTARTUPFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 106 I DF OM - - - O
+<LIT> 0x004BFFB4 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 106 41 I HN - F M
+<DEFINE> DMAMPUSTARTUPFAIL C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 107 I DF OM - - - O
+<LIT> 0x004CFFB3 UL P C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 107 41 I HN - F M
+<DEFINE> ENUM_ResetCause C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 109 I DC OT F N ul -
+<EXTN> ResetCause_Cnt_Enum C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 110
+<DEFINE> ResetCause_Cnt_Enum C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/include/ResetCause.h 110 I DC OV F X ^ul S
+<DEFINE> RESETCAUSE_START_SEC_VAR_POWER_ON_CLEARED_8 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c 26 N DF OM - - - O
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/utp/contract/MemMap.h 27
+<DEFINE> MEMMAP_H C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/utp/contract/MemMap.h 19 I DF OM - - - O
+<EXTT> ResetCause_Cnt_Enum C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c 28
+<DEFINE> ResetCause_Cnt_Enum C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c 28 N DR OV F X ^ul S
+<DEFINE> RESETCAUSE_STOP_SEC_VAR_POWER_ON_CLEARED_8 C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c 29 N DF OM - - - O
+<R>I C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/utp/contract/MemMap.h 30
+<EXTD> ResetCause_Cnt_Enum C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c 28
+<DEFINE> ResetCause_Cnt_Enum C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c 28 N DI OV F X ^ul S
+<S>
+<S>STFIL  C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c
+<S>STNAM  C:/Tasks_Done/Tms570_StartupChange/TMS570_Startup-dz4652/TMS570_Startup/src/ResetCause.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  0
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  6
+<S>STOPT  8
+<S>STOPN  6
+<S>STTOT  30
+<S>STZIP  45
+<S>STHAL  40
+<S>STSHN  120
+<S>STDIF  4.76   
+<S>STEFF  544
+<S>STVOL  114
+<S>STDEV  0.09   
+<S>STBUG  0
+<S>STTPP  31
+<S>STTLN  1
+<S>STM20  6
+<S>STM21  19
+<S>STM22  1
+<S>STM28  2
+<S>STM33  2
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.063  
+<S>STBMS  0.061  
+<S>STBME  0.056  
+<S>STTDO  0.872  
+<S>STTDS  0.941  
+<S>STTDE  0.992  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  3.029  
+

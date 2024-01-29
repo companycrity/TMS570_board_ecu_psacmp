@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="true"
+    sourceRoot="$(PROJECTROOT)\Inputs\src"
+    identifier="5aa5d22d-f88d-4025-a14c-3ddeee3c458d"
+    location="$(PROJECTROOT)\tessy"
+    name="HwTqArbn"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

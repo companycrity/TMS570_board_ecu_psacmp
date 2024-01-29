@@ -1,0 +1,532 @@
+NHET Assembler    Release 1.7     Thu Jul 14 13:05:07 2016
+Texas Instruments Incorporated. 
+
+Nhet1CfgAndUse_Prog.het                                              PAGE    1
+
+           0000 0000 0000 001A   SACRIFICIAL_PIN         .equ    26 ; pin we use for 'no pin' ECMP instructions, block other HR uses 
+           0000 0000 0000 0000   DUMMY                   .equ    0  ; DUMMY Use in Instruction only.
+           0000 0000 01FF FFFF   MAX_LR                  .equ    0x1FFFFFF ; max value   
+           0000 0000 01FF FD8E   RollOverMax             .equ    0x1FFFD8E ; max T toll over limit = [0x1FFFFFF (maxLR) - 625 LR (1KHz)],
+           0000 0000 0000 0004   DMA_REQ4                .equ    4  ; DMA Transfer Request Number
+           0000 0000 0000 0001   HTU_REQ1                .equ    1  ; HET Transfer Request Number
+           0000 0000 0000 0002   HTU_REQ2                .equ    2  ; HET Transfer Request Number
+           0000 0000 0000 000E   SPI50U_TRG              .equ    14 ; SPI 50U TRIGGER will set/reset pin N2HET1 [14], which trigger SPI 3
+           0000 0000 0000 0012   SPI1m_TRG               .equ    18 ; SPI 1m TRIGGER will set/reset pin N2HET1 [18], which trigger SPI 5
+           0000 0000 0000 0010   SYNCI_TRG               .equ    16 ; ePWM SYNCI trigger will set/reset pin N2HET1 [16], which trigger eP
+           0000 0000 0000 0002   SPI50U_PDLY             .equ    2 ; SPI 50U trigger pulse is high for #*LR time period
+           0000 0000 0000 0002   SPI1m_PDLY              .equ    2 ; SPI 1m trigger pulse is high for #*LR time period
+           0000 0000 0000 0002   SYNCI_PDLY              .equ    2 ; ePWM SYNCI trigger pulse is high for #*LR time period
+           0000 0000 0000 000D   SPI50U                  .equ    13
+           0000 0000 0000 000F   SPI1m                   .equ    15
+           0000 0000 0000 0027   SYNCI                   .equ    39
+           0000 0000 0000 0025   BLKWND                  .equ    37
+           0000 0000 0000 0029   BLKWNDLast              .equ    41
+           0000 0000 0000 0001   k_BLKWNDStartOff        .equ    1
+           0000 0000 0000 0004   k_BLKWNDEndOff          .equ    4
+           0000 0000 0000 0003   k_SPI50UOFF             .equ    3  
+           0000 0000 0000 0002   k_SPI1mOFF              .equ    2  
+           0000 0000 0000 000C   Phy_DigT1SENTSync       .equ    12      ; Torque Channel 1 Sync Line 
+           0000 0000 0000 001E   Phy_DigT2SENTSync       .equ    30      ; Torque Channel 2 Sync Line 
+           0000 0000 0000 04E3   k_2msLoopMax            .equ    1251    ; Higher Threshold level for 2ms level from this counter will re
+           0000 0000 0000 0000   k_2msLoopMin            .equ    0       ; Lower Threshold level for 2ms level from this counter will res
+           0000 0000 0000 000F   k_SenSyncMin            .equ    15      ; Sync Trigger value from less this value trigger pulse won't re
+           0000 0000 0000 0485   k_SenTrgMax             .equ    1157    ; Trigger pulse goes from Low to high
+           0000 0000 0000 047B   k_SenTrgMin             .equ    1147    ; Trigger pulse goes from high to low 
+           0000 0000 0000 0015   kSyncMax                .equ    21      ; Synchronization Max LR Count, 56*Tick*1.2
+           0000 0000 0000 000E   kSyncMin                .equ    14      ; Synchronization Min LR Count, 56*Tick*0.8 
+           0000 0000 0000 000A   Phy_DigT1SENT           .equ    10  ; Torque Channel 1 SENT Input Signal (SENT_TRQ1_A)
+           0000 0000 0000 001C   Phy_DigT2SENT           .equ    28  ; Torque Channel 2 SENT Input Signal (SENT_TRQ2_A)
+        130                    START:  
+         HA 2000 
+        131 0020 01FF FFFF 0000 0000   FRCTR:          CNT     { data=0, reg=T, max= 0x1FFFFFF }
+            0020 0000 0000 0000 2CA0  
+        132                ; ----------------------------------------------------------------------------
+        133                
+        134                ;-----------------------  SPI ePWM SYNC Module Code - Starts -----------------
+        135                
+        136                ;-----------------Infrastructure Counter Reach SPI 50U Check -------------
+         HA 2010 
+        137 0020 0040 4E14 0000 0680   SPI50U_CHK:     ECMP    { next=SPI1m_CHK, cond_addr=SPI50U_DL_CHK, en_pin_action=ON, reg=T, pin=SPI50U_T
+            0020 0000 0000 0000 6000  
+         HA 2020 
+        138 0020 0040 6E04 0000 0100   SPI50U_DL_CHK:  RADM64  { next=SPI1m_CHK, cond_addr=SPI1m_CHK,     en_pin_action=ON, reg=T, pin=SPI50U_T
+            0020 0000 0000 0000 6601  
+        139                
+        140                ;-----------------Infrastructure Counter Reach SPI 1m Check --------------
+         HA 2030 
+        141 0020 0040 9214 0000 0780   SPI1m_CHK:      ECMP    { next=SYNCI_CHK, cond_addr=SPI1m_DL_CHK, en_pin_action=ON, reg= T, pin=SPI1m_TR
+            0020 0000 0000 0000 A000  
+         HA 2040 
+        142 0020 0040 B204 0000 0100   SPI1m_DL_CHK:   RADM64  { next=SYNCI_CHK, cond_addr=SYNCI_CHK,    en_pin_action=ON, reg=T,  pin=SPI1m_TR
+            0020 0000 0000 0000 A603  
+        143                
+        144                ;-----------------Infrastructure Counter Reach PWM SYNC Check ------------
+         HA 2050 
+        145 0020 0040 D014 0000 1380   SYNCI_CHK:      ECMP    { next=BLKWND_CHK, cond_addr=SYNCI_DL_CHK, en_pin_action=ON, reg= T, pin=SYNCI_T
+            0020 0000 0000 0000 E000  
+         HA 2060 
+        146 0020 0040 F004 0000 0100   SYNCI_DL_CHK:   RADM64  { next=BLKWND_CHK, remote=SYNCI_CHK, en_pin_action=ON, cond_addr=BLKWND_CHK, pin
+            0020 0000 0000 0000 E605  
+        147                
+        148                ;-----------------Infrastructure Counter Reach Blanking Window Check -----
+        149                
+         HA 2070 
+        150 0020 0001 7A44 0000 1280   BLKWND_CHK:     MCMP  { next=BUF_RDY_FLAG,  cond_addr=BLKWNDLast_CHK,  en_pin_action=OFF, pin=SACRIFICIA
+            0020 0000 0000 0001 0000  
+        151                
+        152                ;-----------------New period/Buffer Data Available Check -----------------
+         HA 2080 
+        153 0020 0004 2006 0000 0000   BUF_RDY_FLAG:   DJZ   { next=START_DMA,    cond_addr=SPISync_END,  reg=NONE,  data=0 } ; If (DF != 0) {d
+            0020 0000 0000 0001 3480  
+         HA 2090 
+        154 00 0020 0801 4000 0000 0000   START_DMA:      BR    { next=BUF_DATA_SET, cond_addr=BUF_DATA_SET, request=GENREQ,    reqnum=DMA_REQ4, e
+            00 0020 0000 0000 0201 5A00  
+         HA 20A0 
+        155 0020 0000 000E 0000 0080   BUF_DATA_SET:   MOV32 { next=SPISync_END,  remote=BUFData_CHK,     reg=none,  data=1, type=IMTOREG&REM, 
+NHET Assembler    Release 1.7     Thu Jul 14 13:05:07 2016
+Texas Instruments Incorporated. 
+
+Nhet1CfgAndUse_Prog.het                                              PAGE    2
+
+            0020 0000 0000 0004 281F  
+        156                
+        157                ;-------Infrastructure Counter Reach Blanking Window  last Cycle Check ---
+         HA 20B0 
+        158 0020 0001 9A44 0000 1480   BLKWNDLast_CHK: MCMP  { next=SPISync_END, cond_addr=SPI50U_BUF1, en_pin_action=OFF, pin=SACRIFICIAL_PIN,
+            0020 0000 0000 0004 2000  
+        159                
+        160                ; Transfer value from Buffer 1 (Relative Location to Working Buffer) -----
+         HA 20C0 
+        161 0020 0000 000E 0000 0180   SPI50U_BUF1:    MOV32 { next=SPI1m_BUF1, remote=SPI50U_ABS,  type=IMTOREG&REM, reg=none, data=k_SPI50UOF
+            0020 0000 0000 0001 A819  
+         HA 20D0 
+        162 0020 0000 000E 0000 0100   SPI1m_BUF1:     MOV32 { next=PRD_BUF1,   remote=SPI1m_ABS,   type=IMTOREG&REM, reg=none, data=k_SPI1mOFF
+            0020 0000 0000 0001 C81B  
+         HA 20E0 
+        163 0020 0000 008A 0000 1380   PRD_BUF1:       MOV32 { next=TRollOverMax_CHK,   remote=SPI_PRD_LD,   type=IMTOREG&REM, reg=S,    data=S
+            0020 0000 0000 0001 E815  
+        164                
+        165                ;---------- T roll-over calculation protection  ------------------------------
+         HA 20F0 
+        166 0020 0002 1A44 FFFE C700   TRollOverMax_CHK:       MCMP  { next=PRD_CAL1, cond_addr=Reset_RegT, en_pin_action=OFF, pin=SACRIFICIAL_
+            0020 0000 0000 0002 2000  
+        167                ; retrive the last stored B value 
+         HA 2100 
+        168 0020 0000 000C 0000 0000   Reset_RegT:     MOV32   { type=IMTOREG&REM,  remote=FRCTR ,reg=T,   data=0 };
+            0020 0000 0000 0002 2800  
+        169                
+        170                
+        171                ;----------Calculation From Relative to Absolute -------------------------
+        172                
+        173                ;----------Period From Relative to Absolute ------------------------------
+         HA 2110 
+        174 0020 02A9 00AA 0000 0200   PRD_CAL1:       SUB     { remote=PRD_CAL,   src1=S, src2=IMM, dest=S, rdest=REM, data=k_BLKWNDEndOff }  
+            0020 0000 0000 0002 4812  
+         HA 2120 
+        175 0020 0040 D014 0000 1380   PRD_CAL:        RADM64  { remote=SYNCI_CHK, en_pin_action=ON, cond_addr=SYNCI_DL_CHK, pin=SYNCI_TRG, com
+            0020 0000 0000 0002 6605  
+        176                
+         HA 2130 
+        177 0020 02A9 002E 0000 0080   BLKWND_CAL1:    SUB   { remote=BLKWNDST_CAL,  src1=S, src2=IMM, dest=NONE, rdest=REM, data=k_BLKWNDStart
+            0020 0000 0000 0002 881D  
+         HA 2140 
+        178 0020 00A9 002E 0000 0200   BLKWND_CAL0:    ADD   { remote=BLKWNDEnd_CAL, src1=S, src2=IMM, dest=NONE, rdest=REM, data=k_BLKWNDEndOf
+            0020 0000 0000 0002 A81E  
+        179                
+        180                ;----------SPI50us Start From Relative to Absolute -----------------------
+         HA 2150 
+        181 0020 0000 0082 0000 1380   SPI_PRD_LD:     MOV32 { next=PRD_MCAL,   type=IMTOREG, reg=S,    data=SYNCI }                           
+            0020 0000 0000 0002 C816  
+         HA 2160 
+        182 0020 00A8 812E 0000 0000   PRD_MCAL:       ADD   { remote=SPI_CAL, src1=S, src2=ZERO, dest=NONE, rdest=REM, smode=LSR, scount=1, da
+            0020 0000 0000 0002 E817  
+         HA 2170 
+        183 0020 00B1 00A2 0000 0000   SPI_CAL:        ADD   { src1=T, src2=IMM, dest=S, data=0 }                                              
+            0020 0000 0000 0003 0818  
+         HA 2180 
+        184 0020 02A9 00A2 0000 0200   SPI_BLK_CAL:    SUB   { next=SPI50U_ABS, src1=S, src2=IMM, dest=S, rdest=NONE, data=k_BLKWNDEndOff }    
+            0020 0000 0000 0003 2819  
+        185                
+         HA 2190 
+        186 0020 02A9 002E 0000 0180   SPI50U_ABS:     SUB   { remote=SPI50U_M, src1=S, src2=IMM, dest=NONE, rdest=REM, data=k_SPI50UOFF }     
+            0020 0000 0000 0003 481A  
+         HA 21A0 
+        187 0020 0040 4E14 0000 0000   SPI50U_M:       MOV64 { remote=SPI50U_CHK, en_pin_action=ON, cond_addr=SPI50U_DL_CHK, pin=SPI50U_TRG, co
+            0020 0000 0000 0003 6201  
+        188                
+        189                ;----------SPI1m Start From Relative to Absolute -------------------------
+         HA 21B0 
+        190 0020 02A9 002E 0000 0100   SPI1m_ABS:      SUB   { remote=SPI1m_M, src1=S, src2=IMM, dest=NONE, rdest=REM, data=k_SPI1mOFF }       
+            0020 0000 0000 0003 881C  
+         HA 21C0 
+        191 0020 0040 9214 0000 0000   SPI1m_M:        MOV64 { remote=SPI1m_CHK, en_pin_action=ON, cond_addr=SPI1m_DL_CHK, pin=SPI1m_TRG, comp_
+            0020 0000 0000 0003 A203  
+        192                
+        193                ;----------Blanking Window Start From Relative to Absolute ---------------
+         HA 21D0 
+        194 0020 0000 003C 0000 0000   BLKWNDST_CAL:   ADM32 { remote=BLKWND_CHK,     type=IM&REGTOREM, reg=T, data=0, hr_data=0 };
+            0020 0000 0000 0003 C807  
+         HA 21E0 
+        195 0020 0000 003C 0000 0000   BLKWNDEnd_CAL:  ADM32 { remote=BLKWNDLast_CHK, type=IM&REGTOREM, reg=T, data=0, hr_data=0 };
+            0020 0000 0000 0003 E80B  
+        196                
+        197                
+        198                ;-----------------Buffer Data Received Check -----------------------------
+         HA 21F0 
+        199 0020 0004 0006 0000 0000   BUFData_CHK:    DJZ     { next=SPISync_END, cond_addr=MISSED_UPDATE, reg=NONE, data=0 } ; If (DF != 0) {
+            0020 0000 0000 0004 3480  
+        200                
+        201                ;----------------- Count Missed Buffer Data Available Opportunity  -------
+         HA 2200 
+        202 0020 01FF FFFF 0000 0000   MISSED_UPDATE:  CNT     { reg=none, data=0, max=0x1FFFFFF };
+            0020 0000 0000 0004 2CE0  
+         HA 2210 
+        203 0020 0000 0006 0000 0000   SPISync_END:    MOV32   { type= IMTOREG, reg= NONE, data=0 }
+            0020 0000 0000 0004 4822  
+        204                
+        205                ;-----------------------  SPI ePWM SYNC Module Code - Ends   --------------
+        206                
+        207                ;-----------------------  SENT Sensor Trigger Code - Starts ---------------
+        208                
+         HA 2220 
+        209 0020 0000 0000 0000 0000   SYNCNTSAVE:     MOV32   { type=IMTOREG,  reg=A,   data=0 };
+            0020 0000 0000 0004 6823  
+        210                
+         HA 2230 
+        211 0020 0000 04E3 0000 0000   SYNCCTR:        CNT     { data=k_2msLoopMin, reg=A, max=k_2msLoopMax }; Counter reset when it reaches to
+            0020 0000 0000 0004 8C20  
+        212                
+         HA 2240 
+        213 0020 0005 2006 0000 0000   SYNCRST:        DJZ     { next=SYNCMIN, cond_addr=T1TRGMIN, reg=NONE, data=0 }; if SYNCRST !=0 {decremen
+            0020 0000 0000 0004 B480  
+        214                
+        215                ; When the Sync Flag detected, it checks the value w.r.t. Sync Min, if Sync Counter >= Sync Min then res
+         HA 2250 
+        216 0020 0004 DA40 0000 0780   SYNCMIN:        MCMP    { next=T1TRGMIN,  cond_addr=SYNCNTRST,  en_pin_action=OFF, pin=SACRIFICIAL_PIN, 
+            0020 0000 0000 0005 2000  
+        217                
+NHET Assembler    Release 1.7     Thu Jul 14 13:05:07 2016
+Texas Instruments Incorporated. 
+
+Nhet1CfgAndUse_Prog.het                                              PAGE    3
+
+        218                ; if Counter value outside of Min - Max range, do nothing (Check for Pin Trigger Logic) or else reset co
+         HA 2260 
+        219 0020 0000 0008 0000 0000   SYNCNTRST:      MOV32   { remote=SYNCCTR, data=k_2msLoopMin, type=IMTOREG&REM, reg=A };
+            0020 0000 0000 0004 E823  
+        220                
+        221                ;Here is Pin Set for both
+         HA 2270 
+        222 0020 0045 0C16 0000 0000   T1TRGSET:       ECMP    { next=T2TRGSET, cond_addr=T2TRGSET, en_pin_action=ON, reg= NONE, pin=Phy_DigT1S
+            0020 0000 0000 0005 0100  
+         HA 2280 
+        223 0020 0045 BE16 0000 0000   T2TRGSET:       ECMP    { next=TSYNCEND, cond_addr=TSYNCEND, en_pin_action=ON, reg= NONE, pin=Phy_DigT2S
+            0020 0000 0000 0005 A100  
+        224                
+        225                ; Here is Pin clear for both
+         HA 2290 
+        226 0020 0045 4C00 0002 3D80   T1TRGMIN:       ECMP    { next=T2TRGMIN, cond_addr=T2TRGMIN, en_pin_action=ON, reg= A, pin=Phy_DigT1SENT
+            0020 0000 0000 0005 4100  
+         HA 22A0 
+        227 0020 0045 7E00 0002 3D80   T2TRGMIN:       ECMP    { next=T1TRGMAX, cond_addr=T1TRGMAX, en_pin_action=ON, reg= A, pin=Phy_DigT2SENT
+            0020 0000 0000 0005 6100  
+        228                
+        229                ;Here is Pin Set for both
+         HA 22B0 
+        230 0020 0045 8C10 0002 4280   T1TRGMAX:       ECMP    { next=T2TRGMAX, cond_addr=T2TRGMAX, en_pin_action=ON, reg= A, pin=Phy_DigT1SENT
+            0020 0000 0000 0005 8100  
+         HA 22C0 
+        231 0020 0045 BE10 0002 4280   T2TRGMAX:       ECMP    { next=TSYNCEND, cond_addr=TSYNCEND, en_pin_action=ON, reg= A, pin=Phy_DigT2SENT
+            0020 0000 0000 0005 A100  
+        232                
+         HA 22D0 
+        233 0020 0000 0010 0000 0000   TSYNCEND:       MOV32   { remote=SYNCNTSAVE,  type=REGTOREM,   reg=A  };
+            0020 0000 0000 0005 C822  
+        234                 
+        235                ;-----------------------  SENT Sensor Trigger Code - END ------------------
+        236                
+        237                
+        238                ;-----------------------  SENT Sensor Read Module Code - Starts -----------
+        239                
+        240                ;--- Sensor 1 Reading ---
+        241                
+        242                ; The SENT Pulse Capture from Fall 2 fall 
+         HA 22E0 
+        243 0020 0400 0000 0000 0000   T1SPCAP:        PCNT    { control=ON, pin=Phy_DigT1SENT, type=FALL2FALL, hr_lr=HIGH, data=0};
+            0020 0000 0000 0005 EE8A  
+        244                
+        245                ; Branch to T1END if Z is NOT SET, indicating this is not a new value on T1
+         HA 22F0 
+        246 0020 0009 4038 0000 0000   T1BR:           BR      { next=T1STOREREG, cond_addr=T1END, event=NZ};          
+            0020 0000 0000 0006 1A00  
+        247                
+        248                ; move PCNT value to working register for sync pulse identification calculation 
+         HA 2300 
+        249 0020 0000 0098 0000 0000   T1STOREREG:     MOV32   { remote= T1SPCAP,   type= REMTOREG,  reg= R };
+            0020 0000 0000 0006 282E  
+        250                
+        251                ; retrive the last stored B value 
+         HA 2310 
+        252 0020 0000 0002 0000 0000   T1RESTREGB:     MOV32   { type=IMTOREG,  reg=B,   data=0 };
+            0020 0000 0000 0006 4832  
+        253                
+        254                ; load the Register A value with previous stored value, so A can be re-use.
+         HA 2320 
+        255 0020 0000 0000 0000 0000   T1MSGREGA:      MOV32   { type=IMTOREG,  reg=A,   data=0 };
+            0020 0000 0000 0006 6833  
+        256                
+        257                ; Identify "synch" Pulse is smaller than Min Value
+         HA 2330 
+        258 0020 0006 BAC0 0000 0700   T1SYNCMinDet:   MCMP    { next=T1FPLSDT, cond_addr=T1SYNCMaxDet, en_pin_action=OFF, pin=SACRIFICIAL_PIN,
+            0020 0000 0000 0006 8000  
+        259                
+        260                ; If Field counter >=1 then don't check sync
+         HA 2340 
+        261 0020 0007 1A42 0000 0080   T1FPLSDT:       MCMP    { next=T1END, cond_addr=T1FLDCNT, en_pin_action=OFF, pin=SACRIFICIAL_PIN, order=
+            0020 0000 0000 0009 4000  
+        262                
+        263                ; Identify "Synch" Pulse is greater than Max value
+         HA 2350 
+        264 0020 0009 5AC0 0000 0A80   T1SYNCMaxDet:   MCMP    { next=T1MSGCNTLDST, cond_addr=T1END, en_pin_action=OFF, pin=SACRIFICIAL_PIN, or
+            0020 0000 0000 0006 C000  
+        265                
+        266                ; Load the First Bookend Location with Msg Count + 1
+         HA 2360 
+        267 0020 0091 002E 0000 0080   T1MSGCNTLDST:   ADD     { remote=T1MSGCNTST, src1=A, src2=IMM, dest=NONE, rdest=REM, data=1 };
+            0020 0000 0000 0006 E83A  
+        268                
+        269                ;Reset Counter to zero 
+         HA 2370 
+        270 0020 0000 000A 0000 0000   T1RSTREGB:      MOV32   { remote=T1FLDCNT,   type= IMTOREG&REM,  reg=B,   data=0 };     
+            0020 0000 0000 0007 0838  
+        271                
+        272                ;Frame Field Count detect
+         HA 2380 
+        273 0020 0000 0006 0000 0000   T1FLDCNT:       CNT     { reg=B, comp=GE, max=6, data=0};
+            0020 0000 0000 0007 2C60  
+        274                
+        275                ; Restore Register B in case B required to reuse in other module
+         HA 2390 
+        276 0020 0000 0012 0000 0000   T1RESTREGB1:    MOV32   { next=T1SyncB1, remote=T1RESTREGB,  type=REGTOREM,   reg=B  };
+            0020 0000 0000 0007 6831  
+        277                
+        278                ; Buffer area for 6 pusles
+         HA 23A0 
+        279 0020 0000 000E 0000 0000   T1MSGCNTST:     MOV32   { remote= T1MSGCNTST, type= IMTOREG&REM, reg= NONE, data=0 };
+            0020 0000 0000 0007 683A  
+         HA 23B0 
+        280 0020 0000 000E 0000 0001   T1SyncB1:       MOV32   { remote= T1SyncB1,   type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };        
+            0020 0000 0000 0007 883B  
+         HA 23C0 
+        281 0020 0000 000E 0000 0001   T1StatB2:       MOV32   { remote= T1SyncB1,   type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };
+            0020 0000 0000 0007 A83B  
+         HA 23D0 
+        282 0020 0000 000E 0000 0001   T1D0B3:         MOV32   { remote= T1StatB2,   type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };        
+            0020 0000 0000 0007 C83C  
+         HA 23E0 
+        283 0020 0000 000E 0000 0001   T1D1B4:         MOV32   { remote= T1D0B3,     type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };
+            0020 0000 0000 0007 E83D  
+         HA 23F0 
+        284 0020 0000 000E 0000 0001   T1D2B5:         MOV32   { remote= T1D1B4,     type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };
+            0020 0000 0000 0008 083E  
+         HA 2400 
+        285 0020 0000 000E 0000 0001   T1CrcB6:        MOV32   { next=T1STOREREGB0,  remote= T1D2B5,    type= IMTOREG&REM, reg= NONE, data=0, h
+            0020 0000 0000 0008 483F  
+         HA 2410 
+        286 0020 0000 000E 0000 0000   T1MSGCNTED:     MOV32   { remote= T1MSGCNTED, type= IMTOREG&REM, reg= NONE, data=0 };   ; load the MSG C
+NHET Assembler    Release 1.7     Thu Jul 14 13:05:07 2016
+Texas Instruments Incorporated. 
+
+Nhet1CfgAndUse_Prog.het                                              PAGE    4
+
+            0020 0000 0000 0008 4841  
+        287                
+         HA 2420 
+        288 0020 0000 0090 0000 0000   T1STOREREGB0:   MOV32   { remote= T1CrcB6,    type= REGTOREM,    reg= R,    data=0 };
+            0020 0000 0000 0008 6840  
+        289                
+        290                ;Check if entire frame all CRC completes 
+         HA 2430 
+        291 0020 0008 9A42 0000 0300   T1FRMCMP:       MCMP    { next=T1END, cond_addr=T1MSGCNT, en_pin_action=OFF, pin=SACRIFICIAL_PIN, order=
+            0020 0000 0000 0009 4000  
+        292                
+        293                ;T1 Msg Counter
+         HA 2440 
+        294 0020 01FF FFFF 0000 0000   T1MSGCNT:       CNT     { reg=A, data=0, max= 0x1FFFFFF };
+            0020 0000 0000 0008 AC20  
+        295                
+        296                ; load the MSG Count to start of frame and end of frame to conform data consistancy
+         HA 2450 
+        297 0020 0000 0010 0000 0000   T1MSGCNTLDED0:  MOV32   { remote= T1MSGCNTED,  type= REGTOREM,    reg= A,    data=0 };
+            0020 0000 0000 0008 C841  
+         HA 2460 
+        298 0020 0000 0010 0000 0000   T1MSGCNTLD:     MOV32   { remote= T1MSGREGA,   type= REGTOREM,    reg= A,    data=0 };
+            0020 0000 0000 0008 E832  
+        299                
+        300                ; Generate the HTU request on HTU 1 for capture all data
+         HA 2470 
+        301 00 0020 0809 1A00 0000 0000   T1HTUCAP:       BR      { next=T1RESTREGB2, cond_addr=T1RESTREGB2, reqnum=HTU_REQ1,  request=GENREQ,  pi
+            00 0020 0000 0000 0089 1A00  
+        302                
+        303                ; reset FLD Count and register value set to 0
+         HA 2480 
+        304 0020 0000 000E 0000 0000   T1RESTREGB2:    MOV32   { remote=T1FLDCNT,  type=IMTOREG&REM,   reg=NONE,  data=0 };
+            0020 0000 0000 0009 2838  
+         HA 2490 
+        305 0020 0000 000E 0000 0000   T1RESTREGB3:    MOV32   { remote=T1RESTREGB,  type=IMTOREG&REM, reg=NONE,  data=0 };
+            0020 0000 0000 0009 4831  
+        306                
+         HA 24A0 
+        307 0020 0000 000E 0000 0000   T1END:          MOV32   { remote= T1END, type= IMTOREG&REM, reg= NONE, data=0 }
+            0020 0000 0000 0009 684A  
+        308                
+        309                ;--- Sensor 2 Reading ---
+        310                
+        311                ; The SENT Pulse Capture from Fall 2 fall 
+         HA 24B0 
+        312 0020 0400 0000 0000 0000   T2SPCAP:        PCNT    { next=T2BR, control=ON, pin=Phy_DigT2SENT, type=FALL2FALL, hr_lr=HIGH, data=0};
+            0020 0000 0000 0009 8E9C  
+        313                
+        314                ; Branch to T1END if Z is NOT SET, indicating this is not a new value on T1
+         HA 24C0 
+        315 0020 000C E038 0000 0000   T2BR:           BR      { next=T2STOREREG, cond_addr=T2END, event=NZ}          
+            0020 0000 0000 0009 BA00  
+        316                
+        317                ; move PCNT value to working register for sync pulse identification calculation 
+         HA 24D0 
+        318 0020 0000 0098 0000 0000   T2STOREREG:     MOV32   { remote= T2SPCAP,   type= REMTOREG,  reg= R };
+            0020 0000 0000 0009 C84B  
+        319                
+        320                ; retrive the last stored B value 
+         HA 24E0 
+        321 0020 0000 0002 0000 0000   T2RESTREGB:     MOV32   { type=IMTOREG,  reg=B,   data=0 };
+            0020 0000 0000 0009 E84F  
+        322                
+        323                ; load the Register A value with previous stored value, so A can be re-use.
+         HA 24F0 
+        324 0020 0000 0000 0000 0000   T2MSGREGA:      MOV32   { type=IMTOREG,  reg=A,   data=0 };
+            0020 0000 0000 000A 0850  
+        325                
+        326                ; Identify "synch" Pulse is smaller than Min Value
+         HA 2500 
+        327 0020 000A 5AC0 0000 0700   T2SYNCMinDet:   MCMP    { next=T2FPLSDT, cond_addr=T2SYNCMaxDet, en_pin_action=OFF, pin=SACRIFICIAL_PIN,
+            0020 0000 0000 000A 2000  
+        328                
+        329                ; If Field counter >=1 then don't check sync
+         HA 2510 
+        330 0020 000A BA42 0000 0080   T2FPLSDT:       MCMP    { next=T2END, cond_addr=T2FLDCNT, en_pin_action=OFF, pin=SACRIFICIAL_PIN, order=
+            0020 0000 0000 000C E000  
+        331                
+        332                ; Identify "Synch" Pulse is greater than Max value
+         HA 2520 
+        333 0020 000C FAC0 0000 0A80   T2SYNCMaxDet:   MCMP    { next=T2MSGCNTLDST, cond_addr=T2END, en_pin_action=OFF, pin=SACRIFICIAL_PIN, or
+            0020 0000 0000 000A 6000  
+        334                
+        335                ; Load the First Bookend Location with Msg Count + 1
+         HA 2530 
+        336 0020 0091 002E 0000 0080   T2MSGCNTLDST:   ADD     { remote=T2MSGCNTST, src1=A, src2=IMM, dest=NONE, rdest=REM, data=1 };
+            0020 0000 0000 000A 8857  
+        337                
+        338                ;Reset Counter to zero 
+         HA 2540 
+        339 0020 0000 000A 0000 0000   T2RSTREGB:      MOV32   { remote=T2FLDCNT,   type= IMTOREG&REM,  reg=B,   data=0 };     
+            0020 0000 0000 000A A855  
+        340                
+        341                ;Frame Field Count detect
+         HA 2550 
+        342 0020 0000 0006 0000 0000   T2FLDCNT:       CNT     { reg=B, comp=GE, max=6, data=0};
+            0020 0000 0000 000A CC60  
+        343                
+        344                ; Restore Register B in case B required to reuse in other module
+         HA 2560 
+        345 0020 0000 0012 0000 0000   T2RESTREGB1:    MOV32   { next=T2SyncB1, remote=T2RESTREGB,  type=REGTOREM,   reg=B  };
+            0020 0000 0000 000B 084E  
+        346                
+        347                ; Buffer area for 6 pusles
+         HA 2570 
+        348 0020 0000 000E 0000 0000   T2MSGCNTST:     MOV32   { remote= T2MSGCNTST, type= IMTOREG&REM, reg= NONE, data=0 };
+            0020 0000 0000 000B 0857  
+         HA 2580 
+        349 0020 0000 000E 0000 0001   T2SyncB1:       MOV32   { remote= T2SyncB1,   type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };        
+            0020 0000 0000 000B 2858  
+         HA 2590 
+        350 0020 0000 000E 0000 0001   T2StatB2:       MOV32   { remote= T2SyncB1,   type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };
+            0020 0000 0000 000B 4858  
+         HA 25A0 
+        351 0020 0000 000E 0000 0001   T2D0B3:         MOV32   { remote= T2StatB2,   type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };        
+            0020 0000 0000 000B 6859  
+         HA 25B0 
+        352 0020 0000 000E 0000 0001   T2D1B4:         MOV32   { remote= T2D0B3,     type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };
+            0020 0000 0000 000B 885A  
+         HA 25C0 
+        353 0020 0000 000E 0000 0001   T2D2B5:         MOV32   { remote= T2D1B4,     type= IMTOREG&REM, reg= NONE, data=0, hr_data=1 };
+            0020 0000 0000 000B A85B  
+NHET Assembler    Release 1.7     Thu Jul 14 13:05:07 2016
+Texas Instruments Incorporated. 
+
+Nhet1CfgAndUse_Prog.het                                              PAGE    5
+
+         HA 25D0 
+        354 0020 0000 000E 0000 0001   T2CrcB6:        MOV32   { next=T2STOREREGB0,  remote= T2D2B5,    type= IMTOREG&REM, reg= NONE, data=0, h
+            0020 0000 0000 000B E85C  
+         HA 25E0 
+        355 0020 0000 000E 0000 0000   T2MSGCNTED:     MOV32   { remote= T2MSGCNTED, type= IMTOREG&REM, reg= NONE, data=0 };   ; load the MSG C
+            0020 0000 0000 000B E85E  
+        356                
+         HA 25F0 
+        357 0020 0000 0090 0000 0000   T2STOREREGB0:   MOV32   { remote= T2CrcB6,    type= REGTOREM,    reg= R,    data=0 };
+            0020 0000 0000 000C 085D  
+        358                
+        359                ;Check if entire frame all CRC completes 
+         HA 2600 
+        360 0020 000C 3A42 0000 0300   T2FRMCMP:       MCMP    { next=T2END, cond_addr=T2MSGCNT, en_pin_action=OFF, pin=SACRIFICIAL_PIN, order=
+            0020 0000 0000 000C E000  
+        361                
+        362                ;T1 Msg Counter
+         HA 2610 
+        363 0020 01FF FFFF 0000 0000   T2MSGCNT:       CNT     { reg=A, data=0, max= 0x1FFFFFF };
+            0020 0000 0000 000C 4C20  
+        364                
+        365                ; load the MSG Count to start of frame and end of frame to conform data consistancy
+         HA 2620 
+        366 0020 0000 0010 0000 0000   T2MSGCNTLDED:   MOV32   { remote= T2MSGCNTED,  type= REGTOREM,    reg= A,    data=0 };
+            0020 0000 0000 000C 685E  
+         HA 2630 
+        367 0020 0000 0010 0000 0000   T2MSGCNTLD:     MOV32   { remote= T2MSGREGA,   type= REGTOREM,    reg= A,    data=0 };
+            0020 0000 0000 000C 884F  
+        368                
+        369                ; Generate the HTU request on HTU 1 for capture all data
+         HA 2640 
+        370 00 0020 080C BA00 0000 0000   T2HTUCAP:       BR      { next=T2RESTREGB2, cond_addr=T2RESTREGB2, reqnum=HTU_REQ2,  request=GENREQ,  pi
+            00 0020 0000 0000 010C BA00  
+        371                
+        372                ; reset FLD Count and register value set to 0
+         HA 2650 
+        373 0020 0000 000E 0000 0000   T2RESTREGB2:    MOV32   { remote=T2FLDCNT,  type=IMTOREG&REM,   reg=NONE,  data=0 };
+            0020 0000 0000 000C C855  
+         HA 2660 
+        374 0020 0000 000E 0000 0000   T2RESTREGB3:    MOV32   { remote=T2RESTREGB,  type=IMTOREG&REM, reg=NONE,  data=0 };
+            0020 0000 0000 000C E84E  
+        375                
+         HA 2670 
+        376 0020 0000 000E 0000 0000   T2END:          MOV32   { remote= T2END, type= IMTOREG&REM, reg= NONE, data=0 }
+            0020 0000 0000 000D 0867  
+        377                ;-----------------------  SENT Sensor Read Module Code - Ends   -----------
+        378                
+        379                ;----------  Basic Infrastructure- END  -----------------------------------
+         HA 2680 
+        380 0020 0000 0000 0000 0000   END:            BR      { next=START, cond_addr=START, event= NOCOND}  ; could be removed when program i
+            0020 0000 0000 0000 1A00  
+        381                ; -------------------------------------------------------------------------
+        382                
+        383                
+
+ No Errors, No Warnings
+NHET Assembler    Release 1.7     Thu Jul 14 13:05:07 2016
+Texas Instruments Incorporated. 
+
+Nhet1CfgAndUse_Prog.het                                              PAGE    6
+
+LABEL                                VALUE       DEFN    REF
+
+.TMS_HET                          00000001 

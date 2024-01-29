@@ -1,0 +1,1074 @@
+<RDEF> I Includes
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 27
+<DEFINE> STD_TYPES_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/Compiler_Cfg.h 2 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 28
+<DEFINE> STARTUP_CFG_H_ C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 25 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 27
+<DEFINE> FREQ_150MHZ C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 30 I DF OM - - - O
+<DEFINE> PLL2ENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 33 I DF OM - - - O
+<DEFINE> ESRAM1ENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 36 I DF OM - - - O
+<DEFINE> DMAMEM_PBIST C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 39 I DF OM - - - O
+<DEFINE> DMAMEM_INIT C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 40 I DF OM - - - O
+<DEFINE> MIBADC_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 43 I DF OM - - - O
+<DEFINE> GIO_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 44 I DF OM - - - O
+<DEFINE> N2HET_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 45 I DF OM - - - O
+<DEFINE> HTU_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 46 I DF OM - - - O
+<DEFINE> FTU_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 47 I DF OM - - - O
+<DEFINE> FLEXRAY_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 48 I DF OM - - - O
+<DEFINE> I2C_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 49 I DF OM - - - O
+<DEFINE> DCAN1_DCAN2_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 50 I DF OM - - - O
+<DEFINE> DCAN3_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 51 I DF OM - - - O
+<DEFINE> LIN_SCI_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 52 I DF OM - - - O
+<DEFINE> MIBSPI1_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 53 I DF OM - - - O
+<DEFINE> MIBSPI3_SPI4_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 54 I DF OM - - - O
+<DEFINE> MIBSPI5_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 55 I DF OM - - - O
+<DEFINE> MIBSPI1MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 58 I DF OM - - - O
+<DEFINE> MIBSPI3MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 59 I DF OM - - - O
+<DEFINE> MIBSPI5MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 60 I DF OM - - - O
+<DEFINE> DCAN3MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 61 I DF OM - - - O
+<DEFINE> DCAN2MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 62 I DF OM - - - O
+<DEFINE> DCAN1MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 63 I DF OM - - - O
+<DEFINE> MIBADC2MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 64 I DF OM - - - O
+<DEFINE> MIBADC1MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 65 I DF OM - - - O
+<DEFINE> N2HET2MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 66 I DF OM - - - O
+<DEFINE> N2HET1MEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 67 I DF OM - - - O
+<DEFINE> N2HET2TUMEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 68 I DF OM - - - O
+<DEFINE> N2HET1TUMEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 69 I DF OM - - - O
+<DEFINE> FLEXRAYTUMEM_PWRENABLE C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 70 I DF OM - - - O
+<DEFINE> MIBADC_PSPWRDWNCLR1MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 74 I DF OM - - - O
+<LIT> 0xF0000000 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 74 57 I HN - F M
+<DEFINE> GIO_PSPWRDWNCLR2MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 80 I DF OM - - - O
+<LIT> 0x0000000F U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 80 57 I HN - F M
+<DEFINE> N2HET_PSPWRDWNCLR2MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 86 I DF OM - - - O
+<LIT> 0x000000F0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 86 57 I HN - F M
+<DEFINE> HTU_PSPWRDWNCLR2MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 92 I DF OM - - - O
+<LIT> 0x0F000000 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 92 57 I HN - F M
+<DEFINE> FTU_PSPWRDWNCLR2MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 98 I DF OM - - - O
+<LIT> 0xF0000000 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 98 57 I HN - F M
+<DEFINE> FLEXRAY_PSPWRDWNCLR1MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 104 I DF OM - - - O
+<LIT> 0x00FF0000 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 104 57 I HN - F M
+<DEFINE> I2C_PSPWRDWNCLR1MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 110 I DF OM - - - O
+<LIT> 0x00000F00 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 110 57 I HN - F M
+<DEFINE> DCAN1_DCAN2_PSPWRDWNCLR1MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 116 I DF OM - - - O
+<LIT> 0x0000000F U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 116 49 I HN - F M
+<DEFINE> DCAN3_PSPWRDWNCLR0MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 122 I DF OM - - - O
+<LIT> 0xF0000000 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 122 57 I HN - F M
+<DEFINE> LIN_SCI_PSPWRDWNCLR0MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 128 I DF OM - - - O
+<LIT> 0x0F000000 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 128 57 I HN - F M
+<DEFINE> MIBSPI1_PSPWRDWNCLR0MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 134 I DF OM - - - O
+<LIT> 0x00000F00 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 134 57 I HN - F M
+<DEFINE> MIBSPI3_SPI4_PSPWRDWNCLR0MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 140 I DF OM - - - O
+<LIT> 0x000000F0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 140 49 I HN - F M
+<DEFINE> MIBSPI5_PSPWRDWNCLR0MASK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 146 I DF OM - - - O
+<LIT> 0x0000000F U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 146 57 I HN - F M
+<DEFINE> D_PCSPWRDWNCLR0VAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 I DF OM - - - O
+<LIT> 5 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 69 I DN - F M
+<LIT> 6 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 103 I DN - F M
+<LIT> 7 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 137 I DN - F M
+<LIT> 13 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 169 I DN - F M
+<LIT> 14 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 202 I DN - F M
+<LIT> 15 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 235 I DN - F M
+<LIT> 29 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 270 I DN - F M
+<LIT> 31 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 152 305 I DN - F M
+<DEFINE> D_PCSPWRDWNCLR1VAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 153 I DF OM - - - O
+<LIT> 2 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 153 68 I DN - F M
+<LIT> 3 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 153 101 I DN - F M
+<LIT> 6 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 153 136 I DN - F M
+<LIT> 7 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 153 171 I DN - F M
+<LIT> 8 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 153 207 I DN - F M
+<DEFINE> D_PSPWRDWNCLR0VAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 155 I DF OM - - - O
+<DEFINE> D_PSPWRDWNCLR1VAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 156 I DF OM - - - O
+<DEFINE> D_PSPWRDWNCLR2VAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 157 I DF OM - - - O
+<DEFINE> D_PSPWRDWNCLR3VAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 158 I DF OM - - - O
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 158 36 I ON - F M
+<DEFINE> D_CSDISCLRVAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 165 I DF OM - - - O
+<LIT> 0x00000033 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 165 49 I HN - F M
+<DEFINE> D_CSVSTATMASK_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 166 I DF OM - - - O
+<LIT> 0x00000002 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 166 49 I HN - F M
+<DEFINE> D_CHKFORPLLSLIP_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 167 I DF OM - - - F
+<DEFINE> D_PLLCTL2VAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 170 I DF OM - - - O
+<LIT> 0x3FC0723D U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 170 49 I HN - F M
+<DEFINE> D_FRDCNTLVAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 176 I DF OM - - - O
+<LIT> 0x00000311 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 176 49 I HN - F M
+<DEFINE> D_PLLCTL1VAL_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 177 I DF OM - - - O
+<LIT> 0x1F055F00 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 177 49 I HN - F M
+<DEFINE> D_SPRAMGRPSTMS_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 180 I DF OM - - - O
+<LIT> 16 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 180 62 I DN - F M
+<LIT> 5 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 180 89 I DN - F M
+<DEFINE> D_DPRAMGRPSTMS_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 I DF OM - - - O
+<LIT> 2 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 62 I DN - F M
+<LIT> 3 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 94 I DN - F M
+<LIT> 4 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 126 I DN - F M
+<LIT> 6 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 160 I DN - F M
+<LIT> 7 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 196 I DN - F M
+<LIT> 8 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 230 I DN - F M
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 242 I DN - F M
+<LIT> 9 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 245 I DN - F M
+<LIT> 10 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 279 I DN - F M
+<LIT> 11 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 306 I DN - F M
+<LIT> 12 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 340 I DN - F M
+<LIT> 13 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 376 I DN - F M
+<LIT> 15 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 413 I DN - F M
+<LIT> 17 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 448 I DN - F M
+<LIT> 18 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 482 I DN - F M
+<LIT> 19 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 181 518 I DN - F M
+<DEFINE> D_RAMRESETINITMASKTMS_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 I DF OM - - - O
+<LIT> 10 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 69 I DN - F M
+<LIT> 6 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 102 I DN - F M
+<LIT> 5 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 134 I DN - F M
+<LIT> 14 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 168 I DN - F M
+<LIT> 8 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 203 I DN - F M
+<LIT> 15 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 236 I DN - F M
+<LIT> 3 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 270 I DN - F M
+<LIT> 16 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 305 I DN - F M
+<LIT> 4 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 341 I DN - F M
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 366 I DN - F M
+<LIT> 1 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 378 I DN - F M
+<LIT> 2 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 183 381 I DN - F M
+<DEFINE> D_RAMPWRONINITMASKTMS_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 184 I DF OM - - - O
+<LIT> 0x000000001 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 184 72 I HN - F M
+<DEFINE> D_PLLSLIPWAITCYC_CNT_U32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 186 I DF OM - - - O
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/utp/contract/startup_cfg.h 186 49 I DN - F M
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 29
+<DEFINE> SYSTEM_REGS_H C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 22 I DF OM - - - O
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/Std_Types.h 27
+<DEFINE> systemctrlregs1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 29 I DC TG F N {ssystemctrlregs1} -
+<DEFINE> systemctrlregs1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 29 I DF TG F N {ssystemctrlregs1} -
+<DEFINE> SYSPC1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 31 I DC MB F N ul -
+<DEFINE> SYSPC2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 32 I DC MB F N ul -
+<DEFINE> SYSPC3 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 33 I DC MB F N ul -
+<DEFINE> SYSPC4 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 34 I DC MB F N ul -
+<DEFINE> SYSPC5 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 35 I DC MB F N ul -
+<DEFINE> SYSPC6 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 36 I DC MB F N ul -
+<DEFINE> SYSPC7 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 37 I DC MB F N ul -
+<DEFINE> SYSPC8 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 38 I DC MB F N ul -
+<DEFINE> SYSPC9 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 39 I DC MB F N ul -
+<DEFINE> SSWPLL1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 40 I DC MB F N ul -
+<DEFINE> SSWPLL2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 41 I DC MB F N ul -
+<DEFINE> SSWPLL3 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 42 I DC MB F N ul -
+<DEFINE> CSDIS C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 43 I DC MB F N ul -
+<DEFINE> CSDISSET C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 44 I DC MB F N ul -
+<DEFINE> CSDISCLR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 45 I DC MB F N ul -
+<DEFINE> CDDIS C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 46 I DC MB F N ul -
+<DEFINE> CDDISSET C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 47 I DC MB F N ul -
+<DEFINE> CDDISCLR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 48 I DC MB F N ul -
+<DEFINE> GHVSRC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 49 I DC MB F N ul -
+<DEFINE> VCLKASRC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 50 I DC MB F N ul -
+<DEFINE> RCLKSRC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 51 I DC MB F N ul -
+<DEFINE> CSVSTAT C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 52 I DC MB F N ul -
+<DEFINE> MSTGCR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 53 I DC MB F N ul -
+<DEFINE> MINITGCR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 54 I DC MB F N ul -
+<DEFINE> MSINENA C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 55 I DC MB F N ul -
+<DEFINE> MSTFAIL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 56 I DC MB F N ul -
+<DEFINE> MSTCGSTAT C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 57 I DC MB F N ul -
+<DEFINE> MINISTAT C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 58 I DC MB F N ul -
+<DEFINE> PLLCTL1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 59 I DC MB F N ul -
+<DEFINE> PLLCTL2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 60 I DC MB F N ul -
+<DEFINE> UERFLAG C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 61 I DC MB F N ul -
+<DEFINE> DIEIDL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 62 I DC MB F N ul -
+<DEFINE> DIEIDH C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 63 I DC MB F N ul -
+<DEFINE> VRCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 64 I DC MB F N ul -
+<DEFINE> LPOMONCTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 65 I DC MB F N ul -
+<DEFINE> CLKTEST C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 66 I DC MB F N ul -
+<DEFINE> DFTCTRLREG1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 67 I DC MB F N ul -
+<DEFINE> DFTCTRLREG2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 68 I DC MB F N ul -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 69 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 69 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 70 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 70 I DC MB F N ub -
+<DEFINE> GPREG1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 71 I DC MB F N ul -
+<DEFINE> BTRMSEL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 72 I DC MB F N ul -
+<DEFINE> IMPFASTS C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 73 I DC MB F N ul -
+<DEFINE> IMPFTADD C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 74 I DC MB F N ul -
+<DEFINE> SSISR1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 75 I DC MB F N ul -
+<DEFINE> SSISR2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 76 I DC MB F N ul -
+<DEFINE> SSISR3 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 77 I DC MB F N ul -
+<DEFINE> SSISR4 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 78 I DC MB F N ul -
+<DEFINE> RAMGCR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 79 I DC MB F N ul -
+<DEFINE> BMMCR1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 80 I DC MB F N ul -
+<DEFINE> BMMCR2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 81 I DC MB F N ul -
+<DEFINE> MMUGCR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 82 I DC MB F N ul -
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 83 21 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 83 I DC MB F N ub -
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 84 21 I DN ui F B
+<DEFINE> VCLK2R C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 84 I DC MB F N ub -
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 85 21 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 85 I DC MB F N ub -
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 86 21 I DN ui F B
+<DEFINE> VCLKR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 86 I DC MB F N ub -
+<LIT> 7 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 87 21 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 87 I DC MB F N ub -
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 88 21 I DN ui F B
+<DEFINE> PENA C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 88 I DC MB F N ub -
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 89 21 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 89 I DC MB F N ub -
+<DEFINE> ECPCNTL C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 90 I DC MB F N ul -
+<DEFINE> DSPGCR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 91 I DC MB F N ul -
+<DEFINE> DEVCR1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 92 I DC MB F N ul -
+<DEFINE> SYSECR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 93 I DC MB F N ul -
+<DEFINE> SYSESR C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 94 I DC MB F N ul -
+<DEFINE> ITIFLAG C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 95 I DC MB F N ul -
+<DEFINE> GBLSTAT C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 96 I DC MB F N ul -
+<DEFINE> DEV C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 97 I DC MB F N ul -
+<DEFINE> SSIVEC C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 98 I DC MB F N ul -
+<DEFINE> SSIF C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 99 I DC MB F N ul -
+<DEFINE> systemctrlregs1_t C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 100 I DC OT F N ^{ssystemctrlregs1} -
+<DEFINE> systemREG1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 102 I DF OM - - - O
+<LIT> 0xFFFFFF00 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 102 42 I HN - F M
+<DEFINE> systemctrlregs2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 104 I DC TG F N {ssystemctrlregs2} -
+<DEFINE> systemctrlregs2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 104 I DF TG F N {ssystemctrlregs2} -
+<DEFINE> PLLCTL3 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 106 I DC MB F N ul -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 107 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 107 I DC MB F N ub -
+<DEFINE> STCCLKDIV C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 108 I DC MB F N ul -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 109 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 109 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 110 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 110 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 111 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 111 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 112 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 112 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 113 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 113 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 114 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 114 I DC MB F N ub -
+<DEFINE> ECPCNTRL0 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 115 I DC MB F N ul -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 116 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 116 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 117 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 117 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 118 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 118 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 119 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 119 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 120 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 120 I DC MB F N ub -
+<LIT> 20 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 121 21 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 121 I DC MB F N ub -
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 122 21 I DN ui F B
+<DEFINE> VCLK4R C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 122 I DC MB F N ub -
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 123 21 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 123 I DC MB F N ub -
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 124 21 I DN ui F B
+<DEFINE> VCLK3R C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 124 I DC MB F N ub -
+<DEFINE> VCLKACON1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 125 I DC MB F N ul -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 126 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 126 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 127 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 127 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 128 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 128 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 129 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 129 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 130 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 130 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 131 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 131 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 132 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 132 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 133 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 133 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 134 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 134 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 135 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 135 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 136 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 136 I DC MB F N ub -
+<DEFINE> CLKSLIP C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 137 I DC MB F N ul -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 138 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 138 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 139 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 139 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 140 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 140 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 141 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 141 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 142 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 142 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 143 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 143 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 144 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 144 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 145 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 145 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 146 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 146 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 147 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 147 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 148 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 148 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 149 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 149 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 150 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 150 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 151 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 151 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 152 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 152 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 153 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 153 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 154 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 154 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 155 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 155 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 156 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 156 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 157 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 157 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 158 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 158 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 159 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 159 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 160 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 160 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 161 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 161 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 162 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 162 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 163 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 163 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 164 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 164 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 165 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 165 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 166 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 166 I DC MB F N ub -
+<LIT> 32 U P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 167 14 I DN ui F B
+<DEFINE> - C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 167 I DC MB F N ub -
+<DEFINE> EFC_CTLEN C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 168 I DC MB F N ul -
+<DEFINE> DIEIDL_REG0 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 169 I DC MB F N ul -
+<DEFINE> DIEIDH_REG1 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 170 I DC MB F N ul -
+<DEFINE> DIEIDL_REG2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 171 I DC MB F N ul -
+<DEFINE> DIEIDH_REG3 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 172 I DC MB F N ul -
+<DEFINE> systemctrlregs2_t C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 173 I DC OT F N ^{ssystemctrlregs2} -
+<DEFINE> systemREG2 C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 175 I DF OM - - - O
+<LIT> 0xFFFFE100 UL P C:/Users/rzk04c/Documents/Synergy/EA3/StdDef/include/TMS570_HerculesRegs/system_regs.h 175 42 I HN - F M
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 30
+<R>I C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 27
+<DEFINE> INCLUDE_ERRATA_SSWF021_45_DEFS_H_ C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 28 I DF OM - - - O
+<DEFINE> esmBase C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 30 I DC TG F N {sesmBase} -
+<DEFINE> esmBase C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 30 I DF TG F N {sesmBase} -
+<DEFINE> EEPAPR1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 32 I DC MB F N ul -
+<DEFINE> DEPAPR1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 33 I DC MB F N ul -
+<DEFINE> IESR1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 34 I DC MB F N ul -
+<DEFINE> IECR1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 35 I DC MB F N ul -
+<DEFINE> ILSR1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 36 I DC MB F N ul -
+<DEFINE> ILCR1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 37 I DC MB F N ul -
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 38 16 I DN ui F D
+<DEFINE> SR1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 38 I DC MB F N [3,ul] -
+<DEFINE> EPSR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 39 I DC MB F N ul -
+<DEFINE> IOFFHR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 40 I DC MB F N ul -
+<DEFINE> IOFFLR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 41 I DC MB F N ul -
+<DEFINE> LTCR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 42 I DC MB F N ul -
+<DEFINE> LTCPR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 43 I DC MB F N ul -
+<DEFINE> EKR C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 44 I DC MB F N ul -
+<DEFINE> SSR2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 45 I DC MB F N ul -
+<DEFINE> IEPSR4 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 46 I DC MB F N ul -
+<DEFINE> IEPCR4 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 47 I DC MB F N ul -
+<DEFINE> IESR4 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 48 I DC MB F N ul -
+<DEFINE> IECR4 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 49 I DC MB F N ul -
+<DEFINE> ILSR4 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 50 I DC MB F N ul -
+<DEFINE> ILCR4 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 51 I DC MB F N ul -
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 52 16 I DN ui F D
+<DEFINE> SR4 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 52 I DC MB F N [3,ul] -
+<DEFINE> esmBASE_t C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 53 I DC OT F N ^{sesmBase} -
+<DEFINE> dccBase C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 55 I DC TG F N {sdccBase} -
+<DEFINE> dccBase C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 55 I DF TG F N {sdccBase} -
+<DEFINE> GCTRL C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 57 I DC MB F N ul -
+<DEFINE> REV C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 58 I DC MB F N ul -
+<DEFINE> CNT0SEED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 59 I DC MB F N ul -
+<DEFINE> VALID0SEED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 60 I DC MB F N ul -
+<DEFINE> CNT1SEED C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 61 I DC MB F N ul -
+<DEFINE> STAT C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 62 I DC MB F N ul -
+<DEFINE> CNT0 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 63 I DC MB F N ul -
+<DEFINE> VALID0 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 64 I DC MB F N ul -
+<DEFINE> CNT1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 65 I DC MB F N ul -
+<DEFINE> CNT1CLKSRC C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 66 I DC MB F N ul -
+<DEFINE> CNT0CLKSRC C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 67 I DC MB F N ul -
+<DEFINE> dccBASE_t C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 68 I DC OT F N ^{sdccBase} -
+<DEFINE> dcc1clocksource C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 70 I DF TG F N {edcc1clocksource} -
+<LIT> 0x5 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 72 27 I HN ui F E
+<DEFINE> DCC1_CNT0_HF_LPO C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 72 I DC OE F N ne -
+<DEFINE> DCC1_CNT0_HF_LPO C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 72 I DF OE F N ne -
+<LIT> 0xA U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 73 27 I HN ui F E
+<DEFINE> DCC1_CNT0_TCK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 73 I DC OE F N ne -
+<DEFINE> DCC1_CNT0_TCK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 73 I DF OE F N ne -
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 74 27 I HN ui F E
+<DEFINE> DCC1_CNT0_OSCIN C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 74 I DC OE F N ne -
+<DEFINE> DCC1_CNT0_OSCIN C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 74 I DF OE F N ne -
+<LIT> 0x0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 76 27 I HN ui F E
+<DEFINE> DCC1_CNT1_PLL1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 76 I DC OE F N ne -
+<DEFINE> DCC1_CNT1_PLL1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 76 I DF OE F N ne -
+<LIT> 0x1 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 77 27 I HN ui F E
+<DEFINE> DCC1_CNT1_PLL2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 77 I DC OE F N ne -
+<DEFINE> DCC1_CNT1_PLL2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 77 I DF OE F N ne -
+<LIT> 0x2 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 78 27 I HN ui F E
+<DEFINE> DCC1_CNT1_LF_LPO C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 78 I DC OE F N ne -
+<DEFINE> DCC1_CNT1_LF_LPO C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 78 I DF OE F N ne -
+<LIT> 0x3 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 79 27 I HN ui F E
+<DEFINE> DCC1_CNT1_HF_LPO C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 79 I DC OE F N ne -
+<DEFINE> DCC1_CNT1_HF_LPO C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 79 I DF OE F N ne -
+<LIT> 0x5 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 80 27 I HN ui F E
+<DEFINE> DCC1_CNT1_EXTCLKIN1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 80 I DC OE F N ne -
+<DEFINE> DCC1_CNT1_EXTCLKIN1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 80 I DF OE F N ne -
+<LIT> 0x6 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 81 27 I HN ui F E
+<DEFINE> DCC1_CNT1_EXTCLKIN2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 81 I DC OE F N ne -
+<DEFINE> DCC1_CNT1_EXTCLKIN2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 81 I DF OE F N ne -
+<LIT> 0x8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 82 27 I HN ui F E
+<DEFINE> DCC1_CNT1_VCLK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 82 I DC OE F N ne -
+<DEFINE> DCC1_CNT1_VCLK C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 82 I DF OE F N ne -
+<LIT> 0xA U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 83 27 I HN ui F E
+<DEFINE> DCC1_CNT1_N2HET1_31 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 83 I DC OE F N ne -
+<DEFINE> DCC1_CNT1_N2HET1_31 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 83 I DF OE F N ne -
+<DEFINE> SYS_CLKSRC_PLL1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 86 I DF OM - - - O
+<LIT> 0x00000002 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 86 25 I HN - F M
+<DEFINE> SYS_CLKSRC_PLL2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 87 I DF OM - - - O
+<LIT> 0x00000040 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 87 25 I HN - F M
+<DEFINE> SYS_CLKCNTRL_PENA C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 88 I DF OM - - - O
+<LIT> 0x00000100 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 88 27 I HN - F M
+<DEFINE> ESM_SR1_PLL1SLIP C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 89 I DF OM - - - O
+<LIT> 0x400 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 89 26 I HN - F M
+<DEFINE> ESM_SR4_PLL2SLIP C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 90 I DF OM - - - O
+<LIT> 0x400 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 90 26 I HN - F M
+<DEFINE> PLL1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 91 I DF OM - - - O
+<LIT> 0x08 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 91 14 I HN - F M
+<DEFINE> PLL2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 92 I DF OM - - - O
+<LIT> 0x80 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 92 14 I HN - F M
+<DEFINE> dcc1CNT1_CLKSRC_PLL1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 93 I DF OM - - - O
+<LIT> 0x0000A000 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 93 30 I HN - F M
+<DEFINE> dcc1CNT1_CLKSRC_PLL2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 94 I DF OM - - - O
+<LIT> 0x0000A001 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 94 30 I HN - F M
+<DEFINE> esmREG C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 96 I DF OM - - - O
+<LIT> 0xFFFFF500 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 96 30 I HN - F M
+<DEFINE> dccREG1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 97 I DF OM - - - O
+<LIT> 0xFFFFEC00 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45_defs.h 97 33 I HN - F M
+<DEFINE> INCLUDE_ERRATA_SSWF021_45_H_ C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 30 I DF OM - - - O
+<EXTN> _errata_SSWF021_45_both_plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 32
+<DEFINE> count C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 32 I DC OV P N ul R
+<DEFINE> _errata_SSWF021_45_both_plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 32 I DC OF F X (ul,ul) -
+<EXTN> _errata_SSWF021_45_pll1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 33
+<DEFINE> count C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 33 I DC OV P N ul R
+<DEFINE> _errata_SSWF021_45_pll1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 33 I DC OF F X (ul,ul) -
+<EXTN> _errata_SSWF021_45_pll2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 34
+<DEFINE> count C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 34 I DC OV P N ul R
+<DEFINE> _errata_SSWF021_45_pll2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/include/errata_SSWF021_45.h 34 I DC OF F X (ul,ul) -
+<DEFINE> cnt1_clksrc C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 32 N DC OV P N ul R
+<DEFINE> check_frequency C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 32 N DC OF F I (ul,ul) -
+<DEFINE> plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 33 N DC OV P N ul R
+<DEFINE> disable_plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 33 N DC OF F I (ul,ul) -
+<EXTD> _errata_SSWF021_45_both_plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 36
+<DEFINE> count C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 36 N DC OV B N ul R
+<DEFINE> _errata_SSWF021_45_both_plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 36 N DR OF F X (ul,ul) -
+<DEFINE> _errata_SSWF021_45_both_plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 36 N DF OF F X (ul,ul) -
+<DEFINE> failCode_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 38 N DC OV B N ul -
+<DEFINE> failCode_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 38 N DF OV B N ul -
+<DEFINE> retries_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 39 N DC OV B N ul -
+<DEFINE> retries_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 39 N DF OV B N ul -
+<DEFINE> clkCntlSav_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 40 N DC OV B N ul -
+<DEFINE> clkCntlSav_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 40 N DF OV B N ul -
+<LIT> 24 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 43 55 N DN ui B X
+<LIT> 16 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 43 84 N DN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 43 112 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 44 30 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 45 29 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 46 28 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 48 33 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 48 78 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 50 38 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 52 92 N ON ui B X
+<RDEF> C Calls
+<R>C _errata_SSWF021_45_both_plls disable_plls 52
+<LIT> 0x00000301 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 58 39 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 61 29 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 62 29 N ON ui B X
+<LIT> 0x20001A00 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 65 39 N HN ul B X
+<LIT> 0x3FC0723D U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 66 35 N HN ul B X
+<LIT> 0x20001A00 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 67 35 N HN ul B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 71 69 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 71 90 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 71 117 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 72 77 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 72 98 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 72 125 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 77 33 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 77 60 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 79 41 N DN ui B X
+<R>C _errata_SSWF021_45_both_plls check_frequency 83
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 86 33 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 86 60 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 88 41 N DN ui B X
+<R>C _errata_SSWF021_45_both_plls check_frequency 92
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 92 89 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 94 43 N ON ui B X
+<R>C _errata_SSWF021_45_both_plls disable_plls 100
+<LIT> 16 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 102 62 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 102 69 N HN ui B X
+<LIT> 24 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 103 63 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 103 70 N HN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 104 61 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 104 67 N HN ui B X
+<CTLG> _errata_SSWF021_45_both_plls 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 22
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 8
+<CTLG> 6 22
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 9
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 17
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 17 20
+<CTLG> 18 22
+<CTLG> 20 21
+<CTLG> 21 3
+<CTLG> 22 23
+<CTLG> 23 25
+<CTLGN> 37 48 48 48 52 52 54 52 72 72 72 77 77 81 86 86 90 94 96 94 48 48 106 106 106 
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c
+<S>STNAM  _errata_SSWF021_45_both_plls
+<S>STCYC  7
+<S>STMCC  4 (7:11)
+<S>STMIF  2
+<S>STSUB  4
+<S>STAKI  11
+<S>STLIN  69
+<S>STXLN  32
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  2
+<S>STKDN  0.06   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  33
+<S>STPDN  1.03   
+<S>STPBG  2
+<S>STLOP  4
+<S>STM07  4
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  10
+<S>STAV3  11
+<S>STST1  40
+<S>STST2  32
+<S>STST3  29
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  218
+<S>STFN2  126
+
+<EXTD> _errata_SSWF021_45_pll1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 109
+<DEFINE> count C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 109 N DC OV B N ul R
+<DEFINE> _errata_SSWF021_45_pll1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 109 N DR OF F X (ul,ul) -
+<DEFINE> _errata_SSWF021_45_pll1 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 109 N DF OF F X (ul,ul) -
+<DEFINE> failCode_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 111 N DC OV B N ul -
+<DEFINE> failCode_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 111 N DF OV B N ul -
+<DEFINE> retries_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 112 N DC OV B N ul -
+<DEFINE> retries_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 112 N DF OV B N ul -
+<DEFINE> clkCntlSav_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 113 N DC OV B N ul -
+<DEFINE> clkCntlSav_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 113 N DF OV B N ul -
+<LIT> 24 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 116 55 N DN ui B X
+<LIT> 16 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 116 84 N DN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 116 112 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 117 30 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 118 29 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 119 28 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 121 33 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 121 78 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 123 38 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 125 74 N ON ui B X
+<R>C _errata_SSWF021_45_pll1 disable_plls 125
+<LIT> 0x00000301 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 131 39 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 134 29 N ON ui B X
+<LIT> 0x20001A00 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 138 35 N HN ul B X
+<LIT> 0x3FC0723D U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 139 35 N HN ul B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 143 67 N ON ui B X
+<LIT> 0 - P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 143 88 N ON ni B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 143 114 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 149 33 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 149 60 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 151 41 N DN ui B X
+<R>C _errata_SSWF021_45_pll1 check_frequency 155
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 157 43 N ON ui B X
+<R>C _errata_SSWF021_45_pll1 disable_plls 162
+<LIT> 16 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 164 62 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 164 69 N HN ui B X
+<LIT> 24 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 165 63 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 165 70 N HN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 166 61 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 166 67 N HN ui B X
+<CTLG> _errata_SSWF021_45_pll1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 19
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 8
+<CTLG> 6 19
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 9
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 17
+<CTLG> 15 19
+<CTLG> 17 18
+<CTLG> 18 3
+<CTLG> 19 20
+<CTLG> 20 22
+<CTLGN> 110 121 121 121 125 125 127 125 143 143 143 149 149 153 157 159 157 121 121 168 168 168 
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c
+<S>STNAM  _errata_SSWF021_45_pll1
+<S>STCYC  6
+<S>STMCC  2 (6:8)
+<S>STMIF  2
+<S>STSUB  3
+<S>STAKI  9
+<S>STLIN  58
+<S>STXLN  25
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  2
+<S>STKDN  0.08   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  17
+<S>STPDN  0.68   
+<S>STPBG  1
+<S>STLOP  2
+<S>STM07  4
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  10
+<S>STST1  33
+<S>STST2  27
+<S>STST3  24
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  165
+<S>STFN2  96
+
+<EXTD> _errata_SSWF021_45_pll2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 171
+<DEFINE> count C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 171 N DC OV B N ul R
+<DEFINE> _errata_SSWF021_45_pll2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 171 N DR OF F X (ul,ul) -
+<DEFINE> _errata_SSWF021_45_pll2 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 171 N DF OF F X (ul,ul) -
+<DEFINE> failCode_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 173 N DC OV B N ul -
+<DEFINE> failCode_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 173 N DF OV B N ul -
+<DEFINE> retries_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 174 N DC OV B N ul -
+<DEFINE> retries_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 174 N DF OV B N ul -
+<DEFINE> clkCntlSav_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 175 N DC OV B N ul -
+<DEFINE> clkCntlSav_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 175 N DF OV B N ul -
+<LIT> 24 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 178 55 N DN ui B X
+<LIT> 16 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 178 84 N DN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 178 112 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 179 30 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 180 29 N ON ui B X
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 181 28 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 183 33 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 183 78 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 185 38 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 187 74 N ON ui B X
+<R>C _errata_SSWF021_45_pll2 disable_plls 187
+<LIT> 0x00000301 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 193 39 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 196 29 N ON ui B X
+<LIT> 0x20001A00 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 199 35 N HN ul B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 203 68 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 203 89 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 203 116 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 209 33 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 209 60 N ON ui B X
+<LIT> 2 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 211 41 N DN ui B X
+<R>C _errata_SSWF021_45_pll2 check_frequency 215
+<LIT> 1 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 215 89 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 217 43 N ON ui B X
+<R>C _errata_SSWF021_45_pll2 disable_plls 222
+<LIT> 16 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 225 62 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 225 69 N HN ui B X
+<LIT> 24 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 226 63 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 226 70 N HN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 227 61 N DN ui B X
+<LIT> 0xF U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 227 67 N HN ui B X
+<CTLG> _errata_SSWF021_45_pll2 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 19
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 8
+<CTLG> 6 19
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 9
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 17
+<CTLG> 15 19
+<CTLG> 17 18
+<CTLG> 18 3
+<CTLG> 19 20
+<CTLG> 20 22
+<CTLGN> 172 183 183 183 187 187 189 187 203 203 203 209 209 213 217 219 217 183 183 229 229 229 
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c
+<S>STNAM  _errata_SSWF021_45_pll2
+<S>STCYC  6
+<S>STMCC  2 (6:8)
+<S>STMIF  2
+<S>STSUB  3
+<S>STAKI  9
+<S>STLIN  57
+<S>STXLN  24
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  2
+<S>STKDN  0.08   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  17
+<S>STPDN  0.71   
+<S>STPBG  1
+<S>STLOP  2
+<S>STM07  4
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  9
+<S>STAV3  11
+<S>STST1  32
+<S>STST2  26
+<S>STST3  23
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  165
+<S>STFN2  94
+
+<DEFINE> cnt1_clksrc C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 232 N DC OV B N ul R
+<DEFINE> check_frequency C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 232 N DR OF F I (ul,ul) -
+<DEFINE> check_frequency C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 232 N DF OF F I (ul,ul) -
+<LIT> 0x5 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 236 39 N HN ui B X
+<LIT> 0x5 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 237 68 N HN ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 237 76 N DN ui B X
+<LIT> 0xA U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 238 68 N HN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 238 76 N DN ui B X
+<LIT> 0x5 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 239 68 N HN ui B X
+<LIT> 12 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 239 76 N DN ui B X
+<LIT> 3 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 241 25 N DN ui B X
+<LIT> 68 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 243 27 N DN ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 245 27 N DN ui B X
+<LIT> 972 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 247 27 N DN ui B X
+<LIT> 10 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 249 44 N DN ui B X
+<LIT> 12 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 249 51 N DN ui B X
+<LIT> 0xA U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 255 35 N HN ui B X
+<LIT> 0x5 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 256 44 N HN ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 256 52 N DN ui B X
+<LIT> 0xA U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 257 44 N HN ui B X
+<LIT> 8 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 257 52 N DN ui B X
+<LIT> 0x5 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 258 44 N HN ui B X
+<LIT> 12 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 258 52 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 259 28 N ON ui B X
+<LIT> 0x01 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 263 29 N HN ui B X
+<CTLG> check_frequency 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 2
+<CTLG> 4 6
+<CTLGN> 233 259 259 259 263 263 
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c
+<S>STNAM  check_frequency
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  30
+<S>STXLN  17
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.12   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  15
+<S>STAV2  16
+<S>STAV3  16
+<S>STST1  11
+<S>STST2  10
+<S>STST3  10
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  103
+<S>STFN2  62
+
+<DEFINE> plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 266 N DC OV B N ul R
+<DEFINE> disable_plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 266 N DR OF F I (ul,ul) -
+<DEFINE> disable_plls C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 266 N DF OF F I (ul,ul) -
+<DEFINE> timeout_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 268 N DC OV B N ul -
+<DEFINE> timeout_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 268 N DF OV B N ul -
+<DEFINE> failCode_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 268 N DC OV B N ul -
+<DEFINE> failCode_Cnt_T_u32 C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 268 N DF OV B N ul -
+<LIT> 0x10 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 271 28 N HN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 272 50 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 272 81 N ON ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 276 33 N ON ui B X
+<LIT> 4 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 278 38 N DN ui B X
+<LIT> 0 U P C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c 282 38 N ON ui B X
+<CTLG> disable_plls 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 2
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLGN> 267 272 272 272 276 276 280 284 284 
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c
+<S>STNAM  disable_plls
+<S>STCYC  3
+<S>STMCC  1 (3:4)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  3
+<S>STLIN  18
+<S>STXLN  8
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  4
+<S>STPDN  0.50   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  7
+<S>STAV3  9
+<S>STST1  12
+<S>STST2  9
+<S>STST3  7
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  43
+<S>STFN2  21
+
+<S>
+<S>STFIL  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c
+<S>STNAM  C:/Users/rzk04c/Documents/Synergy/EA3/TMS570_Startup/src/errata_SSWF021_45.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  2
+<S>STECT  0
+<S>STFNC  5
+<S>STFCO  6
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  44
+<S>STOPT  31
+<S>STOPN  162
+<S>STTOT  1162
+<S>STZIP  1127
+<S>STHAL  1343
+<S>STSHN  4801
+<S>STDIF  34.72  
+<S>STEFF  306337
+<S>STVOL  8822
+<S>STDEV  51.06  
+<S>STBUG  5
+<S>STTPP  287
+<S>STTLN  181
+<S>STM20  427
+<S>STM21  732
+<S>STM22  86
+<S>STM28  49
+<S>STM33  49
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.647  
+<S>STBMS  0.741  
+<S>STBME  0.805  
+<S>STTDO  2.119  
+<S>STTDS  2.251  
+<S>STTDE  2.332  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.436  
+

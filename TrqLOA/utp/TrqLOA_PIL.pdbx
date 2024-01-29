@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    defaultEnvironment=""
+    description=""
+    enableSourceRoot="false"
+    identifier="71901f75-e34b-4db2-a9a0-36c3641666f9"
+    location="$(PROJECTROOT)\tessy"
+    name="TrqLOA"
+    projectVersion="4"
+    tessyVersion="3.2.5"
+    isTemplate="false"/>
